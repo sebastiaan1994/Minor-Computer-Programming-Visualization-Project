@@ -1,6 +1,6 @@
 # Project Proposal
 
-# Author | <h3> Sebastiaan de Vries<h3/>
+Author: <h3> Sebastiaan de Vries<h3/>
 
 
 
