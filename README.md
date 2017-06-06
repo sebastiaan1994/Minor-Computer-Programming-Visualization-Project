@@ -5,9 +5,9 @@
 
 
 # University
-University of Amsterdam
-Course: Programmeerproject
-Date: 6 juni 2017
+University of Amsterdam<br>
+Course: Programmeerproject<br>
+Date: 6 juni 2017<br>
 
 
 ## 
