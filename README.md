@@ -1,7 +1,7 @@
 # Project Proposal
 
-Author: <h3> Sebastiaan de Vries<h3/>
-
+<h3>Sebastiaan de Vries<h3/>
+<h3>10666168<h3/>
 
 
 # University
