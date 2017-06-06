@@ -1,12 +1,12 @@
 # Project Proposal
 
-# Author
-<h3> Sebastiaan de Vries<h3/>
+# Author | <h3> Sebastiaan de Vries<h3/>
+
 
 
 # University
-University of Amsterdam<br>
-Course: Programmeerproject<br>
+University of Amsterdam
+Course: Programmeerproject
 Date: 6 juni 2017
 
 
