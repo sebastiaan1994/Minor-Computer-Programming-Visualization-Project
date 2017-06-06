@@ -1,16 +1,11 @@
 # Project Proposal
-
 <h3>Sebastiaan de Vries<h3/>
 <h3>10666168<h3/>
-
 
 # University
 University of Amsterdam<br>
 Course: Programmeerproject<br>
 Date: 6 juni 2017<br>
-
-
-## 
 
 ## Problem
 People love football, but it is hard to memorize every single detail of the teams and players. Therefore, a visualization
