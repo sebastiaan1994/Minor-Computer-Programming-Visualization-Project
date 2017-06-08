@@ -2,6 +2,7 @@ window.onload = function() {
 
 	//Width and height
 	var width = 800, height = 800;
+	var logoWidth = 20, logoHeight = 20;
 
 	var active = d3.select(null);
 
@@ -17,8 +18,9 @@ window.onload = function() {
 
 
 	//Create SVG
-	var svg = d3.select("body")
+	var svg = d3.select("#svg")
 				.append("svg")
+				.attr("id", "map")
 				.attr("width", width)
 				.attr("height", height);
 
@@ -33,12 +35,12 @@ window.onload = function() {
 
 
 	function drawMap(error, map, teams) {
-
 		//Bind data and create one path per GeoJSON feature
 		g.selectAll("path")
 	     .data(map.features)
 	     .enter()
 	     .append("path")
+	     .attr("id", map.features.properties)
 	     .attr("d", path)
 	     .attr("stroke", "rgba(8, 81, 156, 0.2)")
 	     .attr("fill", "rgba(8, 81, 156, 0.6)")
@@ -50,8 +52,9 @@ window.onload = function() {
 		 .enter()
 		 .append("image")
 		 .attr('class', 'mark')
-		 .attr('width', 20)
-		 .attr('height', 20)
+		 .attr('width', logoWidth)
+		 .attr('height', logoHeight)
+		 .attr('anchor', 'center')
 		 .attr("xlink:href", function(d) { return d.crestUrl})
 		 .attr("transform", function(d) {
 		   return "translate(" + projection([d.longitude,d.latitude]) + ")";
@@ -80,6 +83,63 @@ window.onload = function() {
 		active.classed("active", false);
 		active = d3.select(this).classed("active", true);
 
+		if (d.properties.admin == 'United Kingdom') {
+			svg.append('image')
+		 	   .attr('class', 'logoLeague')
+			   .attr('y', -200)
+			   .attr('opacity', 0)
+			   .transition()
+			   .duration(1000)
+			   .attr('y', 0)
+			   .attr('opacity', 100)
+			   .attr('width', 200)
+			   .attr('height', 240)
+			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg");
+		}
+
+		if (d.properties.admin == 'Germany') {
+			svg.append('image')
+		 	   .attr('class', 'logoLeague')
+			   .attr('y', -200)
+			   .attr('opacity', 0)
+			   .transition()
+			   .duration(1000)
+			   .attr('y', 0)
+			   .attr('opacity', 100)
+			   .attr('width', 180)
+			   .attr('height', 220)
+			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg");
+		}
+
+		if (d.properties.admin == 'Spain') {
+			svg.append('image')
+		 	   .attr('class', 'logoLeague')
+			   .attr('y', -200)
+			   .attr('opacity', 0)
+			   .transition()
+			   .duration(1000)
+			   .attr('y', 0)
+			   .attr('opacity', 100)
+			   .attr('width', 180)
+			   .attr('height', 220)
+			   .attr("xlink:href","http://files.laliga.es/seccion_logos/laliga-v-600x600.png");
+		}
+
+		if (d.properties.admin == 'Italy') {
+			svg.append('image')
+		 	   .attr('class', 'logoLeague')
+			   .attr('y', -200)
+			   .attr('x', 600)
+			   .attr('opacity', 0)
+			   .transition()
+			   .duration(1000)
+			   .attr('y', 50)
+			   .attr('opacity', 100)
+			   .attr('width', 180)
+			   .attr('height', 220)
+			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/f/f7/LegaSerieAlogoTIM.png");
+		}
+
 		var bounds = path.bounds(d),
 	    	dx = bounds[1][0] - bounds[0][0],
 	    	dy = bounds[1][1] - bounds[0][1],
@@ -103,5 +163,13 @@ window.onload = function() {
 	     .duration(750)
 	     .style("stroke-width", "1.5px")
 	     .attr("transform", "");
+
+	    d3.select('.logoLeague')
+	      .transition()
+	      .duration(1000)
+	      .attr('y', -200)
+	      .remove();
+
+
 	}
 }

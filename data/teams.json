@@ -254,10 +254,10 @@
     "id": 26,
     "name": "Leicester City FC",
     "shortName": "Foxes",
-    "latitude": 53.48305556,
+    "latitude": 52.620278,
     "league": "Premier League",
-    "longitude": -2.200277777,
-    "stadium": "Etihad Stadium"
+    "longitude": -1.142222,
+    "stadium": "King Power Stadium"
   },
   {
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg",
@@ -284,10 +284,10 @@
     "id": 29,
     "name": "Manchester United FC",
     "shortName": "ManU",
-    "latitude": 53.48305556,
+    "latitude": 53.46305556,
     "league": "Premier League",
-    "longitude": -2.200277777,
-    "stadium": "Etihad Stadium"
+    "longitude": -2.291388888,
+    "stadium": "Old Trafford"
   },
   {
     "crestUrl": "https://upload.wikimedia.org/wikipedia/en/2/2c/Middlesbrough_FC_crest.svg",
@@ -314,10 +314,10 @@
     "id": 32,
     "name": "Stoke City FC",
     "shortName": "Stoke",
-    "latitude": 53.48305556,
+    "latitude": 52.988333,
     "league": "Premier League",
-    "longitude": -2.200277777,
-    "stadium": "Etihad Stadium"
+    "longitude": -2.175556,
+    "stadium": "bet365 Stadium"
   },
   {
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/6/60/AFC_Sunderland.svg",
@@ -334,10 +334,10 @@
     "id": 34,
     "name": "Swansea City FC",
     "shortName": "Swans",
-    "latitude": 53.48305556,
+    "latitude": 51.6422,
     "league": "Premier League",
-    "longitude": -2.200277777,
-    "stadium": "Etihad Stadium"
+    "longitude": -3.9351,
+    "stadium": "Liberty Stadium"
   },
   {
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg",
@@ -374,10 +374,10 @@
     "id": 38,
     "name": "West Ham United FC",
     "shortName": "West Ham",
-    "latitude": 53.46305556,
+    "latitude": 51.538611,
     "league": "Premier League",
-    "longitude": -2.291388888,
-    "stadium": "Old Trafford"
+    "longitude": -0.016389,
+    "stadium": "Olympic Stadium"
   },
   {
     "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg",
