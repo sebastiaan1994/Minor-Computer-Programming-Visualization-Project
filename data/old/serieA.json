@@ -1,0 +1,145 @@
+{
+    "count": 20, 
+    "teams": [
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg", 
+            "id": 100, 
+            "name": "AS Roma", 
+            "shortName": "Roma", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b1/Udinese_Calcio.svg", 
+            "id": 115, 
+            "name": "Udinese Calcio", 
+            "shortName": "Udinese", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg", 
+            "id": 109, 
+            "name": "Juventus Turin", 
+            "shortName": "Juventus", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/de/AC_Florenz.svg", 
+            "id": 99, 
+            "name": "ACF Fiorentina", 
+            "shortName": "Fiorentina", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/9/9e/AC_Mailand_Logo.svg", 
+            "id": 98, 
+            "name": "AC Milan", 
+            "shortName": "Milan", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/2e/Torino_FC_Logo.svg", 
+            "id": 586, 
+            "name": "Torino FC", 
+            "shortName": "Torino", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/AC_Chievo_Verona.svg", 
+            "id": 106, 
+            "name": "AC Chievo Verona", 
+            "shortName": "Chievo", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/it/7/7e/Logo_FC_Internazionale_Milano_2014.png", 
+            "id": 108, 
+            "name": "FC Internazionale Milano", 
+            "shortName": "Inter", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/42/Logo_FC_Empoli.svg", 
+            "id": 445, 
+            "name": "Empoli FC", 
+            "shortName": "Empoli", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/cc/Sampdoria_Genua.svg", 
+            "id": 584, 
+            "name": "UC Sampdoria", 
+            "shortName": "Sampdoria", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/76/Genoa_CFC.svg", 
+            "id": 107, 
+            "name": "Genoa CFC", 
+            "shortName": "Genoa", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3d/Cagliari_Calcio.svg", 
+            "id": 104, 
+            "name": "Cagliari Calcio", 
+            "shortName": "Cagliari", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/9/92/FC_Bologna.svg", 
+            "id": 103, 
+            "name": "Bologna FC", 
+            "shortName": "Bologna", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/ab/FC_Crotone.svg", 
+            "id": 472, 
+            "name": "FC Crotone", 
+            "shortName": "Crotone", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/7f/US_Palermo.svg", 
+            "id": 114, 
+            "name": "US Cittá di Palermo", 
+            "shortName": "Palermo", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a3/US_Sassuolo_Calcio.svg", 
+            "id": 471, 
+            "name": "US Sassuolo Calcio", 
+            "shortName": "Sassuolo", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/ff/Pescara_Calcio.svg", 
+            "id": 585, 
+            "name": "Pescara Calcio", 
+            "shortName": "Pescara", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg", 
+            "id": 113, 
+            "name": "SSC Napoli", 
+            "shortName": "Napoli", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/28/Atalanta_BC.svg", 
+            "id": 102, 
+            "name": "Atalanta BC", 
+            "shortName": "Atalanta", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/thumb/4/47/Lazio_Rom.svg/500px-Lazio_Rom.svg.png", 
+            "id": 110, 
+            "name": "SS Lazio", 
+            "shortName": "Lazio", 
+            "squadMarketValue": null
+        }
+    ]
+}

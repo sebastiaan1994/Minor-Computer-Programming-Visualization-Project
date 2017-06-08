@@ -1,0 +1,782 @@
+[
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "Köln",
+    "latitude": 50.933611,
+    "league": "Bundesliga",
+    "longitude": 6.875,
+    "stadium": "RheinEnergie Stadion"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0b/FSV_Mainz_05_Logo.svg",
+    "id": 2,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz",
+    "latitude": 49.984167,
+    "league": "Bundesliga",
+    "longitude": 8.224167,
+    "stadium": "Opel Arena"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg",
+    "id": 3,
+    "name": "Bayer Leverkusen",
+    "shortName": "Leverkusen",
+    "latitude": 51.03825556,
+    "league": "Bundesliga",
+    "longitude": 7.002205555,
+    "stadium": "BayArena"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_Mönchengladbach_logo.svg",
+    "id": 4,
+    "name": "Bor. Mönchengladbach",
+    "shortName": "Gladbach",
+    "latitude": 51.17458333,
+    "league": "Bundesliga",
+    "longitude": 6.385463888,
+    "stadium": "Borussia-Park"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+    "id": 5,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund",
+    "latitude": 51.492569,
+    "league": "Bundesliga",
+    "longitude": 7.451842,
+    "stadium": "Westfalenstadion"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg",
+    "id": 6,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt",
+    "latitude": 50.068611,
+    "league": "Bundesliga",
+    "longitude": 8.645278,
+    "stadium": "Commerzbank-Arena"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg",
+    "id": 7,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg",
+    "latitude": 48.323139,
+    "league": "Bundesliga",
+    "longitude": 10.886,
+    "stadium": "Augsburg Arena"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/c/c5/Logo_FC_Bayern_München.svg",
+    "id": 8,
+    "name": "FC Bayern München",
+    "shortName": "Bayern",
+    "latitude": 48.218775,
+    "league": "Bundesliga",
+    "longitude": 11.62475278,
+    "stadium": "Allianz Arena"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/55/FC-Ingolstadt_logo.svg",
+    "id": 9,
+    "name": "FC Ingolstadt 04",
+    "shortName": "Ingolstadt",
+    "latitude": 48.74555556,
+    "league": "Bundesliga",
+    "longitude": 11.485,
+    "stadium": "Audi Sportpark"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg",
+    "id": 10,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke",
+    "latitude": 51.55450278,
+    "league": "Bundesliga",
+    "longitude": 7.067588888,
+    "stadium": "Veltins Arena"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/6/66/HSV-Logo.svg",
+    "id": 11,
+    "name": "Hamburger SV",
+    "shortName": "HSV",
+    "latitude": 53.586944,
+    "league": "Bundesliga",
+    "longitude": 9.898611,
+    "stadium": "Volksparkstadion"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg",
+    "id": 12,
+    "name": "Hertha BSC",
+    "shortName": "Hertha",
+    "latitude": 52.51472222,
+    "league": "Bundesliga",
+    "longitude": 13.23944444,
+    "stadium": "Olympiastadion Berlin"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg",
+    "id": 13,
+    "name": "Red Bull Leipzig",
+    "shortName": "Leipzig",
+    "latitude": 51.345833,
+    "league": "Bundesliga",
+    "longitude": 12.348056,
+    "stadium": "Red Bull Arena"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg",
+    "id": 14,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg",
+    "latitude": 47.988889,
+    "league": "Bundesliga",
+    "longitude": 7.893056,
+    "stadium": "Schwarzwald-Stadion"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/8/87/Svdarmstadt98.svg",
+    "id": 15,
+    "name": "SV Darmstadt 98",
+    "shortName": "Darmstadt",
+    "latitude": 49.857778,
+    "league": "Bundesliga",
+    "longitude": 8.672222,
+    "stadium": "Stadion am B�llenfalltor"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg",
+    "id": 16,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim",
+    "latitude": 49.239,
+    "league": "Bundesliga",
+    "longitude": 8.888278,
+    "stadium": "Rhein-Neckar Arena"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg",
+    "id": 17,
+    "name": "VfL Wolfsburg",
+    "shortName": "Wolfsburg",
+    "latitude": 52.431944,
+    "league": "Bundesliga",
+    "longitude": 10.803889,
+    "stadium": "Volkswagen Arena"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+    "id": 18,
+    "name": "Werder Bremen",
+    "shortName": "Bremen",
+    "latitude": 53.066389,
+    "league": "Bundesliga",
+    "longitude": 8.8375,
+    "stadium": "Weserstadion"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg",
+    "id": 19,
+    "name": "AFC Bournemouth",
+    "shortName": "Bournemouth",
+    "latitude": 50.735278,
+    "league": "Premier League",
+    "longitude": -1.838333,
+    "stadium": "Dean Court"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+    "id": 20,
+    "name": "Arsenal FC",
+    "shortName": "Arsenal",
+    "latitude": 51.555,
+    "league": "Premier League",
+    "longitude": -0.108611111,
+    "stadium": "Emirates Stadium"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png",
+    "id": 21,
+    "name": "Burnley FC",
+    "shortName": "Burnley",
+    "latitude": 53.789064,
+    "league": "Premier League",
+    "longitude": -2.230225,
+    "stadium": "Turf Moor"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg",
+    "id": 22,
+    "name": "Chelsea FC",
+    "shortName": "Chelsea",
+    "latitude": 51.48166667,
+    "league": "Premier League",
+    "longitude": -0.191111111,
+    "stadium": "Stamford Bridge stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_(2013).png",
+    "id": 23,
+    "name": "Crystal Palace FC",
+    "shortName": "Crystal",
+    "latitude": 51.39833333,
+    "league": "Premier League",
+    "longitude": -0.085555555,
+    "stadium": "Selhurst Park"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg",
+    "id": 24,
+    "name": "Everton FC",
+    "shortName": "Everton",
+    "latitude": 53.43888889,
+    "league": "Premier League",
+    "longitude": -2.966388888,
+    "stadium": "Goodison Park"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a9/Hull_City_AFC.svg",
+    "id": 25,
+    "name": "Hull City FC",
+    "shortName": "Hull",
+    "latitude": 53.746111,
+    "league": "Premier League",
+    "longitude": -0.367778,
+    "stadium": "KCOM Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png",
+    "id": 26,
+    "name": "Leicester City FC",
+    "shortName": "Foxes",
+    "latitude": 53.48305556,
+    "league": "Premier League",
+    "longitude": -2.200277777,
+    "stadium": "Etihad Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg",
+    "id": 27,
+    "name": "Liverpool FC",
+    "shortName": "Liverpool",
+    "latitude": 53.43081944,
+    "league": "Premier League",
+    "longitude": -2.960827777,
+    "stadium": "Anfield"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+    "id": 28,
+    "name": "Manchester City FC",
+    "shortName": "ManCity",
+    "latitude": 53.48305556,
+    "league": "Premier League",
+    "longitude": -2.200277777,
+    "stadium": "Etihad Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg",
+    "id": 29,
+    "name": "Manchester United FC",
+    "shortName": "ManU",
+    "latitude": 53.48305556,
+    "league": "Premier League",
+    "longitude": -2.200277777,
+    "stadium": "Etihad Stadium"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/2/2c/Middlesbrough_FC_crest.svg",
+    "id": 30,
+    "name": "Middlesbrough FC",
+    "shortName": "Middlesbrough",
+    "latitude": 54.57833333,
+    "league": "Premier League",
+    "longitude": -1.216944444,
+    "stadium": "Riverside Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg",
+    "id": 31,
+    "name": "Southampton FC",
+    "shortName": "Southampton",
+    "latitude": 50.90583333,
+    "league": "Premier League",
+    "longitude": -1.391111111,
+    "stadium": "St Mary's Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a3/Stoke_City.svg",
+    "id": 32,
+    "name": "Stoke City FC",
+    "shortName": "Stoke",
+    "latitude": 53.48305556,
+    "league": "Premier League",
+    "longitude": -2.200277777,
+    "stadium": "Etihad Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/6/60/AFC_Sunderland.svg",
+    "id": 33,
+    "name": "Sunderland AFC",
+    "shortName": "Sunderland",
+    "latitude": 54.9144,
+    "league": "Premier League",
+    "longitude": -1.3882,
+    "stadium": "Stadium of Light"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/ab/Swansea_City_Logo.svg",
+    "id": 34,
+    "name": "Swansea City FC",
+    "shortName": "Swans",
+    "latitude": 53.48305556,
+    "league": "Premier League",
+    "longitude": -2.200277777,
+    "stadium": "Etihad Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg",
+    "id": 35,
+    "name": "Tottenham Hotspur FC",
+    "shortName": "Spurs",
+    "latitude": 51.60333333,
+    "league": "Premier League",
+    "longitude": -0.065833333,
+    "stadium": "White Hart Lane"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg",
+    "id": 36,
+    "name": "Watford FC",
+    "shortName": "Watford",
+    "latitude": 51.649928,
+    "league": "Premier League",
+    "longitude": -0.401606,
+    "stadium": "Vicarage Road"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/8/8b/West_Bromwich_Albion.svg",
+    "id": 37,
+    "name": "West Bromwich Albion FC",
+    "shortName": "West Bromwich",
+    "latitude": 52.50916667,
+    "league": "Premier League",
+    "longitude": -1.963888888,
+    "stadium": "The Hawthorns"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg",
+    "id": 38,
+    "name": "West Ham United FC",
+    "shortName": "West Ham",
+    "latitude": 53.46305556,
+    "league": "Premier League",
+    "longitude": -2.291388888,
+    "stadium": "Old Trafford"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg",
+    "id": 39,
+    "name": "Athletic Club",
+    "shortName": "Athletic",
+    "latitude": 43.264205,
+    "league": "Primera Division",
+    "longitude": -2.949369,
+    "stadium": "San Mam�s Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/ca/Atletico_Osasuna.svg",
+    "id": 40,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna",
+    "latitude": 42.796667,
+    "league": "Primera Division",
+    "longitude": -1.636944,
+    "stadium": "El Sadar Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Leganés.png/180px-Club_Deportivo_Leganés.png",
+    "id": 41,
+    "name": "CD Leganes",
+    "shortName": "Leganes",
+    "latitude": 40.3404,
+    "league": "Primera Division",
+    "longitude": -3.7607,
+    "stadium": "Estadio Municipal de utarque"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg",
+    "id": 42,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atlético",
+    "latitude": 40.401667,
+    "league": "Primera Division",
+    "longitude": -3.720556,
+    "stadium": "Vicente Calder�n Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg",
+    "id": 43,
+    "name": "Deportivo Alavés",
+    "shortName": "Alaves",
+    "latitude": 42.837111,
+    "league": "Primera Division",
+    "longitude": -2.688044,
+    "stadium": "Mendizorrotza"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg",
+    "id": 44,
+    "name": "FC Barcelona",
+    "shortName": "Barcelona",
+    "latitude": 41.380833,
+    "league": "Primera Division",
+    "longitude": 2.1225,
+    "stadium": "Camp Nou"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/76/Genoa_CFC.svg",
+    "id": 45,
+    "name": "Genoa CFC",
+    "shortName": "Genoa",
+    "latitude": 44.416431,
+    "league": "Primera Division",
+    "longitude": 8.952428,
+    "stadium": "Estadio Nuevo Los C�rmenes"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d3/Granada_CF.svg",
+    "id": 46,
+    "name": "Granada CF",
+    "shortName": "Granada",
+    "latitude": 37.152967,
+    "league": "Primera Division",
+    "longitude": -3.595736,
+    "stadium": "Estadio Nuevo Los C�rmenes"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e8/FC_Málaga.svg",
+    "id": 47,
+    "name": "Málaga CF",
+    "shortName": "Málaga",
+    "latitude": 36.734092,
+    "league": "Primera Division",
+    "longitude": -4.426422,
+    "stadium": "La Rosaleda Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg",
+    "id": 48,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta Vigo",
+    "latitude": 42.211861,
+    "league": "Primera Division",
+    "longitude": -8.740328,
+    "stadium": "Bala�dos"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/en/4/4e/RC_Deportivo_La_Coruña_logo.svg",
+    "id": 49,
+    "name": "RC Deportivo La Coruna",
+    "shortName": "Deportivo",
+    "latitude": 43.368667,
+    "league": "Primera Division",
+    "longitude": -8.417372,
+    "stadium": "Estadio Municipal de Riazor"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg",
+    "id": 50,
+    "name": "RCD Espanyol",
+    "shortName": "Espanyol",
+    "latitude": 41.347861,
+    "league": "Primera Division",
+    "longitude": 2.075667,
+    "stadium": "Estadi Cornell�-El Prat"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg",
+    "id": 51,
+    "name": "Real Betis",
+    "shortName": "Betis",
+    "latitude": 37.356403,
+    "league": "Primera Division",
+    "longitude": -5.981611,
+    "stadium": "Estadio Benito Villamar�n"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg",
+    "id": 52,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid",
+    "latitude": 40.45306,
+    "league": "Primera Division",
+    "longitude": -3.68835,
+    "stadium": "Estadio Santiago Bernab�u"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebastián.svg",
+    "id": 53,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad",
+    "latitude": 43.301378,
+    "league": "Primera Division",
+    "longitude": -1.973617,
+    "stadium": "Anoeta Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg",
+    "id": 54,
+    "name": "SD Eibar",
+    "shortName": "Eibar",
+    "latitude": 43.181706,
+    "league": "Primera Division",
+    "longitude": -2.475803,
+    "stadium": "Ipurua Municipal Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png",
+    "id": 55,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla",
+    "latitude": 37.383878,
+    "league": "Primera Division",
+    "longitude": -5.970467,
+    "stadium": "Estadio Ram�n S�nchez Pizju�n"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/48/Real_Sporting_de_Gijon.svg",
+    "id": 56,
+    "name": "Sporting Gijón",
+    "shortName": "Gijón",
+    "latitude": 43.536111,
+    "league": "Primera Division",
+    "longitude": -5.637222,
+    "stadium": "El Molin�n"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/en/2/20/UD_Las_Palmas_logo.svg",
+    "id": 57,
+    "name": "UD Las Palmas",
+    "shortName": "Las Palmas",
+    "latitude": 28.1,
+    "league": "Primera Division",
+    "longitude": -15.456667,
+    "stadium": "Estadio Gran Canaria"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg",
+    "id": 58,
+    "name": "Valencia CF",
+    "shortName": "Valencia",
+    "latitude": 39.474722,
+    "league": "Primera Division",
+    "longitude": -0.358333,
+    "stadium": "Mestalla Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg",
+    "id": 59,
+    "name": "Villarreal CF",
+    "shortName": "Villareal",
+    "latitude": 39.944167,
+    "league": "Primera Division",
+    "longitude": -0.103611,
+    "stadium": "Estadio de la Cer�mica"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/AC_Chievo_Verona.svg",
+    "id": 60,
+    "name": "AC Chievo Verona",
+    "shortName": "Chievo",
+    "latitude": 45.435356,
+    "league": "Serie A",
+    "longitude": 10.968647,
+    "stadium": "Stadio Marc'Antonio Bentegodi"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/9/9e/AC_Mailand_Logo.svg",
+    "id": 61,
+    "name": "AC Milan",
+    "shortName": "Milan",
+    "latitude": 45.47808,
+    "league": "Serie A",
+    "longitude": 9.124,
+    "stadium": "San Siro"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/ACF_Fiorentina_2.svg/700px-ACF_Fiorentina_2.svg.png",
+    "id": 62,
+    "name": "ACF Fiorentina",
+    "shortName": "Fiorentina",
+    "latitude": 43.780822,
+    "league": "Serie A",
+    "longitude": 11.282258,
+    "stadium": "Stadio Artemio Franchi"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg",
+    "id": 63,
+    "name": "AS Roma",
+    "shortName": "Roma",
+    "latitude": 41.933872,
+    "league": "Serie A",
+    "longitude": 12.454714,
+    "stadium": "Stadio Olimpico"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/28/Atalanta_BC.svg",
+    "id": 64,
+    "name": "Atalanta BC",
+    "shortName": "Atalanta",
+    "latitude": 45.708889,
+    "league": "Serie A",
+    "longitude": 9.680833,
+    "stadium": "Stadio Atleti Azzurri d'Italia"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/9/92/FC_Bologna.svg",
+    "id": 65,
+    "name": "Bologna FC",
+    "shortName": "Bologna",
+    "latitude": 44.49222222,
+    "league": "Serie A",
+    "longitude": 11.30972222,
+    "stadium": "Stadio Renato Dall'Ara"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3d/Cagliari_Calcio.svg",
+    "id": 66,
+    "name": "Cagliari Calcio",
+    "shortName": "Cagliari",
+    "latitude": 39.230833,
+    "league": "Serie A",
+    "longitude": 9.181944,
+    "stadium": "Stadio Is Arenas"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/42/Logo_FC_Empoli.svg",
+    "id": 67,
+    "name": "Empoli FC",
+    "shortName": "Empoli",
+    "latitude": 43.726389,
+    "league": "Serie A",
+    "longitude": 10.955,
+    "stadium": "Stadio Carlo Castellani"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/ab/FC_Crotone.svg",
+    "id": 68,
+    "name": "FC Crotone",
+    "shortName": "Crotone",
+    "latitude": 39.079167,
+    "league": "Serie A",
+    "longitude": 17.116667,
+    "stadium": "Stadio Ezio Scida"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/it/7/7e/Logo_FC_Internazionale_Milano_2014.png",
+    "id": 69,
+    "name": "FC Internazionale Milano",
+    "shortName": "Inter",
+    "latitude": 45.47808,
+    "league": "Serie A",
+    "longitude": 9.124,
+    "stadium": "San Siro"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg",
+    "id": 70,
+    "name": "Juventus Turin",
+    "shortName": "Juventus",
+    "latitude": 45.109594,
+    "league": "Serie A",
+    "longitude": 7.641247,
+    "stadium": "Juventus Stadium"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/ff/Pescara_Calcio.svg",
+    "id": 71,
+    "name": "Pescara Calcio",
+    "shortName": "Pescara",
+    "latitude": 42.45535,
+    "league": "Serie A",
+    "longitude": 14.22947,
+    "stadium": "Stadio Is Arenas"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/thumb/4/47/Lazio_Rom.svg/500px-Lazio_Rom.svg.png",
+    "id": 72,
+    "name": "SS Lazio",
+    "shortName": "Lazio",
+    "latitude": 41.933872,
+    "league": "Serie A",
+    "longitude": 12.454714,
+    "stadium": "Stadio Olimpico"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg",
+    "id": 73,
+    "name": "SSC Napoli",
+    "shortName": "Napoli",
+    "latitude": 40.827967,
+    "league": "Serie A",
+    "longitude": 14.193008,
+    "stadium": "Stadio San Paolo"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/2/2e/Torino_FC_Logo.svg",
+    "id": 74,
+    "name": "Torino FC",
+    "shortName": "Torino",
+    "latitude": 45.041667,
+    "league": "Serie A",
+    "longitude": 7.65,
+    "stadium": "Stadio Alexis Daniel Torres Ramires"
+  },
+  {
+    "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Sampdoria_badge.png",
+    "id": 75,
+    "name": "UC Sampdoria",
+    "shortName": "Sampdoria",
+    "latitude": 44.416431,
+    "league": "Serie A",
+    "longitude": 8.952428,
+    "stadium": "Stadio Luigi Ferraris"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b1/Udinese_Calcio.svg",
+    "id": 76,
+    "name": "Udinese Calcio",
+    "shortName": "Udinese",
+    "latitude": 46.081603,
+    "league": "Serie A",
+    "longitude": 13.200136,
+    "stadium": "Stadio Friuli"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/7f/US_Palermo.svg",
+    "id": 77,
+    "name": "US Cittá di Palermo",
+    "shortName": "Palermo",
+    "latitude": 38.152767,
+    "league": "Serie A",
+    "longitude": 13.342275,
+    "stadium": "Stadio Renzo Barbera"
+  },
+  {
+    "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a3/US_Sassuolo_Calcio.svg",
+    "id": 78,
+    "name": "US Sassuolo Calcio",
+    "shortName": "Sassuolo",
+    "latitude": 44.653611,
+    "league": "Serie A",
+    "longitude": 10.923333,
+    "stadium": "Stadio Alberto Braglia"
+  }
+]

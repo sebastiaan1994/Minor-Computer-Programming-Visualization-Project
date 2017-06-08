@@ -1,0 +1,79 @@
+crestUrl;id;name;shortName;latitude;league;longitude;stadium
+https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg;1;1. FC Köln;Köln;50.933611;Bundesliga;6.875;RheinEnergie Stadion
+http://upload.wikimedia.org/wikipedia/de/0/0b/FSV_Mainz_05_Logo.svg;2;1. FSV Mainz 05;Mainz;49.984167;Bundesliga;8.224167;Opel Arena
+https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg;3;Bayer Leverkusen;Leverkusen;51.03825556;Bundesliga;7.002205555;BayArena
+https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_Mönchengladbach_logo.svg;4;Bor. Mönchengladbach;Gladbach;51.17458333;Bundesliga;6.385463888;Borussia-Park
+http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg;5;Borussia Dortmund;Dortmund;51.492569;Bundesliga;7.451842;Westfalenstadion
+http://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg;6;Eintracht Frankfurt;Frankfurt;50.068611;Bundesliga;8.645278;Commerzbank-Arena
+http://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg;7;FC Augsburg;Augsburg;48.323139;Bundesliga;10.886;Augsburg Arena
+http://upload.wikimedia.org/wikipedia/commons/c/c5/Logo_FC_Bayern_München.svg;8;FC Bayern München;Bayern;48.218775;Bundesliga;11.62475278;Allianz Arena
+http://upload.wikimedia.org/wikipedia/de/5/55/FC-Ingolstadt_logo.svg;9;FC Ingolstadt 04;Ingolstadt;48.74555556;Bundesliga;11.485;Audi Sportpark
+https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg;10;FC Schalke 04;Schalke;51.55450278;Bundesliga;7.067588888;Veltins Arena
+http://upload.wikimedia.org/wikipedia/commons/6/66/HSV-Logo.svg;11;Hamburger SV;HSV;53.586944;Bundesliga;9.898611;Volksparkstadion
+https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg;12;Hertha BSC;Hertha;52.51472222;Bundesliga;13.23944444;Olympiastadion Berlin
+https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg;13;Red Bull Leipzig;Leipzig;51.345833;Bundesliga;12.348056;Red Bull Arena
+http://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg;14;SC Freiburg;Freiburg;47.988889;Bundesliga;7.893056;Schwarzwald-Stadion
+http://upload.wikimedia.org/wikipedia/de/8/87/Svdarmstadt98.svg;15;SV Darmstadt 98;Darmstadt;49.857778;Bundesliga;8.672222;Stadion am B�llenfalltor
+https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg;16;TSG 1899 Hoffenheim;Hoffenheim;49.239;Bundesliga;8.888278;Rhein-Neckar Arena
+https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg;17;VfL Wolfsburg;Wolfsburg;52.431944;Bundesliga;10.803889;Volkswagen Arena
+http://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg;18;Werder Bremen;Bremen;53.066389;Bundesliga;8.8375;Weserstadion
+https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg;19;AFC Bournemouth;Bournemouth;50.735278;Premier League;-1.838333;Dean Court
+http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg;20;Arsenal FC;Arsenal;51.555;Premier League;-0.108611111;Emirates Stadium
+https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png;21;Burnley FC;Burnley;53.789064;Premier League;-2.230225;Turf Moor
+http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg;22;Chelsea FC;Chelsea;51.48166667;Premier League;-0.191111111;Stamford Bridge stadium
+http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_(2013).png;23;Crystal Palace FC;Crystal;51.39833333;Premier League;-0.085555555;Selhurst Park
+http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg;24;Everton FC;Everton;53.43888889;Premier League;-2.966388888;Goodison Park
+http://upload.wikimedia.org/wikipedia/de/a/a9/Hull_City_AFC.svg;25;Hull City FC;Hull;53.746111;Premier League;-0.367778;KCOM Stadium
+http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png;26;Leicester City FC;Foxes;53.48305556;Premier League;-2.200277777;Etihad Stadium
+http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg;27;Liverpool FC;Liverpool;53.43081944;Premier League;-2.960827777;Anfield
+https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg;28;Manchester City FC;ManCity;53.48305556;Premier League;-2.200277777;Etihad Stadium
+http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg;29;Manchester United FC;ManU;53.48305556;Premier League;-2.200277777;Etihad Stadium
+https://upload.wikimedia.org/wikipedia/en/2/2c/Middlesbrough_FC_crest.svg;30;Middlesbrough FC;Middlesbrough;54.57833333;Premier League;-1.216944444;Riverside Stadium
+http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg;31;Southampton FC;Southampton;50.90583333;Premier League;-1.391111111;St Mary's Stadium
+http://upload.wikimedia.org/wikipedia/de/a/a3/Stoke_City.svg;32;Stoke City FC;Stoke;53.48305556;Premier League;-2.200277777;Etihad Stadium
+http://upload.wikimedia.org/wikipedia/de/6/60/AFC_Sunderland.svg;33;Sunderland AFC;Sunderland;54.9144;Premier League;-1.3882;Stadium of Light
+http://upload.wikimedia.org/wikipedia/de/a/ab/Swansea_City_Logo.svg;34;Swansea City FC;Swans;53.48305556;Premier League;-2.200277777;Etihad Stadium
+http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg;35;Tottenham Hotspur FC;Spurs;51.60333333;Premier League;-0.065833333;White Hart Lane
+https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg;36;Watford FC;Watford;51.649928;Premier League;-0.401606;Vicarage Road
+http://upload.wikimedia.org/wikipedia/de/8/8b/West_Bromwich_Albion.svg;37;West Bromwich Albion FC;West Bromwich;52.50916667;Premier League;-1.963888888;The Hawthorns
+http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg;38;West Ham United FC;West Ham;53.46305556;Premier League;-2.291388888;Old Trafford
+http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg;39;Athletic Club;Athletic;43.264205;Primera Division;-2.949369;San Mam�s Stadium
+http://upload.wikimedia.org/wikipedia/de/c/ca/Atletico_Osasuna.svg;40;CA Osasuna;Osasuna;42.796667;Primera Division;-1.636944;El Sadar Stadium
+http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Leganés.png/180px-Club_Deportivo_Leganés.png;41;CD Leganes;Leganes;40.3404;Primera Division;-3.7607;Estadio Municipal de utarque
+http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg;42;Club Atlético de Madrid;Atlético;40.401667;Primera Division;-3.720556;Vicente Calder�n Stadium
+http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg;43;Deportivo Alavés;Alaves;42.837111;Primera Division;-2.688044;Mendizorrotza
+http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg;44;FC Barcelona;Barcelona;41.380833;Primera Division;2.1225;Camp Nou
+http://upload.wikimedia.org/wikipedia/de/7/76/Genoa_CFC.svg;45;Genoa CFC;Genoa;37.152967;Primera Division;-3.595736;Estadio Nuevo Los C�rmenes
+http://upload.wikimedia.org/wikipedia/de/d/d3/Granada_CF.svg;46;Granada CF;Granada;37.152967;Primera Division;-3.595736;Estadio Nuevo Los C�rmenes
+http://upload.wikimedia.org/wikipedia/de/e/e8/FC_Málaga.svg;47;Málaga CF;Málaga;36.734092;Primera Division;-4.426422;La Rosaleda Stadium
+http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg;48;RC Celta de Vigo;Celta Vigo;42.211861;Primera Division;-8.740328;Bala�dos
+http://upload.wikimedia.org/wikipedia/en/4/4e/RC_Deportivo_La_Coruña_logo.svg;49;RC Deportivo La Coruna;Deportivo;43.368667;Primera Division;-8.417372;Estadio Municipal de Riazor
+http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg;50;RCD Espanyol;Espanyol;41.347861;Primera Division;2.075667;Estadi Cornell�-El Prat
+http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg;51;Real Betis;Betis;37.356403;Primera Division;-5.981611;Estadio Benito Villamar�n
+http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg;52;Real Madrid CF;Real Madrid;40.45306;Primera Division;-3.68835;Estadio Santiago Bernab�u
+http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebastián.svg;53;Real Sociedad de Fútbol;Real Sociedad;43.301378;Primera Division;-1.973617;Anoeta Stadium
+http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg;54;SD Eibar;Eibar;43.181706;Primera Division;-2.475803;Ipurua Municipal Stadium
+http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png;55;Sevilla FC;Sevilla;37.383878;Primera Division;-5.970467;Estadio Ram�n S�nchez Pizju�n
+http://upload.wikimedia.org/wikipedia/de/4/48/Real_Sporting_de_Gijon.svg;56;Sporting Gijón;Gijón;43.536111;Primera Division;-5.637222;El Molin�n
+http://upload.wikimedia.org/wikipedia/en/2/20/UD_Las_Palmas_logo.svg;57;UD Las Palmas;Las Palmas;28.1;Primera Division;-15.456667;Estadio Gran Canaria
+http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg;58;Valencia CF;Valencia;39.474722;Primera Division;-0.358333;Mestalla Stadium
+http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg;59;Villarreal CF;Villareal;39.944167;Primera Division;-0.103611;Estadio de la Cer�mica
+http://upload.wikimedia.org/wikipedia/de/3/3f/AC_Chievo_Verona.svg;60;AC Chievo Verona;Chievo;45.435356;Serie A;10.968647;Stadio Marc'Antonio Bentegodi
+http://upload.wikimedia.org/wikipedia/de/9/9e/AC_Mailand_Logo.svg;61;AC Milan;Milan;45.47808;Serie A;9.124;San Siro
+http://upload.wikimedia.org/wikipedia/de/d/de/AC_Florenz.svg;62;ACF Fiorentina;Fiorentina;43.780822;Serie A;11.282258;Stadio Artemio Franchi
+http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg;63;AS Roma;Roma;41.933872;Serie A;12.454714;Stadio Olimpico
+http://upload.wikimedia.org/wikipedia/de/2/28/Atalanta_BC.svg;64;Atalanta BC;Atalanta;45.708889;Serie A;9.680833;Stadio Atleti Azzurri d'Italia
+http://upload.wikimedia.org/wikipedia/de/9/92/FC_Bologna.svg;65;Bologna FC;Bologna;44.49222222;Serie A;11.30972222;Stadio Renato Dall'Ara
+http://upload.wikimedia.org/wikipedia/de/3/3d/Cagliari_Calcio.svg;66;Cagliari Calcio;Cagliari;39.230833;Serie A;9.181944;Stadio Is Arenas
+http://upload.wikimedia.org/wikipedia/de/4/42/Logo_FC_Empoli.svg;67;Empoli FC;Empoli;43.726389;Serie A;10.955;Stadio Carlo Castellani
+http://upload.wikimedia.org/wikipedia/de/a/ab/FC_Crotone.svg;68;FC Crotone;Crotone;39.079167;Serie A;17.116667;Stadio Ezio Scida
+https://upload.wikimedia.org/wikipedia/it/7/7e/Logo_FC_Internazionale_Milano_2014.png;69;FC Internazionale Milano;Inter;45.47808;Serie A;9.124;San Siro
+http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg;70;Juventus Turin;Juventus;45.109594;Serie A;7.641247;Juventus Stadium
+http://upload.wikimedia.org/wikipedia/de/f/ff/Pescara_Calcio.svg;71;Pescara Calcio;Pescara;39.230833;Serie A;9.181944;Stadio Is Arenas
+http://upload.wikimedia.org/wikipedia/de/thumb/4/47/Lazio_Rom.svg/500px-Lazio_Rom.svg.png;72;SS Lazio;Lazio;41.933872;Serie A;12.454714;Stadio Olimpico
+http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg;73;SSC Napoli;Napoli;40.827967;Serie A;14.193008;Stadio San Paolo
+http://upload.wikimedia.org/wikipedia/de/2/2e/Torino_FC_Logo.svg;74;Torino FC;Torino;45.041667;Serie A;7.65;Stadio Alexis Daniel Torres Ramires
+http://upload.wikimedia.org/wikipedia/de/c/cc/Sampdoria_Genua.svg;75;UC Sampdoria;Sampdoria;44.416431;Serie A;8.952428;Stadio Luigi Ferraris
+http://upload.wikimedia.org/wikipedia/de/b/b1/Udinese_Calcio.svg;76;Udinese Calcio;Udinese;46.081603;Serie A;13.200136;Stadio Friuli
+http://upload.wikimedia.org/wikipedia/de/7/7f/US_Palermo.svg;77;US Cittá di Palermo;Palermo;38.152767;Serie A;13.342275;Stadio Renzo Barbera
+http://upload.wikimedia.org/wikipedia/de/a/a3/US_Sassuolo_Calcio.svg;78;US Sassuolo Calcio;Sassuolo;44.653611;Serie A;10.923333;Stadio Alberto Braglia

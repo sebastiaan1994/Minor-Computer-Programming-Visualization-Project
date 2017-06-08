@@ -1,0 +1,145 @@
+{
+    "count": 20, 
+    "teams": [
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e8/FC_Málaga.svg", 
+            "id": 84, 
+            "name": "Málaga CF", 
+            "shortName": "Málaga", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/ca/Atletico_Osasuna.svg", 
+            "id": 79, 
+            "name": "CA Osasuna", 
+            "shortName": "Osasuna", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/4/4e/RC_Deportivo_La_Coruña_logo.svg", 
+            "id": 560, 
+            "name": "RC Deportivo La Coruna", 
+            "shortName": "Deportivo", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg", 
+            "id": 278, 
+            "name": "SD Eibar", 
+            "shortName": "Eibar", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg", 
+            "id": 81, 
+            "name": "FC Barcelona", 
+            "shortName": "Barcelona", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg", 
+            "id": 90, 
+            "name": "Real Betis", 
+            "shortName": "Betis", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d3/Granada_CF.svg", 
+            "id": 83, 
+            "name": "Granada CF", 
+            "shortName": "Granada", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg", 
+            "id": 94, 
+            "name": "Villarreal CF", 
+            "shortName": "Villareal", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png", 
+            "id": 559, 
+            "name": "Sevilla FC", 
+            "shortName": "Sevilla", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg", 
+            "id": 80, 
+            "name": "RCD Espanyol", 
+            "shortName": "Espanyol", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/48/Real_Sporting_de_Gijon.svg", 
+            "id": 96, 
+            "name": "Sporting Gijón", 
+            "shortName": "Gijón", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg", 
+            "id": 77, 
+            "name": "Athletic Club", 
+            "shortName": "Athletic", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebastián.svg", 
+            "id": 92, 
+            "name": "Real Sociedad de Fútbol", 
+            "shortName": "Real Sociedad", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg", 
+            "id": 86, 
+            "name": "Real Madrid CF", 
+            "shortName": "Real Madrid", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg", 
+            "id": 78, 
+            "name": "Club Atlético de Madrid", 
+            "shortName": "Atlético", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg", 
+            "id": 263, 
+            "name": "Deportivo Alavés", 
+            "shortName": "Alaves", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg", 
+            "id": 558, 
+            "name": "RC Celta de Vigo", 
+            "shortName": "Celta Vigo", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Leganés.png/180px-Club_Deportivo_Leganés.png", 
+            "id": 745, 
+            "name": "CD Leganes", 
+            "shortName": "Leganes", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg", 
+            "id": 95, 
+            "name": "Valencia CF", 
+            "shortName": "Valencia", 
+            "squadMarketValue": null
+        }, 
+        {
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/2/20/UD_Las_Palmas_logo.svg", 
+            "id": 275, 
+            "name": "UD Las Palmas", 
+            "shortName": "Las Palmas", 
+            "squadMarketValue": null
+        }
+    ]
+}

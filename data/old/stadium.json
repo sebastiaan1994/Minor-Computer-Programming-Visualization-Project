@@ -1,0 +1,548 @@
+[
+  {
+    "clubLabel": "Cagliari Calcio",
+    "league": "Serie A",
+    "venueLabel": "Stadio Is Arenas",
+    "longitude": 9.181944,
+    "latitude": 39.230833
+  },
+  {
+    "clubLabel": "Societ� di Calcio Palermo",
+    "league": "Serie A",
+    "venueLabel": "Stadio Renzo Barbera",
+    "longitude": 13.342275,
+    "latitude": 38.152767
+  },
+  {
+    "clubLabel": "Juventus F.C.",
+    "league": "Serie A",
+    "venueLabel": "Juventus Stadium",
+    "longitude": 7.641247,
+    "latitude": 45.109594
+  },
+  {
+    "clubLabel": "Napoli",
+    "league": "Serie A",
+    "venueLabel": "Stadio San Paolo",
+    "longitude": 14.193008,
+    "latitude": 40.827967
+  },
+  {
+    "clubLabel": "Empoli F.C.",
+    "league": "Serie A",
+    "venueLabel": "Stadio Carlo Castellani",
+    "longitude": 10.955,
+    "latitude": 43.726389
+  },
+  {
+    "clubLabel": "U.S. Sassuolo Calcio",
+    "league": "Serie A",
+    "venueLabel": "Stadio Alberto Braglia",
+    "longitude": 10.923333,
+    "latitude": 44.653611
+  },
+  {
+    "clubLabel": "F.C. Crotone",
+    "league": "Serie A",
+    "venueLabel": "Stadio Ezio Scida",
+    "longitude": 17.116667,
+    "latitude": 39.079167
+  },
+  {
+    "clubLabel": "Football Club Internazionale Milano",
+    "league": "Serie A",
+    "venueLabel": "San Siro",
+    "longitude": 9.124,
+    "latitude": 45.47808
+  },
+  {
+    "clubLabel": "A.C. Milan",
+    "league": "Serie A",
+    "venueLabel": "San Siro",
+    "longitude": 9.124,
+    "latitude": 45.47808
+  },
+  {
+    "clubLabel": "S.S. Lazio",
+    "league": "Serie A",
+    "venueLabel": "Stadio Olimpico",
+    "longitude": 12.454714,
+    "latitude": 41.933872
+  },
+  {
+    "clubLabel": "A.S. Roma",
+    "league": "Serie A",
+    "venueLabel": "Stadio Olimpico",
+    "longitude": 12.454714,
+    "latitude": 41.933872
+  },
+  {
+    "clubLabel": "Torino Football Club",
+    "league": "Serie A",
+    "venueLabel": "Stadio Alexis Daniel Torres Ramires",
+    "longitude": 7.65,
+    "latitude": 45.041667
+  },
+  {
+    "clubLabel": "ACF Fiorentina",
+    "league": "Serie A",
+    "venueLabel": "Stadio Artemio Franchi",
+    "longitude": 11.282258,
+    "latitude": 43.780822
+  },
+  {
+    "clubLabel": "Unione Calcio Sampdoria",
+    "league": "Serie A",
+    "venueLabel": "Stadio Luigi Ferraris",
+    "longitude": 8.952428,
+    "latitude": 44.416431
+  },
+  {
+    "clubLabel": "Genoa Cricket and Football Club",
+    "league": "Serie A",
+    "venueLabel": "Stadio Luigi Ferraris",
+    "longitude": 8.952428,
+    "latitude": 44.416431
+  },
+  {
+    "clubLabel": "Udinese",
+    "league": "Serie A",
+    "venueLabel": "Stadio Friuli",
+    "longitude": 13.200136,
+    "latitude": 46.081603
+  },
+  {
+    "clubLabel": "A.C. Chievo Verona",
+    "league": "Serie A",
+    "venueLabel": "Stadio Marc'Antonio Bentegodi",
+    "longitude": 10.968647,
+    "latitude": 45.435356
+  },
+  {
+    "clubLabel": "Bologna F.C. 1909",
+    "league": "Serie A",
+    "venueLabel": "Stadio Renato Dall'Ara",
+    "longitude": 11.30972222,
+    "latitude": 44.49222222
+  },
+  {
+    "clubLabel": "Atalanta B.C.",
+    "league": "Serie A",
+    "venueLabel": "Stadio Atleti Azzurri d'Italia",
+    "longitude": 9.680833,
+    "latitude": 45.708889
+  },
+  {
+    "clubLabel": "Delfino Pescara 1936",
+    "league": "Serie A",
+    "venueLabel": "Stadio Adriatico",
+    "longitude": 14.22944444,
+    "latitude": 42.45527778
+  },
+  {
+    "clubLabel": "Watford Football Club",
+    "league": "Premier League",
+    "venueLabel": "Vicarage Road",
+    "longitude": -0.401606,
+    "latitude": 51.649928
+  },
+  {
+    "clubLabel": "Queens Park Rangers F.C.",
+    "league": "Premier League",
+    "venueLabel": "Loftus Road",
+    "longitude": -0.232222222,
+    "latitude": 51.50916667
+  },
+  {
+    "clubLabel": "West Bromwich Albion F.C.",
+    "league": "Premier League",
+    "venueLabel": "The Hawthorns",
+    "longitude": -1.963888888,
+    "latitude": 52.50916667
+  },
+  {
+    "clubLabel": "Sunderland A.F.C.",
+    "league": "Premier League",
+    "venueLabel": "Stadium of Light",
+    "longitude": -1.3882,
+    "latitude": 54.9144
+  },
+  {
+    "clubLabel": "Liverpool F.C.",
+    "league": "Premier League",
+    "venueLabel": "Anfield",
+    "longitude": -2.960827777,
+    "latitude": 53.43081944
+  },
+  {
+    "clubLabel": "Manchester City F.C.",
+    "league": "Premier League",
+    "venueLabel": "Etihad Stadium",
+    "longitude": -2.200277777,
+    "latitude": 53.48305556
+  },
+  {
+    "clubLabel": "Manchester United F.C.",
+    "league": "Premier League",
+    "venueLabel": "Old Trafford",
+    "longitude": -2.291388888,
+    "latitude": 53.46305556
+  },
+  {
+    "clubLabel": "Arsenal F.C.",
+    "league": "Premier League",
+    "venueLabel": "Emirates Stadium",
+    "longitude": -0.108611111,
+    "latitude": 51.555
+  },
+  {
+    "clubLabel": "Chelsea F.C.",
+    "league": "Premier League",
+    "venueLabel": "Stamford Bridge stadium",
+    "longitude": -0.191111111,
+    "latitude": 51.48166667
+  },
+  {
+    "clubLabel": "Tottenham Hotspur F.C.",
+    "league": "Premier League",
+    "venueLabel": "White Hart Lane",
+    "longitude": -0.065833333,
+    "latitude": 51.60333333
+  },
+  {
+    "clubLabel": "West Ham United F.C.",
+    "league": "Premier League",
+    "venueLabel": "Boleyn Ground",
+    "longitude": 0.039444444,
+    "latitude": 51.53194444
+  },
+  {
+    "clubLabel": "Stoke City F.C.",
+    "league": "Premier League",
+    "venueLabel": "Britannia Stadium",
+    "longitude": -2.175555555,
+    "latitude": 52.98833333
+  },
+  {
+    "clubLabel": "Southampton F.C.",
+    "league": "Premier League",
+    "venueLabel": "St Mary's Stadium",
+    "longitude": -1.391111111,
+    "latitude": 50.90583333
+  },
+  {
+    "clubLabel": "Swansea City A.F.C.",
+    "league": "Premier League",
+    "venueLabel": "Liberty Stadium",
+    "longitude": -3.9351,
+    "latitude": 51.6422
+  },
+  {
+    "clubLabel": "A.F.C. Bournemouth",
+    "league": "Premier League",
+    "venueLabel": "Dean Court",
+    "longitude": -1.838333,
+    "latitude": 50.735278
+  },
+  {
+    "clubLabel": "Leicester City F.C.",
+    "league": "Premier League",
+    "venueLabel": "King Power Stadium",
+    "longitude": -1.142222222,
+    "latitude": 52.62027778
+  },
+  {
+    "clubLabel": "Burnley F.C.",
+    "league": "Premier League",
+    "venueLabel": "Turf Moor",
+    "longitude": -2.230225,
+    "latitude": 53.789064
+  },
+  {
+    "clubLabel": "Middlesbrough F.C.",
+    "league": "Premier League",
+    "venueLabel": "Riverside Stadium",
+    "longitude": -1.216944444,
+    "latitude": 54.57833333
+  },
+  {
+    "clubLabel": "Everton F.C.",
+    "league": "Premier League",
+    "venueLabel": "Goodison Park",
+    "longitude": -2.966388888,
+    "latitude": 53.43888889
+  },
+  {
+    "clubLabel": "Crystal Palace F.C.",
+    "league": "Premier League",
+    "venueLabel": "Selhurst Park",
+    "longitude": -0.085555555,
+    "latitude": 51.39833333
+  },
+  {
+    "clubLabel": "Deportivo de La Coru�a",
+    "league": "Primera Division",
+    "venueLabel": "Estadio Municipal de Riazor",
+    "longitude": -8.417372,
+    "latitude": 43.368667
+  },
+  {
+    "clubLabel": "Real Betis Balompi�",
+    "league": "Primera Division",
+    "venueLabel": "Estadio Benito Villamar�n",
+    "longitude": -5.981611,
+    "latitude": 37.356403
+  },
+  {
+    "clubLabel": "FC Barcelona",
+    "league": "Primera Division",
+    "venueLabel": "Camp Nou",
+    "longitude": 2.1225,
+    "latitude": 41.380833
+  },
+  {
+    "clubLabel": "Real Madrid FC",
+    "league": "Primera Division",
+    "venueLabel": "Estadio Santiago Bernab�u",
+    "longitude": -3.68835,
+    "latitude": 40.45306
+  },
+  {
+    "clubLabel": "Athletic Club",
+    "league": "Primera Division",
+    "venueLabel": "San Mam�s Stadium",
+    "longitude": -2.949369,
+    "latitude": 43.264205
+  },
+  {
+    "clubLabel": "Valencia CF",
+    "league": "Primera Division",
+    "venueLabel": "Mestalla Stadium",
+    "longitude": -0.358333,
+    "latitude": 39.474722
+  },
+  {
+    "clubLabel": "Atl�tico Madrid",
+    "league": "Primera Division",
+    "venueLabel": "Vicente Calder�n Stadium",
+    "longitude": -3.720556,
+    "latitude": 40.401667
+  },
+  {
+    "clubLabel": "Sevilla FC",
+    "league": "Primera Division",
+    "venueLabel": "Estadio Ram�n S�nchez Pizju�n",
+    "longitude": -5.970467,
+    "latitude": 37.383878
+  },
+  {
+    "clubLabel": "RCD Espanyol",
+    "league": "Primera Division",
+    "venueLabel": "Estadi Cornell�-El Prat",
+    "longitude": 2.075667,
+    "latitude": 41.347861
+  },
+  {
+    "clubLabel": "Granada CF",
+    "league": "Primera Division",
+    "venueLabel": "Estadio Nuevo Los C�rmenes",
+    "longitude": -3.595736,
+    "latitude": 37.152967
+  },
+  {
+    "clubLabel": "M�laga CF",
+    "league": "Primera Division",
+    "venueLabel": "La Rosaleda Stadium",
+    "longitude": -4.426422,
+    "latitude": 36.734092
+  },
+  {
+    "clubLabel": "CA Osasuna",
+    "league": "Primera Division",
+    "venueLabel": "El Sadar Stadium",
+    "longitude": -1.636944,
+    "latitude": 42.796667
+  },
+  {
+    "clubLabel": "Real Sociedad",
+    "league": "Primera Division",
+    "venueLabel": "Anoeta Stadium",
+    "longitude": -1.973617,
+    "latitude": 43.301378
+  },
+  {
+    "clubLabel": "Sporting Gij�n",
+    "league": "Primera Division",
+    "venueLabel": "El Molin�n",
+    "longitude": -5.637222,
+    "latitude": 43.536111
+  },
+  {
+    "clubLabel": "Rayo Vallecano",
+    "league": "Primera Division",
+    "venueLabel": "Campo de Futbol de Vallecas",
+    "longitude": -3.658961,
+    "latitude": 40.391944
+  },
+  {
+    "clubLabel": "Levante UD",
+    "league": "Primera Division",
+    "venueLabel": "Estadi Ciutat de Val�ncia",
+    "longitude": -0.364167,
+    "latitude": 39.494722
+  },
+  {
+    "clubLabel": "RCD Espanyol",
+    "league": "Primera Division",
+    "venueLabel": "Estadi de Sarri�",
+    "longitude": 2.133169,
+    "latitude": 41.393111
+  },
+  {
+    "clubLabel": "RC Celta",
+    "league": "Primera Division",
+    "venueLabel": "Bala�dos",
+    "longitude": -8.740328,
+    "latitude": 42.211861
+  },
+  {
+    "clubLabel": "CD Lega�es",
+    "league": "Primera Division",
+    "venueLabel": "Estadio Municipal de utarque",
+    "longitude": -3.7607,
+    "latitude": 40.3404
+  },
+  {
+    "clubLabel": "FC Bayern Munich",
+    "league": "Bundesliga",
+    "venueLabel": "Allianz Arena",
+    "longitude": 11.62475278,
+    "latitude": 48.218775
+  },
+  {
+    "clubLabel": "TSG 1899 Hoffenheim",
+    "league": "Bundesliga",
+    "venueLabel": "Rhein-Neckar Arena",
+    "longitude": 8.888278,
+    "latitude": 49.239
+  },
+  {
+    "clubLabel": "Hamburger SV",
+    "league": "Bundesliga",
+    "venueLabel": "Volksparkstadion",
+    "longitude": 9.898611,
+    "latitude": 53.586944
+  },
+  {
+    "clubLabel": "FC Schalke 04",
+    "league": "Bundesliga",
+    "venueLabel": "Veltins Arena",
+    "longitude": 7.067588888,
+    "latitude": 51.55450278
+  },
+  {
+    "clubLabel": "Hertha BSC",
+    "league": "Bundesliga",
+    "venueLabel": "Olympiastadion Berlin",
+    "longitude": 13.23944444,
+    "latitude": 52.51472222
+  },
+  {
+    "clubLabel": "1. FC K�ln",
+    "league": "Bundesliga",
+    "venueLabel": "RheinEnergie Stadion",
+    "longitude": 6.875,
+    "latitude": 50.933611
+  },
+  {
+    "clubLabel": "VfB Stuttgart",
+    "league": "Bundesliga",
+    "venueLabel": "Mercedes-Benz Arena",
+    "longitude": 9.231944,
+    "latitude": 48.792222
+  },
+  {
+    "clubLabel": "1. FC N�rnberg",
+    "league": "Bundesliga",
+    "venueLabel": "Stadion N�rnberg",
+    "longitude": 11.125278,
+    "latitude": 49.426389
+  },
+  {
+    "clubLabel": "Borussia M�nchengladbach",
+    "league": "Bundesliga",
+    "venueLabel": "Borussia-Park",
+    "longitude": 6.385463888,
+    "latitude": 51.17458333
+  },
+  {
+    "clubLabel": "SV Werder Bremen",
+    "league": "Bundesliga",
+    "venueLabel": "Weserstadion",
+    "longitude": 8.8375,
+    "latitude": 53.066389
+  },
+  {
+    "clubLabel": "Fortuna D�sseldorf",
+    "league": "Bundesliga",
+    "venueLabel": "Esprit Arena",
+    "longitude": 6.733083,
+    "latitude": 51.261539
+  },
+  {
+    "clubLabel": "VfL Wolfsburg",
+    "league": "Bundesliga",
+    "venueLabel": "Volkswagen Arena",
+    "longitude": 10.803889,
+    "latitude": 52.431944
+  },
+  {
+    "clubLabel": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "venueLabel": "BayArena",
+    "longitude": 7.002205555,
+    "latitude": 51.03825556
+  },
+  {
+    "clubLabel": "Eintracht Frankfurt",
+    "league": "Bundesliga",
+    "venueLabel": "Commerzbank-Arena",
+    "longitude": 8.645278,
+    "latitude": 50.068611
+  },
+  {
+    "clubLabel": "RB Leipzig",
+    "league": "Bundesliga",
+    "venueLabel": "Red Bull Arena",
+    "longitude": 12.348056,
+    "latitude": 51.345833
+  },
+  {
+    "clubLabel": "SC Freiburg",
+    "league": "Bundesliga",
+    "venueLabel": "Schwarzwald-Stadion",
+    "longitude": 7.893056,
+    "latitude": 47.988889
+  },
+  {
+    "clubLabel": "1. FSV Mainz 05",
+    "league": "Bundesliga",
+    "venueLabel": "Opel Arena",
+    "longitude": 8.224167,
+    "latitude": 49.984167
+  },
+  {
+    "clubLabel": "FC Ingolstadt 04",
+    "league": "Bundesliga",
+    "venueLabel": "Audi Sportpark",
+    "longitude": 11.485,
+    "latitude": 48.74555556
+  },
+  {
+    "clubLabel": "SV Darmstadt 98",
+    "league": "Bundesliga",
+    "venueLabel": "Stadion am B�llenfalltor",
+    "longitude": 8.672222,
+    "latitude": 49.857778
+  }
+]
