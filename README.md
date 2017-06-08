@@ -34,6 +34,8 @@ this could be done by using TopoJSON for example or by using the Google Maps API
 The main concerns of this visualization will be the info shown of the teams and players with great emphasis on the player's details.
 A lot of data could be added later on but to make the product work all 3 elements should work with standard details.
 
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Design%20Data%20Visualization.JPG "Design")
+
 
 
 
