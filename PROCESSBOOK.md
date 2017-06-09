@@ -1,5 +1,14 @@
 # Process Book
 
+## Date: 8 June
+Retrieved data from footstats.co.uk about overall league standings and other league variables. Added league logo's when zooming in on each country. Bootstrap table added to state tables about the league and players. Tweaked the site layout in terms of positioning the elements.
+Created the design document in GitHub.
+
+- [x] League data retrieve
+- [x] Added logo's to countries
+- [x] Added table for extra content
+- [x] Design document created
+
 ## Date: 7 June
 Started to work on the interactive map element. Created a GeoJSON file containing the map shapes of United Kingdom, Germany, Spain and Italy. Furthermore, I received an API key to get data and put it in a JSON file. .HTML, .JS files are created and the geo map is scaled with zoom in and out function on the page. Python file to merge several .JSON files is made to link club data to stadium coordinates to place on the map. Logo's are placed on the geo locations of the stadiums.
 
