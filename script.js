@@ -122,7 +122,7 @@ window.onload = function() {
 			   .attr('opacity', 100)
 			   .attr('width', 180)
 			   .attr('height', 220)
-			   .attr("xlink:href","http://files.laliga.es/seccion_logos/laliga-v-600x600.png");
+			   .attr("xlink:href","https://files.laliga.es/seccion_logos/laliga-v-600x600.png");
 		}
 
 		if (d.properties.admin == 'Italy') {
