@@ -31,6 +31,51 @@ window.onload = function() {
 		.defer(d3.json, "data/map.json")
 		.defer(d3.json, "data/teams.json")
 		.await(drawMap);
+	 
+	var table = $(document).ready(function() {
+	    $('#table').DataTable( {
+	        data: leagueTables,
+	        lengthChange: false,
+	        destroy: true,
+	        columns: [
+	            { title: "Position" },
+	            { title: "League" },
+	            { title: "Team" },
+	            { title: "Played" },
+	            { title: "Wins" },
+	            { title: "Draws" },
+	            { title: "Losses" },
+	            { title: "Goals Scored" },
+	            { title: "Goals Conceded" },
+	            { title: "Difference" },
+	            { title: "Points" }
+	        ]
+	    });
+	});
+
+	function drawTable(league) {
+
+		table = $('#table').DataTable().clear().draw();
+		    $('#table').DataTable( {
+		        data: league,
+		        lengthChange: false,
+		        destroy: true,
+		        columns: [
+		            { title: "Position" },
+		            { title: "League" },
+		            { title: "Team" },
+		            { title: "Played" },
+		            { title: "Wins" },
+		            { title: "Draws" },
+		            { title: "Losses" },
+		            { title: "Goals Scored" },
+		            { title: "Goals Conceded" },
+		            { title: "Difference" },
+		            { title: "Points" }
+		        ]
+		    });
+
+	}
 
 
 
@@ -46,18 +91,20 @@ window.onload = function() {
 	     .attr("fill", "rgba(8, 81, 156, 0.6)")
 	     .on("click", clicked);
 
+	  	var logoAdjust = logoWidth / 2
 
 		g.selectAll(".mark")//adding mark in the group
 		 .data(teams)
 		 .enter()
 		 .append("image")
 		 .attr('class', 'mark')
+		 .attr('x', -logoAdjust)
+		 .attr('y', -logoAdjust)
 		 .attr('width', logoWidth)
 		 .attr('height', logoHeight)
-		 .attr('anchor', 'center')
 		 .attr("xlink:href", function(d) { return d.crestUrl})
 		 .attr("transform", function(d) {
-		   return "translate(" + projection([d.longitude,d.latitude]) + ")";
+		   return "translate(" + projection([d.longitude, d.latitude]) + ")";
 		 })
 		 .on("mouseover", function() {
 		 	d3.select(this)
@@ -95,6 +142,9 @@ window.onload = function() {
 			   .attr('width', 200)
 			   .attr('height', 240)
 			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg");
+
+			drawTable(premierLeague);
+			
 		}
 
 		if (d.properties.admin == 'Germany') {
@@ -109,6 +159,8 @@ window.onload = function() {
 			   .attr('width', 180)
 			   .attr('height', 220)
 			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg");
+
+			drawTable(bundesliga);
 		}
 
 		if (d.properties.admin == 'Spain') {
@@ -123,6 +175,8 @@ window.onload = function() {
 			   .attr('width', 180)
 			   .attr('height', 220)
 			   .attr("xlink:href","https://files.laliga.es/seccion_logos/laliga-v-600x600.png");
+
+			drawTable(primeraDivision);
 		}
 
 		if (d.properties.admin == 'Italy') {
@@ -138,6 +192,8 @@ window.onload = function() {
 			   .attr('width', 180)
 			   .attr('height', 220)
 			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/f/f7/LegaSerieAlogoTIM.png");
+
+			drawTable(serieA);
 		}
 
 		var bounds = path.bounds(d),
