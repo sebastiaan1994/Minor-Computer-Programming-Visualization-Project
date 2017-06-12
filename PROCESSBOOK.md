@@ -1,5 +1,15 @@
 # Process Book
 
+## Date: 9 June
+Preparing presentation for the lecture. Aftwards spend some hours on data research for player data to create the third div element.
+Bug fixing some problems regarding the interactive map with the league logo's and club logo's. Searched for a better representation of the table.
+
+- [x] Presentation
+- [x] Data research
+- [x] Map bug fix
+- [x] Table element
+
+
 ## Date: 8 June
 Retrieved data from http://footstats.co.uk about overall league standings and other league variables. Added league logo's when zooming in on each country. Bootstrap table added to state tables about the league and players. Tweaked the site layout in terms of positioning the elements.
 Created the design document in GitHub.
