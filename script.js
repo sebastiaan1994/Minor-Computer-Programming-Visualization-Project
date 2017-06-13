@@ -59,20 +59,7 @@ window.onload = function() {
 		    $('#table').DataTable( {
 		        data: league,
 		        lengthChange: false,
-		        destroy: true,
-		        columns: [
-		            { title: "Position" },
-		            { title: "League" },
-		            { title: "Team" },
-		            { title: "Played" },
-		            { title: "Wins" },
-		            { title: "Draws" },
-		            { title: "Losses" },
-		            { title: "Goals Scored" },
-		            { title: "Goals Conceded" },
-		            { title: "Difference" },
-		            { title: "Points" }
-		        ]
+		        destroy: true
 		    });
 
 	}
