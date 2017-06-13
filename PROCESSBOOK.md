@@ -1,5 +1,18 @@
 # Process Book
 
+## Date: 13 June
+Spend all day doing research for new API's to retrieve more team and player data to visualize in the third element. Afterwards did some work on cleaning the data.
+
+- [x] Player and team data research
+- [x] Cleaning data
+
+## Date: 12 June
+Finished all the properties of the table and made sure it is a linked view with the geo map. Searched for a good visualization for the third element containing pictures, graphs, and a text container.
+
+- [x] Interactive table
+- [x] Design research
+
+
 ## Date: 9 June
 Preparing presentation for the lecture. Aftwards spend some hours on data research for player data to create the third div element.
 Bug fixing some problems regarding the interactive map with the league logo's and club logo's. Searched for a better representation of the table.
