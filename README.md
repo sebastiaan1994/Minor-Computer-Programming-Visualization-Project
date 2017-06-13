@@ -36,6 +36,8 @@ A lot of data could be added later on but to make the product work all 3 element
 
 ![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Design%20Data%20Visualization.JPG "Design")
 
+[![BCH compliance](https://bettercodehub.com/edge/badge/sebastiaan1994/Project?branch=master)](https://bettercodehub.com/)
+
 
 
 
