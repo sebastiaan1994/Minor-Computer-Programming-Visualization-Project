@@ -5,13 +5,21 @@
  
 }
 #tablediv {
-	height: 80%;
+	height: 100%;
 	width: 55%;
     float: center;
     overflow: hidden;
 }
 #table {
-
+	height: 50%;
+	width: 99%;
+	overflow: hidden;
+}
+#chart {
+	height: 40%;
+	width: 55%;
+	float: right;
+	overflow: hidden;
 }
 }
 #info {
