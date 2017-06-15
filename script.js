@@ -32,9 +32,9 @@ window.onload = function() {
 		.defer(d3.json, "data/teams.json")
 		.await(drawMap);
 
-	// queue()
-	// 	.defer(d3.json, "data/allteamdata.json")
-	// 	.await(drawChart);
+	queue()
+		.defer(d3.csv, "data/playerdata.csv")
+		.await(drawChart);
 	 
 	var table = $(document).ready(function() {
 	    $('#table').DataTable( {
@@ -57,86 +57,167 @@ window.onload = function() {
 	    });
 	});
 
-	// function drawChart(error, teamdata) {
+	function drawChart(error, playerData) {
 
-	// 	goalRatio = []
+		console.log(playerData)
+		playerData.forEach(function (d, i) {
+			d.age = +d.age
+			d.goals = +d.goals
+			d.minutes = +d.minutes
+			d.red = +d.red
+			d.yellow = +d.yellow
+			})
 
-	// 	teamdata.forEach(function (d, i) {
-	// 		team = d.name
-	// 		d.squad.forEach(function(d, i) {
-	// 			d.minutes = +d.minutes
-	// 			d.goals = +d.goals
-	// 			name = d.name
-	// 			goals[name] = d.goals
-	// 			minutes[name] = d.minutes
-	// 			teams[name] = team
-	// 			goalRatio[]
+		var margin = { top: 50, right: 300, bottom: 50, left: 50 },
+		    outerWidth = 1000,
+		    outerHeight = 400,
+		    chartWidth = outerWidth - margin.left - margin.right,
+		    chartHeight = outerHeight - margin.top - margin.bottom;
 
-	// 		})
-	// 	})
-	// 	console.log(goals)
-		
+		var x = d3.scale.linear()
+		    .range([0, chartWidth]).nice();
 
+		var y = d3.scale.linear()
+		    .range([chartHeight, 0]).nice();
 
-	// 	var margin = {top: 20, right: 20, bottom: 30, left: 40}
-	// 	var svgChart = d3.select("#chart").append("svg")
-	// 		.attr("id", "charts")
-	// 		.attr("width", 800 + margin.left + margin.right)
-	// 		.attr("height", 500 + margin.top + margin.bottom)
-	// 	 	.append("g")
-	// 	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		var wCat = "name"
+			xCat = "goals",
+		    yCat = "minutes",
+		    rCat = "age",
+		    colorCat = "team";
 
-	// 	// setup x 
-	// 	var xValue = function(d) { return goals;}, // data -> value
-	// 	    xScale = d3.scale.linear().range([0, 800]), // value -> display
-	// 	    xMap = function(d) { return xScale(xValue(d));}, // data -> display
-	// 	    xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+		  var xMax = d3.max(playerData, function(d) { return d[xCat]; }) * 1.05,
+		      xMin = d3.min(playerData, function(d) { return d[xCat]; }),
+		      xMin = xMin > 0 ? 0 : xMin,
+		      yMax = d3.max(playerData, function(d) { return d[yCat]; }) * 1.05,
+		      yMin = d3.min(playerData, function(d) { return d[yCat]; }),
+		      yMin = yMin > 0 ? 0 : yMin;
 
-	// 	// setup y
-	// 	var yValue = function(d) { return minutes;}, // data -> value
-	// 	    yScale = d3.scale.linear().range([height, 500]), // value -> display
-	// 	    yMap = function(d) { return yScale(yValue(d));}, // data -> display
-	// 	    yAxis = d3.svg.axis().scale(yScale).orient("left");
+		  x.domain([xMin, xMax]);
+		  y.domain([yMin, yMax]);
 
-	// 	var cValue = function(d) { return teams;},
-	// 	    color = d3.scale.category10();
+		  var xAxis = d3.svg.axis()
+		      .scale(x)
+		      .orient("bottom")
+		      .tickSize(-chartHeight);
 
-	//     xScale.domain([d3.min(goals, xValue)-1, d3.max(goals, xValue)+1]);
-	//     yScale.domain([d3.min(minutes, yValue)-1, d3.max(minutes, yValue)+1]);
+		  var yAxis = d3.svg.axis()
+		      .scale(y)
+		      .orient("left")
+		      .tickSize(-chartWidth);
 
-	//     svgChart.append("g")
-	//       .attr("class", "x axis")
-	//       .attr("transform", "translate(0," + height + ")")
-	//       .call(xAxis)
-	//     .append("text")
-	//       .attr("class", "label")
-	//       .attr("x", width)
-	//       .attr("y", -6)
-	//       .style("text-anchor", "end")
-	//       .text("Calories");
+		  var color = d3.scale.category10();
 
-	//     svgChart.append("g")
-	//       .attr("class", "y axis")
-	//       .call(yAxis)
-	//     .append("text")
-	//       .attr("class", "label")
-	//       .attr("transform", "rotate(-90)")
-	//       .attr("y", 6)
-	//       .attr("dy", ".71em")
-	//       .style("text-anchor", "end")
-	//       .text("Protein (g)");
+		  var tip = d3.tip()
+		      .attr("class", "d3-tip")
+		      .offset([-10, 0])
+		      .html(function(d) {
+		        return wCat + ": " + d[wCat] + "<br>" + rCat + ": " + d[rCat] + "<br>" + colorCat + ": " + d[colorCat] + "<br>" + xCat + ": " + d[xCat] + "<br>" + yCat + ": " + d[yCat];
+		      });
 
-	//       svg.selectAll(".dot")
-	// 	      .data(goals, minutes, teams)
-	// 	    .enter().append("circle")
-	// 	      .attr("class", "dot")
-	// 	      .attr("r", 3.5)
-	// 	      .attr("cx", xMap)
-	// 	      .attr("cy", yMap)
-	// 	      .style("fill", function(d) { return color(cValue(d));}) 
-			
+		  var zoomBeh = d3.behavior.zoom()
+		      .x(x)
+		      .y(y)
+		      .scaleExtent([0, 500])
+		      .on("zoom", zoom);
 
-	// }
+		  var chartSvg = d3.select("#chart")
+		    .append("svg")
+		      .attr("class", "scatter")
+		      .attr("width", outerWidth)
+		      .attr("height", outerHeight)
+		    .append("g")
+		      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+		      .call(zoomBeh);
+
+		  chartSvg.call(tip);
+
+		  chartSvg.append("rect")
+		      .attr("width", chartWidth)
+		      .attr("height", chartHeight);
+
+		  chartSvg.append("g")
+		  	  .attr("id", "axis")
+		      .classed("x axis", true)
+		      .attr("transform", "translate(0," + chartHeight + ")")
+		      .call(xAxis)
+		    .append("text")
+		      .classed("label", true)
+		      .attr("x", chartWidth)
+		      .attr("y", margin.bottom - 10)
+		      .style("text-anchor", "end")
+		      .text(xCat);
+
+		  chartSvg.append("g")
+		  	  .attr("id", "axis")
+		      .classed("y axis", true)
+		      .call(yAxis)
+		    .append("text")
+		      .classed("label", true)
+		      .attr("transform", "rotate(-90)")
+		      .attr("y", -margin.left)
+		      .attr("dy", ".71em")
+		      .style("text-anchor", "end")
+		      .text(yCat);
+
+		  var objects = chartSvg.append("svg")
+		      .classed("objects", true)
+		      .attr("width", chartWidth)
+		      .attr("height", chartHeight);
+
+		  objects.append("svg:line")
+		      .classed("axisLine hAxisLine", true)
+		      .attr("x1", 0)
+		      .attr("y1", 0)
+		      .attr("x2", chartWidth)
+		      .attr("y2", 0)
+		      .attr("transform", "translate(0," + chartHeight + ")");
+
+		  objects.append("svg:line")
+		      .classed("axisLine vAxisLine", true)
+		      .attr("x1", 0)
+		      .attr("y1", 0)
+		      .attr("x2", 0)
+		      .attr("y2", chartHeight);
+
+		  objects.selectAll(".dot")
+		      .data(playerData)
+		    .enter().append("circle")
+		      .classed("dot", true)
+		      .attr("r", function (d) { return 3 * Math.sqrt(d[rCat] / Math.PI); })
+		      .attr("transform", transform)
+		      .style("fill", function(d) { return color(d[colorCat]); })
+		      .on("mouseover", tip.show)
+		      .on("mouseout", tip.hide);
+
+		  d3.select("input").on("click", change);
+
+		    function change() {
+			    xCat = "Goals";
+			    xMax = d3.max(playerData, function(d) { return d[xCat]; });
+			    xMin = d3.min(playerData, function(d) { return d[xCat]; });
+
+			    zoomBeh.x(x.domain([xMin, xMax])).y(y.domain([yMin, yMax]));
+
+			    var svgChart = d3.select("#svgChart").transition();
+
+			    svgChart.select(".x.axis").duration(750).call(xAxis).select(".label").text(xCat);
+
+			    objects.selectAll(".dot").transition().duration(1000).attr("transform", transform);
+			  }
+
+			  function zoom() {
+			    chartSvg.select(".x.axis").call(xAxis);
+			    chartSvg.select(".y.axis").call(yAxis);
+
+			    chartSvg.selectAll(".dot")
+			        .attr("transform", transform);
+			  }
+
+			  function transform(d) {
+			    return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";
+			  }
+	}
 
 	function drawTable(league) {
 
