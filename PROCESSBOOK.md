@@ -1,5 +1,12 @@
 # Process Book
 
+## Date: 14 June
+Subscribed to an API and retrieved all player statistics per team. Cleaned the data and prepared first elements for bar chart to visualize team comparisons and aftwerwards comparisons per country. Created python scripts to order relevant player statistics such as; goals, assists, minutes played, red and yellow cards.
+
+- [x] Subscribed to data source
+- [x] Python scripts to clean data
+- [x] Creating bar chart elements
+
 ## Date: 13 June
 Spend all day doing research for new API's to retrieve more team and player data to visualize in the third element. Afterwards did some work on cleaning the data.
 
