@@ -2,7 +2,7 @@ window.onload = function() {
 
 	//Width and height
 	var width = 800, height = 800;
-	var logoWidth = 20, logoHeight = 20;
+	var logoWidth = 20, logoHeight = 20, logoAdjust = logoWidth / 2;
 
 	var active = d3.select(null);
 
@@ -32,6 +32,8 @@ window.onload = function() {
 		.defer(d3.json, "data/teams.json")
 		.await(drawMap);
 
+	var teamdata = {}
+
 	queue()
 		.defer(d3.csv, "data/playerdata.csv")
 		.await(drawChart);
@@ -59,7 +61,6 @@ window.onload = function() {
 
 	function drawChart(error, playerData) {
 
-		console.log(playerData)
 		playerData.forEach(function (d, i) {
 			d.age = +d.age
 			d.goals = +d.goals
@@ -242,13 +243,14 @@ window.onload = function() {
 	     .attr("fill", "rgba(8, 81, 156, 0.6)")
 	     .on("click", clicked);
 
-	  	var logoAdjust = logoWidth / 2
+	  	teamdata = teams
 
-		g.selectAll(".mark")//adding mark in the group
+		g.selectAll("#mark")//adding mark in the group
 		 .data(teams)
 		 .enter()
 		 .append("image")
-		 .attr('class', 'mark')
+		 .attr('id', 'mark')
+		 .attr('class', function(d) { return d.league})
 		 .attr('x', -logoAdjust)
 		 .attr('y', -logoAdjust)
 		 .attr('width', logoWidth)
@@ -257,27 +259,87 @@ window.onload = function() {
 		 .attr("transform", function(d) {
 		   return "translate(" + projection([d.longitude, d.latitude]) + ")";
 		 })
-		 .on("mouseover", function() {
-		 	d3.select(this)
-		 	  .transition()
-		 	  .duration(750)
-		 	  .attr("transform", function(d) {
-				 return "translate(" + projection([(d.longitude - 1),d.latitude]) + ")";
-			  })
-		 })
-		 .on("mouseout", function() {
-		 	d3.select(this)
-		 	  .transition()
-		 	  .duration(750)
-		 	  .attr("transform", function(d) {
-				 return "translate(" + projection([d.longitude,d.latitude]) + ")";
-			  })
-		 });
 
 	};
+	function logoTransit(teamdata, league) {
 
+		if (league == 'Premier.League'){
+			d3.selectAll("." + league)
+			.transition()
+		 	.duration(750)
+		 	.attr("transform", function(d) {
+				 return "translate(" + 0 + "," + 0 + ")"})
+		 	.attr("y", function(d, i) { return -3 + (i * 17) })
+		 	.attr('width', logoWidth - 4)
+			.attr('height', logoHeight - 4)
+			.attr("x", "50");
+		}
+
+		if (league == 'Bundesliga'){
+			d3.selectAll("." + league)
+			.transition()
+		 	.duration(750)
+		 	.attr("transform", function(d) {
+				 return "translate(" + 0 + "," + 0 + ")"})
+		 	.attr("y", function(d, i) { return 228 + (i * 10) })
+		 	.attr('width', logoWidth - 10)
+			.attr('height', logoHeight - 10)
+			.attr("x", "400");
+		}
+
+		if (league == 'Primera.Division'){
+			d3.selectAll("." + league)
+			.transition()
+		 	.duration(750)
+		 	.attr("transform", function(d) {
+				 return "translate(" + 0 + "," + 0 + ")"})
+		 	.attr("y", function(d, i) { return 620 + (i * 16) })
+		 	.attr('width', logoWidth - 5)
+			.attr('height', logoHeight - 5)
+			.attr("x", "-65");
+		}
+
+		if (league == 'Serie.A'){
+			d3.selectAll("." + league)
+			.transition()
+		 	.duration(750)
+		 	.attr("transform", function(d) {
+				 return "translate(" + 0 + "," + 0 + ")"})
+		 	.attr("y", function(d, i) { return 430 + (i * 14) })
+		 	.attr('width', logoWidth - 7)
+			.attr('height', logoHeight - 7)
+			.attr("x", "415");
+		}
+
+		d3.selectAll("#mark").on("click", function() {
+		  d3.select(this)
+		  	.transition()
+			.duration(750)
+			.attr("x", -logoAdjust)
+			.attr("y", -logoAdjust)
+			.attr("width", logoWidth)
+			.attr("height", logoHeight)
+			.attr("transform", function(d) {
+	      return "translate(" + projection([d.longitude, d.latitude]) + ")"});
+	  		})
+		};
+		
+			
+	
 	function clicked(d) {
-		if (active.node() === this) return reset();
+		if (active.node() === this) {
+			d3.selectAll("#mark")
+				.transition()
+				.duration(750)
+				.attr("x", -logoAdjust)
+				.attr("y", -logoAdjust)
+				.attr("width", logoWidth)
+				.attr("height", logoHeight)
+				.attr("transform", function(d) {
+		      return "translate(" + projection([d.longitude, d.latitude]) + ")";
+		    })
+			return reset();
+		}
 		active.classed("active", false);
 		active = d3.select(this).classed("active", true);
 
@@ -288,12 +350,13 @@ window.onload = function() {
 			   .attr('opacity', 0)
 			   .transition()
 			   .duration(1000)
-			   .attr('y', 0)
+			   .attr('y', -75)
 			   .attr('opacity', 100)
 			   .attr('width', 200)
 			   .attr('height', 240)
 			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg");
 
+			logoTransit(teamdata, 'Premier.League')
 			drawTable(premierLeague);
 			
 		}
@@ -311,6 +374,7 @@ window.onload = function() {
 			   .attr('height', 220)
 			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg");
 
+			logoTransit(teamdata, 'Bundesliga')
 			drawTable(bundesliga);
 		}
 
@@ -327,6 +391,7 @@ window.onload = function() {
 			   .attr('height', 220)
 			   .attr("xlink:href","https://files.laliga.es/seccion_logos/laliga-v-600x600.png");
 
+			logoTransit(teamdata, 'Primera.Division')
 			drawTable(primeraDivision);
 		}
 
@@ -344,6 +409,7 @@ window.onload = function() {
 			   .attr('height', 220)
 			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/f/f7/LegaSerieAlogoTIM.png");
 
+			logoTransit(teamdata, 'Serie.A')
 			drawTable(serieA);
 		}
 
