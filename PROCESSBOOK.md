@@ -1,5 +1,12 @@
 # Process Book
 
+## Date: 15 June
+Switched to an alternative visualization from the bar chart to a scatter graph with zoomable function, because there are a lot of data points to represent all the players in the 4 competitions. Furthermore created another function for the interactive map to line up the club logo's when entering a zoom per country. Furthermore rewrote data to use for the scatter graph element to compare more variables.
+
+- [x] Created scatter graph with zoom
+- [x] Improved interactive map element
+- [x] Data cleaning for scatter plot
+
 ## Date: 14 June
 Subscribed to an API and retrieved all player statistics per team. Cleaned the data and prepared first elements for bar chart to visualize team comparisons and aftwerwards comparisons per country. Created python scripts to order relevant player statistics such as; goals, assists, minutes played, red and yellow cards.
 
