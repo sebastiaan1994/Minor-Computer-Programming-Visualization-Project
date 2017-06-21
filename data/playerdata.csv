@@ -1,2266 +1,2266 @@
-team,country,name,minutes,goals,age,position,yellow,red
-Chelsea,England,A. Begović,0,0,29,G,0,0
-Chelsea,England,T. Courtois,1350,0,24,G,1,0
-Chelsea,England,Eduardo,0,0,34,G,0,0
-Chelsea,England,Marcos Alonso,845,1,25,D,1,0
-Chelsea,England,Azpilicueta,1350,0,27,D,3,0
-Chelsea,England,G. Cahill,1344,1,30,D,1,0
-Chelsea,England,N. Chalobah,57,0,22,D,1,0
-Chelsea,England,B. Ivanović,563,0,32,D,2,0
-Chelsea,England,David Luiz,990,0,29,D,3,0
-Chelsea,England,O. Aina,8,0,20,D,0,0
-Chelsea,England,J. Terry,366,0,36,D,1,0
-Chelsea,England,K. Zouma,0,0,22,D,0,0
-Chelsea,England,Willian,581,3,28,M,2,0
-Chelsea,England,Oscar,455,0,25,M,1,0
-Chelsea,England,Fàbregas,193,0,29,M,1,0
-Chelsea,England,E. Hazard,1254,8,25,M,2,0
-Chelsea,England,N. Kanté,1350,1,25,M,4,0
-Chelsea,England,R. Loftus-Cheek,8,0,20,M,0,0
-Chelsea,England,N. Matić,1228,0,28,M,3,0
-Chelsea,England,V. Moses,825,3,26,M,1,0
-Chelsea,England,J. Obi Mikel,0,0,29,M,0,0
-Chelsea,England,Pedro,685,3,29,M,2,0
-Chelsea,England,M. van Ginkel,0,0,24,M,0,0
-Chelsea,England,M. Batshuayi,76,1,23,A,0,0
-Chelsea,England,Diego Costa,1322,12,28,A,4,0
-Chelsea,England,D. Solanke,0,0,19,A,0,0
-Tottenham Hotspur,England,H. Lloris,1115,0,29,G,0,0
-Tottenham Hotspur,England,Pau López,0,0,21,G,0,0
-Tottenham Hotspur,England,M. Vorm,235,0,33,G,0,0
-Tottenham Hotspur,England,A. Whiteman,0,0,18,G,0,0
-Tottenham Hotspur,England,T. Alderweireld,780,0,27,D,0,0
-Tottenham Hotspur,England,L. Amos,0,0,19,D,0,0
-Tottenham Hotspur,England,C. Carter-Vickers,0,0,18,D,0,0
-Tottenham Hotspur,England,B. Davies,283,0,23,D,1,0
-Tottenham Hotspur,England,D. Rose,900,1,26,D,6,0
-Tottenham Hotspur,England,K. Trippier,11,0,26,D,0,0
-Tottenham Hotspur,England,J. Vertonghen,1350,0,29,D,4,0
-Tottenham Hotspur,England,K. Walker,1277,0,26,D,4,0
-Tottenham Hotspur,England,K. Wimmer,180,0,24,D,1,0
-Tottenham Hotspur,England,D. Alli,1078,3,20,M,2,0
-Tottenham Hotspur,England,T. Carroll,0,0,24,M,0,0
-Tottenham Hotspur,England,C. Eriksen,1219,3,24,M,0,0
-Tottenham Hotspur,England,M. Dembélé,674,0,29,M,3,0
-Tottenham Hotspur,England,E. Dier,991,0,22,M,2,0
-Tottenham Hotspur,England,M. Edwards,0,0,18,M,0,0
-Tottenham Hotspur,England,E. Lamela,593,1,24,M,1,0
-Tottenham Hotspur,England,M. Sissoko,379,0,27,M,1,0
-Tottenham Hotspur,England,A. Walkes,0,0,19,M,0,0
-Tottenham Hotspur,England,V. Wanyama,1312,1,25,M,4,0
-Tottenham Hotspur,England,H. Winks,153,1,20,M,0,0
-Tottenham Hotspur,England,S. Harrison,0,0,19,A,0,0
-Tottenham Hotspur,England,V. Janssen,592,1,22,A,0,0
-Tottenham Hotspur,England,H. Kane,853,7,23,A,0,0
-Tottenham Hotspur,England,G. N'Koudou,35,0,21,A,0,0
-Tottenham Hotspur,England,J. Onomah,10,0,19,A,0,0
-Tottenham Hotspur,England,Heung-Min Son,830,5,24,A,1,0
-Manchester City,England,C. Bravo,1080,0,33,G,0,0
-Manchester City,England,W. Caballero,270,0,35,G,0,0
-Manchester City,England,A. Gunn,0,0,20,G,0,0
-Manchester City,England,T. Adarabioyo,0,0,19,D,0,0
-Manchester City,England,G. Clichy,551,0,31,D,0,0
-Manchester City,England,Angelino,0,0,19,D,0,0
-Manchester City,England,A. Kolarov,1201,1,31,D,4,0
-Manchester City,England,V. Kompany,115,0,30,D,1,0
-Manchester City,England,Pablo Maffeo,0,0,19,D,0,0
-Manchester City,England,N. Otamendi,952,0,28,D,5,0
-Manchester City,England,B. Sagna,618,0,33,D,1,0
-Manchester City,England,J. Stones,1075,0,22,D,1,0
-Manchester City,England,P. Zabaleta,515,0,31,D,1,0
-Manchester City,England,Brahim Diaz,0,0,17,M,0,0
-Manchester City,England,K. De Bruyne,1044,2,25,M,1,0
-Manchester City,England,F. Delph,28,0,27,M,0,0
-Manchester City,England,P. Foden,0,0,16,M,0,0
-Manchester City,England,Aleix García,26,0,19,M,0,0
-Manchester City,England,İ. Gündoğan,666,3,26,M,0,0
-Manchester City,England,David Silva,1070,0,30,M,1,0
-Manchester City,England,Jesús Navas,434,0,31,M,1,0
-Manchester City,England,Fernando,388,0,29,M,2,0
-Manchester City,England,Fernandinho,1260,1,31,M,3,1
-Manchester City,England,L. Sané,314,0,20,M,0,0
-Manchester City,England,R. Sterling,1033,4,22,M,3,0
-Manchester City,England,Y. Touré,226,2,33,M,0,0
-Manchester City,England,Nolito,600,4,30,A,3,1
-Manchester City,England,S. Agüero,1010,10,28,A,3,1
-Manchester City,England,K. Iheanacho,355,3,20,A,0,0
-Liverpool,England,L. Karius,900,0,23,G,0,0
-Liverpool,England,A. Manninger,0,0,39,G,0,0
-Liverpool,England,S. Mignolet,450,0,28,G,0,0
-Liverpool,England,Tiago Ilori,0,0,23,D,0,0
-Liverpool,England,N. Clyne,1350,0,25,D,0,0
-Liverpool,England,J. Gomez,0,0,19,D,0,0
-Liverpool,England,R. Klavan,314,0,31,D,0,0
-Liverpool,England,D. Lovren,1036,2,27,D,3,0
-Liverpool,England,J. Matip,1080,1,25,D,1,0
-Liverpool,England,Alberto Moreno,197,0,24,D,1,0
-Liverpool,England,C. Randall,0,0,21,D,0,0
-Liverpool,England,M. Sakho,0,0,26,D,0,0
-Liverpool,England,T. Arnold,0,0,18,M,0,0
-Liverpool,England,C. Brannagan,0,0,20,M,0,0
-Liverpool,England,E. Can,659,3,22,M,2,0
-Liverpool,England,Chirivella,0,0,19,M,0,0
-Liverpool,England,Philippe Coutinho,967,5,24,M,2,0
-Liverpool,England,O. Ejaria,3,0,19,M,0,0
-Liverpool,England,M. Grujić,28,0,20,M,0,0
-Liverpool,England,J. Henderson,1334,1,26,M,6,0
-Liverpool,England,A. Lallana,883,4,28,M,1,0
-Liverpool,England,J. Milner,1153,5,30,M,1,0
-Liverpool,England,S. Ojo,0,0,19,M,0,0
-Liverpool,England,Lucas Leiva,283,0,29,M,1,0
-Liverpool,England,K. Stewart,16,0,23,M,0,0
-Liverpool,England,G. Wijnaldum,1021,1,26,M,1,0
-Liverpool,England,Roberto Firmino,1247,5,25,A,2,0
-Liverpool,England,D. Ings,0,0,24,A,0,0
-Liverpool,England,S. Mané,1210,7,24,A,2,0
-Liverpool,England,D. Origi,340,3,21,A,0,0
-Liverpool,England,D. Sturridge,379,0,27,A,1,0
-Liverpool,England,B. Woodburn,0,0,17,A,0,0
-Arsenal,England,P. Čech,1350,0,34,G,2,0
-Arsenal,England,M. Macey,0,0,22,G,0,0
-Arsenal,England,E. Martínez,0,0,24,G,0,0
-Arsenal,England,D. Ospina,0,0,28,G,0,0
-Arsenal,England,Bellerín,1055,0,21,D,1,0
-Arsenal,England,M. Bola,0,0,19,D,0,0
-Arsenal,England,Gabriel Paulista,254,0,26,D,1,0
-Arsenal,England,M. Debuchy,16,0,31,D,0,0
-Arsenal,England,K. Gibbs,134,0,27,D,1,0
-Arsenal,England,R. Holding,270,0,21,D,1,0
-Arsenal,England,C. Jenkinson,83,0,24,D,0,0
-Arsenal,England,L. Koscielny,1260,2,31,D,2,0
-Arsenal,England,P. Mertesacker,0,0,32,D,0,0
-Arsenal,England,Nacho Monreal,1244,0,30,D,1,0
-Arsenal,England,S. Mustafi,1015,0,24,D,3,0
-Arsenal,England,K. Bielik,0,0,18,M,0,0
-Arsenal,England,Santi Cazorla,619,2,31,M,2,0
-Arsenal,England,F. Coquelin,915,0,25,M,3,0
-Arsenal,England,J. Dasilva,0,0,18,M,0,0
-Arsenal,England,Mohamed Elneny,449,0,24,M,0,0
-Arsenal,England,A. Maitland-Niles,1,0,19,M,0,0
-Arsenal,England,A. Oxlade-Chamberlain,621,2,23,M,0,0
-Arsenal,England,M. Özil,1158,5,28,M,0,0
-Arsenal,England,A. Ramsey,228,0,25,M,1,0
-Arsenal,England,J. Reine-Adelaide,0,0,18,M,0,0
-Arsenal,England,B. Sheaf,0,0,18,M,0,0
-Arsenal,England,G. Xhaka,778,1,24,M,2,1
-Arsenal,England,G. Zelalem,0,0,19,M,0,0
-Arsenal,England,C. Akpom,0,0,21,A,0,0
-Arsenal,England,O. Giroud,135,3,30,A,0,0
-Arsenal,England,A. Iwobi,588,1,20,A,1,0
-Arsenal,England,S. Mavididi,0,0,18,A,0,0
-Arsenal,England,Lucas Pérez,87,0,28,A,0,0
-Arsenal,England,A. Sánchez,1257,11,27,A,3,0
-Arsenal,England,Y. Sanogo,0,0,23,A,0,0
-Arsenal,England,D. Welbeck,0,0,26,A,0,0
-Arsenal,England,T. Walcott,1186,7,27,A,0,0
-Arsenal,England,C. Willock,0,0,18,A,0,0
-Manchester United,England,De Gea,1350,0,26,G,1,0
-Manchester United,England,S. Johnstone,0,0,23,G,0,0
-Manchester United,England,S. Romero,0,0,29,G,0,0
-Manchester United,England,E. Bailly,777,0,22,D,3,0
-Manchester United,England,M. Darmian,514,0,27,D,1,0
-Manchester United,England,P. Jones,450,0,24,D,0,0
-Manchester United,England,M. Rojo,578,0,26,D,1,0
-Manchester United,England,L. Shaw,526,0,21,D,0,0
-Manchester United,England,C. Smalling,451,1,27,D,0,0
-Manchester United,England,A. Tuanzebe,0,0,19,D,0,0
-Manchester United,England,D. Blind,836,0,26,M,0,0
-Manchester United,England,M. Carrick,372,0,35,M,0,0
-Manchester United,England,M. Fellaini,703,0,29,M,6,0
-Manchester United,England,T. Fosu-Mensah,0,0,18,M,0,0
-Manchester United,England,Ander Herrera,924,0,27,M,3,0
-Manchester United,England,J. Lingard,423,0,23,M,0,0
-Manchester United,England,Mata,752,3,28,M,2,0
-Manchester United,England,H. Mkhitaryan,300,1,27,M,1,0
-Manchester United,England,P. Pogba,1260,2,23,M,5,0
-Manchester United,England,M. Schneiderlin,11,0,27,M,0,0
-Manchester United,England,B. Schweinsteiger,0,0,32,M,0,0
-Manchester United,England,A. Valencia,1142,0,31,M,3,0
-Manchester United,England,A. Young,235,0,31,M,1,0
-Manchester United,England,M. Depay,20,0,22,A,1,0
-Manchester United,England,Z. Ibrahimović,1260,8,35,A,4,0
-Manchester United,England,A. Martial,540,1,21,A,0,0
-Manchester United,England,M. Rashford,755,3,19,A,1,0
-Manchester United,England,W. Rooney,649,1,31,A,4,0
-Manchester United,England,J. Wilson,0,0,21,A,0,0
-Everton,England,M. Hewelt,0,0,20,G,0,0
-Everton,England,Joel Robles,90,0,26,G,0,0
-Everton,England,M. Stekelenburg,1260,0,34,G,2,0
-Everton,England,L. Baines,796,1,32,D,2,0
-Everton,England,M. Bešić,0,0,24,D,0,0
-Everton,England,T. Browning,0,0,22,D,0,0
-Everton,England,S. Coleman,1057,2,28,D,2,0
-Everton,England,Ramiro Funes Mori,555,0,25,D,0,0
-Everton,England,M. Holgate,293,0,20,D,0,0
-Everton,England,P. Jagielka,1080,0,34,D,2,0
-Everton,England,B. Oviedo,477,0,26,D,3,0
-Everton,England,M. Pennington,0,0,22,D,0,0
-Everton,England,A. Williams,1179,0,32,D,2,0
-Everton,England,R. Barkley,1021,2,23,M,2,0
-Everton,England,G. Barry,1196,2,35,M,6,0
-Everton,England,Y. Bolasie,1028,1,27,M,2,0
-Everton,England,D. Calvert-Lewin,0,0,19,M,0,0
-Everton,England,T. Cleverley,400,0,27,M,1,0
-Everton,England,T. Davies,40,0,18,M,0,0
-Everton,England,K. Dowell,0,0,19,M,0,0
-Everton,England,D. Gibson,0,0,29,M,0,0
-Everton,England,I. Gueye,1218,0,27,M,5,0
-Everton,England,A. Lennon,185,0,29,M,0,0
-Everton,England,J. McCarthy,323,0,26,M,1,0
-Everton,England,Deulofeu,456,0,22,A,1,0
-Everton,England,M. Donohue,0,0,19,A,0,0
-Everton,England,A. Koné,43,0,33,A,0,0
-Everton,England,R. Lukaku,1197,9,23,A,2,0
-Everton,England,C. McAleny,0,0,24,A,0,0
-Everton,England,K. Mirallas,868,1,29,A,1,0
-Everton,England,O. Niasse,0,0,26,A,0,0
-Everton,England,L. Rodríguez,0,0,24,A,0,0
-Everton,England,E. Valencia,88,0,27,A,0,0
-Southampton,England,F. Forster,1350,0,28,G,2,0
-Southampton,England,H. Lewis,0,0,18,G,0,0
-Southampton,England,A. McCarthy,0,0,27,G,0,0
-Southampton,England,S. Taylor,0,0,36,G,0,0
-Southampton,England,Cédric Soares,825,0,25,D,1,0
-Southampton,England,R. Bertrand,798,0,27,D,2,0
-Southampton,England,José Fonte,1260,0,32,D,2,0
-Southampton,England,F. Gardoş,0,0,28,D,0,0
-Southampton,England,R. Martina,433,0,27,D,0,0
-Southampton,England,J. Stephens,0,0,22,D,0,0
-Southampton,England,M. Targett,284,0,21,D,0,0
-Southampton,England,V. van Dijk,1350,0,25,D,3,0
-Southampton,England,M. Yoshida,180,0,28,D,1,0
-Southampton,England,S. Boufal,288,1,23,M,1,0
-Southampton,England,J. Clasie,587,0,25,M,2,0
-Southampton,England,S. Davis,1074,0,31,M,1,0
-Southampton,England,J. Hesketh,0,0,20,M,0,0
-Southampton,England,P. Højbjerg,711,0,21,M,1,0
-Southampton,England,L. Isgrove,0,0,23,M,0,0
-Southampton,England,S. McQueen,288,0,21,M,0,0
-Southampton,England,J. Pied,11,0,27,M,0,0
-Southampton,England,N. Redmond,1278,3,22,M,1,0
-Southampton,England,H. Reed,12,0,21,M,0,0
-Southampton,England,Oriol Romeu,1272,0,25,M,4,0
-Southampton,England,J. Sims,115,0,19,M,0,0
-Southampton,England,D. Tadić,909,1,28,M,3,0
-Southampton,England,J. Ward-Prowse,382,1,22,M,0,0
-Southampton,England,C. Austin,871,6,27,A,1,0
-Southampton,England,S. Long,367,0,29,A,1,0
-Southampton,England,O. Olomola,0,0,19,A,0,0
-Southampton,England,J. Rodriguez,205,1,27,A,0,0
-AFC Bournemouth,England,R. Allsop,0,0,24,G,0,0
-AFC Bournemouth,England,A. Boruc,1170,0,36,G,1,0
-AFC Bournemouth,England,A. Federici,180,0,31,G,1,0
-AFC Bournemouth,England,J. Holmes,0,0,19,G,0,0
-AFC Bournemouth,England,N. Aké,373,2,21,D,0,0
-AFC Bournemouth,England,C. Buckley,0,0,20,D,0,0
-AFC Bournemouth,England,S. Cook,1350,2,25,D,2,0
-AFC Bournemouth,England,C. Daniels,1170,2,30,D,1,0
-AFC Bournemouth,England,S. Francis,1350,0,31,D,3,0
-AFC Bournemouth,England,O. Harfield,0,0,18,D,0,0
-AFC Bournemouth,England,C. Jordan,0,0,17,D,0,0
-AFC Bournemouth,England,J. Lee,0,0,19,D,0,0
-AFC Bournemouth,England,T. Mings,0,0,23,D,0,0
-AFC Bournemouth,England,A. Smith,1260,1,25,D,5,0
-AFC Bournemouth,England,B. Smith,81,0,22,D,1,0
-AFC Bournemouth,England,M. Wilson,0,0,29,D,0,0
-AFC Bournemouth,England,H. Arter,1306,0,26,M,5,0
-AFC Bournemouth,England,L. Cook,81,0,19,M,0,0
-AFC Bournemouth,England,R. Fraser,330,1,22,M,0,0
-AFC Bournemouth,England,D. Gosling,638,2,26,M,4,0
-AFC Bournemouth,England,M. Gradel,90,0,29,M,1,0
-AFC Bournemouth,England,E. Hyndman,0,0,20,M,0,0
-AFC Bournemouth,England,J. Ibe,739,0,21,M,0,0
-AFC Bournemouth,England,K. O'Connell,0,0,17,M,0,0
-AFC Bournemouth,England,M. Pugh,18,0,29,M,0,0
-AFC Bournemouth,England,J. Stanislas,716,3,27,M,1,0
-AFC Bournemouth,England,A. Surman,810,0,30,M,1,0
-AFC Bournemouth,England,J. Wilshere,805,0,24,M,2,0
-AFC Bournemouth,England,B. Afobe,261,1,23,A,0,0
-AFC Bournemouth,England,L. Grabban,57,0,28,A,0,0
-AFC Bournemouth,England,J. King,993,2,24,A,1,0
-AFC Bournemouth,England,L. Mousset,23,0,20,A,0,0
-AFC Bournemouth,England,C. Wilson,1036,5,24,A,0,0
-West Bromwich Albion,England,B. Foster,1350,0,33,G,0,0
-West Bromwich Albion,England,G. Myhill,0,0,34,G,0,0
-West Bromwich Albion,England,A. Palmer,0,0,20,G,0,0
-West Bromwich Albion,England,J. Rose,0,0,21,G,0,0
-West Bromwich Albion,England,C. Dawson,1350,0,26,D,5,0
-West Bromwich Albion,England,J. Evans,1260,1,28,D,6,0
-West Bromwich Albion,England,B. Galloway,248,0,20,D,0,0
-West Bromwich Albion,England,G. McAuley,1350,3,37,D,3,0
-West Bromwich Albion,England,A. Nyom,922,0,28,D,2,0
-West Bromwich Albion,England,J. Olsson,321,0,33,D,2,0
-West Bromwich Albion,England,K. Wilson,0,0,16,D,0,0
-West Bromwich Albion,England,C. Brunt,589,1,31,M,2,0
-West Bromwich Albion,England,N. Chadli,648,4,27,M,1,0
-West Bromwich Albion,England,S. Field,166,0,18,M,1,0
-West Bromwich Albion,England,D. Fletcher,1267,1,32,M,0,0
-West Bromwich Albion,England,C. Gardner,200,0,30,M,1,0
-West Bromwich Albion,England,J. McClean,657,1,27,M,5,0
-West Bromwich Albion,England,C. McManaman,0,0,25,M,0,0
-West Bromwich Albion,England,J. Morrison,514,2,30,M,2,0
-West Bromwich Albion,England,M. Phillips,1132,3,25,M,0,0
-West Bromwich Albion,England,H. Robson-Kanu,70,0,27,M,0,0
-West Bromwich Albion,England,C. Yacob,1196,0,29,M,6,0
-West Bromwich Albion,England,S. Berahino,245,0,23,A,1,0
-West Bromwich Albion,England,J. Leko,82,0,17,A,0,0
-West Bromwich Albion,England,S. Rondón,1271,4,27,A,0,0
-West Ham United,England,D. Randolph,360,0,29,G,0,0
-West Ham United,England,Adrián,990,0,29,G,1,0
-West Ham United,England,R. Spiegel,0,0,23,G,0,0
-West Ham United,England,Arbeloa,256,0,33,D,3,0
-West Ham United,England,S. Byram,264,0,23,D,2,0
-West Ham United,England,J. Collins,727,1,33,D,1,0
-West Ham United,England,A. Cresswell,525,0,26,D,2,0
-West Ham United,England,A. Masuaku,527,0,23,D,1,0
-West Ham United,England,A. Ogbonna,1080,0,28,D,1,0
-West Ham United,England,R. Oxford,0,0,17,D,0,0
-West Ham United,England,A. Pike,0,0,19,D,0,0
-West Ham United,England,W. Reid,1068,1,28,D,6,0
-West Ham United,England,M. Antonio,1195,7,26,M,4,0
-West Ham United,England,M. Browne,0,0,18,M,0,0
-West Ham United,England,G. Diangana,0,0,18,M,0,0
-West Ham United,England,S. Feghouli,128,0,26,M,1,0
-West Ham United,England,E. Fernandes,313,0,20,M,2,0
-West Ham United,England,C. Kouyaté,1170,0,26,M,1,0
-West Ham United,England,M. Lanzini,917,3,23,M,1,0
-West Ham United,England,Pedro Obiang,780,0,24,M,3,0
-West Ham United,England,M. Noble,1153,0,29,M,4,0
-West Ham United,England,H. Nordtveit,405,0,26,M,0,0
-West Ham United,England,D. Payet,1086,2,29,M,1,0
-West Ham United,England,Domingos Quina,0,0,17,M,0,0
-West Ham United,England,G. Töre,241,0,24,M,0,0
-West Ham United,England,A. Ayew,295,0,26,A,0,0
-West Ham United,England,J. Calleri,129,0,23,A,0,0
-West Ham United,England,A. Carroll,134,1,27,A,0,0
-West Ham United,England,A. Fletcher,292,0,21,A,2,0
-West Ham United,England,D. Sakho,127,1,26,A,0,0
-West Ham United,England,S. Zaza,460,0,25,A,2,0
-Leicester City,England,B. Hamer,0,0,29,G,0,0
-Leicester City,England,K. Schmeichel,687,0,30,G,0,0
-Leicester City,England,R. Zieler,663,0,27,G,0,0
-Leicester City,England,Y. Benalouane,0,0,29,D,0,0
-Leicester City,England,B. Chilwell,0,0,19,D,0,0
-Leicester City,England,C. Fuchs,1328,1,30,D,4,0
-Leicester City,England,Luis Hernández,236,0,27,D,0,0
-Leicester City,England,R. Huth,1257,0,32,D,4,0
-Leicester City,England,W. Morgan,1350,1,32,D,0,0
-Leicester City,England,D. Simpson,1197,0,29,D,5,0
-Leicester City,England,M. Wasilewski,0,0,36,D,0,0
-Leicester City,England,M. Albrighton,868,0,27,M,1,0
-Leicester City,England,D. Amartey,925,0,21,M,2,0
-Leicester City,England,H. Barnes,0,0,19,M,0,0
-Leicester City,England,D. Drinkwater,1069,0,26,M,1,0
-Leicester City,England,D. Gray,228,1,20,M,1,0
-Leicester City,England,M. James,0,0,25,M,0,0
-Leicester City,England,B. Kapustka,0,0,19,M,0,0
-Leicester City,England,A. King,713,1,28,M,0,0
-Leicester City,England,N. Mendy,53,0,24,M,1,0
-Leicester City,England,R. Mahrez,1177,3,25,A,3,0
-Leicester City,England,A. Musa,486,2,24,A,1,0
-Leicester City,England,S. Okazaki,631,2,30,A,1,0
-Leicester City,England,J. Schlupp,139,0,23,A,0,0
-Leicester City,England,I. Slimani,617,4,28,A,0,0
-Leicester City,England,L. Ulloa,92,0,30,A,0,0
-Leicester City,England,J. Vardy,1134,5,29,A,2,0
-Stoke City,England,D. Bachmann,0,0,22,G,0,0
-Stoke City,England,J. Butland,0,0,23,G,0,0
-Stoke City,England,S. Given,450,0,40,G,1,0
-Stoke City,England,L. Grant,990,0,33,G,0,0
-Stoke City,England,J. Haugaard,0,0,24,G,0,0
-Stoke City,England,P. Bardsley,662,0,31,D,2,0
-Stoke City,England,G. Cameron,630,0,31,D,0,0
-Stoke City,England,Dionatan,0,0,24,D,0,0
-Stoke City,England,G. Johnson,663,0,32,D,0,0
-Stoke City,England,B. Martins Indi,1170,0,24,D,0,0
-Stoke City,England,Muniesa,287,1,24,D,1,0
-Stoke City,England,E. Pieters,1350,0,28,D,2,0
-Stoke City,England,R. Shawcross,1170,0,29,D,3,0
-Stoke City,England,C. Adam,664,1,31,M,3,0
-Stoke City,England,I. Afellay,0,0,30,M,0,0
-Stoke City,England,J. Allen,1192,4,26,M,5,0
-Stoke City,England,G. Imbula,581,0,24,M,1,0
-Stoke City,England,S. Ireland,0,0,30,M,0,0
-Stoke City,England,X. Shaqiri,858,3,25,M,1,0
-Stoke City,England,O. Shenton,0,0,19,M,0,0
-Stoke City,England,T. Verlinden,0,0,17,M,0,0
-Stoke City,England,G. Whelan,1041,0,32,M,2,0
-Stoke City,England,M. Arnautović,1238,1,27,A,5,1
-Stoke City,England,W. Bony,684,2,28,A,1,0
-Stoke City,England,P. Crouch,196,0,35,A,0,0
-Stoke City,England,M. Diouf,570,0,28,A,1,0
-Stoke City,England,Bojan,363,2,26,A,1,0
-Stoke City,England,J. Ngoy,4,0,19,A,0,0
-Stoke City,England,Ramadan Sobhi,171,1,19,A,0,0
-Stoke City,England,J. Walters,659,1,33,A,0,0
-Crystal Palace,England,W. Hennessey,540,0,29,G,1,0
-Crystal Palace,England,S. Mandanda,810,0,31,G,0,0
-Crystal Palace,England,J. Speroni,0,0,37,G,0,0
-Crystal Palace,England,S. Dann,990,2,29,D,2,0
-Crystal Palace,England,D. Delaney,1026,0,35,D,2,0
-Crystal Palace,England,Z. Fryers,164,0,24,D,0,0
-Crystal Palace,England,M. Kelly,859,0,26,D,1,0
-Crystal Palace,England,P. Souaré,270,0,26,D,0,0
-Crystal Palace,England,J. Tomkins,773,3,27,D,2,0
-Crystal Palace,England,J. Ward,1348,0,27,D,1,0
-Crystal Palace,England,Y. Cabaye,744,1,30,M,5,0
-Crystal Palace,England,L. Dreher,0,0,18,M,0,0
-Crystal Palace,England,M. Flamini,19,0,32,M,0,0
-Crystal Palace,England,J. Ledley,762,1,29,M,0,0
-Crystal Palace,England,Chung-Yong Lee,283,0,28,M,0,0
-Crystal Palace,England,J. McArthur,1081,4,29,M,4,0
-Crystal Palace,England,J. Mutch,8,0,25,M,0,0
-Crystal Palace,England,M. Phillips,0,0,19,M,0,0
-Crystal Palace,England,J. Puncheon,1142,0,30,M,5,0
-Crystal Palace,England,B. Sako,22,0,28,M,0,0
-Crystal Palace,England,A. Townsend,1098,1,25,M,3,0
-Crystal Palace,England,B. Wynter,0,0,19,M,0,0
-Crystal Palace,England,W. Zaha,1194,3,24,M,3,0
-Crystal Palace,England,K. Appiah,0,0,26,A,0,0
-Crystal Palace,England,J. Benteke,6,0,21,A,0,0
-Crystal Palace,England,C. Benteke,1155,8,26,A,3,0
-Crystal Palace,England,F. Campbell,32,1,29,A,0,0
-Crystal Palace,England,L. Rémy,0,0,29,A,0,0
-Crystal Palace,England,C. Wickham,410,2,23,A,1,0
-Swansea City,Wales,M. Birighitti,0,0,25,G,0,0
-Swansea City,Wales,Ł. Fabiański,1350,0,31,G,1,0
-Swansea City,Wales,K. Nordfeldt,0,0,27,G,0,0
-Swansea City,Wales,G. Tremmel,0,0,38,G,0,0
-Swansea City,Wales,Jordi Amat,1080,0,24,D,4,0
-Swansea City,Wales,F. Fernández,720,0,27,D,3,0
-Swansea City,Wales,S. Kingsley,586,0,22,D,0,0
-Swansea City,Wales,A. Mawson,360,0,22,D,0,0
-Swansea City,Wales,K. Naughton,1117,0,28,D,3,0
-Swansea City,Wales,Àngel Rangel,474,0,34,D,1,0
-Swansea City,Wales,N. Taylor,581,0,27,D,1,0
-Swansea City,Wales,M. van der Hoorn,540,1,24,D,1,0
-Swansea City,Wales,L. Britton,512,0,34,M,2,0
-Swansea City,Wales,J. Cork,945,0,27,M,2,0
-Swansea City,Wales,N. Dyer,14,0,29,M,0,0
-Swansea City,Wales,L. Fer,1060,6,26,M,3,0
-Swansea City,Wales,J. Fulton,331,0,22,M,2,0
-Swansea City,Wales,D. James,0,0,19,M,0,0
-Swansea City,Wales,Sung-Yeung Ki,542,0,27,M,0,0
-Swansea City,Wales,J. Montero,240,0,27,M,0,0
-Swansea City,Wales,W. Routledge,895,1,31,M,1,0
-Swansea City,Wales,G. Sigurðsson,1258,5,27,M,1,0
-Swansea City,Wales,M. Barrow,1011,0,24,A,1,0
-Swansea City,Wales,Borja Bastón,374,1,24,A,0,0
-Swansea City,Wales,Llorente,850,5,31,A,0,0
-Swansea City,Wales,O. McBurnie,10,0,20,A,0,0
-Burnley,England,T. Heaton,1170,0,30,G,1,0
-Burnley,England,N. Pope,0,0,24,G,0,0
-Burnley,England,P. Robinson,180,0,37,G,0,0
-Burnley,England,T. Darikwa,0,0,24,D,0,0
-Burnley,England,J. Flanagan,224,0,23,D,1,0
-Burnley,England,M. Keane,1350,1,23,D,1,0
-Burnley,England,K. Long,0,0,26,D,0,0
-Burnley,England,M. Lowton,1260,0,27,D,4,0
-Burnley,England,B. Mee,1350,0,27,D,1,0
-Burnley,England,J. Tarkowski,106,0,24,D,1,0
-Burnley,England,S. Ward,1207,1,31,D,1,0
-Burnley,England,S. Arfield,893,1,28,M,3,0
-Burnley,England,J. Guðmunds­son,828,1,26,M,0,0
-Burnley,England,G. Boyd,1009,1,31,M,1,0
-Burnley,England,S. Defour,693,1,28,M,1,0
-Burnley,England,J. Hendrick,1001,2,24,M,2,0
-Burnley,England,M. Kightly,94,0,30,M,0,0
-Burnley,England,D. Marney,1282,1,32,M,4,0
-Burnley,England,A. O'Neill,82,0,18,M,0,0
-Burnley,England,P. Bamford,31,0,23,A,0,0
-Burnley,England,A. Barnes,213,1,27,A,1,0
-Burnley,England,A. Gray,634,1,25,A,0,0
-Burnley,England,S. Vokes,1145,4,27,A,0,0
-Watford,England,G. Arlauskis,0,0,29,G,0,0
-Watford,England,Gomes,1293,0,35,G,1,0
-Watford,England,R. Gilmartin,0,0,29,G,0,0
-Watford,England,C. Pantilimon,57,0,29,G,0,0
-Watford,England,M. Britos,1075,0,31,D,5,0
-Watford,England,C. Cathcart,406,0,27,D,1,0
-Watford,England,B. Dja Djédjé,0,0,26,D,0,0
-Watford,England,A. Eleftheriou,0,0,0,D,0,0
-Watford,England,J. Holebas,1226,2,32,D,7,0
-Watford,England,D. Janmaat,496,1,27,D,0,0
-Watford,England,C. Kabasele,219,1,25,D,0,0
-Watford,England,Y. Kaboul,715,0,30,D,0,0
-Watford,England,A. Mariappa,0,0,30,D,0,0
-Watford,England,J. Paredes,0,0,29,D,0,0
-Watford,England,S. Prödl,1175,1,29,D,2,0
-Watford,England,C. Zúñiga,506,1,30,D,1,0
-Watford,England,N. Amrabat,1063,0,29,M,3,0
-Watford,England,V. Behrami,1205,0,31,M,5,0
-Watford,England,E. Capoue,1313,5,28,M,1,0
-Watford,England,A. Doucouré,6,0,23,M,0,0
-Watford,England,A. Guédioura,384,0,31,M,2,0
-Watford,England,Kenedy,15,0,20,M,0,0
-Watford,England,B. Watson,51,0,31,M,0,1
-Watford,England,I. Success,187,1,20,A,1,0
-Watford,England,T. Deeney,1338,3,28,A,4,0
-Watford,England,O. Ighalo,885,1,27,A,1,0
-Watford,England,S. Okaka,195,2,27,A,1,0
-Watford,England,R. Pereyra,1009,2,25,A,2,1
-Watford,England,J. Sinclair,0,0,20,A,0,0
-Hull City,England,E. Jakupovic,450,0,32,G,0,0
-Hull City,England,D. Kuciak,0,0,31,G,0,0
-Hull City,England,W. Mannion,0,0,18,G,0,0
-Hull City,England,D. Marshall,990,0,31,G,0,0
-Hull City,England,A. McGregor,0,0,34,G,0,0
-Hull City,England,A. Bruce,0,0,32,D,0,0
-Hull City,England,J. Clackstone,0,0,20,D,0,0
-Hull City,England,C. Davies,1440,0,31,D,2,0
-Hull City,England,M. Dawson,720,2,33,D,1,0
-Hull City,England,B. Lenihan,0,0,22,D,0,0
-Hull City,England,H. Maguire,555,0,24,D,1,0
-Hull City,England,M. Odubajo,0,0,23,D,0,0
-Hull City,England,A. Robertson,963,0,22,D,2,0
-Hull City,England,H. Rodgers,0,0,20,D,0,0
-Hull City,England,J. Tymon,158,0,17,D,0,0
-Hull City,England,S. Clucas,1400,0,26,M,5,0
-Hull City,England,Ahmed El Mohamady,1289,0,29,M,1,1
-Hull City,England,M. Henriksen,528,0,24,M,0,0
-Hull City,England,T. Huddlestone,800,0,29,M,2,0
-Hull City,England,J. Livermore,1346,1,27,M,2,1
-Hull City,England,S. Maloney,148,1,33,M,0,0
-Hull City,England,R. Mason,770,1,25,M,3,0
-Hull City,England,D. Meyler,698,1,27,M,1,0
-Hull City,England,G. Olley,0,0,20,M,0,0
-Hull City,England,R. Snodgrass,1276,5,29,M,2,0
-Hull City,England,J. Weir,0,0,21,M,0,0
-Hull City,England,J. Bowen,56,0,19,A,0,0
-Hull City,England,A. Diomande,824,2,26,A,1,0
-Hull City,England,A. Hernández,672,1,26,A,0,0
-Hull City,England,B. Hinchliffe,0,0,19,A,0,0
-Hull City,England,W. Keane,282,0,23,A,0,0
-Hull City,England,G. Luer,0,0,22,A,0,0
-Hull City,England,D. Mbokani,364,0,31,A,0,0
-Middlesbrough,England,B. Guzan,180,0,32,G,0,0
-Middlesbrough,England,D. Konstantopoulos,0,0,38,G,0,0
-Middlesbrough,England,Tomás,0,0,27,G,0,0
-Middlesbrough,England,Víctor Valdés,1260,0,34,G,1,0
-Middlesbrough,England,Barragán,1419,0,29,D,4,0
-Middlesbrough,England,C. Chambers,900,0,21,D,3,0
-Middlesbrough,England,B. Espinosa,0,0,27,D,0,0
-Middlesbrough,England,G. Friend,900,0,29,D,1,0
-Middlesbrough,England,B. Gibson,1440,1,23,D,1,0
-Middlesbrough,England,J. Husband,0,0,22,D,0,0
-Middlesbrough,England,Fábio,431,0,26,D,1,0
-Middlesbrough,England,Daniel Ayala,388,1,26,D,2,0
-Middlesbrough,England,A. Clayton,1084,0,27,M,4,0
-Middlesbrough,England,C. de Pena,0,0,24,M,0,0
-Middlesbrough,England,M. de Roon,1043,1,25,M,3,0
-Middlesbrough,England,J. De Sart,0,0,21,M,0,0
-Middlesbrough,England,S. Downing,949,1,32,M,1,0
-Middlesbrough,England,A. Forshaw,1329,0,25,M,3,0
-Middlesbrough,England,G. Leadbitter,62,0,30,M,0,0
-Middlesbrough,England,Nsue,322,0,27,M,0,0
-Middlesbrough,England,G. Ramírez,927,2,26,M,5,0
-Middlesbrough,England,Adama Traoré,599,0,20,M,1,0
-Middlesbrough,England,V. Fischer,394,0,22,A,0,0
-Middlesbrough,England,Álvaro Negredo,1234,3,31,A,1,0
-Middlesbrough,England,D. Nugent,39,0,31,A,0,0
-Middlesbrough,England,J. Rhodes,208,0,26,A,0,0
-Middlesbrough,England,C. Stuani,611,3,30,A,3,0
-Sunderland,England,V. Mannone,180,0,28,G,0,0
-Sunderland,England,J. Pickford,1170,0,22,G,0,0
-Sunderland,England,Mika,0,0,25,G,0,0
-Sunderland,England,M. Stryjek,0,0,20,G,0,0
-Sunderland,England,J. Denayer,521,0,21,D,2,0
-Sunderland,England,P. Djilobodji,947,0,28,D,4,0
-Sunderland,England,B. Jones,594,0,29,D,3,0
-Sunderland,England,J. Kirchhoff,378,0,26,D,1,0
-Sunderland,England,L. Koné,1170,0,27,D,1,0
-Sunderland,England,D. Love,195,0,22,D,1,0
-Sunderland,England,Javi Manquillo,640,0,22,D,1,0
-Sunderland,England,J. O'Shea,536,0,35,D,1,0
-Sunderland,England,P. van Aanholt,1154,2,26,D,1,0
-Sunderland,England,J. Asoro,9,0,17,M,0,0
-Sunderland,England,L. Cattermole,176,0,28,M,1,0
-Sunderland,England,L. Gooch,321,0,20,M,3,0
-Sunderland,England,G. Honeyman,0,0,22,M,0,0
-Sunderland,England,A. Januzaj,538,0,21,M,1,0
-Sunderland,England,W. Khazri,425,0,25,M,2,0
-Sunderland,England,S. Larsson,99,0,31,M,1,0
-Sunderland,England,P. McNair,354,0,21,M,0,0
-Sunderland,England,D. Ndong,974,0,22,M,4,0
-Sunderland,England,S. Pienaar,652,0,34,M,5,0
-Sunderland,England,E. Robson,0,0,20,M,0,0
-Sunderland,England,T. Robson,0,0,21,M,0,0
-Sunderland,England,J. Rodwell,639,0,25,M,2,0
-Sunderland,England,D. Watmore,1029,0,22,M,1,0
-Sunderland,England,V. Anichebe,463,3,28,A,1,0
-Sunderland,England,F. Borini,154,0,25,A,0,0
-Sunderland,England,J. Defoe,1343,8,34,A,0,0
-Sunderland,England,R. Greenwood,0,0,20,A,0,0
-Sunderland,England,J. Maja,0,0,17,A,0,0
-Sunderland,England,J. Robson,0,0,18,A,0,0
-Juventus,Italy,E. Audero,0,0,19,G,0,0
-Juventus,Italy,G. Buffon,1306,0,38,G,0,0
-Juventus,Italy,L. Loria,0,0,17,G,0,0
-Juventus,Italy,Neto,224,0,27,G,0,0
-Juventus,Italy,Dani Alves,614,1,33,D,2,0
-Juventus,Italy,A. Barzagli,811,0,35,D,2,0
-Juventus,Italy,L. Bonucci,948,1,29,D,2,0
-Juventus,Italy,G. Chiellini,934,2,32,D,1,0
-Juventus,Italy,P. De Ceglie,0,0,30,D,0,0
-Juventus,Italy,M. Benatia,531,0,29,D,1,0
-Juventus,Italy,P. Evra,247,0,35,D,0,0
-Juventus,Italy,S. Lichtsteiner,787,1,32,D,3,0
-Juventus,Italy,Alex Sandro,1490,1,25,D,4,0
-Juventus,Italy,F. Mattiello,0,0,21,D,0,0
-Juventus,Italy,D. Rugani,538,2,22,D,4,0
-Juventus,Italy,K. Asamoah,390,0,28,M,1,0
-Juventus,Italy,Hernanes,723,1,31,M,3,0
-Juventus,Italy,S. Khedira,1143,3,29,M,0,0
-Juventus,Italy,M. Lemina,638,0,23,M,1,0
-Juventus,Italy,R. Mandragora,0,0,19,M,0,0
-Juventus,Italy,C. Marchisio,365,0,30,M,0,0
-Juventus,Italy,M. Pjanić,978,5,26,M,1,0
-Juventus,Italy,S. Sturaro,409,0,23,M,4,0
-Juventus,Italy,J. Cuadrado,816,0,28,A,2,0
-Juventus,Italy,P. Dybala,637,3,23,A,0,0
-Juventus,Italy,G. Higuaín,1159,10,29,A,0,0
-Juventus,Italy,M. Kean,6,0,16,A,0,0
-Juventus,Italy,M. Mandžukić,1086,4,30,A,3,0
-Juventus,Italy,M. Pjaca,50,0,21,A,0,0
-Roma,Italy,Alisson,0,0,24,G,0,0
-Roma,Italy,L. Crisanto,0,0,18,G,0,0
-Roma,Italy,S. Greco,0,0,17,G,0,0
-Roma,Italy,B. Lobonț,0,0,38,G,0,0
-Roma,Italy,A. Romagnoli,0,0,18,G,0,0
-Roma,Italy,W. Szczęsny,1530,0,26,G,0,0
-Roma,Italy,N. Abdullahi,0,0,19,D,0,0
-Roma,Italy,Bruno Peres,1061,0,26,D,2,0
-Roma,Italy,E. De Santis,0,0,19,D,0,0
-Roma,Italy,F. Fazio,1296,0,29,D,0,0
-Roma,Italy,K. Manolas,1317,1,25,D,3,0
-Roma,Italy,R. Marchizza,0,0,18,D,0,0
-Roma,Italy,Juan Jesus,441,0,25,D,4,0
-Roma,Italy,Emerson,698,0,22,D,1,0
-Roma,Italy,A. Rüdiger,586,0,23,D,4,0
-Roma,Italy,M. Seck,0,0,20,D,0,0
-Roma,Italy,Mário Rui,0,0,25,D,0,0
-Roma,Italy,T. Vermaelen,180,0,31,D,0,0
-Roma,Italy,D. De Rossi,1217,0,33,M,4,0
-Roma,Italy,A. Florenzi,749,0,25,M,3,0
-Roma,Italy,D. Frattesi,0,0,17,M,0,0
-Roma,Italy,L. Grossi,0,0,18,M,0,0
-Roma,Italy,R. Nainggolan,1259,3,28,M,2,0
-Roma,Italy,L. Paredes,552,1,22,M,2,0
-Roma,Italy,D. Perotti,1001,5,28,M,0,0
-Roma,Italy,Mohamed Salah,1202,8,24,M,2,0
-Roma,Italy,Gerson,131,0,19,M,1,0
-Roma,Italy,E. Spinozzi,0,0,18,M,0,0
-Roma,Italy,K. Strootman,1249,2,26,M,2,0
-Roma,Italy,E. Džeko,1428,12,30,A,3,0
-Roma,Italy,S. El Shaarawy,673,2,24,A,0,0
-Roma,Italy,F. Franchi,0,0,18,A,0,0
-Roma,Italy,J. Iturbe,37,0,23,A,0,0
-Roma,Italy,E. Soleri,0,0,19,A,0,0
-Roma,Italy,F. Totti,223,2,40,A,1,0
-Napoli,Italy,Rafael,0,0,26,G,0,0
-Napoli,Italy,Pepe Reina,1530,0,34,G,0,0
-Napoli,Italy,L. Sepe,0,0,25,G,0,0
-Napoli,Italy,Albiol,767,0,31,D,4,0
-Napoli,Italy,V. Chiricheș,631,2,27,D,0,0
-Napoli,Italy,F. Ghoulam,1193,0,25,D,0,0
-Napoli,Italy,E. Hysaj,1243,0,22,D,3,0
-Napoli,Italy,K. Koulibaly,1392,1,25,D,4,0
-Napoli,Italy,C. Maggio,287,0,34,D,0,0
-Napoli,Italy,N. Maksimović,270,1,25,D,0,0
-Napoli,Italy,I. Strinić,337,0,29,D,1,0
-Napoli,Italy,L. Tonelli,0,0,26,D,0,0
-Napoli,Italy,I. Łasicki,0,0,21,D,0,0
-Napoli,Italy,A. Diawara,501,0,19,M,0,0
-Napoli,Italy,O. El Kaddouri,39,0,26,M,0,0
-Napoli,Italy,Jorginho,884,0,24,M,2,0
-Napoli,Italy,E. Giaccherini,125,0,31,M,0,0
-Napoli,Italy,M. Hamšík,1362,5,29,M,1,0
-Napoli,Italy,Allan,817,0,25,M,2,0
-Napoli,Italy,M. Rog,34,0,21,M,0,0
-Napoli,Italy,P. Zieliński,876,2,22,M,2,0
-Napoli,Italy,José Callejón,1437,7,29,A,0,0
-Napoli,Italy,M. Gabbiadini,491,1,25,A,0,1
-Napoli,Italy,L. Insigne,1129,4,25,A,1,0
-Napoli,Italy,R. Insigne,0,0,22,A,0,0
-Napoli,Italy,D. Mertens,915,10,29,A,5,0
-Napoli,Italy,A. Milik,421,4,22,A,1,0
-Atalanta,Italy,D. Bassi,0,0,31,G,0,0
-Atalanta,Italy,E. Berisha,900,0,27,G,0,0
-Atalanta,Italy,S. Mazzini,0,0,17,G,0,0
-Atalanta,Italy,M. Sportiello,360,0,24,G,0,0
-Atalanta,Italy,A. Bastoni,0,0,17,D,0,0
-Atalanta,Italy,M. Caldara,676,3,22,D,1,0
-Atalanta,Italy,A. Conti,833,1,22,D,5,0
-Atalanta,Italy,B. Dramé,595,0,31,D,1,0
-Atalanta,Italy,A. Konko,568,0,32,D,2,0
-Atalanta,Italy,A. Masiello,1010,3,30,D,2,0
-Atalanta,Italy,G. Stendardo,44,0,35,D,0,0
-Atalanta,Italy,E. Suagher,0,0,24,D,0,0
-Atalanta,Italy,Rafael Tolói,765,0,26,D,5,0
-Atalanta,Italy,E. Zukanović,853,0,29,D,0,0
-Atalanta,Italy,B. Cabezas,0,0,19,M,0,0
-Atalanta,Italy,C. Capone,0,0,17,M,0,0
-Atalanta,Italy,C. Carmona,101,0,29,M,2,0
-Atalanta,Italy,M. D'Alessandro,458,0,25,M,0,0
-Atalanta,Italy,R. Freuler,694,0,24,M,0,0
-Atalanta,Italy,R. Gagliardini,505,0,22,M,5,0
-Atalanta,Italy,A. Gómez,1170,3,28,M,1,0
-Atalanta,Italy,A. Grassi,112,0,21,M,0,0
-Atalanta,Italy,F. Kessié,1045,5,19,M,3,1
-Atalanta,Italy,J. Kurtič,1039,4,27,M,1,0
-Atalanta,Italy,G. Migliaccio,0,0,35,M,0,0
-Atalanta,Italy,C. Raimondi,234,0,35,M,2,0
-Atalanta,Italy,L. Spinazzola,587,0,23,M,0,0
-Atalanta,Italy,E. Latte Lath,0,0,17,A,0,0
-Atalanta,Italy,A. Paloschi,369,0,26,A,0,0
-Atalanta,Italy,A. Pešić,17,0,24,A,0,0
-Atalanta,Italy,A. Petagna,692,3,21,A,0,0
-Atalanta,Italy,M. Pinilla,157,1,32,A,2,0
-Lazio,Italy,L. Borrelli,0,0,18,G,0,0
-Lazio,Italy,F. Marchetti,810,0,33,G,0,0
-Lazio,Italy,T. Strakosha,360,0,21,G,0,0
-Lazio,Italy,I. Vargić,0,0,29,G,0,0
-Lazio,Italy,D. Basta,685,0,32,D,1,0
-Lazio,Italy,Vinícius Freitas,0,0,23,D,0,0
-Lazio,Italy,S. de Vrij,681,1,24,D,1,0
-Lazio,Italy,Wallace,581,1,22,D,2,0
-Lazio,Italy,Patric,416,0,23,D,2,0
-Lazio,Italy,W. Hoedt,540,1,22,D,0,0
-Lazio,Italy,J. Lukaku,267,0,22,D,1,0
-Lazio,Italy,F. Prce,1,0,20,D,0,0
-Lazio,Italy,Bastos,316,0,25,D,2,0
-Lazio,Italy,Ş. Radu,879,1,30,D,6,0
-Lazio,Italy,Felipe Anderson,1010,2,23,M,4,0
-Lazio,Italy,L. Biglia,483,1,30,M,0,0
-Lazio,Italy,D. Cataldi,489,1,22,M,3,0
-Lazio,Italy,M. Leitner,13,0,23,M,0,0
-Lazio,Italy,S. Lulić,1000,2,30,M,1,0
-Lazio,Italy,S. Milinković-Savić,811,1,21,M,1,0
-Lazio,Italy,J. Minala,0,0,20,M,0,0
-Lazio,Italy,R. Morrison,0,0,23,M,0,0
-Lazio,Italy,A. Murgia,58,1,20,M,0,0
-Lazio,Italy,M. Parolo,1144,0,31,M,3,0
-Lazio,Italy,Luis Alberto,27,0,24,M,0,0
-Lazio,Italy,B. Keita,724,4,21,A,1,0
-Lazio,Italy,C. Immobile,1133,9,26,A,2,0
-Lazio,Italy,R. Kishna,117,0,21,A,0,0
-Lazio,Italy,C. Lombardi,109,1,21,A,0,0
-Lazio,Italy,M. Tounkara,0,0,20,A,0,0
-Lazio,Italy,F. Đorđević,216,0,29,A,0,0
-Milan,Italy,G. Donnarumma,1530,0,17,G,2,0
-Milan,Italy,A. Guarnone,0,0,17,G,0,0
-Milan,Italy,A. Plizzari,0,0,16,G,0,0
-Milan,Italy,Gabriel,0,0,24,G,0,0
-Milan,Italy,I. Abate,1250,0,30,D,1,0
-Milan,Italy,L. Antonelli,225,0,29,D,1,0
-Milan,Italy,D. Calabria,280,0,20,D,2,0
-Milan,Italy,M. De Sciglio,1226,0,24,D,2,0
-Milan,Italy,R. Ely,0,0,23,D,0,0
-Milan,Italy,G. Gómez,494,0,23,D,1,0
-Milan,Italy,G. Paletta,1226,1,30,D,3,1
-Milan,Italy,A. Romagnoli,1350,0,21,D,2,0
-Milan,Italy,L. Vangioni,0,0,29,D,0,0
-Milan,Italy,C. Zapata,0,0,30,D,0,0
-Milan,Italy,A. Bertolacci,161,0,25,M,1,0
-Milan,Italy,G. Bonaventura,1309,2,27,M,3,0
-Milan,Italy,M. Fernández,80,0,30,M,0,0
-Milan,Italy,K. Honda,96,0,30,M,0,0
-Milan,Italy,J. Kucka,1060,1,29,M,5,0
-Milan,Italy,M. Locatelli,909,2,18,M,4,0
-Milan,Italy,R. Montolivo,600,0,31,M,2,0
-Milan,Italy,M. Pašalić,435,1,21,M,2,0
-Milan,Italy,A. Poli,249,0,27,M,1,0
-Milan,Italy,J. Sosa,307,0,31,M,1,0
-Milan,Italy,C. Bacca,933,6,30,A,1,0
-Milan,Italy,P. Cutrone,0,0,18,A,0,0
-Milan,Italy,Luiz Adriano,121,0,29,A,0,0
-Milan,Italy,Suso,1425,5,23,A,1,0
-Milan,Italy,G. Lapadula,490,4,26,A,2,0
-Milan,Italy,M. Niang,1022,3,22,A,1,0
-Internazionale,Italy,T. Berni,0,0,33,G,0,0
-Internazionale,Italy,J. Carrizo,0,0,32,G,0,0
-Internazionale,Italy,S. Handanovič,1170,0,32,G,1,0
-Internazionale,Italy,I. Radu,0,0,19,G,0,0
-Internazionale,Italy,M. Andreolli,0,0,30,D,0,0
-Internazionale,Italy,C. Ansaldi,416,0,30,D,3,0
-Internazionale,Italy,D. D'Ambrosio,630,0,28,D,1,0
-Internazionale,Italy,S. Miangue,123,0,19,D,0,0
-Internazionale,Italy,João Miranda,1170,0,32,D,2,0
-Internazionale,Italy,J. Murillo,933,0,24,D,2,0
-Internazionale,Italy,Y. Nagatomo,294,0,30,D,0,0
-Internazionale,Italy,A. Ranocchia,200,0,28,D,1,0
-Internazionale,Italy,D. Santon,867,0,25,D,1,0
-Internazionale,Italy,E. Yao,0,0,20,D,0,0
-Internazionale,Italy,É. Banega,799,1,28,M,1,0
-Internazionale,Italy,M. Brozović,427,0,24,M,1,0
-Internazionale,Italy,A. Gnoukouri,138,0,20,M,0,0
-Internazionale,Italy,G. Kondogbia,400,0,23,M,2,0
-Internazionale,Italy,G. Medel,812,0,29,M,3,0
-Internazionale,Italy,Felipe Melo,20,0,33,M,0,0
-Internazionale,Italy,João Mário,870,1,23,M,4,0
-Internazionale,Italy,L. Zonta,0,0,19,M,0,0
-Internazionale,Italy,Gabriel,16,0,20,A,0,0
-Internazionale,Italy,J. Biabiany,0,0,28,A,0,0
-Internazionale,Italy,A. Candreva,893,1,29,A,0,0
-Internazionale,Italy,E. Martins,557,1,30,A,1,0
-Internazionale,Italy,M. Icardi,1170,10,23,A,0,0
-Internazionale,Italy,S. Jovetić,67,0,27,A,1,0
-Internazionale,Italy,R. Palacio,60,0,34,A,0,0
-Internazionale,Italy,I. Perišić,838,4,27,A,1,0
-Fiorentina,Italy,B. Drągowski,0,0,19,G,0,0
-Fiorentina,Italy,L. Lezzerini,50,0,21,G,0,0
-Fiorentina,Italy,G. Satalino,0,0,17,G,0,0
-Fiorentina,Italy,C. Tătărușanu,1480,0,30,G,0,0
-Fiorentina,Italy,D. Astori,1350,1,29,D,4,0
-Fiorentina,Italy,S. De Maio,180,0,29,D,1,0
-Fiorentina,Italy,K. Diks,2,0,20,D,0,0
-Fiorentina,Italy,M. Olivera,399,0,24,D,1,0
-Fiorentina,Italy,G. Rodríguez,1094,0,32,D,2,1
-Fiorentina,Italy,C. Salcedo,892,0,23,D,5,0
-Fiorentina,Italy,N. Tomović,908,0,29,D,7,0
-Fiorentina,Italy,M. Badelj,1190,1,27,M,5,0
-Fiorentina,Italy,F. Chiesa,225,0,19,M,0,0
-Fiorentina,Italy,S. Cristóforo,93,0,23,M,0,0
-Fiorentina,Italy,I. Hagi,14,0,18,M,0,0
-Fiorentina,Italy,J. Iličić,1092,3,28,M,0,0
-Fiorentina,Italy,F. Maistro,0,0,18,M,0,0
-Fiorentina,Italy,H. Milić,875,0,27,M,3,0
-Fiorentina,Italy,C. Sánchez,748,1,30,M,3,0
-Fiorentina,Italy,Borja Valero,1036,0,31,M,2,0
-Fiorentina,Italy,M. Vecino,747,0,25,M,2,0
-Fiorentina,Italy,F. Bernardeschi,1286,7,22,A,2,0
-Fiorentina,Italy,K. Babacar,391,3,23,A,0,0
-Fiorentina,Italy,N. Kalinić,1364,8,28,A,3,0
-Fiorentina,Italy,J. Perez,15,0,18,A,0,0
-Fiorentina,Italy,Cristian Tello,975,0,25,A,1,0
-Fiorentina,Italy,H. Toledo,0,0,20,A,0,0
-Fiorentina,Italy,M. Zárate,189,1,29,A,0,0
-Torino,Italy,D. Coppola,0,0,17,G,0,0
-Torino,Italy,T. Cucchietti,0,0,18,G,0,0
-Torino,Italy,J. Hart,1350,0,29,G,2,0
-Torino,Italy,D. Padelli,180,0,31,G,0,0
-Torino,Italy,Arlind Ajeti,0,0,23,D,0,0
-Torino,Italy,S. Auriletto,0,0,17,D,0,0
-Torino,Italy,Danilo Avelar,0,0,27,D,0,0
-Torino,Italy,A. Barreca,1138,0,21,D,2,0
-Torino,Italy,C. Bovo,360,0,33,D,2,0
-Torino,Italy,Leandro Castán,1080,0,30,D,3,0
-Torino,Italy,L. De Silvestri,559,0,28,D,0,0
-Torino,Italy,C. Molinaro,302,0,33,D,1,0
-Torino,Italy,E. Moretti,540,0,35,D,2,0
-Torino,Italy,L. Rossettini,1170,1,31,D,3,0
-Torino,Italy,D. Zappacosta,1052,0,24,D,0,0
-Torino,Italy,A. Acquah,431,0,24,M,2,0
-Torino,Italy,M. Aramu,46,0,21,M,0,0
-Torino,Italy,D. Baselli,999,4,24,M,3,0
-Torino,Italy,M. Benassi,1149,4,22,M,2,0
-Torino,Italy,J. Obi,405,0,25,M,1,0
-Torino,Italy,Samuel Gustafson,0,0,21,M,0,0
-Torino,Italy,S. Lukić,93,0,20,M,1,0
-Torino,Italy,M. Valdifiori,1135,0,30,M,3,0
-Torino,Italy,G. Vives,226,0,36,M,0,1
-Torino,Italy,A. Belotti,1271,12,22,A,2,0
-Torino,Italy,L. Boyé,574,0,20,A,3,0
-Torino,Italy,M. De Luca,0,0,18,A,0,0
-Torino,Italy,Iago Falqué,1021,8,26,A,0,0
-Torino,Italy,A. Ljajić,930,5,25,A,2,0
-Torino,Italy,M. López,249,0,32,A,1,0
-Torino,Italy,J. Martínez,513,1,23,A,3,0
-Sampdoria,Italy,T. Krapikas,0,0,17,G,0,0
-Sampdoria,Italy,C. Puggioni,810,0,35,G,2,0
-Sampdoria,Italy,A. Tozzo,0,0,24,G,0,0
-Sampdoria,Italy,E. Viviano,720,0,31,G,3,0
-Sampdoria,Italy,Pedro Pereira,515,0,18,D,3,0
-Sampdoria,Italy,S. Amuzie,0,0,20,D,0,0
-Sampdoria,Italy,L. Krajnc,0,0,22,D,0,0
-Sampdoria,Italy,D. Pavlovic,226,0,28,D,2,0
-Sampdoria,Italy,Dodô,34,0,24,D,0,0
-Sampdoria,Italy,V. Regini,1530,0,26,D,2,0
-Sampdoria,Italy,J. Sala,1000,0,25,D,3,0
-Sampdoria,Italy,M. Silvestre,1440,0,32,D,2,0
-Sampdoria,Italy,M. Škriniar,1270,0,21,D,2,0
-Sampdoria,Italy,R. Álvarez,669,0,28,M,2,1
-Sampdoria,Italy,É. Barreto,1319,2,32,M,3,1
-Sampdoria,Italy,Bruno Fernandes,616,3,22,M,1,0
-Sampdoria,Italy,C. Carbonero,0,0,26,M,0,0
-Sampdoria,Italy,L. Cigarini,216,0,30,M,2,0
-Sampdoria,Italy,M. Eramo,4,0,27,M,0,0
-Sampdoria,Italy,K. Linetty,1162,0,21,M,3,0
-Sampdoria,Italy,A. Palombo,104,0,35,M,0,0
-Sampdoria,Italy,D. Praet,698,0,22,M,1,0
-Sampdoria,Italy,L. Torreira,1300,0,20,M,1,0
-Sampdoria,Italy,F. Đuričić,46,0,24,M,0,0
-Sampdoria,Italy,A. Budimir,244,0,25,A,0,0
-Sampdoria,Italy,A. Cassano,0,0,34,A,0,0
-Sampdoria,Italy,L. Muriel,1291,6,25,A,2,0
-Sampdoria,Italy,F. Quagliarella,1318,4,33,A,0,0
-Sampdoria,Italy,P. Schick,277,4,20,A,1,0
-Sampdoria,Italy,G. Vrioni,0,0,18,A,0,0
-Cagliari,Italy,R. Colombo,0,0,41,G,0,0
-Cagliari,Italy,L. Crosta,0,0,18,G,0,0
-Cagliari,Italy,Rafael,272,0,34,G,0,0
-Cagliari,Italy,M. Storari,1257,0,39,G,1,1
-Cagliari,Italy,Vasco Oliveira,0,0,16,D,0,0
-Cagliari,Italy,L. Bittante,309,0,23,D,3,0
-Cagliari,Italy,I. Briukhov,0,0,18,D,0,0
-Cagliari,Italy,M. Capuano,147,1,25,D,0,0
-Cagliari,Italy,L. Ceppitelli,1260,0,27,D,3,0
-Cagliari,Italy,A. Mastino,0,0,17,D,0,0
-Cagliari,Italy,N. Murru,855,0,22,D,2,0
-Cagliari,Italy,F. Pisacane,979,0,30,D,2,0
-Cagliari,Italy,Bruno Alves,1530,1,35,D,2,0
-Cagliari,Italy,B. Salamon,363,0,25,D,1,0
-Cagliari,Italy,M. Volteggi,0,0,18,D,0,0
-Cagliari,Italy,M. Antonini,0,0,18,M,0,0
-Cagliari,Italy,N. Barella,808,0,19,M,4,0
-Cagliari,Italy,R. Biancu,0,0,16,M,0,0
-Cagliari,Italy,D. Dessena,421,2,29,M,4,1
-Cagliari,Italy,D. Di Gennaro,877,2,28,M,3,0
-Cagliari,Italy,João Pedro,213,1,24,M,0,0
-Cagliari,Italy,A. Ioniţă,270,0,26,M,2,0
-Cagliari,Italy,M. Isla,1255,0,28,M,5,0
-Cagliari,Italy,G. Munari,341,0,33,M,5,0
-Cagliari,Italy,S. Padoin,1343,1,32,M,4,0
-Cagliari,Italy,N. Pennington,0,0,18,M,0,0
-Cagliari,Italy,F. Serra,0,0,19,M,0,0
-Cagliari,Italy,P. Tachtsidis,813,0,25,M,3,0
-Cagliari,Italy,D. Arras,0,0,18,A,0,0
-Cagliari,Italy,M. Borriello,1181,6,34,A,2,0
-Cagliari,Italy,Diego Farias,400,1,26,A,2,0
-Cagliari,Italy,N. Giannetti,221,0,25,A,0,0
-Cagliari,Italy,F. Melchiorri,461,3,29,A,1,0
-Cagliari,Italy,M. Sau,1111,3,29,A,3,0
-Sassuolo,Italy,A. Consigli,1530,0,29,G,1,0
-Sassuolo,Italy,G. Pegolo,0,0,35,G,0,0
-Sassuolo,Italy,A. Pomini,0,0,35,G,0,0
-Sassuolo,Italy,F. Acerbi,1530,2,28,D,2,0
-Sassuolo,Italy,C. Adjapong,170,0,18,D,1,0
-Sassuolo,Italy,L. Antei,770,1,24,D,3,0
-Sassuolo,Italy,P. Cannavaro,586,1,35,D,0,0
-Sassuolo,Italy,C. Dell'Orco,146,0,22,D,0,0
-Sassuolo,Italy,M. Erlić,0,0,18,D,0,0
-Sassuolo,Italy,M. Gazzola,764,0,31,D,2,0
-Sassuolo,Italy,T. Letschert,180,0,23,D,0,0
-Sassuolo,Italy,Pol Lirola,707,0,19,D,1,0
-Sassuolo,Italy,F. Peluso,1350,0,32,D,5,0
-Sassuolo,Italy,E. Terranova,171,0,29,D,0,0
-Sassuolo,Italy,D. Biondini,681,0,33,M,5,0
-Sassuolo,Italy,A. Duncan,348,0,23,M,0,0
-Sassuolo,Italy,S. Franchini,0,0,18,M,0,0
-Sassuolo,Italy,F. Magnanelli,1013,0,32,M,2,0
-Sassuolo,Italy,M. Marin,0,0,18,M,0,0
-Sassuolo,Italy,L. Mazzitelli,588,0,21,M,4,0
-Sassuolo,Italy,S. Missiroli,271,0,30,M,2,0
-Sassuolo,Italy,L. Pellegrini,978,2,20,M,3,0
-Sassuolo,Italy,S. Sensi,420,1,21,M,0,0
-Sassuolo,Italy,D. Berardi,174,2,22,A,0,0
-Sassuolo,Italy,S. Caputo,0,0,18,A,0,0
-Sassuolo,Italy,G. Defrel,1278,6,25,A,0,0
-Sassuolo,Italy,P. Iemmello,288,1,24,A,1,0
-Sassuolo,Italy,A. Matri,453,1,32,A,0,0
-Sassuolo,Italy,N. Pierini,0,0,18,A,0,0
-Sassuolo,Italy,M. Politano,983,2,23,A,1,0
-Sassuolo,Italy,A. Ragusa,666,2,26,A,2,0
-Sassuolo,Italy,F. Ricci,770,2,22,A,3,0
-Udinese,Italy,O. Karnezis,1530,0,31,G,3,0
-Udinese,Italy,S. Perisan,0,0,19,G,0,0
-Udinese,Italy,S. Scuffet,0,0,20,G,0,0
-Udinese,Italy,Ali Adnan,524,0,23,D,0,0
-Udinese,Italy,G. Angella,219,0,27,D,0,0
-Udinese,Italy,P. Armero,180,0,30,D,1,0
-Udinese,Italy,Samir,575,0,22,D,1,0
-Udinese,Italy,Felipe,1350,1,32,D,6,0
-Udinese,Italy,T. Heurtaux,348,0,28,D,3,0
-Udinese,Italy,Danilo,1440,2,32,D,5,0
-Udinese,Italy,M. Wagué,540,0,25,D,2,0
-Udinese,Italy,E. Agyemang-Badu,907,0,26,M,1,0
-Udinese,Italy,A. Balić,0,0,19,M,0,0
-Udinese,Italy,R. de Paul,918,0,22,M,2,0
-Udinese,Italy,Lucas Evangelista,94,0,21,M,0,0
-Udinese,Italy,D. Faraoni,28,0,25,M,1,0
-Udinese,Italy,S. Fofana,1069,4,21,M,0,0
-Udinese,Italy,E. Hallfreðsson,663,0,32,M,2,0
-Udinese,Italy,J. Jankto,479,1,20,M,0,0
-Udinese,Italy,P. Kone,300,0,29,M,1,0
-Udinese,Italy,S. Kums,1259,0,28,M,0,0
-Udinese,Italy,F. Lodi,11,0,32,M,0,0
-Udinese,Italy,S. Widmer,1052,0,23,M,1,0
-Udinese,Italy,P. Armenakas,0,0,18,A,0,0
-Udinese,Italy,Ewandro,15,0,20,A,0,0
-Udinese,Italy,Ryder Matos,222,0,23,A,0,0
-Udinese,Italy,A. Peñaranda,156,0,19,A,0,0
-Udinese,Italy,S. Perica,473,3,21,A,4,0
-Udinese,Italy,C. Théréau,1111,8,33,A,1,0
-Udinese,Italy,D. Zapata,1367,5,25,A,2,0
-Chievo,Italy,W. Bressan,0,0,35,G,0,0
-Chievo,Italy,A. Confente,0,0,18,G,0,0
-Chievo,Italy,A. Seculin,0,0,26,G,0,0
-Chievo,Italy,S. Sorrentino,1530,0,37,G,1,0
-Chievo,Italy,F. Cacciatore,1232,1,30,D,4,1
-Chievo,Italy,B. Cesar,370,0,34,D,4,0
-Chievo,Italy,F. Costa,0,0,21,D,0,0
-Chievo,Italy,D. Dainelli,1260,0,37,D,6,0
-Chievo,Italy,N. Frey,450,0,32,D,1,0
-Chievo,Italy,A. Gamberini,846,1,35,D,0,0
-Chievo,Italy,M. Gobbi,1350,1,36,D,3,0
-Chievo,Italy,G. Sardo,0,0,37,D,0,0
-Chievo,Italy,N. Spolli,584,0,33,D,4,0
-Chievo,Italy,S. Bastien,0,0,20,M,0,0
-Chievo,Italy,V. Birsa,1266,4,30,M,1,0
-Chievo,Italy,J. de Guzmán,566,0,29,M,2,0
-Chievo,Italy,F. Depaoli,0,0,19,M,0,0
-Chievo,Italy,P. Hetemaj,1007,0,30,M,4,0
-Chievo,Italy,M. Izco,413,0,33,M,0,0
-Chievo,Italy,S. Kiyine,0,0,19,M,0,0
-Chievo,Italy,L. Castro,1338,2,27,M,2,0
-Chievo,Italy,V. Parigini,22,0,20,M,0,0
-Chievo,Italy,I. Radovanović,1315,0,28,M,4,0
-Chievo,Italy,N. Rigoni,336,1,26,M,1,0
-Chievo,Italy,Emanuel Vignato,0,0,16,M,0,0
-Chievo,Italy,A. Floro Flores,509,0,33,A,0,0
-Chievo,Italy,R. Inglese,792,2,25,A,0,0
-Chievo,Italy,L. Jallow,14,0,22,A,0,0
-Chievo,Italy,R. Meggiorini,976,2,31,A,4,0
-Chievo,Italy,S. Pellissier,643,3,37,A,0,0
-Bologna,Italy,Angelo Da Costa,990,0,33,G,1,0
-Bologna,Italy,A. Gomis,0,0,23,G,0,0
-Bologna,Italy,M. Sarr,0,0,19,G,0,0
-Bologna,Italy,A. Mirante,540,0,33,G,0,0
-Bologna,Italy,F. Ravaglia,0,0,17,G,0,0
-Bologna,Italy,A. Ferrari,90,0,22,D,0,0
-Bologna,Italy,D. Gastaldello,1036,0,33,D,6,2
-Bologna,Italy,F. Helander,372,1,23,D,1,0
-Bologna,Italy,E. Krafth,703,0,22,D,1,1
-Bologna,Italy,I. M'baye,218,0,22,D,1,0
-Bologna,Italy,D. Maietta,973,0,34,D,1,0
-Bologna,Italy,A. Masina,1285,1,22,D,3,0
-Bologna,Italy,A. Morleo,24,0,33,D,0,0
-Bologna,Italy,M. Oikonomou,472,0,24,D,0,0
-Bologna,Italy,V. Torosidis,887,0,31,D,1,0
-Bologna,Italy,G. Donsah,115,0,20,M,0,0
-Bologna,Italy,B. Džemaili,1307,2,30,M,4,1
-Bologna,Italy,Á. Nagy,1040,0,21,M,2,0
-Bologna,Italy,E. Pulgar,537,1,22,M,4,0
-Bologna,Italy,L. Rizzo,345,0,24,M,0,0
-Bologna,Italy,S. Taïder,1147,1,24,M,1,0
-Bologna,Italy,F. Viviani,420,1,24,M,1,0
-Bologna,Italy,R. Acquafresca,0,0,29,A,0,0
-Bologna,Italy,M. Destro,1004,4,25,A,0,0
-Bologna,Italy,F. Di Francesco,311,1,22,A,1,1
-Bologna,Italy,S. Floccari,241,0,35,A,0,0
-Bologna,Italy,L. Krejčí,1270,1,24,A,0,0
-Bologna,Italy,A. Mounier,291,0,29,A,0,0
-Bologna,Italy,O. Okwonkwo,33,0,18,A,0,0
-Bologna,Italy,A. Tabacchi,0,0,18,A,0,0
-Bologna,Italy,S. Umar,172,0,19,A,2,0
-Bologna,Italy,S. Verdi,866,4,24,A,2,0
-Genoa,Italy,D. Faccioli,0,0,18,G,0,0
-Genoa,Italy,E. Lamanna,180,0,27,G,0,0
-Genoa,Italy,M. Perin,1350,0,24,G,1,1
-Genoa,Italy,L. Zima,0,0,22,G,0,0
-Genoa,Italy,D. Biraschi,1,0,22,D,1,0
-Genoa,Italy,D. Brivio,0,0,28,D,0,0
-Genoa,Italy,N. Burdisso,1530,0,35,D,1,0
-Genoa,Italy,I. Cissokho,0,0,31,D,0,0
-Genoa,Italy,R. Fiamozzi,104,0,23,D,0,0
-Genoa,Italy,S. Gentiletti,345,0,31,D,1,0
-Genoa,Italy,A. Izzo,1440,0,24,D,3,0
-Genoa,Italy,E. Muñoz,774,0,26,D,2,0
-Genoa,Italy,L. Orbán,521,0,27,D,3,1
-Genoa,Italy,Edenilson,550,0,27,M,3,0
-Genoa,Italy,I. Cofie,314,0,25,M,1,0
-Genoa,Italy,D. Laxalt,1398,1,23,M,3,0
-Genoa,Italy,D. Lazović,1024,1,26,M,3,0
-Genoa,Italy,N. Ninković,422,2,22,M,2,0
-Genoa,Italy,O. Ntcham,371,1,20,M,2,0
-Genoa,Italy,Miguel Veloso,1123,0,30,M,7,1
-Genoa,Italy,L. Rigoni,1265,2,32,M,5,0
-Genoa,Italy,T. Rincón,1306,0,28,M,4,0
-Genoa,Italy,L. Zanimacchia,0,0,18,M,0,0
-Genoa,Italy,Asencio,0,0,18,A,0,0
-Genoa,Italy,S. Gakpé,267,1,29,A,1,0
-Genoa,Italy,L. Ocampos,565,2,22,A,1,0
-Genoa,Italy,G. Pandev,295,0,33,A,0,1
-Genoa,Italy,L. Pavoletti,581,3,28,A,2,0
-Genoa,Italy,G. Simeone,1004,6,21,A,2,0
-Crotone,Italy,V. Cojocaru,0,0,21,G,0,0
-Crotone,Italy,A. Cordaz,1436,0,33,G,0,1
-Crotone,Italy,M. Festa,93,0,24,G,0,0
-Crotone,Italy,A. Viscovo,0,0,17,G,0,0
-Crotone,Italy,F. Ceccherini,1350,0,24,D,2,0
-Crotone,Italy,G. Cuomo,0,0,18,D,0,0
-Crotone,Italy,N. Dussenne,249,0,24,D,2,0
-Crotone,Italy,G. Ferrari,1530,1,24,D,4,0
-Crotone,Italy,Claiton,547,0,32,D,1,0
-Crotone,Italy,D. Mesbah,443,0,32,D,1,0
-Crotone,Italy,A. Rosi,991,1,29,D,5,0
-Crotone,Italy,M. Sampirisi,419,1,24,D,0,0
-Crotone,Italy,A. Barberis,640,0,23,M,1,0
-Crotone,Italy,G. Borello,0,0,17,M,0,0
-Crotone,Italy,L. Capezzi,975,0,21,M,4,0
-Crotone,Italy,L. Crisetig,868,0,23,M,6,0
-Crotone,Italy,N. Fazzi,6,0,21,M,0,0
-Crotone,Italy,E. Gnahoré,0,0,23,M,0,0
-Crotone,Italy,B. Martella,972,0,24,M,0,0
-Crotone,Italy,M. Nicoletti,0,0,18,M,0,0
-Crotone,Italy,M. Rohdén,1222,0,25,M,3,0
-Crotone,Italy,A. Salzano,500,0,25,M,0,0
-Crotone,Italy,C. Suljic,0,0,20,M,0,0
-Crotone,Italy,P. De Giorgio,9,0,33,A,0,0
-Crotone,Italy,D. Falcinelli,1339,5,25,A,1,0
-Crotone,Italy,A. Nalini,145,0,26,A,1,0
-Crotone,Italy,R. Palladino,1229,2,32,A,4,0
-Crotone,Italy,A. Stoian,423,1,25,A,2,0
-Crotone,Italy,S. Nwankwo,317,1,24,A,0,0
-Crotone,Italy,A. Tonev,336,0,26,A,1,0
-Crotone,Italy,M. Trotta,761,2,24,A,2,0
-Empoli,Italy,A. Pelagotti,180,0,27,G,1,0
-Empoli,Italy,M. Pugliesi,0,0,39,G,0,0
-Empoli,Italy,Ł. Skorupski,1080,0,25,G,0,0
-Empoli,Italy,F. Barba,259,0,23,D,1,0
-Empoli,Italy,G. Bellusci,1080,1,27,D,7,0
-Empoli,Italy,U. Ćosić,342,0,24,D,0,0
-Empoli,Italy,A. Costa,854,1,30,D,0,0
-Empoli,Italy,F. Dimarco,249,0,19,D,0,0
-Empoli,Italy,V. Laurini,367,0,27,D,0,1
-Empoli,Italy,M. Pasqual,990,0,34,D,3,0
-Empoli,Italy,F. Veseli,563,0,24,D,1,0
-Empoli,Italy,M. Zambelli,334,0,31,D,1,0
-Empoli,Italy,M. Büchel,339,0,25,M,1,0
-Empoli,Italy,D. Croce,982,0,34,M,1,0
-Empoli,Italy,A. El Hadji,667,0,19,M,3,0
-Empoli,Italy,R. Krunić,654,0,23,M,3,0
-Empoli,Italy,R. Maiello,60,0,25,M,0,0
-Empoli,Italy,J. Mauri,509,0,20,M,2,0
-Empoli,Italy,Matheus Pereira,5,0,18,M,0,0
-Empoli,Italy,R. Saponara,1108,2,24,M,3,0
-Empoli,Italy,A. Tello,558,0,20,M,4,0
-Empoli,Italy,A. Gilardino,500,0,34,A,1,0
-Empoli,Italy,M. Maccarone,699,2,37,A,1,1
-Empoli,Italy,G. Marilungo,275,0,27,A,0,0
-Empoli,Italy,L. Mchedlidze,103,0,26,A,0,0
-Empoli,Italy,M. Pucciarelli,1080,1,25,A,2,0
-Empoli,Italy,R. Tchanturia,0,0,20,A,0,0
-Palermo,Italy,A. Fulignati,0,0,22,G,0,0
-Palermo,Italy,S. Guddo,0,0,17,G,0,0
-Palermo,Italy,L. Marson,0,0,18,G,0,0
-Palermo,Italy,J. Posavec,1530,0,20,G,1,0
-Palermo,Italy,H. Aleesami,1530,0,25,D,4,0
-Palermo,Italy,S. Anđelković,989,0,30,D,3,0
-Palermo,Italy,S. Giuliano,0,0,19,D,0,0
-Palermo,Italy,E. Goldaniga,930,1,23,D,6,0
-Palermo,Italy,G. González,446,0,28,D,3,1
-Palermo,Italy,M. Morganella,223,0,27,D,1,0
-Palermo,Italy,G. Pezzella,149,0,19,D,1,0
-Palermo,Italy,A. Punzi,0,0,19,D,0,0
-Palermo,Italy,S. Rajković,299,0,27,D,1,0
-Palermo,Italy,T. Cionek,1089,0,30,D,4,0
-Palermo,Italy,A. Rispoli,1217,2,28,D,2,0
-Palermo,Italy,R. Vitiello,247,0,33,D,1,0
-Palermo,Italy,O. Bouy,36,0,23,M,1,0
-Palermo,Italy,I. Chochev,817,1,23,M,3,0
-Palermo,Italy,Bruno Henrique,808,0,27,M,0,0
-Palermo,Italy,A. Diamanti,871,0,33,M,5,0
-Palermo,Italy,A. Gazzi,994,0,33,M,2,0
-Palermo,Italy,O. Hiljemark,1053,0,24,M,1,0
-Palermo,Italy,M. Jajalo,624,1,28,M,1,0
-Palermo,Italy,R. Quaison,648,2,23,M,2,0
-Palermo,Italy,Carlos Embalo,309,0,22,A,0,0
-Palermo,Italy,N. Balogh,136,0,20,A,0,0
-Palermo,Italy,A. Bentivegna,90,0,20,A,0,0
-Palermo,Italy,S. Lo Faso,67,0,18,A,0,0
-Palermo,Italy,I. Nestorovski,1354,7,26,A,2,0
-Palermo,Italy,R. Sallai,352,0,19,A,2,0
-Palermo,Italy,A. Trajkovski,10,1,24,A,0,0
-Pescara,Italy,G. Aldegani,0,0,40,G,0,0
-Pescara,Italy,A. Bizzarri,1530,0,39,G,1,0
-Pescara,Italy,V. Fiorillo,0,0,26,G,0,0
-Pescara,Italy,M. Pigliacelli,0,0,23,G,0,0
-Pescara,Italy,C. Biraghi,1307,0,24,D,4,0
-Pescara,Italy,H. Campagnaro,1126,2,36,D,5,0
-Pescara,Italy,A. Coda,190,0,31,D,1,0
-Pescara,Italy,A. Crescenzi,910,0,25,D,1,0
-Pescara,Italy,F. Delli Carri,0,0,17,D,0,0
-Pescara,Italy,M. Fornasier,767,0,23,D,2,0
-Pescara,Italy,F. Forte,0,0,18,D,0,0
-Pescara,Italy,N. Gyömbér,589,0,24,D,3,0
-Pescara,Italy,L. Maloku,0,0,18,D,0,0
-Pescara,Italy,D. Vitturini,144,0,19,D,0,0
-Pescara,Italy,F. Zampano,1262,0,23,D,2,0
-Pescara,Italy,D. Župarić,235,0,24,D,1,0
-Pescara,Italy,A. Aquilani,551,1,32,M,2,0
-Pescara,Italy,Ahmed Benali,1089,1,24,M,1,0
-Pescara,Italy,G. Brugman,1255,0,24,M,5,0
-Pescara,Italy,A. Bruno,14,0,33,M,1,0
-Pescara,Italy,B. Cristante,784,0,21,M,0,0
-Pescara,Italy,P. D'Angelo,0,0,17,M,0,0
-Pescara,Italy,F. Mele,0,0,18,M,0,0
-Pescara,Italy,L. Memushaj,1263,1,30,M,1,0
-Pescara,Italy,S. Pepe,338,0,33,M,0,0
-Pescara,Italy,V. Verre,816,0,22,M,1,1
-Pescara,Italy,M. Acatullo,0,0,18,A,0,0
-Pescara,Italy,J. Bahebeck,130,1,23,A,0,0
-Pescara,Italy,N. Battista,0,0,18,A,0,0
-Pescara,Italy,G. Caprari,1516,3,23,A,3,0
-Pescara,Italy,F. Del Sole,0,0,18,A,0,0
-Pescara,Italy,R. Manaj,469,2,19,A,2,0
-Pescara,Italy,A. Mitriță,238,0,21,A,1,0
-Pescara,Italy,R. Murić,6,0,20,A,0,0
-Pescara,Italy,S. Pettinari,165,0,24,A,0,0
-Real Madrid,Spain,Kiko Casilla,540,0,30,G,1,0
-Real Madrid,Spain,K. Navas,720,0,29,G,0,0
-Real Madrid,Spain,Rubén Yáñez,0,0,23,G,0,0
-Real Madrid,Spain,Daniel Carvajal,945,0,24,D,6,0
-Real Madrid,Spain,Danilo,450,1,25,D,1,0
-Real Madrid,Spain,Fábio Coentrão,0,0,28,D,0,0
-Real Madrid,Spain,Nacho,560,0,26,D,2,0
-Real Madrid,Spain,Pepe,564,1,33,D,0,0
-Real Madrid,Spain,Sergio Ramos,702,3,30,D,4,0
-Real Madrid,Spain,Álvaro Tejero,0,0,20,D,0,0
-Real Madrid,Spain,R. Varane,946,1,23,D,0,0
-Real Madrid,Spain,Marcelo,873,1,28,D,0,0
-Real Madrid,Spain,Isco,594,2,24,M,2,0
-Real Madrid,Spain,Marco Asensio,376,2,20,M,0,0
-Real Madrid,Spain,Casemiro,223,0,24,M,1,0
-Real Madrid,Spain,M. Kovačić,924,0,22,M,0,0
-Real Madrid,Spain,T. Kroos,954,1,26,M,4,0
-Real Madrid,Spain,L. Modrić,610,1,31,M,0,0
-Real Madrid,Spain,J. Rodríguez,287,1,25,M,0,0
-Real Madrid,Spain,E. Fernández,0,0,21,M,0,0
-Real Madrid,Spain,M. Ødegaard,0,0,17,M,0,0
-Real Madrid,Spain,G. Bale,942,5,27,A,2,0
-Real Madrid,Spain,K. Benzema,640,4,28,A,0,0
-Real Madrid,Spain,M. Díaz,17,0,23,A,0,0
-Real Madrid,Spain,Cristiano Ronaldo,941,10,31,A,3,0
-Real Madrid,Spain,Álvaro Morata,534,4,24,A,3,0
-Real Madrid,Spain,Lucas Vázquez,518,0,25,A,1,0
-Barcelona,Spain,J. Cillessen,90,0,27,G,0,0
-Barcelona,Spain,Jordi Masip,0,0,27,G,0,0
-Barcelona,Spain,M. ter Stegen,1170,0,24,G,1,0
-Barcelona,Spain,Jordi Alba,725,0,27,D,2,0
-Barcelona,Spain,L. Digne,616,0,23,D,2,0
-Barcelona,Spain,Borja López,0,0,22,D,0,0
-Barcelona,Spain,J. Mascherano,919,0,32,D,4,0
-Barcelona,Spain,J. Mathieu,360,1,33,D,0,0
-Barcelona,Spain,Piqué,990,2,29,D,1,0
-Barcelona,Spain,Marlon,0,0,21,D,0,0
-Barcelona,Spain,S. Umtiti,611,0,23,D,1,0
-Barcelona,Spain,Rafinha,485,5,23,M,0,0
-Barcelona,Spain,Carles Aleñà,0,0,18,M,0,0
-Barcelona,Spain,Busquets,1061,0,28,M,4,0
-Barcelona,Spain,Álex Carbonell,0,0,19,M,0,0
-Barcelona,Spain,Iniesta,359,0,32,M,0,0
-Barcelona,Spain,W. Kaptoum,0,0,20,M,0,0
-Barcelona,Spain,Nili,0,0,22,M,0,0
-Barcelona,Spain,I. Rakitić,865,2,28,M,1,0
-Barcelona,Spain,Sergi Roberto,1080,0,24,M,2,0
-Barcelona,Spain,Denis Suárez,599,0,22,M,1,0
-Barcelona,Spain,André Gomes,611,0,23,M,0,0
-Barcelona,Spain,A. Turan,739,2,29,M,0,0
-Barcelona,Spain,Aleix Vidal,90,0,27,M,0,0
-Barcelona,Spain,Paco Alcácer,268,0,23,A,0,0
-Barcelona,Spain,Marc Cardona,0,0,21,A,0,0
-Barcelona,Spain,Neymar,1077,4,24,A,5,0
-Barcelona,Spain,L. Messi,934,11,29,A,3,0
-Barcelona,Spain,L. Suárez,1091,10,29,A,6,0
-Atlético Madrid,Spain,Bernabé Barragán,0,0,23,G,0,0
-Atlético Madrid,Spain,André Moreira,0,0,21,G,0,0
-Atlético Madrid,Spain,Moyà,0,0,32,G,0,0
-Atlético Madrid,Spain,J. Oblak,1260,0,23,G,1,0
-Atlético Madrid,Spain,J. Giménez,216,0,21,D,1,0
-Atlético Madrid,Spain,D. Godín,1170,1,30,D,3,0
-Atlético Madrid,Spain,L. Hernández,263,0,20,D,1,0
-Atlético Madrid,Spain,Filipe Luis,1170,0,31,D,2,0
-Atlético Madrid,Spain,Alberto Rodríguez,0,0,20,D,0,0
-Atlético Madrid,Spain,S. Savić,960,0,25,D,1,0
-Atlético Madrid,Spain,Juanfran,1170,0,31,D,1,0
-Atlético Madrid,Spain,Š. Vrsaljko,90,0,24,D,0,0
-Atlético Madrid,Spain,Tiago,304,1,35,M,2,0
-Atlético Madrid,Spain,A. Cerci,0,0,29,M,0,0
-Atlético Madrid,Spain,A. Fernández,142,0,30,M,0,0
-Atlético Madrid,Spain,Gabi,1039,0,33,M,3,0
-Atlético Madrid,Spain,Y. Carrasco,887,6,23,M,0,0
-Atlético Madrid,Spain,N. Gaitán,348,2,28,M,0,0
-Atlético Madrid,Spain,Juan Moreno,0,0,19,M,0,0
-Atlético Madrid,Spain,Saúl,745,0,22,M,2,0
-Atlético Madrid,Spain,Roberto Olabe,0,0,20,M,0,0
-Atlético Madrid,Spain,Caio Henrique,0,0,19,M,0,0
-Atlético Madrid,Spain,T. Partey,40,0,23,M,2,0
-Atlético Madrid,Spain,Koke,1134,1,24,M,4,0
-Atlético Madrid,Spain,Á. Correa,591,3,21,A,4,0
-Atlético Madrid,Spain,K. Gameiro,858,6,29,A,0,0
-Atlético Madrid,Spain,A. Griezmann,1081,6,25,A,2,0
-Atlético Madrid,Spain,Roberto Nuñez,0,0,20,A,0,0
-Atlético Madrid,Spain,Fernando Torres,349,2,32,A,1,0
-Sevilla,Spain,Churripi,0,0,22,G,0,0
-Sevilla,Spain,Sergio Rico,990,0,23,G,0,0
-Sevilla,Spain,S. Sirigu,178,0,29,G,0,1
-Sevilla,Spain,David Soria,0,0,23,G,0,0
-Sevilla,Spain,Sergio Escudero,752,0,27,D,0,0
-Sevilla,Spain,Mariano,990,0,30,D,4,0
-Sevilla,Spain,Diego González,7,0,21,D,0,0
-Sevilla,Spain,T.  Kolodziejczak,270,0,25,D,1,0
-Sevilla,Spain,G. Mercado,842,2,29,D,5,0
-Sevilla,Spain,N. Pareja,865,1,32,D,3,0
-Sevilla,Spain,A. Rami,554,0,30,D,2,0
-Sevilla,Spain,B. Trémoulinas,0,0,30,D,0,0
-Sevilla,Spain,Ganso,266,0,27,M,0,0
-Sevilla,Spain,J. Correa,250,0,22,M,1,0
-Sevilla,Spain,Antonio Cotán,0,0,21,M,0,0
-Sevilla,Spain,Iborra,366,0,28,M,1,0
-Sevilla,Spain,H. Kiyotake,285,1,27,M,0,0
-Sevilla,Spain,M. Kranevitter,355,0,23,M,0,0
-Sevilla,Spain,M. Krohn-Dehli,0,0,33,M,0,0
-Sevilla,Spain,Vitolo,973,2,27,M,2,0
-Sevilla,Spain,Daniel Carriço,274,0,28,M,2,0
-Sevilla,Spain,S. N'Zonzi,990,2,27,M,2,0
-Sevilla,Spain,S. Nasri,632,2,29,M,3,0
-Sevilla,Spain,Pablo Sarabia,630,3,24,M,2,0
-Sevilla,Spain,W. Ben Yedder,495,3,25,A,0,0
-Sevilla,Spain,Carlos Fernández,88,1,20,A,0,0
-Sevilla,Spain,F. Vázquez,875,2,27,A,3,0
-Sevilla,Spain,L. Vietto,941,4,22,A,3,0
-Villarreal,Spain,Sergio Asenjo,1260,0,27,G,0,0
-Villarreal,Spain,M. Barbosa,0,0,32,G,0,0
-Villarreal,Spain,Andrés Fernández,0,0,29,G,0,0
-Villarreal,Spain,D. Bonera,0,0,35,D,0,0
-Villarreal,Spain,Jaume Costa,1080,1,28,D,4,0
-Villarreal,Spain,Álvaro González,270,0,26,D,1,0
-Villarreal,Spain,B. Jokić,0,0,30,D,0,0
-Villarreal,Spain,M. Musacchio,990,0,26,D,1,0
-Villarreal,Spain,Mario Gaspar,1260,0,26,D,2,0
-Villarreal,Spain,Víctor Ruíz,1260,0,27,D,2,0
-Villarreal,Spain,A. Rukavina,90,0,32,D,0,0
-Villarreal,Spain,José Ángel,90,0,27,D,1,0
-Villarreal,Spain,Ramón Bueno,0,0,21,M,0,0
-Villarreal,Spain,Samu Castillejo,1116,1,21,M,1,0
-Villarreal,Spain,D. Cheryshev,197,0,25,M,0,0
-Villarreal,Spain,J. dos Santos,454,0,26,M,0,0
-Villarreal,Spain,Rodri Hernández,199,0,20,M,0,0
-Villarreal,Spain,Pablo Larrea,0,0,22,M,0,0
-Villarreal,Spain,A. N'Diaye,105,0,26,M,1,0
-Villarreal,Spain,R. Soriano,1018,3,25,M,3,0
-Villarreal,Spain,Bruno,1072,3,32,M,2,0
-Villarreal,Spain,Trigueros,1241,2,25,M,1,0
-Villarreal,Spain,C. Bakambu,389,2,25,A,1,0
-Villarreal,Spain,R. Borré,179,0,21,A,0,0
-Villarreal,Spain,Aitor Cantalapiedra,3,0,20,A,0,0
-Villarreal,Spain,Mario González,0,0,20,A,0,0
-Villarreal,Spain,Alexandre Pato,464,1,27,A,0,0
-Villarreal,Spain,N. Sansone,1123,5,25,A,3,0
-Villarreal,Spain,Soldado,0,0,31,A,0,0
-Villarreal,Spain,L. Suárez,0,0,20,A,0,0
-Real Sociedad,Spain,Ander Bardaji,0,0,21,G,0,0
-Real Sociedad,Spain,Toño,0,0,30,G,0,0
-Real Sociedad,Spain,G. Rulli,1080,0,24,G,2,0
-Real Sociedad,Spain,Yuri,840,1,26,D,2,0
-Real Sociedad,Spain,Aritz Elustondo,57,0,22,D,0,1
-Real Sociedad,Spain,Mikel González,439,0,31,D,2,0
-Real Sociedad,Spain,Litri,237,0,25,D,0,0
-Real Sociedad,Spain,Íñigo Martínez,990,2,25,D,5,0
-Real Sociedad,Spain,Carlos Martínez,540,0,30,D,1,0
-Real Sociedad,Spain,Raúl Navas,720,0,28,D,0,0
-Real Sociedad,Spain,Joseba Zaldúa,461,0,24,D,2,0
-Real Sociedad,Spain,Bergara,190,0,30,M,0,0
-Real Sociedad,Spain,Canales,121,0,25,M,1,0
-Real Sociedad,Spain,Jon Gaztañaga,0,0,25,M,0,0
-Real Sociedad,Spain,Granero,0,0,29,M,0,0
-Real Sociedad,Spain,Illarramendi,1080,0,26,M,3,0
-Real Sociedad,Spain,Rubén Pardo,159,0,24,M,0,0
-Real Sociedad,Spain,Xabi Prieto,737,3,33,M,0,0
-Real Sociedad,Spain,K. Rodrigues,0,0,22,M,0,0
-Real Sociedad,Spain,Zurutuza,1003,3,30,M,3,0
-Real Sociedad,Spain,Agirretxe,0,0,29,A,0,0
-Real Sociedad,Spain,Jon Bautista,12,0,21,A,0,0
-Real Sociedad,Spain,David Concha,86,0,20,A,0,0
-Real Sociedad,Spain,Willian José,879,6,25,A,2,0
-Real Sociedad,Spain,Juanmi,418,1,23,A,0,0
-Real Sociedad,Spain,Mikel Oyarzabal,984,0,19,A,0,0
-Real Sociedad,Spain,C. Vela,781,4,27,A,2,0
-Athletic Club,Spain,Kepa,540,0,22,G,0,0
-Athletic Club,Spain,Iago Herrerín,0,0,28,G,0,0
-Athletic Club,Spain,Iraizoz,540,0,35,G,0,0
-Athletic Club,Spain,Yeray Álvarez,470,0,21,D,0,0
-Athletic Club,Spain,Balenziaga,846,1,28,D,1,1
-Athletic Club,Spain,Bóveda,520,0,27,D,1,0
-Athletic Club,Spain,Elustondo,0,0,29,D,0,0
-Athletic Club,Spain,Etxeita,337,0,29,D,1,0
-Athletic Club,Spain,A. Laporte,990,1,22,D,3,0
-Athletic Club,Spain,Lekue,363,0,23,D,0,0
-Athletic Club,Spain,Saborit,125,0,24,D,0,0
-Athletic Club,Spain,San José,761,1,27,D,2,0
-Athletic Club,Spain,Ager Aketxe,0,0,22,M,0,0
-Athletic Club,Spain,De Marcos,703,0,27,M,1,0
-Athletic Club,Spain,Eraso,246,0,26,M,2,0
-Athletic Club,Spain,Beñat,696,0,29,M,3,0
-Athletic Club,Spain,Raúl García,897,4,30,M,4,0
-Athletic Club,Spain,Iturraspe,281,0,27,M,1,0
-Athletic Club,Spain,Mikel Rico,327,0,32,M,2,0
-Athletic Club,Spain,Susaeta,417,0,28,M,2,0
-Athletic Club,Spain,Mikel Vesga,195,0,23,M,0,0
-Athletic Club,Spain,Aduriz,867,5,35,A,3,0
-Athletic Club,Spain,Sabin,312,1,24,A,1,0
-Athletic Club,Spain,Muniain,416,1,23,A,2,0
-Athletic Club,Spain,Iñaki Williams,951,1,22,A,1,0
-Espanyol,Spain,Roberto Jiménez,307,0,31,G,0,0
-Espanyol,Spain,Diego López,3023,0,35,G,3,0
-Espanyol,Spain,Andrés Prieto,0,0,23,G,0,0
-Espanyol,Spain,Víctor Álvarez,196,0,24,D,1,0
-Espanyol,Spain,Ó. Duarte,1123,0,27,D,4,0
-Espanyol,Spain,Rubén Duarte,101,0,21,D,1,0
-Espanyol,Spain,Aarón Martín,2496,0,20,D,5,0
-Espanyol,Spain,Marc Navarro,699,2,21,D,0,0
-Espanyol,Spain,D. Reyes,2799,1,24,D,2,0
-Espanyol,Spain,P. Diop,899,0,31,M,6,0
-Espanyol,Spain,Javi Fuego,2566,1,33,M,9,0
-Espanyol,Spain,José Jurado,2369,3,30,M,1,0
-Espanyol,Spain,Javi López,1525,0,31,M,3,0
-Espanyol,Spain,David López,3150,3,27,M,3,0
-Espanyol,Spain,Óscar Melendo,299,0,19,M,0,0
-Espanyol,Spain,José Antonio Reyes,866,3,33,M,1,0
-Espanyol,Spain,Marc Roca,1229,0,20,M,3,0
-Espanyol,Spain,Víctor Sánchez,2191,1,29,M,8,0
-Espanyol,Spain,Salva Sevilla,268,0,33,M,1,0
-Espanyol,Spain,F. Caicedo,1287,2,28,A,4,0
-Espanyol,Spain,Léo Baptistão,1343,5,23,A,1,0
-Espanyol,Spain,Álvaro Vázquez,313,0,26,A,0,0
-Espanyol,Spain,Gerard Moreno,3190,13,25,A,6,0
-Espanyol,Spain,H. Pérez,1787,3,28,A,8,0
-Espanyol,Spain,P. Piatti,2267,10,28,A,7,0
-Deportivo Alavés,Spain,Ortolá,0,0,23,G,0,0
-Deportivo Alavés,Spain,Fernando Pacheco,1350,0,24,G,0,0
-Deportivo Alavés,Spain,Z. Feddal,732,0,27,D,3,0
-Deportivo Alavés,Spain,Einar Galilea,0,0,22,D,0,0
-Deportivo Alavés,Spain,Raúl García,747,0,27,D,3,0
-Deportivo Alavés,Spain,T. Hernández,1150,0,19,D,4,1
-Deportivo Alavés,Spain,Laguardia,874,1,27,D,2,0
-Deportivo Alavés,Spain,Carlos Vigaray,310,0,22,D,0,0
-Deportivo Alavés,Spain,A. Pantić,154,0,24,D,1,0
-Deportivo Alavés,Spain,Alexis,1080,1,31,D,6,0
-Deportivo Alavés,Spain,Víctor Camarasa,948,2,22,M,3,0
-Deportivo Alavés,Spain,C. Espinoza,159,0,21,M,1,0
-Deportivo Alavés,Spain,Kiko Femenía,1010,0,25,M,4,0
-Deportivo Alavés,Spain,Manuel Garcia,0,0,18,M,0,0
-Deportivo Alavés,Spain,Manu García,512,1,30,M,3,0
-Deportivo Alavés,Spain,N. Krstičić,294,0,26,M,1,0
-Deportivo Alavés,Spain,Sergio Llamas,0,0,23,M,0,0
-Deportivo Alavés,Spain,Marcos Llorente,1170,0,21,M,1,0
-Deportivo Alavés,Spain,Edgar Méndez,871,1,25,M,3,0
-Deportivo Alavés,Spain,D. Torres,887,0,27,M,3,0
-Deportivo Alavés,Spain,Manu Barreiro,0,0,30,A,0,0
-Deportivo Alavés,Spain,Deyverson,1050,4,25,A,6,0
-Deportivo Alavés,Spain,Ibai Gómez,579,2,27,A,1,0
-Deportivo Alavés,Spain,Dani Iglesias,0,0,21,A,0,0
-Deportivo Alavés,Spain,A. Katai,288,0,25,A,1,0
-Deportivo Alavés,Spain,C. Santos,298,1,28,A,1,0
-Deportivo Alavés,Spain,Rubén Sobrino,11,0,24,A,0,0
-Deportivo Alavés,Spain,Toquero,376,1,32,A,2,0
-Eibar,Spain,Markel Areitio,45,0,20,G,0,0
-Eibar,Spain,Asier Riesgo,1022,0,33,G,0,1
-Eibar,Spain,Yoel,101,0,28,G,0,1
-Eibar,Spain,Arbilla,368,0,29,D,1,0
-Eibar,Spain,Ander Capa,802,0,24,D,2,0
-Eibar,Spain,M. Dos Santos,242,0,27,D,1,0
-Eibar,Spain,Alejandro Gálvez,457,0,27,D,1,0
-Eibar,Spain,Juncà,180,0,23,D,1,0
-Eibar,Spain,F. Lejeune,1034,0,25,D,3,0
-Eibar,Spain,Luna,990,0,25,D,2,0
-Eibar,Spain,Ramis,607,2,32,D,1,0
-Eibar,Spain,G. Escalante,477,1,23,M,3,0
-Eibar,Spain,Dani García,1076,0,26,M,4,1
-Eibar,Spain,Adrián,386,0,28,M,0,0
-Eibar,Spain,T. Inui,562,0,28,M,1,0
-Eibar,Spain,Jota Peleteiro,200,0,25,M,0,0
-Eibar,Spain,Rubén Peña,307,0,25,M,2,0
-Eibar,Spain,Fran Rico,901,2,29,M,4,0
-Eibar,Spain,Christian Rivera,90,0,19,M,0,0
-Eibar,Spain,Pedro León,964,5,30,M,2,0
-Eibar,Spain,Bebé,361,1,26,A,0,0
-Eibar,Spain,Sergi Enrich,838,4,26,A,2,0
-Eibar,Spain,Kike,618,2,27,A,5,0
-Eibar,Spain,Nano,135,1,21,A,0,0
-Málaga,Spain,D. Boyko,0,0,28,G,0,0
-Málaga,Spain,Aarón Escandell,0,0,21,G,0,0
-Málaga,Spain,C. Kameni,1170,0,32,G,1,0
-Málaga,Spain,Bakary Koné,603,0,28,D,2,0
-Málaga,Spain,Diego Llorente,674,1,23,D,1,1
-Málaga,Spain,Luis,21,0,19,D,0,0
-Málaga,Spain,Weligton,90,0,37,D,1,0
-Málaga,Spain,Juan Carlos,495,0,26,D,0,1
-Málaga,Spain,F. Ricca,709,0,21,D,4,0
-Málaga,Spain,R. Rosales,1170,1,28,D,2,0
-Málaga,Spain,Miguel Torres,642,0,30,D,0,0
-Málaga,Spain,M. Villanueva,526,0,23,D,2,0
-Málaga,Spain,J. Añor,922,1,22,M,4,0
-Málaga,Spain,Duda,125,1,36,M,2,0
-Málaga,Spain,Ignacio Camacho,1080,2,26,M,6,0
-Málaga,Spain,G. Castro,705,1,32,M,4,0
-Málaga,Spain,Pablo Fornals,571,1,20,M,1,0
-Málaga,Spain,Recio,360,0,25,M,3,0
-Málaga,Spain,Keko,195,0,24,M,1,0
-Málaga,Spain,Z. Kuzmanović,216,0,29,M,1,0
-Málaga,Spain,Javi Ontiveros,119,1,19,M,2,0
-Málaga,Spain,Jony,587,1,25,M,1,0
-Málaga,Spain,Charles,442,1,32,A,1,0
-Málaga,Spain,Y. En Nesyri,271,1,19,A,2,0
-Málaga,Spain,Sandro Ramírez,1014,6,21,A,3,0
-Málaga,Spain,Michael Santos,139,3,23,A,1,0
-Valencia,Spain,Diego Alves,990,0,31,G,3,0
-Valencia,Spain,Jaume Doménech,0,0,26,G,0,0
-Valencia,Spain,M. Ryan,180,0,24,G,0,0
-Valencia,Spain,A. Abdennour,350,0,27,D,1,0
-Valencia,Spain,João Cancelo,972,0,22,D,2,0
-Valencia,Spain,Aderllan Santos,540,0,27,D,0,0
-Valencia,Spain,E. Garay,630,1,30,D,2,0
-Valencia,Spain,José Gayá,813,0,21,D,1,0
-Valencia,Spain,Toni Lato,0,0,19,D,0,0
-Valencia,Spain,E. Mangala,900,0,25,D,4,0
-Valencia,Spain,Martín Montoya,834,0,25,D,2,0
-Valencia,Spain,Guilherme Siqueira,80,0,30,D,1,0
-Valencia,Spain,Nani,954,2,30,M,4,0
-Valencia,Spain,F. Cartabia,96,0,23,M,0,0
-Valencia,Spain,Álvaro Medrán,406,1,22,M,1,0
-Valencia,Spain,Dani Parejo,1170,2,27,M,1,0
-Valencia,Spain,E. Pérez,924,0,30,M,5,1
-Valencia,Spain,Carlos Soler,0,0,19,M,0,0
-Valencia,Spain,Mario Suárez,899,3,29,M,2,0
-Valencia,Spain,Z. Bakkali,108,0,20,A,1,0
-Valencia,Spain,Munir,403,2,21,A,1,0
-Valencia,Spain,Santi Mina,458,2,20,A,1,0
-Valencia,Spain,Rafa Mir,5,0,19,A,0,0
-Valencia,Spain,Rodrigo,938,3,25,A,0,0
-Celta de Vigo,Spain,Sergio Álvarez,900,0,30,G,0,1
-Celta de Vigo,Spain,Rubén Blanco,270,0,21,G,2,0
-Celta de Vigo,Spain,Iván Villar,0,0,19,G,0,0
-Celta de Vigo,Spain,G. Cabral,900,0,31,D,0,0
-Celta de Vigo,Spain,Jonny Castro,838,0,22,D,2,0
-Celta de Vigo,Spain,David Costas,90,0,21,D,1,0
-Celta de Vigo,Spain,Fontàs,270,0,27,D,1,0
-Celta de Vigo,Spain,Sergi Gómez,684,0,24,D,2,0
-Celta de Vigo,Spain,Hugo Mallo,908,2,25,D,6,1
-Celta de Vigo,Spain,Planas,74,0,25,D,0,0
-Celta de Vigo,Spain,F. Roncaglia,990,1,29,D,4,0
-Celta de Vigo,Spain,M. Díaz,377,0,29,M,1,0
-Celta de Vigo,Spain,Pape Diop,64,1,19,M,1,0
-Celta de Vigo,Spain,P. Hernández,796,1,30,M,5,0
-Celta de Vigo,Spain,Álvaro Lemos,0,0,23,M,0,0
-Celta de Vigo,Spain,F. Orellana,394,2,30,M,2,0
-Celta de Vigo,Spain,N. Radoja,969,0,23,M,2,0
-Celta de Vigo,Spain,Josep Señé,255,0,24,M,1,0
-Celta de Vigo,Spain,P. Sisto,589,2,21,M,0,0
-Celta de Vigo,Spain,D. Wass,1015,1,27,M,2,0
-Celta de Vigo,Spain,Iago Aspas,967,7,29,A,5,0
-Celta de Vigo,Spain,C. Beauvue,0,0,28,A,0,0
-Celta de Vigo,Spain,T. Bongonda,937,1,21,A,1,0
-Celta de Vigo,Spain,José Naranjo,0,0,22,A,0,0
-Celta de Vigo,Spain,J. Guidetti,282,1,24,A,2,0
-Celta de Vigo,Spain,G. Rossi,273,1,29,A,0,0
-Las Palmas,Spain,Raúl Lizoáin,450,0,25,G,0,0
-Las Palmas,Spain,David Ramírez,0,0,21,G,0,0
-Las Palmas,Spain,Javi Varas,630,0,34,G,0,0
-Las Palmas,Spain,Aythami Artiles,280,0,30,D,2,0
-Las Palmas,Spain,Bigas,794,1,26,D,1,0
-Las Palmas,Spain,Dani Castellano,918,0,29,D,1,0
-Las Palmas,Spain,David García,871,1,34,D,4,0
-Las Palmas,Spain,M. Lemos,285,0,20,D,1,0
-Las Palmas,Spain,Hélder Lopes,101,0,27,D,0,0
-Las Palmas,Spain,Míchel,964,0,26,D,2,0
-Las Palmas,Spain,David Simón,103,0,27,D,1,0
-Las Palmas,Spain,K. Boateng,662,4,29,M,4,1
-Las Palmas,Spain,Javi Castellano,0,0,29,M,0,0
-Las Palmas,Spain,Momo,352,2,34,M,1,0
-Las Palmas,Spain,M. García,139,0,20,M,0,0
-Las Palmas,Spain,Vicente Gómez,834,1,28,M,2,0
-Las Palmas,Spain,Roque Mesa,1080,0,27,M,4,0
-Las Palmas,Spain,Montoro,129,0,28,M,0,0
-Las Palmas,Spain,Hernán,0,0,26,M,0,0
-Las Palmas,Spain,Jonathan Viera,708,3,27,M,0,0
-Las Palmas,Spain,S. Araújo,531,2,24,A,2,0
-Las Palmas,Spain,Tyronne,42,0,25,A,1,0
-Las Palmas,Spain,Tana,841,3,26,A,3,0
-Las Palmas,Spain,N. El Zhar,465,2,30,A,1,0
-Las Palmas,Spain,M. Livaja,626,2,23,A,5,0
-Las Palmas,Spain,Asdrúbal,4,0,25,A,0,0
-Real Betis,Spain,Adán,1350,0,29,G,1,0
-Real Betis,Spain,Dani Giménez,0,0,33,G,1,0
-Real Betis,Spain,Manu Herrera,0,0,35,G,0,0
-Real Betis,Spain,R. Donk,416,0,30,D,1,0
-Real Betis,Spain,R. Durmisi,699,0,22,D,1,0
-Real Betis,Spain,Bruno González,611,1,26,D,4,0
-Real Betis,Spain,A. Mandi,946,1,25,D,0,0
-Real Betis,Spain,Álex Martínez,540,0,26,D,0,0
-Real Betis,Spain,Rafa Navarro,214,0,22,D,1,0
-Real Betis,Spain,G. Pezzella,1257,1,25,D,4,0
-Real Betis,Spain,C. Piccini,974,0,24,D,3,1
-Real Betis,Spain,José Carlos,180,0,20,D,0,0
-Real Betis,Spain,D. Brašanac,366,0,24,M,3,0
-Real Betis,Spain,Dani Ceballos,555,0,20,M,1,0
-Real Betis,Spain,Cejudo,553,1,32,M,6,0
-Real Betis,Spain,Petros,1209,0,27,M,5,0
-Real Betis,Spain,F. Gutiérrez,709,1,26,M,3,0
-Real Betis,Spain,Matías Nahuel,80,0,20,M,0,0
-Real Betis,Spain,J. Martin,340,0,26,M,2,0
-Real Betis,Spain,C. Musonda,278,0,20,M,2,0
-Real Betis,Spain,Fabián Ruiz,154,0,20,M,0,0
-Real Betis,Spain,Joaquín,990,3,35,M,1,0
-Real Betis,Spain,Álex Alegría,538,2,24,A,0,0
-Real Betis,Spain,Rubén Castro,1125,7,35,A,2,0
-Real Betis,Spain,A. Sanabria,626,1,20,A,1,0
-Real Betis,Spain,R. Zozulya,67,0,27,A,1,0
-Deportivo La Coruña,Spain,G. Lux,810,0,34,G,1,0
-Deportivo La Coruña,Spain,Rubén,0,0,32,G,0,0
-Deportivo La Coruña,Spain,P. Tytoń,360,0,29,G,1,0
-Deportivo La Coruña,Spain,Albentosa,1080,1,28,D,5,0
-Deportivo La Coruña,Spain,Alejandro Arribas,467,0,27,D,2,0
-Deportivo La Coruña,Spain,Luisinho,712,0,31,D,2,0
-Deportivo La Coruña,Spain,Sidnei,804,0,27,D,1,0
-Deportivo La Coruña,Spain,Fernando Navarro,530,0,34,D,1,0
-Deportivo La Coruña,Spain,Laure,155,0,31,D,0,1
-Deportivo La Coruña,Spain,Álex Bergantiños,0,0,31,M,0,0
-Deportivo La Coruña,Spain,C. Borges,859,4,28,M,2,0
-Deportivo La Coruña,Spain,E. Çolak,643,1,25,M,1,0
-Deportivo La Coruña,Spain,Guilherme,596,0,25,M,1,0
-Deportivo La Coruña,Spain,F. Fajr,575,0,28,M,1,0
-Deportivo La Coruña,Spain,Carles Gil,164,0,24,M,0,0
-Deportivo La Coruña,Spain,Juanfran,974,0,28,M,1,0
-Deportivo La Coruña,Spain,Pedro Mosquera,1012,1,28,M,3,0
-Deportivo La Coruña,Spain,Borja Valle,187,0,24,M,0,0
-Deportivo La Coruña,Spain,Bruno Gama,898,0,29,M,2,0
-Deportivo La Coruña,Spain,F. Andone,1068,3,23,A,2,0
-Deportivo La Coruña,Spain,R. Babel,298,2,29,A,2,0
-Deportivo La Coruña,Spain,M. Moreno,494,0,20,A,0,0
-Deportivo La Coruña,Spain,Joselu,24,0,26,A,0,0
-Leganés,Spain,A. Brignoli,60,0,25,G,0,0
-Leganés,Spain,Serantes,1110,0,27,G,2,0
-Leganés,Spain,Bustinza,573,0,24,D,2,0
-Leganés,Spain,Víctor Díaz,977,1,28,D,4,0
-Leganés,Spain,Pablo Ínsua,617,0,23,D,1,0
-Leganés,Spain,M. Mantovani,944,0,32,D,4,0
-Leganés,Spain,Adrián Marín,236,0,19,D,1,0
-Leganés,Spain,C. Medjani,586,0,31,D,2,0
-Leganés,Spain,Diego Rico,978,1,23,D,3,0
-Leganés,Spain,Gabriel,1028,2,23,M,1,0
-Leganés,Spain,Robert Ibañez,168,2,23,M,0,0
-Leganés,Spain,Unai López,640,0,21,M,1,0
-Leganés,Spain,Rubén Pérez,661,0,27,M,3,0
-Leganés,Spain,Omar Ramos,664,0,28,M,2,0
-Leganés,Spain,Toni,0,0,26,M,0,0
-Leganés,Spain,Alberto,624,0,27,M,2,0
-Leganés,Spain,Lluis Sastre,90,0,30,M,0,0
-Leganés,Spain,A. Szymanowski,751,3,28,M,0,0
-Leganés,Spain,Timor,903,1,27,M,3,1
-Leganés,Spain,Luciano,511,1,23,A,2,0
-Leganés,Spain,Guerrero,419,0,26,A,2,0
-Leganés,Spain,M. Koné,169,0,24,A,0,0
-Leganés,Spain,D. Machís,251,0,23,A,1,0
-Sporting Gijón,Spain,Pichu Cuéllar,1080,0,32,G,2,0
-Sporting Gijón,Spain,Diego Mariño,90,0,26,G,0,0
-Sporting Gijón,Spain,Óscar Whalley,0,0,22,G,0,0
-Sporting Gijón,Spain,F. Amorebieta,952,0,31,D,8,0
-Sporting Gijón,Spain,J. Babin,308,0,30,D,0,0
-Sporting Gijón,Spain,Canella,270,0,28,D,0,0
-Sporting Gijón,Spain,Lillo Castellano,1046,0,27,D,2,0
-Sporting Gijón,Spain,Lora,286,0,29,D,1,0
-Sporting Gijón,Spain,Jorge Meré,990,0,19,D,2,0
-Sporting Gijón,Spain,Douglas Pereira,283,0,26,D,1,0
-Sporting Gijón,Spain,Juan Rodríguez,90,0,21,D,0,0
-Sporting Gijón,Spain,R. Aït-Atmane,300,0,23,M,2,0
-Sporting Gijón,Spain,Sergio Álvarez,1073,1,24,M,3,0
-Sporting Gijón,Spain,Nacho Cases,720,1,28,M,2,0
-Sporting Gijón,Spain,Pedro Díaz,0,0,18,M,0,0
-Sporting Gijón,Spain,Moi Gómez,867,1,22,M,3,0
-Sporting Gijón,Spain,Isma López,761,0,26,M,4,0
-Sporting Gijón,Spain,Víctor Rodríguez,751,1,27,M,0,0
-Sporting Gijón,Spain,Xavi Torres,179,0,30,M,1,0
-Sporting Gijón,Spain,Akram Afif,113,0,20,A,0,0
-Sporting Gijón,Spain,Carlos Carmona,88,1,29,A,1,0
-Sporting Gijón,Spain,Carlos Castro,268,1,21,A,0,0
-Sporting Gijón,Spain,D. Čop,1075,5,26,A,2,0
-Sporting Gijón,Spain,Pablo Fernández,0,0,20,A,0,0
-Sporting Gijón,Spain,Burgui,655,0,23,A,1,0
-Sporting Gijón,Spain,D. N'Di,99,0,21,A,0,0
-Sporting Gijón,Spain,Viguera,491,1,29,A,2,0
-Osasuna,Spain,Mario,226,0,28,G,1,0
-Osasuna,Spain,Álvaro Fernández,44,0,18,G,0,0
-Osasuna,Spain,Nauzet Pérez,900,0,31,G,1,0
-Osasuna,Spain,Javi Álamo,11,0,28,D,0,0
-Osasuna,Spain,C. Bonnín,424,0,26,D,2,0
-Osasuna,Spain,Aitor Buñuel,214,0,18,D,1,0
-Osasuna,Spain,Carlos Clerc,316,0,24,D,0,0
-Osasuna,Spain,Javi Flaño,97,0,32,D,0,0
-Osasuna,Spain,Miguel Flaño,900,0,32,D,3,0
-Osasuna,Spain,Fuentes,470,0,26,D,0,0
-Osasuna,Spain,Unai García,1080,0,24,D,4,0
-Osasuna,Spain,David García,1080,1,22,D,4,0
-Osasuna,Spain,Oier,1170,0,30,D,4,0
-Osasuna,Spain,Álex Berenguer,642,0,21,M,0,0
-Osasuna,Spain,G. Čaušić,123,0,24,M,1,0
-Osasuna,Spain,De las Cuevas,854,0,30,M,1,0
-Osasuna,Spain,D. Digard,194,0,30,M,1,0
-Osasuna,Spain,Imanol García,180,0,20,M,1,0
-Osasuna,Spain,Fran Mérida,224,1,26,M,1,0
-Osasuna,Spain,Olavide,98,0,20,M,2,0
-Osasuna,Spain,Antonio Otegui,44,0,18,M,0,0
-Osasuna,Spain,Jaime Romero,356,0,26,M,0,0
-Osasuna,Spain,Fausto Tienza,452,0,26,M,3,0
-Osasuna,Spain,Roberto Torres,832,4,27,M,2,0
-Osasuna,Spain,Kenan,317,0,23,A,0,0
-Osasuna,Spain,Sergio León,708,4,27,A,2,0
-Osasuna,Spain,Oriol Riera,590,2,30,A,0,0
-Osasuna,Spain,E. Rivière,310,0,26,A,1,1
-Granada,Spain,Rui Silva,0,0,23,G,0,0
-Granada,Spain,G. Ochoa,3330,0,31,G,2,0
-Granada,Spain,U. Agbo,2308,0,21,D,13,1
-Granada,Spain,P. Estupiñán,180,0,19,D,1,0
-Granada,Spain,D. Foulquier,1873,0,24,D,5,0
-Granada,Spain,Litri,823,0,25,D,2,0
-Granada,Spain,M. Hongla,781,0,19,D,2,0
-Granada,Spain,S. Ingason,1383,1,23,D,7,0
-Granada,Spain,Rúben Vezo,1398,0,23,D,3,0
-Granada,Spain,Lombán,1750,2,29,D,6,0
-Granada,Spain,M. Saunier,1309,0,27,D,4,0
-Granada,Spain,G. Silva,1747,0,23,D,6,0
-Granada,Spain,F. Tabanou,370,0,28,D,3,0
-Granada,Spain,V. Angban,685,0,20,M,4,0
-Granada,Spain,J. Boga,1447,2,20,M,0,0
-Granada,Spain,M. Carcela,1752,5,27,M,6,0
-Granada,Spain,Isaac Cuenca,1650,2,26,M,4,0
-Granada,Spain,Juanan Entrena,18,0,20,M,0,0
-Granada,Spain,Andreas Pereira,2769,4,21,M,10,1
-Granada,Spain,P. Kone,42,0,29,M,0,0
-Granada,Spain,R. Krhin,848,0,26,M,0,0
-Granada,Spain,A. Malle,506,0,19,M,2,0
-Granada,Spain,Sergi Samper,1268,0,22,M,6,0
-Granada,Spain,M. Wakaso,869,1,26,M,7,0
-Granada,Spain,O. Atzili,315,0,23,A,0,0
-Granada,Spain,A. Kravets,1378,5,27,A,2,0
-Granada,Spain,E. Ponce,1126,2,20,A,5,0
-Granada,Spain,A. Ramos,1041,4,31,A,4,0
-Granada,Spain,Jean Carlos,0,0,21,A,0,0
-Bayern München,Germany,M. Neuer,990,0,30,G,0,0
-Bayern München,Germany,T. Starke,0,0,35,G,0,0
-Bayern München,Germany,S. Ulreich,0,0,28,G,0,0
-Bayern München,Germany,H. Badstuber,28,0,27,D,0,0
-Bayern München,Germany,J. Boateng,433,0,28,D,0,0
-Bayern München,Germany,Rafinha,405,1,31,D,0,0
-Bayern München,Germany,M. Hummels,769,0,27,D,2,0
-Bayern München,Germany,P. Lahm,592,1,33,D,1,0
-Bayern München,Germany,D. Alaba,735,0,24,D,0,0
-Bayern München,Germany,Thiago Alcântara,839,1,25,M,2,0
-Bayern München,Germany,Xabi Alonso,785,2,34,M,1,0
-Bayern München,Germany,F. Benko,0,0,18,M,0,0
-Bayern München,Germany,Juan Bernat,282,0,23,M,0,0
-Bayern München,Germany,Douglas Costa,351,1,26,M,0,0
-Bayern München,Germany,N. Dorsch,0,0,18,M,0,0
-Bayern München,Germany,J. Kimmich,484,4,21,M,1,0
-Bayern München,Germany,Renato Sanches,333,0,19,M,3,0
-Bayern München,Germany,Javi Martínez,659,0,28,M,2,0
-Bayern München,Germany,E. Öztürk,0,0,20,M,0,0
-Bayern München,Germany,F. Ribéry,437,2,33,M,2,0
-Bayern München,Germany,A. Robben,381,3,32,M,0,0
-Bayern München,Germany,A. Vidal,597,1,29,M,2,0
-Bayern München,Germany,K. Coman,269,0,20,A,0,0
-Bayern München,Germany,F. Götze,0,0,17,A,0,0
-Bayern München,Germany,J. Green,0,0,21,A,0,0
-Bayern München,Germany,R. Lewandowski,924,7,28,A,0,0
-Bayern München,Germany,T. Müller,597,0,27,A,0,0
-RB Leipzig,Germany,F. Coltorti,0,0,35,G,0,0
-RB Leipzig,Germany,P. Gulácsi,990,0,26,G,1,0
-RB Leipzig,Germany,M. Müller,0,0,23,G,0,0
-RB Leipzig,Germany,M. Compper,876,0,31,D,3,0
-RB Leipzig,Germany,D. Franke,0,0,18,D,0,0
-RB Leipzig,Germany,K. Gipson,0,0,20,D,0,0
-RB Leipzig,Germany,M. Halstenberg,990,0,25,D,1,0
-RB Leipzig,Germany,L. Klostermann,90,0,20,D,1,0
-RB Leipzig,Germany,W. Orban,990,1,24,D,3,0
-RB Leipzig,Germany,K. Papadopoulos,27,0,24,D,0,0
-RB Leipzig,Germany,B. Schmitz,196,0,22,D,0,0
-RB Leipzig,Germany,O. Burke,193,1,19,M,0,0
-RB Leipzig,Germany,D. Demme,899,0,25,M,2,0
-RB Leipzig,Germany,Bernardo,564,0,21,M,1,0
-RB Leipzig,Germany,S. Ilsanker,817,0,27,M,2,0
-RB Leipzig,Germany,D. Kaiser,561,1,28,M,1,0
-RB Leipzig,Germany,Z. Kalmár,0,0,21,M,0,0
-RB Leipzig,Germany,N. Keïta,595,3,21,M,2,0
-RB Leipzig,Germany,R. Khedira,0,0,22,M,0,0
-RB Leipzig,Germany,M. Sabitzer,687,3,22,M,0,0
-RB Leipzig,Germany,T. Boyd,0,0,25,A,0,0
-RB Leipzig,Germany,E. Forsberg,693,5,25,A,1,0
-RB Leipzig,Germany,D. Selke,114,2,21,A,0,0
-RB Leipzig,Germany,T. Werner,803,5,20,A,1,0
-RB Leipzig,Germany,Y. Poulsen,801,1,22,A,1,0
-Borussia Dortmund,Germany,H. Bonmann,0,0,22,G,0,0
-Borussia Dortmund,Germany,R. Bürki,900,0,26,G,0,0
-Borussia Dortmund,Germany,R. Weidenfeller,360,0,36,G,0,0
-Borussia Dortmund,Germany,Bartra,615,0,25,D,2,0
-Borussia Dortmund,Germany,D. Burnic,0,0,18,D,0,0
-Borussia Dortmund,Germany,E. Durm,112,0,24,D,0,0
-Borussia Dortmund,Germany,M. Ginter,1068,0,22,D,1,0
-Borussia Dortmund,Germany,Raphaël Guerreiro,394,2,22,D,0,0
-Borussia Dortmund,Germany,S. Papastathopoulos,1056,0,28,D,4,0
-Borussia Dortmund,Germany,Joo-Ho Park,65,0,29,D,0,0
-Borussia Dortmund,Germany,Ł. Piszczek,940,3,31,D,1,0
-Borussia Dortmund,Germany,M. Schmelzer,904,0,28,D,2,0
-Borussia Dortmund,Germany,N. Subotić,0,0,28,D,0,0
-Borussia Dortmund,Germany,S. Bender,0,0,27,M,0,0
-Borussia Dortmund,Germany,Jacob Bruun Larsen,0,0,18,M,0,0
-Borussia Dortmund,Germany,G. Castro,795,2,29,M,2,0
-Borussia Dortmund,Germany,O. Dembélé,873,3,19,M,4,0
-Borussia Dortmund,Germany,M. Götze,559,0,24,M,1,0
-Borussia Dortmund,Germany,S. Kagawa,318,0,27,M,1,0
-Borussia Dortmund,Germany,Mikel Merino,90,0,20,M,0,0
-Borussia Dortmund,Germany,E. Mor,287,1,19,M,0,1
-Borussia Dortmund,Germany,F. Passlack,354,0,18,M,0,0
-Borussia Dortmund,Germany,C. Pulisic,514,2,18,M,0,0
-Borussia Dortmund,Germany,S. Rode,519,1,26,M,0,0
-Borussia Dortmund,Germany,N. Şahin,36,0,28,M,0,0
-Borussia Dortmund,Germany,A. Schürrle,339,0,26,M,0,0
-Borussia Dortmund,Germany,J. Weigl,1043,0,21,M,1,0
-Borussia Dortmund,Germany,P. Aubameyang,1165,15,27,A,1,0
-Borussia Dortmund,Germany,A. Ramos,348,2,30,A,2,0
-Borussia Dortmund,Germany,M. Reus,200,1,27,A,0,0
-Hoffenheim,Germany,O. Baumann,1260,0,26,G,0,0
-Hoffenheim,Germany,G. Kobel,0,0,19,G,0,0
-Hoffenheim,Germany,A. Stolz,0,0,33,G,0,0
-Hoffenheim,Germany,E. Bičakčić,429,0,26,D,3,0
-Hoffenheim,Germany,B. Hübner,758,0,27,D,1,0
-Hoffenheim,Germany,P. Kadeřábek,1197,0,24,D,1,0
-Hoffenheim,Germany,Jin-Su Kim,0,0,24,D,0,0
-Hoffenheim,Germany,F. Schär,223,0,24,D,1,0
-Hoffenheim,Germany,N. Süle,1117,1,21,D,0,0
-Hoffenheim,Germany,J. Toljan,585,1,22,D,1,0
-Hoffenheim,Germany,N. Amiri,704,1,20,M,0,0
-Hoffenheim,Germany,K. Demirbay,649,3,23,M,0,0
-Hoffenheim,Germany,D. Geiger,0,0,18,M,0,0
-Hoffenheim,Germany,J. Hamad,0,0,26,M,0,0
-Hoffenheim,Germany,P. Ochs,99,0,19,M,0,0
-Hoffenheim,Germany,E. Polanski,517,0,30,M,1,0
-Hoffenheim,Germany,S. Rudy,1138,0,26,M,4,0
-Hoffenheim,Germany,L. Rupp,727,2,25,M,2,0
-Hoffenheim,Germany,P. Schwegler,140,0,29,M,0,0
-Hoffenheim,Germany,K. Vogt,931,0,25,M,2,0
-Hoffenheim,Germany,S. Zuber,407,2,25,M,0,0
-Hoffenheim,Germany,B. Atik,30,0,21,A,0,0
-Hoffenheim,Germany,A. Kramarić,1073,3,25,A,0,0
-Hoffenheim,Germany,Á. Szalai,135,1,29,A,0,0
-Hoffenheim,Germany,M. Terrazzino,11,0,25,A,0,0
-Hoffenheim,Germany,M. Uth,494,4,25,A,3,0
-Hoffenheim,Germany,E. Vargas,96,0,27,A,1,0
-Hoffenheim,Germany,S. Wagner,1140,7,29,A,3,0
-Köln,Germany,M. Hamrol,0,0,22,G,0,0
-Köln,Germany,T. Horn,810,0,23,G,0,0
-Köln,Germany,T. Kessler,90,0,30,G,0,0
-Köln,Germany,S. Müller,90,0,20,G,0,0
-Köln,Germany,J. Hector,990,0,26,D,1,0
-Köln,Germany,D. Heintz,877,0,23,D,2,0
-Köln,Germany,F. Sørensen,990,0,24,D,3,0
-Köln,Germany,L. Klünter,0,0,20,D,0,0
-Köln,Germany,D. Maroh,102,0,29,D,1,0
-Köln,Germany,M. Mavraj,990,0,30,D,1,0
-Köln,Germany,F. Mladenović,9,0,25,D,0,0
-Köln,Germany,P. Olkowski,25,0,26,D,0,0
-Köln,Germany,K. Rausch,455,0,26,D,1,0
-Köln,Germany,L. Bittencourt,276,1,22,M,2,0
-Köln,Germany,M. Hartel,0,0,20,M,0,0
-Köln,Germany,M. Höger,847,0,27,M,3,0
-Köln,Germany,M. Jojić,98,0,24,M,1,0
-Köln,Germany,M. Lehmann,923,0,33,M,3,0
-Köln,Germany,S. Özcan,58,0,18,M,0,0
-Köln,Germany,M. Risse,990,2,26,M,1,0
-Köln,Germany,S. Guirassy,25,0,20,A,0,0
-Köln,Germany,A. Modeste,960,12,28,A,1,0
-Köln,Germany,Y. Ōsako,768,2,26,A,2,0
-Köln,Germany,A. Rudņevs,215,0,28,A,2,0
-Köln,Germany,S. Zoller,302,1,25,A,2,0
-Hertha BSC,Germany,R. Jarstein,990,0,32,G,0,0
-Hertha BSC,Germany,Nils-Jonathan Körber,0,0,20,G,0,0
-Hertha BSC,Germany,T. Kraft,0,0,28,G,0,0
-Hertha BSC,Germany,F. Baak,0,0,17,D,0,0
-Hertha BSC,Germany,J. Brooks,630,0,23,D,2,0
-Hertha BSC,Germany,S. Langkamp,810,0,28,D,2,0
-Hertha BSC,Germany,F. Lustenberger,686,0,28,D,0,0
-Hertha BSC,Germany,M. Mittelstädt,90,0,19,D,1,0
-Hertha BSC,Germany,P. Pekarík,676,0,30,D,2,0
-Hertha BSC,Germany,M. Plattenhardt,810,0,24,D,1,0
-Hertha BSC,Germany,N. Stark,891,1,21,D,3,0
-Hertha BSC,Germany,M. Weiser,853,1,22,D,1,0
-Hertha BSC,Germany,A. Baumjohann,0,0,29,M,0,0
-Hertha BSC,Germany,V. Darida,235,1,26,M,0,0
-Hertha BSC,Germany,O. Duda,0,0,21,M,0,0
-Hertha BSC,Germany,A. Esswein,511,1,26,M,2,0
-Hertha BSC,Germany,G. Haraguchi,909,0,25,M,1,0
-Hertha BSC,Germany,J. Hegeler,26,0,28,M,0,0
-Hertha BSC,Germany,J. Kade,0,0,17,M,0,0
-Hertha BSC,Germany,F. Kohls,0,0,21,M,0,0
-Hertha BSC,Germany,S. Kurt,4,0,20,M,0,0
-Hertha BSC,Germany,Allan,250,0,19,M,1,0
-Hertha BSC,Germany,P. Skjelbred,767,0,29,M,0,0
-Hertha BSC,Germany,V. Stocker,405,2,27,M,0,1
-Hertha BSC,Germany,S. Allagui,25,0,30,A,1,0
-Hertha BSC,Germany,V. Ibišević,907,6,32,A,1,0
-Hertha BSC,Germany,S. Kalou,249,3,31,A,0,0
-Hertha BSC,Germany,J. Schieber,166,2,27,A,2,0
-Freiburg,Germany,R. Gikiewicz,0,0,29,G,0,0
-Freiburg,Germany,P. Klandt,0,0,33,G,0,0
-Freiburg,Germany,A. Schwolow,990,0,24,G,0,0
-Freiburg,Germany,J. Föhrenbach,81,0,20,D,0,0
-Freiburg,Germany,M. Gulde,402,0,25,D,1,0
-Freiburg,Germany,C. Günter,895,0,23,D,2,1
-Freiburg,Germany,A. Ignjovski,202,0,25,D,0,0
-Freiburg,Germany,M. Kempf,0,0,21,D,0,0
-Freiburg,Germany,L. Kübler,0,0,24,D,0,0
-Freiburg,Germany,G. Niedermeier,89,0,30,D,0,0
-Freiburg,Germany,C. Söyüncü,856,0,20,D,4,0
-Freiburg,Germany,P. Stenzel,720,0,20,D,0,0
-Freiburg,Germany,Torrejón,433,0,30,D,1,0
-Freiburg,Germany,A. Abrashi,616,1,26,M,2,0
-Freiburg,Germany,O. Bulut,624,0,22,M,2,0
-Freiburg,Germany,M. Frantz,734,0,30,M,2,0
-Freiburg,Germany,V. Grifo,989,3,23,M,1,0
-Freiburg,Germany,J. Haberer,183,0,22,M,2,0
-Freiburg,Germany,N. Höfler,989,1,26,M,4,0
-Freiburg,Germany,L. Hufnagel,0,0,22,M,0,0
-Freiburg,Germany,C. Laprevotte,0,0,24,M,0,0
-Freiburg,Germany,J. Meffert,58,0,22,M,0,0
-Freiburg,Germany,M. Dæhli,10,0,21,M,0,0
-Freiburg,Germany,M. Philipp,875,5,22,M,3,0
-Freiburg,Germany,J. Schuster,0,0,31,M,0,0
-Freiburg,Germany,A. Falahen,0,0,23,A,0,0
-Freiburg,Germany,K. Guédé,59,0,31,A,0,0
-Freiburg,Germany,H. Nielsen,0,0,23,A,0,0
-Freiburg,Germany,F. Niederlechner,702,1,26,A,3,0
-Freiburg,Germany,N. Petersen,378,4,27,A,0,0
-Werder Bremen,Germany,J. Drobný,360,0,37,G,0,0
-Werder Bremen,Germany,E. Oelschlägel,0,0,21,G,0,0
-Werder Bremen,Germany,F. Wiedwald,630,0,26,G,0,0
-Werder Bremen,Germany,R. Wolf,0,0,28,G,0,0
-Werder Bremen,Germany,M. Zetterer,0,0,21,G,0,0
-Werder Bremen,Germany,R. Bauer,492,0,21,D,0,0
-Werder Bremen,Germany,L. Caldirola,180,0,25,D,0,0
-Werder Bremen,Germany,F. Diagne,136,0,27,D,0,0
-Werder Bremen,Germany,S. García,450,1,28,D,2,0
-Werder Bremen,Germany,U. Garcia,132,0,20,D,0,0
-Werder Bremen,Germany,T. Gebre Selassie,990,1,29,D,2,0
-Werder Bremen,Germany,N. Moisander,764,0,31,D,1,0
-Werder Bremen,Germany,L. Sané,672,1,29,D,1,0
-Werder Bremen,Germany,J. Sternberg,70,0,24,D,1,0
-Werder Bremen,Germany,P. Bargfrede,18,0,27,M,0,0
-Werder Bremen,Germany,F. Bartels,422,0,29,M,0,0
-Werder Bremen,Germany,M. Eggestein,16,0,19,M,0,0
-Werder Bremen,Germany,J. Eilers,0,0,28,M,0,0
-Werder Bremen,Germany,C. Fritz,864,0,35,M,3,0
-Werder Bremen,Germany,L. Fröde,11,0,21,M,0,0
-Werder Bremen,Germany,S. Gnabry,842,4,21,M,1,0
-Werder Bremen,Germany,F. Grillitsch,892,1,21,M,3,0
-Werder Bremen,Germany,I. Hajrović,476,1,25,M,1,0
-Werder Bremen,Germany,Z. Junuzović,889,1,29,M,1,0
-Werder Bremen,Germany,F. Kainz,4,0,24,M,0,0
-Werder Bremen,Germany,T. Petsos,98,0,25,M,1,0
-Werder Bremen,Germany,N. Schmidt,14,0,18,M,0,0
-Werder Bremen,Germany,M. Veljkovic,330,0,21,M,1,0
-Werder Bremen,Germany,S. Yatabaré,176,0,27,M,0,0
-Werder Bremen,Germany,J. Eggestein,0,0,18,A,0,0
-Werder Bremen,Germany,A. Jóhannsson,187,1,26,A,0,1
-Werder Bremen,Germany,M. Kruse,90,0,28,A,0,0
-Werder Bremen,Germany,M. Lorenzen,0,0,21,A,0,0
-Werder Bremen,Germany,O. Manneh,488,1,19,A,2,0
-Werder Bremen,Germany,C. Pizarro,103,0,38,A,0,0
-Werder Bremen,Germany,L. Thy,84,1,24,A,0,0
-Borussia M'gladbach,Germany,C. Heimeroth,0,0,35,G,0,0
-Borussia M'gladbach,Germany,M. Nicolas,0,0,19,G,0,0
-Borussia M'gladbach,Germany,T. Sippel,0,0,28,G,0,0
-Borussia M'gladbach,Germany,Y. Sommer,990,0,27,G,1,0
-Borussia M'gladbach,Germany,A. Christensen,720,0,20,D,0,0
-Borussia M'gladbach,Germany,Álvaro Domínguez,0,0,27,D,0,0
-Borussia M'gladbach,Germany,M. Doucouré,0,0,18,D,0,0
-Borussia M'gladbach,Germany,N. Elvedi,863,0,20,D,1,0
-Borussia M'gladbach,Germany,T. Jantschke,631,0,26,D,0,0
-Borussia M'gladbach,Germany,N. Rütten,0,0,21,D,0,0
-Borussia M'gladbach,Germany,N. Schulz,40,0,23,D,0,0
-Borussia M'gladbach,Germany,T. Strobl,430,0,26,D,3,0
-Borussia M'gladbach,Germany,J. Vestergaard,659,0,24,D,1,0
-Borussia M'gladbach,Germany,O. Wendt,784,1,31,D,1,0
-Borussia M'gladbach,Germany,L. Bénes,0,0,19,M,0,0
-Borussia M'gladbach,Germany,M. Dahoud,431,0,20,M,0,0
-Borussia M'gladbach,Germany,A. Hahn,616,1,26,M,1,0
-Borussia M'gladbach,Germany,T. Hazard,457,3,23,M,0,0
-Borussia M'gladbach,Germany,P. Herrmann,129,0,25,M,0,0
-Borussia M'gladbach,Germany,J. Hofmann,180,0,24,M,0,0
-Borussia M'gladbach,Germany,F. Johnson,711,1,28,M,1,0
-Borussia M'gladbach,Germany,J. Korb,517,0,24,M,0,0
-Borussia M'gladbach,Germany,C. Kramer,849,0,25,M,4,0
-Borussia M'gladbach,Germany,W. Ndenge,0,0,19,M,0,0
-Borussia M'gladbach,Germany,M. Schulz,0,0,21,M,0,0
-Borussia M'gladbach,Germany,D. Sow,0,0,19,M,0,0
-Borussia M'gladbach,Germany,L. Stindl,912,3,28,M,3,0
-Borussia M'gladbach,Germany,I. Traoré,534,0,28,M,0,0
-Borussia M'gladbach,Germany,Raffael,386,2,31,A,1,0
-Borussia M'gladbach,Germany,J. Drmic,0,0,24,A,0,0
-Schalke 04,Germany,R. Fährmann,990,0,28,G,1,0
-Schalke 04,Germany,F. Giefer,0,0,26,G,0,0
-Schalke 04,Germany,A. Nübel,0,0,20,G,0,0
-Schalke 04,Germany,T. Wellenreuther,0,0,20,G,0,0
-Schalke 04,Germany,Coke,0,0,29,D,0,0
-Schalke 04,Germany,D. Aogo,74,0,29,D,0,0
-Schalke 04,Germany,Naldo,900,0,34,D,0,0
-Schalke 04,Germany,A. Baba,495,0,22,D,1,0
-Schalke 04,Germany,J. Bitter,0,0,19,D,0,0
-Schalke 04,Germany,Júnior Caiçara,90,0,27,D,1,0
-Schalke 04,Germany,B. Höwedes,990,0,28,D,4,0
-Schalke 04,Germany,T. Kehrer,0,0,20,D,0,0
-Schalke 04,Germany,S. Kolašinac,505,0,23,D,3,0
-Schalke 04,Germany,M. Nastasić,810,0,23,D,1,0
-Schalke 04,Germany,P. Neumann,0,0,19,D,0,0
-Schalke 04,Germany,S. Riether,180,0,33,D,0,0
-Schalke 04,Germany,A. Uchida,0,0,28,D,0,0
-Schalke 04,Germany,N. Bentaleb,902,4,22,M,3,0
-Schalke 04,Germany,J. Geis,683,0,23,M,3,0
-Schalke 04,Germany,L. Goretzka,772,2,21,M,1,0
-Schalke 04,Germany,Y. Konoplyanka,166,0,27,M,1,0
-Schalke 04,Germany,M. Meyer,606,1,21,M,0,0
-Schalke 04,Germany,S. Sam,0,0,28,M,0,0
-Schalke 04,Germany,A. Schöpf,610,2,22,M,0,0
-Schalke 04,Germany,B. Stambouli,271,0,26,M,1,0
-Schalke 04,Germany,D. Avdijaj,0,0,20,A,0,0
-Schalke 04,Germany,E. Choupo-Moting,806,2,27,A,0,0
-Schalke 04,Germany,F. Di Santo,222,0,27,A,1,0
-Schalke 04,Germany,B. Embolo,341,2,19,A,0,0
-Schalke 04,Germany,K. Huntelaar,477,1,33,A,0,0
-Schalke 04,Germany,F. Reese,0,0,18,A,0,0
-Schalke 04,Germany,B. Tekpetey,0,0,19,A,0,0
-Eintracht Frankfurt,Germany,L. Bätge,0,0,19,G,0,0
-Eintracht Frankfurt,Germany,L. Hradecky,990,0,27,G,1,0
-Eintracht Frankfurt,Germany,H. Lindner,0,0,26,G,0,0
-Eintracht Frankfurt,Germany,D. Abraham,931,1,30,D,2,0
-Eintracht Frankfurt,Germany,T. Chandler,935,0,26,D,3,0
-Eintracht Frankfurt,Germany,M. Hector,222,1,24,D,1,1
-Eintracht Frankfurt,Germany,B. Oczipka,972,1,27,D,2,0
-Eintracht Frankfurt,Germany,Y. Regäsel,0,0,20,D,0,0
-Eintracht Frankfurt,Germany,M. Russ,0,0,31,D,0,0
-Eintracht Frankfurt,Germany,Anderson Bamba,0,0,28,D,0,0
-Eintracht Frankfurt,Germany,T. Tawatha,18,0,24,D,0,0
-Eintracht Frankfurt,Germany,Jesús Vallejo,902,0,19,D,2,0
-Eintracht Frankfurt,Germany,G. Varela,97,0,23,D,1,0
-Eintracht Frankfurt,Germany,F. Zorba,0,0,18,D,0,0
-Eintracht Frankfurt,Germany,A. Barkok,15,1,18,M,0,0
-Eintracht Frankfurt,Germany,M. Fabián,810,3,27,M,4,0
-Eintracht Frankfurt,Germany,J. Flum,0,0,28,M,0,0
-Eintracht Frankfurt,Germany,M. Gaćinović,642,1,21,M,2,0
-Eintracht Frankfurt,Germany,J. Gerezgiher,0,0,21,M,0,0
-Eintracht Frankfurt,Germany,M. Hasebe,743,0,32,M,0,0
-Eintracht Frankfurt,Germany,S. Huszti,759,1,33,M,3,0
-Eintracht Frankfurt,Germany,Omar Mascarell,922,0,23,M,5,0
-Eintracht Frankfurt,Germany,S. Medojević,0,0,26,M,0,0
-Eintracht Frankfurt,Germany,M. Stendera,0,0,20,M,0,0
-Eintracht Frankfurt,Germany,D. Blum,132,0,25,A,0,0
-Eintracht Frankfurt,Germany,E. Bunjaki,0,0,19,A,0,0
-Eintracht Frankfurt,Germany,B. Hrgota,426,0,23,A,0,0
-Eintracht Frankfurt,Germany,A. Meier,735,4,33,A,1,0
-Eintracht Frankfurt,Germany,A. Rebić,144,0,23,A,1,0
-Eintracht Frankfurt,Germany,H. Seferović,338,1,24,A,1,0
-Eintracht Frankfurt,Germany,S. Tarashaj,121,1,21,A,1,0
-Bayer Leverkusen,Germany,B. Leno,990,0,24,G,0,0
-Bayer Leverkusen,Germany,N. Lomb,0,0,23,G,0,0
-Bayer Leverkusen,Germany,R. Özcan,0,0,32,G,0,0
-Bayer Leverkusen,Germany,L. Boeder,0,0,19,D,0,0
-Bayer Leverkusen,Germany,A. Dragović,232,0,25,D,1,0
-Bayer Leverkusen,Germany,R. Hilbert,0,0,32,D,0,0
-Bayer Leverkusen,Germany,T. Jedvaj,267,1,20,D,0,0
-Bayer Leverkusen,Germany,Wendell,811,0,23,D,3,0
-Bayer Leverkusen,Germany,J. Tah,854,0,20,D,1,0
-Bayer Leverkusen,Germany,Ö. Toprak,770,0,27,D,3,0
-Bayer Leverkusen,Germany,D. da Costa,0,0,23,D,0,0
-Bayer Leverkusen,Germany,C. Aránguiz,801,1,27,M,3,0
-Bayer Leverkusen,Germany,J. Baumgartlinger,422,0,28,M,0,0
-Bayer Leverkusen,Germany,K. Bellarabi,93,0,26,M,1,0
-Bayer Leverkusen,Germany,L. Bender,335,0,27,M,1,0
-Bayer Leverkusen,Germany,K. Havertz,125,0,17,M,0,0
-Bayer Leverkusen,Germany,B. Henrichs,900,0,19,M,0,0
-Bayer Leverkusen,Germany,K. Kampl,900,1,26,M,2,0
-Bayer Leverkusen,Germany,V. Yurchenko,0,0,22,M,0,0
-Bayer Leverkusen,Germany,J. Brandt,816,2,20,A,0,0
-Bayer Leverkusen,Germany,H. Çalhanoğlu,587,2,22,A,1,0
-Bayer Leverkusen,Germany,J. Hernández,745,5,28,A,1,0
-Bayer Leverkusen,Germany,S. Kießling,105,0,32,A,0,0
-Bayer Leverkusen,Germany,R. Kruse,0,0,28,A,0,0
-Bayer Leverkusen,Germany,A. Mehmedi,621,2,25,A,1,0
-Bayer Leverkusen,Germany,J. Pohjanpalo,104,4,22,A,0,0
-Bayer Leverkusen,Germany,K. Volland,328,0,24,A,0,1
-Augsburg,Germany,I. Gelios,0,0,24,G,0,0
-Augsburg,Germany,M. Hitz,990,0,29,G,0,0
-Augsburg,Germany,A. Luthe,0,0,29,G,0,0
-Augsburg,Germany,J. Callsen-Bracker,0,0,32,D,0,0
-Augsburg,Germany,R. Framberger,90,0,21,D,0,0
-Augsburg,Germany,M. Friedrich,0,0,20,D,0,0
-Augsburg,Germany,J. Gouweleeuw,540,1,25,D,3,0
-Augsburg,Germany,M. Hinteregger,883,0,24,D,1,0
-Augsburg,Germany,C. Janker,545,0,31,D,0,0
-Augsburg,Germany,P. Max,335,0,23,D,1,0
-Augsburg,Germany,D. Opare,0,0,26,D,0,0
-Augsburg,Germany,T. Rieder,0,0,23,D,0,0
-Augsburg,Germany,K. Stafylidis,985,2,22,D,2,0
-Augsburg,Germany,P. Verhaegh,990,0,33,D,2,0
-Augsburg,Germany,Halil Altıntop,372,2,33,M,1,0
-Augsburg,Germany,D. Baier,990,1,32,M,1,0
-Augsburg,Germany,Caiuby,180,0,28,M,1,0
-Augsburg,Germany,M. Feulner,0,0,34,M,0,0
-Augsburg,Germany,G. Kačar,534,0,29,M,1,0
-Augsburg,Germany,D. Kohr,460,0,22,M,2,0
-Augsburg,Germany,Ja-Cheol Koo,774,1,27,M,2,0
-Augsburg,Germany,J. Morávek,98,0,27,M,0,0
-Augsburg,Germany,J. Schmid,488,0,26,M,0,0
-Augsburg,Germany,M. Schuster,0,0,21,M,0,0
-Augsburg,Germany,G. Teigl,57,0,25,M,1,0
-Augsburg,Germany,T. Usami,8,0,24,M,0,0
-Augsburg,Germany,R. Bobadilla,271,1,29,A,0,0
-Augsburg,Germany,A. Finnbogason,513,1,27,A,0,0
-Augsburg,Germany,J. Schmidt,5,0,22,A,0,0
-Augsburg,Germany,Dong-Won Ji,872,1,25,A,2,0
-Hamburger SV,Germany,R. Adler,900,0,31,G,1,0
-Hamburger SV,Germany,A. Hirzel,0,0,23,G,0,0
-Hamburger SV,Germany,C. Mathenia,90,0,24,G,0,0
-Hamburger SV,Germany,T. Mickel,0,0,27,G,0,0
-Hamburger SV,Germany,D. Diekmeier,330,0,27,D,2,0
-Hamburger SV,Germany,J. Djourou,630,0,29,D,2,0
-Hamburger SV,Germany,Douglas Santos,810,0,22,D,3,0
-Hamburger SV,Germany,A. Götz,66,0,23,D,1,0
-Hamburger SV,Germany,Cleber Reis,326,0,25,D,1,1
-Hamburger SV,Germany,G. Jung,706,0,22,D,0,0
-Hamburger SV,Germany,M. Ostrzolek,360,0,26,D,0,0
-Hamburger SV,Germany,G. Sakai,855,0,25,D,4,0
-Hamburger SV,Germany,Young-Jae Seo,0,0,21,D,0,0
-Hamburger SV,Germany,E. Spahić,685,0,36,D,2,0
-Hamburger SV,Germany,N. Bahoui,67,0,25,M,0,0
-Hamburger SV,Germany,A. Ekdal,514,0,27,M,1,0
-Hamburger SV,Germany,D. Feka,0,0,19,M,0,0
-Hamburger SV,Germany,M. Gregoritsch,411,0,22,M,1,0
-Hamburger SV,Germany,A. Halilović,138,0,20,M,0,0
-Hamburger SV,Germany,L. Holtby,696,0,26,M,1,0
-Hamburger SV,Germany,A. Hunt,441,0,30,M,1,0
-Hamburger SV,Germany,F. Kostić,683,1,24,M,1,0
-Hamburger SV,Germany,N. Müller,877,3,29,M,2,0
-Hamburger SV,Germany,F. Porath,0,0,19,M,0,0
-Hamburger SV,Germany,F. Ronstadt,0,0,19,M,0,0
-Hamburger SV,Germany,B. Jatta,0,0,18,A,0,0
-Hamburger SV,Germany,M. Köhlert,0,0,18,A,0,0
-Hamburger SV,Germany,P. Lasogga,436,0,24,A,2,0
-Hamburger SV,Germany,L. Waldschmidt,148,0,20,A,0,0
-Hamburger SV,Germany,B. Wood,591,2,24,A,1,1
-Mainz 05,Germany,G. Curci,0,0,31,G,0,0
-Mainz 05,Germany,J. Huth,0,0,22,G,0,0
-Mainz 05,Germany,J. Lössl,990,0,27,G,0,0
-Mainz 05,Germany,F. Müller,0,0,19,G,0,0
-Mainz 05,Germany,L. Balogun,549,0,28,D,1,0
-Mainz 05,Germany,S. Bell,854,3,25,D,5,0
-Mainz 05,Germany,D. Brosinski,781,0,28,D,5,0
-Mainz 05,Germany,N. Bungert,165,1,30,D,0,0
-Mainz 05,Germany,G. Bussmann,597,0,25,D,0,1
-Mainz 05,Germany,G. Donati,990,0,26,D,0,0
-Mainz 05,Germany,A. Hack,441,0,23,D,0,0
-Mainz 05,Germany,C. Clemens,188,0,25,M,0,0
-Mainz 05,Germany,F. Frei,606,0,27,M,2,0
-Mainz 05,Germany,J. Gbamin,766,0,21,M,0,0
-Mainz 05,Germany,B. Halimi,0,0,21,M,0,0
-Mainz 05,Germany,G. Holtmann,23,0,21,M,0,0
-Mainz 05,Germany,P. Klement,0,0,24,M,0,0
-Mainz 05,Germany,D. Latza,0,0,26,M,0,0
-Mainz 05,Germany,Y. Mallı,940,6,24,M,0,0
-Mainz 05,Germany,L. Öztunali,540,2,20,M,0,0
-Mainz 05,Germany,André Ramalho,37,0,24,M,1,0
-Mainz 05,Germany,José Rodríguez,5,0,21,M,0,1
-Mainz 05,Germany,Jairo Samperio,188,0,23,M,1,0
-Mainz 05,Germany,S. Serdar,305,0,19,M,1,0
-Mainz 05,Germany,E. Berggreen,0,0,23,A,0,0
-Mainz 05,Germany,J. Córdoba,866,2,23,A,4,0
-Mainz 05,Germany,P. De Blasis,482,4,28,A,2,0
-Mainz 05,Germany,Y. Muto,47,2,24,A,0,0
-Mainz 05,Germany,K. Onisiwo,497,1,24,A,3,0
-Wolfsburg,Germany,D. Benaglio,270,0,33,G,0,0
-Wolfsburg,Germany,K. Casteels,720,0,24,G,1,0
-Wolfsburg,Germany,M. Grün,0,0,29,G,0,0
-Wolfsburg,Germany,P. Menzel,0,0,18,G,0,0
-Wolfsburg,Germany,C. Ascues,0,0,24,D,0,0
-Wolfsburg,Germany,J. Bruma,833,0,25,D,3,1
-Wolfsburg,Germany,H. Hansen,83,0,22,D,0,0
-Wolfsburg,Germany,J. Horn,81,0,19,D,1,0
-Wolfsburg,Germany,S. Jung,0,0,26,D,0,0
-Wolfsburg,Germany,R. Knoche,431,0,24,D,0,0
-Wolfsburg,Germany,R. Rodríguez,918,2,24,D,0,0
-Wolfsburg,Germany,M. Schäfer,71,0,32,D,1,0
-Wolfsburg,Germany,C. Träsch,469,0,29,D,0,0
-Wolfsburg,Germany,P. Wollscheid,270,0,27,D,0,0
-Wolfsburg,Germany,R. Ziegele,0,0,19,D,0,0
-Wolfsburg,Germany,M. Arnold,811,1,22,M,4,0
-Wolfsburg,Germany,I. Azzaoui,0,0,18,M,0,0
-Wolfsburg,Germany,J. Błaszczykowski,695,0,30,M,2,0
-Wolfsburg,Germany,D. Caligiuri,637,0,28,M,1,0
-Wolfsburg,Germany,A. Conde,0,0,19,M,0,0
-Wolfsburg,Germany,Luiz Gustavo,617,0,29,M,0,0
-Wolfsburg,Germany,D. Didavi,234,2,26,M,0,0
-Wolfsburg,Germany,A. Donkor,0,0,19,M,0,0
-Wolfsburg,Germany,J. Draxler,788,0,23,M,0,0
-Wolfsburg,Germany,Y. Gerhardt,765,0,22,M,2,0
-Wolfsburg,Germany,J. Guilavogui,9,0,26,M,0,0
-Wolfsburg,Germany,J. Möbius,0,0,19,M,0,0
-Wolfsburg,Germany,Bruno Henrique,178,0,25,M,0,0
-Wolfsburg,Germany,P. Seguin,523,0,21,M,2,0
-Wolfsburg,Germany,Vieirinha,341,0,30,M,0,0
-Wolfsburg,Germany,J. Brekalo,76,0,18,A,1,0
-Wolfsburg,Germany,M. Gómez,892,3,31,A,1,0
-Wolfsburg,Germany,Borja Mayoral,30,0,19,A,0,0
-Ingolstadt,Germany,F. Buntic,0,0,19,G,0,0
-Ingolstadt,Germany,M. Hansen,180,0,26,G,0,0
-Ingolstadt,Germany,Ø. Nyland,810,0,26,G,0,0
-Ingolstadt,Germany,C. Ortag,0,0,21,G,0,0
-Ingolstadt,Germany,R. Brégerie,180,0,30,D,1,0
-Ingolstadt,Germany,F. Hadergjonaj,270,0,22,D,1,0
-Ingolstadt,Germany,A. Jung,180,0,25,D,0,0
-Ingolstadt,Germany,T. Levels,718,0,30,D,3,1
-Ingolstadt,Germany,M. Matip,990,0,31,D,1,0
-Ingolstadt,Germany,M. Suttner,855,0,29,D,4,0
-Ingolstadt,Germany,M. Tisserand,810,0,23,D,2,0
-Ingolstadt,Germany,H. Wahl,0,0,22,D,0,0
-Ingolstadt,Germany,M. Christiansen,60,0,20,M,1,0
-Ingolstadt,Germany,A. Cohen,532,1,28,M,0,0
-Ingolstadt,Germany,Roger,881,0,31,M,1,0
-Ingolstadt,Germany,P. Groß,990,0,25,M,0,0
-Ingolstadt,Germany,S. Kittel,24,0,23,M,0,0
-Ingolstadt,Germany,A. Morales,307,0,26,M,2,0
-Ingolstadt,Germany,M. Multhaup,0,0,19,M,0,0
-Ingolstadt,Germany,N. Rinderknecht,0,0,19,M,0,0
-Ingolstadt,Germany,M. Hartmann,757,1,30,A,0,0
-Ingolstadt,Germany,L. Hinterseer,655,3,25,A,2,0
-Ingolstadt,Germany,M. Leckie,744,0,25,A,1,0
-Ingolstadt,Germany,R. Leipertz,14,0,23,A,0,0
-Ingolstadt,Germany,S. Lex,231,0,26,A,2,0
-Ingolstadt,Germany,D. Lezcano,696,3,26,A,0,0
-Darmstadt 98,Germany,I. Berezovskiy,0,0,26,G,0,0
-Darmstadt 98,Germany,M. Esser,955,0,29,G,0,0
-Darmstadt 98,Germany,Daniel Heuer,35,0,24,G,0,0
-Darmstadt 98,Germany,C. Aydogan,0,0,17,D,0,0
-Darmstadt 98,Germany,A. Fedetskiy,170,0,31,D,2,0
-Darmstadt 98,Germany,B. Gorka,0,0,32,D,0,0
-Darmstadt 98,Germany,L. Guwara,605,0,20,D,2,0
-Darmstadt 98,Germany,I. Höhn,889,0,24,D,3,0
-Darmstadt 98,Germany,F. Holland,494,0,26,D,1,0
-Darmstadt 98,Germany,A. Milosevic,990,0,24,D,2,0
-Darmstadt 98,Germany,S. Sirigu,320,2,28,D,0,0
-Darmstadt 98,Germany,A. Sulu,540,0,30,D,1,0
-Darmstadt 98,Germany,D. Thur,0,0,18,D,0,0
-Darmstadt 98,Germany,J. Wolff,0,0,18,D,0,0
-Darmstadt 98,Germany,L. Fisch,0,0,18,M,0,0
-Darmstadt 98,Germany,J. Gondorf,868,1,28,M,2,0
-Darmstadt 98,Germany,M. Heller,791,0,30,M,0,0
-Darmstadt 98,Germany,F. Jungwirth,921,0,27,M,2,0
-Darmstadt 98,Germany,L. Kleinheisler,690,1,22,M,0,0
-Darmstadt 98,Germany,P. Niemeyer,223,0,33,M,2,0
-Darmstadt 98,Germany,J. Rosenthal,10,0,30,M,0,0
-Darmstadt 98,Germany,M. Vrančić,212,1,27,M,1,0
-Darmstadt 98,Germany,Ä. Ben-Hatira,512,1,28,A,3,0
-Darmstadt 98,Germany,R. Bezjak,532,0,27,A,0,0
-Darmstadt 98,Germany,A. Colak,555,3,23,A,0,0
-Darmstadt 98,Germany,V. Obinna,0,0,29,A,0,0
-Darmstadt 98,Germany,D. Oliynyk,20,1,29,A,0,0
-Darmstadt 98,Germany,F. Platte,0,0,20,A,0,0
-Darmstadt 98,Germany,S. Schipplock,480,0,28,A,1,0
-Darmstadt 98,Germany,D. Stroh-Engel,0,0,30,A,0,0
+name,minutes,goals,assists,age,yellow,red
+A. Begović,0,0,0,29,0,0
+T. Courtois,1350,0,0,24,1,0
+Eduardo,0,0,0,34,0,0
+Marcos Alonso,845,1,2,25,1,0
+Azpilicueta,1350,0,0,27,3,0
+G. Cahill,1344,1,0,30,1,0
+N. Chalobah,57,0,1,22,1,0
+B. Ivanović,563,0,0,32,2,0
+David Luiz,990,0,0,29,3,0
+O. Aina,8,0,0,20,0,0
+J. Terry,366,0,0,36,1,0
+K. Zouma,0,0,0,22,0,0
+Willian,581,3,0,28,2,0
+Oscar,455,0,1,25,1,0
+Fàbregas,193,0,2,29,1,0
+E. Hazard,1254,8,1,25,2,0
+N. Kanté,1350,1,0,25,4,0
+R. Loftus-Cheek,8,0,0,20,0,0
+N. Matić,1228,0,6,28,3,0
+V. Moses,825,3,1,26,1,0
+J. Obi Mikel,0,0,0,29,0,0
+Pedro,685,3,5,29,2,0
+M. van Ginkel,0,0,0,24,0,0
+M. Batshuayi,76,1,1,23,0,0
+Diego Costa,1322,12,5,28,4,0
+D. Solanke,0,0,0,19,0,0
+H. Lloris,1115,0,0,29,0,0
+Pau López,0,0,0,21,0,0
+M. Vorm,235,0,0,33,0,0
+A. Whiteman,0,0,0,18,0,0
+T. Alderweireld,780,0,0,27,0,0
+L. Amos,0,0,0,19,0,0
+C. Carter-Vickers,0,0,0,18,0,0
+B. Davies,283,0,0,23,1,0
+D. Rose,900,1,0,26,6,0
+K. Trippier,11,0,0,26,0,0
+J. Vertonghen,1350,0,0,29,4,0
+K. Walker,1277,0,2,26,4,0
+K. Wimmer,180,0,0,24,1,0
+D. Alli,1078,3,1,20,2,0
+T. Carroll,0,0,0,24,0,0
+C. Eriksen,1219,3,4,24,0,0
+M. Dembélé,674,0,0,29,3,0
+E. Dier,991,0,0,22,2,0
+M. Edwards,0,0,0,18,0,0
+E. Lamela,593,1,1,24,1,0
+M. Sissoko,379,0,1,27,1,0
+A. Walkes,0,0,0,19,0,0
+V. Wanyama,1312,1,0,25,4,0
+H. Winks,153,1,0,20,0,0
+S. Harrison,0,0,0,19,0,0
+V. Janssen,592,1,1,22,0,0
+H. Kane,853,7,1,23,0,0
+G. N'Koudou,35,0,0,21,0,0
+J. Onomah,10,0,0,19,0,0
+Heung-Min Son,830,5,3,24,1,0
+C. Bravo,1080,0,0,33,0,0
+W. Caballero,270,0,0,35,0,0
+A. Gunn,0,0,0,20,0,0
+T. Adarabioyo,0,0,0,19,0,0
+G. Clichy,551,0,0,31,0,0
+Angelino,0,0,0,19,0,0
+A. Kolarov,1201,1,1,31,4,0
+V. Kompany,115,0,0,30,1,0
+Pablo Maffeo,0,0,0,19,0,0
+N. Otamendi,952,0,1,28,5,0
+B. Sagna,618,0,1,33,1,0
+J. Stones,1075,0,0,22,1,0
+P. Zabaleta,515,0,0,31,1,0
+Brahim Diaz,0,0,0,17,0,0
+K. De Bruyne,1044,2,7,25,1,0
+F. Delph,28,0,0,27,0,0
+P. Foden,0,0,0,16,0,0
+Aleix García,26,0,0,19,0,0
+İ. Gündoğan,666,3,1,26,0,0
+David Silva,1070,0,2,30,1,0
+Jesús Navas,434,0,0,31,1,0
+Fernando,388,0,0,29,2,0
+Fernandinho,1260,1,1,31,3,1
+L. Sané,314,0,1,20,0,0
+R. Sterling,1033,4,2,22,3,0
+Y. Touré,226,2,0,33,0,0
+Nolito,600,4,2,30,3,1
+S. Agüero,1010,10,0,28,3,1
+K. Iheanacho,355,3,3,20,0,0
+L. Karius,900,0,0,23,0,0
+A. Manninger,0,0,0,39,0,0
+S. Mignolet,450,0,0,28,0,0
+Tiago Ilori,0,0,0,23,0,0
+N. Clyne,1350,0,1,25,0,0
+J. Gomez,0,0,0,19,0,0
+R. Klavan,314,0,0,31,0,0
+D. Lovren,1036,2,0,27,3,0
+J. Matip,1080,1,0,25,1,0
+Alberto Moreno,197,0,1,24,1,0
+C. Randall,0,0,0,21,0,0
+M. Sakho,0,0,0,26,0,0
+T. Arnold,0,0,0,18,0,0
+C. Brannagan,0,0,0,20,0,0
+E. Can,659,3,1,22,2,0
+Chirivella,0,0,0,19,0,0
+Philippe Coutinho,967,5,5,24,2,0
+O. Ejaria,3,0,0,19,0,0
+M. Grujić,28,0,0,20,0,0
+J. Henderson,1334,1,4,26,6,0
+A. Lallana,883,4,5,28,1,0
+J. Milner,1153,5,1,30,1,0
+S. Ojo,0,0,0,19,0,0
+Lucas Leiva,283,0,0,29,1,0
+K. Stewart,16,0,0,23,0,0
+G. Wijnaldum,1021,1,2,26,1,0
+Roberto Firmino,1247,5,3,25,2,0
+D. Ings,0,0,0,24,0,0
+S. Mané,1210,7,4,24,2,0
+D. Origi,340,3,0,21,0,0
+D. Sturridge,379,0,1,27,1,0
+B. Woodburn,0,0,0,17,0,0
+P. Čech,1350,0,0,34,2,0
+M. Macey,0,0,0,22,0,0
+E. Martínez,0,0,0,24,0,0
+D. Ospina,0,0,0,28,0,0
+Bellerín,1055,0,2,21,1,0
+M. Bola,0,0,0,19,0,0
+Gabriel Paulista,254,0,0,26,1,0
+M. Debuchy,16,0,0,31,0,0
+K. Gibbs,134,0,1,27,1,0
+R. Holding,270,0,0,21,1,0
+C. Jenkinson,83,0,0,24,0,0
+L. Koscielny,1260,2,0,31,2,0
+P. Mertesacker,0,0,0,32,0,0
+Nacho Monreal,1244,0,1,30,1,0
+S. Mustafi,1015,0,1,24,3,0
+K. Bielik,0,0,0,18,0,0
+Santi Cazorla,619,2,2,31,2,0
+F. Coquelin,915,0,0,25,3,0
+J. Dasilva,0,0,0,18,0,0
+Mohamed Elneny,449,0,1,24,0,0
+A. Maitland-Niles,1,0,0,19,0,0
+A. Oxlade-Chamberlain,621,2,4,23,0,0
+M. Özil,1158,5,2,28,0,0
+A. Ramsey,228,0,1,25,1,0
+J. Reine-Adelaide,0,0,0,18,0,0
+B. Sheaf,0,0,0,18,0,0
+G. Xhaka,778,1,0,24,2,1
+G. Zelalem,0,0,0,19,0,0
+C. Akpom,0,0,0,21,0,0
+O. Giroud,135,3,1,30,0,0
+A. Iwobi,588,1,3,20,1,0
+S. Mavididi,0,0,0,18,0,0
+Lucas Pérez,87,0,0,28,0,0
+A. Sánchez,1257,11,5,27,3,0
+Y. Sanogo,0,0,0,23,0,0
+D. Welbeck,0,0,0,26,0,0
+T. Walcott,1186,7,2,27,0,0
+C. Willock,0,0,0,18,0,0
+De Gea,1350,0,0,26,1,0
+S. Johnstone,0,0,0,23,0,0
+S. Romero,0,0,0,29,0,0
+E. Bailly,777,0,0,22,3,0
+M. Darmian,514,0,0,27,1,0
+P. Jones,450,0,0,24,0,0
+M. Rojo,578,0,0,26,1,0
+L. Shaw,526,0,0,21,0,0
+C. Smalling,451,1,0,27,0,0
+A. Tuanzebe,0,0,0,19,0,0
+D. Blind,836,0,2,26,0,0
+M. Carrick,372,0,0,35,0,0
+M. Fellaini,703,0,0,29,6,0
+T. Fosu-Mensah,0,0,0,18,0,0
+Ander Herrera,924,0,2,27,3,0
+J. Lingard,423,0,1,23,0,0
+Mata,752,3,1,28,2,0
+H. Mkhitaryan,300,1,0,27,1,0
+P. Pogba,1260,2,1,23,5,0
+M. Schneiderlin,11,0,0,27,0,0
+B. Schweinsteiger,0,0,0,32,0,0
+A. Valencia,1142,0,0,31,3,0
+A. Young,235,0,0,31,1,0
+M. Depay,20,0,0,22,1,0
+Z. Ibrahimović,1260,8,0,35,4,0
+A. Martial,540,1,3,21,0,0
+M. Rashford,755,3,0,19,1,0
+W. Rooney,649,1,4,31,4,0
+J. Wilson,0,0,0,21,0,0
+M. Hewelt,0,0,0,20,0,0
+Joel Robles,90,0,0,26,0,0
+M. Stekelenburg,1260,0,0,34,2,0
+L. Baines,796,1,0,32,2,0
+M. Bešić,0,0,0,24,0,0
+T. Browning,0,0,0,22,0,0
+S. Coleman,1057,2,0,28,2,0
+Ramiro Funes Mori,555,0,0,25,0,0
+M. Holgate,293,0,1,20,0,0
+P. Jagielka,1080,0,0,34,2,0
+B. Oviedo,477,0,0,26,3,0
+M. Pennington,0,0,0,22,0,0
+A. Williams,1179,0,0,32,2,0
+R. Barkley,1021,2,1,23,2,0
+G. Barry,1196,2,1,35,6,0
+Y. Bolasie,1028,1,4,27,2,0
+D. Calvert-Lewin,0,0,0,19,0,0
+T. Cleverley,400,0,0,27,1,0
+T. Davies,40,0,0,18,0,0
+K. Dowell,0,0,0,19,0,0
+D. Gibson,0,0,0,29,0,0
+I. Gueye,1218,0,1,27,5,0
+A. Lennon,185,0,1,29,0,0
+J. McCarthy,323,0,0,26,1,0
+Deulofeu,456,0,0,22,1,0
+M. Donohue,0,0,0,19,0,0
+A. Koné,43,0,0,33,0,0
+R. Lukaku,1197,9,3,23,2,0
+C. McAleny,0,0,0,24,0,0
+K. Mirallas,868,1,1,29,1,0
+O. Niasse,0,0,0,26,0,0
+L. Rodríguez,0,0,0,24,0,0
+E. Valencia,88,0,0,27,0,0
+F. Forster,1350,0,0,28,2,0
+H. Lewis,0,0,0,18,0,0
+A. McCarthy,0,0,0,27,0,0
+S. Taylor,0,0,0,36,0,0
+Cédric Soares,825,0,0,25,1,0
+R. Bertrand,798,0,1,27,2,0
+José Fonte,1260,0,0,32,2,0
+F. Gardoş,0,0,0,28,0,0
+R. Martina,433,0,0,27,0,0
+J. Stephens,0,0,0,22,0,0
+M. Targett,284,0,0,21,0,0
+V. van Dijk,1350,0,0,25,3,0
+M. Yoshida,180,0,0,28,1,0
+S. Boufal,288,1,0,23,1,0
+J. Clasie,587,0,0,25,2,0
+S. Davis,1074,0,1,31,1,0
+J. Hesketh,0,0,0,20,0,0
+P. Højbjerg,711,0,0,21,1,0
+L. Isgrove,0,0,0,23,0,0
+S. McQueen,288,0,0,21,0,0
+J. Pied,11,0,0,27,0,0
+N. Redmond,1278,3,0,22,1,0
+H. Reed,12,0,0,21,0,0
+Oriol Romeu,1272,0,0,25,4,0
+J. Sims,115,0,1,19,0,0
+D. Tadić,909,1,0,28,3,0
+J. Ward-Prowse,382,1,2,22,0,0
+C. Austin,871,6,1,27,1,0
+S. Long,367,0,0,29,1,0
+O. Olomola,0,0,0,19,0,0
+J. Rodriguez,205,1,0,27,0,0
+R. Allsop,0,0,0,24,0,0
+A. Boruc,1170,0,0,36,1,0
+A. Federici,180,0,0,31,1,0
+J. Holmes,0,0,0,19,0,0
+N. Aké,373,2,0,21,0,0
+C. Buckley,0,0,0,20,0,0
+S. Cook,1350,2,0,25,2,0
+C. Daniels,1170,2,1,30,1,0
+S. Francis,1350,0,1,31,3,0
+O. Harfield,0,0,0,18,0,0
+C. Jordan,0,0,0,17,0,0
+J. Lee,0,0,0,19,0,0
+T. Mings,0,0,0,23,0,0
+A. Smith,1260,1,3,25,5,0
+B. Smith,81,0,0,22,1,0
+M. Wilson,0,0,0,29,0,0
+H. Arter,1306,0,2,26,5,0
+L. Cook,81,0,0,19,0,0
+R. Fraser,330,1,1,22,0,0
+D. Gosling,638,2,0,26,4,0
+M. Gradel,90,0,0,29,1,0
+E. Hyndman,0,0,0,20,0,0
+J. Ibe,739,0,0,21,0,0
+K. O'Connell,0,0,0,17,0,0
+M. Pugh,18,0,1,29,0,0
+J. Stanislas,716,3,3,27,1,0
+A. Surman,810,0,0,30,1,0
+J. Wilshere,805,0,0,24,2,0
+B. Afobe,261,1,1,23,0,0
+L. Grabban,57,0,1,28,0,0
+J. King,993,2,1,24,1,0
+L. Mousset,23,0,0,20,0,0
+C. Wilson,1036,5,0,24,0,0
+B. Foster,1350,0,0,33,0,0
+G. Myhill,0,0,0,34,0,0
+A. Palmer,0,0,0,20,0,0
+J. Rose,0,0,0,21,0,0
+C. Dawson,1350,0,0,26,5,0
+J. Evans,1260,1,0,28,6,0
+B. Galloway,248,0,0,20,0,0
+G. McAuley,1350,3,0,37,3,0
+A. Nyom,922,0,1,28,2,0
+J. Olsson,321,0,0,33,2,0
+K. Wilson,0,0,0,16,0,0
+C. Brunt,589,1,1,31,2,0
+N. Chadli,648,4,2,27,1,0
+S. Field,166,0,0,18,1,0
+D. Fletcher,1267,1,1,32,0,0
+C. Gardner,200,0,1,30,1,0
+J. McClean,657,1,1,27,5,0
+C. McManaman,0,0,0,25,0,0
+J. Morrison,514,2,1,30,2,0
+M. Phillips,1132,3,4,25,0,0
+H. Robson-Kanu,70,0,1,27,0,0
+C. Yacob,1196,0,0,29,6,0
+S. Berahino,245,0,0,23,1,0
+J. Leko,82,0,1,17,0,0
+S. Rondón,1271,4,2,27,0,0
+D. Randolph,360,0,0,29,0,0
+Adrián,990,0,0,29,1,0
+R. Spiegel,0,0,0,23,0,0
+Arbeloa,256,0,0,33,3,0
+S. Byram,264,0,0,23,2,0
+J. Collins,727,1,0,33,1,0
+A. Cresswell,525,0,1,26,2,0
+A. Masuaku,527,0,1,23,1,0
+A. Ogbonna,1080,0,0,28,1,0
+R. Oxford,0,0,0,17,0,0
+A. Pike,0,0,0,19,0,0
+W. Reid,1068,1,2,28,6,0
+M. Antonio,1195,7,0,26,4,0
+M. Browne,0,0,0,18,0,0
+G. Diangana,0,0,0,18,0,0
+S. Feghouli,128,0,0,26,1,0
+E. Fernandes,313,0,0,20,2,0
+C. Kouyaté,1170,0,0,26,1,0
+M. Lanzini,917,3,0,23,1,0
+Pedro Obiang,780,0,0,24,3,0
+M. Noble,1153,0,0,29,4,0
+H. Nordtveit,405,0,0,26,0,0
+D. Payet,1086,2,5,29,1,0
+Domingos Quina,0,0,0,17,0,0
+G. Töre,241,0,1,24,0,0
+A. Ayew,295,0,0,26,0,0
+J. Calleri,129,0,0,23,0,0
+A. Carroll,134,1,0,27,0,0
+A. Fletcher,292,0,0,21,2,0
+D. Sakho,127,1,0,26,0,0
+S. Zaza,460,0,0,25,2,0
+B. Hamer,0,0,0,29,0,0
+K. Schmeichel,687,0,0,30,0,0
+R. Zieler,663,0,0,27,0,0
+Y. Benalouane,0,0,0,29,0,0
+B. Chilwell,0,0,0,19,0,0
+C. Fuchs,1328,1,1,30,4,0
+Luis Hernández,236,0,0,27,0,0
+R. Huth,1257,0,1,32,4,0
+W. Morgan,1350,1,0,32,0,0
+D. Simpson,1197,0,0,29,5,0
+M. Wasilewski,0,0,0,36,0,0
+M. Albrighton,868,0,0,27,1,0
+D. Amartey,925,0,1,21,2,0
+H. Barnes,0,0,0,19,0,0
+D. Drinkwater,1069,0,1,26,1,0
+D. Gray,228,1,1,20,1,0
+M. James,0,0,0,25,0,0
+B. Kapustka,0,0,0,19,0,0
+A. King,713,1,0,28,0,0
+N. Mendy,53,0,0,24,1,0
+R. Mahrez,1177,3,2,25,3,0
+A. Musa,486,2,0,24,1,0
+S. Okazaki,631,2,0,30,1,0
+J. Schlupp,139,0,0,23,0,0
+I. Slimani,617,4,3,28,0,0
+L. Ulloa,92,0,0,30,0,0
+J. Vardy,1134,5,2,29,2,0
+D. Bachmann,0,0,0,22,0,0
+J. Butland,0,0,0,23,0,0
+S. Given,450,0,0,40,1,0
+L. Grant,990,0,0,33,0,0
+J. Haugaard,0,0,0,24,0,0
+P. Bardsley,662,0,0,31,2,0
+G. Cameron,630,0,0,31,0,0
+Dionatan,0,0,0,24,0,0
+G. Johnson,663,0,0,32,0,0
+B. Martins Indi,1170,0,0,24,0,0
+Muniesa,287,1,0,24,1,0
+E. Pieters,1350,0,0,28,2,0
+R. Shawcross,1170,0,1,29,3,0
+C. Adam,664,1,0,31,3,0
+I. Afellay,0,0,0,30,0,0
+J. Allen,1192,4,2,26,5,0
+G. Imbula,581,0,0,24,1,0
+S. Ireland,0,0,0,30,0,0
+X. Shaqiri,858,3,0,25,1,0
+O. Shenton,0,0,0,19,0,0
+T. Verlinden,0,0,0,17,0,0
+G. Whelan,1041,0,1,32,2,0
+M. Arnautović,1238,1,2,27,5,1
+W. Bony,684,2,0,28,1,0
+P. Crouch,196,0,0,35,0,0
+M. Diouf,570,0,1,28,1,0
+Bojan,363,2,0,26,1,0
+J. Ngoy,4,0,0,19,0,0
+Ramadan Sobhi,171,1,0,19,0,0
+J. Walters,659,1,1,33,0,0
+W. Hennessey,540,0,0,29,1,0
+S. Mandanda,810,0,0,31,0,0
+J. Speroni,0,0,0,37,0,0
+S. Dann,990,2,1,29,2,0
+D. Delaney,1026,0,0,35,2,0
+Z. Fryers,164,0,1,24,0,0
+M. Kelly,859,0,1,26,1,0
+P. Souaré,270,0,0,26,0,0
+J. Tomkins,773,3,0,27,2,0
+J. Ward,1348,0,1,27,1,0
+Y. Cabaye,744,1,0,30,5,0
+L. Dreher,0,0,0,18,0,0
+M. Flamini,19,0,0,32,0,0
+J. Ledley,762,1,0,29,0,0
+Chung-Yong Lee,283,0,1,28,0,0
+J. McArthur,1081,4,2,29,4,0
+J. Mutch,8,0,0,25,0,0
+M. Phillips,0,0,0,19,0,0
+J. Puncheon,1142,0,3,30,5,0
+B. Sako,22,0,0,28,0,0
+A. Townsend,1098,1,0,25,3,0
+B. Wynter,0,0,0,19,0,0
+W. Zaha,1194,3,6,24,3,0
+K. Appiah,0,0,0,26,0,0
+J. Benteke,6,0,0,21,0,0
+C. Benteke,1155,8,1,26,3,0
+F. Campbell,32,1,0,29,0,0
+L. Rémy,0,0,0,29,0,0
+C. Wickham,410,2,0,23,1,0
+M. Birighitti,0,0,0,25,0,0
+Ł. Fabiański,1350,0,0,31,1,0
+K. Nordfeldt,0,0,0,27,0,0
+G. Tremmel,0,0,0,38,0,0
+Jordi Amat,1080,0,0,24,4,0
+F. Fernández,720,0,1,27,3,0
+S. Kingsley,586,0,0,22,0,0
+A. Mawson,360,0,0,22,0,0
+K. Naughton,1117,0,0,28,3,0
+Àngel Rangel,474,0,0,34,1,0
+N. Taylor,581,0,1,27,1,0
+M. van der Hoorn,540,1,0,24,1,0
+L. Britton,512,0,0,34,2,0
+J. Cork,945,0,0,27,2,0
+N. Dyer,14,0,0,29,0,0
+L. Fer,1060,6,0,26,3,0
+J. Fulton,331,0,0,22,2,0
+D. James,0,0,0,19,0,0
+Sung-Yeung Ki,542,0,0,27,0,0
+J. Montero,240,0,1,27,0,0
+W. Routledge,895,1,0,31,1,0
+G. Sigurðsson,1258,5,5,27,1,0
+M. Barrow,1011,0,2,24,1,0
+Borja Bastón,374,1,0,24,0,0
+Llorente,850,5,0,31,0,0
+O. McBurnie,10,0,0,20,0,0
+T. Heaton,1170,0,0,30,1,0
+N. Pope,0,0,0,24,0,0
+P. Robinson,180,0,0,37,0,0
+T. Darikwa,0,0,0,24,0,0
+J. Flanagan,224,0,0,23,1,0
+M. Keane,1350,1,0,23,1,0
+K. Long,0,0,0,26,0,0
+M. Lowton,1260,0,1,27,4,0
+B. Mee,1350,0,0,27,1,0
+J. Tarkowski,106,0,0,24,1,0
+S. Ward,1207,1,0,31,1,0
+S. Arfield,893,1,0,28,3,0
+J. Guðmunds­son,828,1,1,26,0,0
+G. Boyd,1009,1,0,31,1,0
+S. Defour,693,1,3,28,1,0
+J. Hendrick,1001,2,0,24,2,0
+M. Kightly,94,0,0,30,0,0
+D. Marney,1282,1,1,32,4,0
+A. O'Neill,82,0,0,18,0,0
+P. Bamford,31,0,0,23,0,0
+A. Barnes,213,1,0,27,1,0
+A. Gray,634,1,2,25,0,0
+S. Vokes,1145,4,1,27,0,0
+G. Arlauskis,0,0,0,29,0,0
+Gomes,1293,0,0,35,1,0
+R. Gilmartin,0,0,0,29,0,0
+C. Pantilimon,57,0,0,29,0,0
+M. Britos,1075,0,0,31,5,0
+C. Cathcart,406,0,0,27,1,0
+B. Dja Djédjé,0,0,0,26,0,0
+A. Eleftheriou,0,0,0,0,0,0
+J. Holebas,1226,2,3,32,7,0
+D. Janmaat,496,1,1,27,0,0
+C. Kabasele,219,1,0,25,0,0
+Y. Kaboul,715,0,0,30,0,0
+A. Mariappa,0,0,0,30,0,0
+J. Paredes,0,0,0,29,0,0
+S. Prödl,1175,1,1,29,2,0
+C. Zúñiga,506,1,0,30,1,0
+N. Amrabat,1063,0,3,29,3,0
+V. Behrami,1205,0,0,31,5,0
+E. Capoue,1313,5,1,28,1,0
+A. Doucouré,6,0,0,23,0,0
+A. Guédioura,384,0,1,31,2,0
+Kenedy,15,0,0,20,0,0
+B. Watson,51,0,0,31,0,1
+I. Success,187,1,0,20,1,0
+T. Deeney,1338,3,3,28,4,0
+O. Ighalo,885,1,1,27,1,0
+S. Okaka,195,2,0,27,1,0
+R. Pereyra,1009,2,2,25,2,1
+J. Sinclair,0,0,0,20,0,0
+E. Jakupovic,450,0,0,32,0,0
+D. Kuciak,0,0,0,31,0,0
+W. Mannion,0,0,0,18,0,0
+D. Marshall,990,0,0,31,0,0
+A. McGregor,0,0,0,34,0,0
+A. Bruce,0,0,0,32,0,0
+J. Clackstone,0,0,0,20,0,0
+C. Davies,1440,0,1,31,2,0
+M. Dawson,720,2,0,33,1,0
+B. Lenihan,0,0,0,22,0,0
+H. Maguire,555,0,2,24,1,0
+M. Odubajo,0,0,0,23,0,0
+A. Robertson,963,0,0,22,2,0
+H. Rodgers,0,0,0,20,0,0
+J. Tymon,158,0,0,17,0,0
+S. Clucas,1400,0,1,26,5,0
+Ahmed El Mohamady,1289,0,0,29,1,1
+M. Henriksen,528,0,0,24,0,0
+T. Huddlestone,800,0,0,29,2,0
+J. Livermore,1346,1,1,27,2,1
+S. Maloney,148,1,1,33,0,0
+R. Mason,770,1,0,25,3,0
+D. Meyler,698,1,0,27,1,0
+G. Olley,0,0,0,20,0,0
+R. Snodgrass,1276,5,2,29,2,0
+J. Weir,0,0,0,21,0,0
+J. Bowen,56,0,0,19,0,0
+A. Diomande,824,2,0,26,1,0
+A. Hernández,672,1,1,26,0,0
+B. Hinchliffe,0,0,0,19,0,0
+W. Keane,282,0,0,23,0,0
+G. Luer,0,0,0,22,0,0
+D. Mbokani,364,0,1,31,0,0
+B. Guzan,180,0,0,32,0,0
+D. Konstantopoulos,0,0,0,38,0,0
+Tomás,0,0,0,27,0,0
+Víctor Valdés,1260,0,0,34,1,0
+Barragán,1419,0,0,29,4,0
+C. Chambers,900,0,0,21,3,0
+B. Espinosa,0,0,0,27,0,0
+G. Friend,900,0,1,29,1,0
+B. Gibson,1440,1,0,23,1,0
+J. Husband,0,0,0,22,0,0
+Fábio,431,0,0,26,1,0
+Daniel Ayala,388,1,0,26,2,0
+A. Clayton,1084,0,0,27,4,0
+C. de Pena,0,0,0,24,0,0
+M. de Roon,1043,1,0,25,3,0
+J. De Sart,0,0,0,21,0,0
+S. Downing,949,1,2,32,1,0
+A. Forshaw,1329,0,1,25,3,0
+G. Leadbitter,62,0,0,30,0,0
+Nsue,322,0,0,27,0,0
+G. Ramírez,927,2,2,26,5,0
+Adama Traoré,599,0,0,20,1,0
+V. Fischer,394,0,2,22,0,0
+Álvaro Negredo,1234,3,3,31,1,0
+D. Nugent,39,0,0,31,0,0
+J. Rhodes,208,0,0,26,0,0
+C. Stuani,611,3,0,30,3,0
+V. Mannone,180,0,0,28,0,0
+J. Pickford,1170,0,0,22,0,0
+Mika,0,0,0,25,0,0
+M. Stryjek,0,0,0,20,0,0
+J. Denayer,521,0,0,21,2,0
+P. Djilobodji,947,0,0,28,4,0
+B. Jones,594,0,0,29,3,0
+J. Kirchhoff,378,0,0,26,1,0
+L. Koné,1170,0,0,27,1,0
+D. Love,195,0,0,22,1,0
+Javi Manquillo,640,0,0,22,1,0
+J. O'Shea,536,0,0,35,1,0
+P. van Aanholt,1154,2,1,26,1,0
+J. Asoro,9,0,0,17,0,0
+L. Cattermole,176,0,0,28,1,0
+L. Gooch,321,0,0,20,3,0
+G. Honeyman,0,0,0,22,0,0
+A. Januzaj,538,0,0,21,1,0
+W. Khazri,425,0,0,25,2,0
+S. Larsson,99,0,0,31,1,0
+P. McNair,354,0,0,21,0,0
+D. Ndong,974,0,0,22,4,0
+S. Pienaar,652,0,0,34,5,0
+E. Robson,0,0,0,20,0,0
+T. Robson,0,0,0,21,0,0
+J. Rodwell,639,0,1,25,2,0
+D. Watmore,1029,0,2,22,1,0
+V. Anichebe,463,3,0,28,1,0
+F. Borini,154,0,0,25,0,0
+J. Defoe,1343,8,2,34,0,0
+R. Greenwood,0,0,0,20,0,0
+J. Maja,0,0,0,17,0,0
+J. Robson,0,0,0,18,0,0
+E. Audero,0,0,0,19,0,0
+G. Buffon,1306,0,0,38,0,0
+L. Loria,0,0,0,17,0,0
+Neto,224,0,0,27,0,0
+Dani Alves,614,1,0,33,2,0
+A. Barzagli,811,0,0,35,2,0
+L. Bonucci,948,1,0,29,2,0
+G. Chiellini,934,2,1,32,1,0
+P. De Ceglie,0,0,0,30,0,0
+M. Benatia,531,0,0,29,1,0
+P. Evra,247,0,0,35,0,0
+S. Lichtsteiner,787,1,0,32,3,0
+Alex Sandro,1490,1,3,25,4,0
+F. Mattiello,0,0,0,21,0,0
+D. Rugani,538,2,0,22,4,0
+K. Asamoah,390,0,0,28,1,0
+Hernanes,723,1,0,31,3,0
+S. Khedira,1143,3,3,29,0,0
+M. Lemina,638,0,1,23,1,0
+R. Mandragora,0,0,0,19,0,0
+C. Marchisio,365,0,1,30,0,0
+M. Pjanić,978,5,4,26,1,0
+S. Sturaro,409,0,0,23,4,0
+J. Cuadrado,816,0,3,28,2,0
+P. Dybala,637,3,2,23,0,0
+G. Higuaín,1159,10,0,29,0,0
+M. Kean,6,0,0,16,0,0
+M. Mandžukić,1086,4,2,30,3,0
+M. Pjaca,50,0,0,21,0,0
+Alisson,0,0,0,24,0,0
+L. Crisanto,0,0,0,18,0,0
+S. Greco,0,0,0,17,0,0
+B. Lobonț,0,0,0,38,0,0
+A. Romagnoli,0,0,0,18,0,0
+W. Szczęsny,1530,0,0,26,0,0
+N. Abdullahi,0,0,0,19,0,0
+Bruno Peres,1061,0,1,26,2,0
+E. De Santis,0,0,0,19,0,0
+F. Fazio,1296,0,0,29,0,0
+K. Manolas,1317,1,1,25,3,0
+R. Marchizza,0,0,0,18,0,0
+Juan Jesus,441,0,0,25,4,0
+Emerson,698,0,0,22,1,0
+A. Rüdiger,586,0,0,23,4,0
+M. Seck,0,0,0,20,0,0
+Mário Rui,0,0,0,25,0,0
+T. Vermaelen,180,0,0,31,0,0
+D. De Rossi,1217,0,2,33,4,0
+A. Florenzi,749,0,3,25,3,0
+D. Frattesi,0,0,0,17,0,0
+L. Grossi,0,0,0,18,0,0
+R. Nainggolan,1259,3,1,28,2,0
+L. Paredes,552,1,0,22,2,0
+D. Perotti,1001,5,4,28,0,0
+Mohamed Salah,1202,8,4,24,2,0
+Gerson,131,0,0,19,1,0
+E. Spinozzi,0,0,0,18,0,0
+K. Strootman,1249,2,1,26,2,0
+E. Džeko,1428,12,2,30,3,0
+S. El Shaarawy,673,2,1,24,0,0
+F. Franchi,0,0,0,18,0,0
+J. Iturbe,37,0,0,23,0,0
+E. Soleri,0,0,0,19,0,0
+F. Totti,223,2,2,40,1,0
+Rafael,0,0,0,26,0,0
+Pepe Reina,1530,0,0,34,0,0
+L. Sepe,0,0,0,25,0,0
+Albiol,767,0,0,31,4,0
+V. Chiricheș,631,2,0,27,0,0
+F. Ghoulam,1193,0,3,25,0,0
+E. Hysaj,1243,0,0,22,3,0
+K. Koulibaly,1392,1,0,25,4,0
+C. Maggio,287,0,0,34,0,0
+N. Maksimović,270,1,0,25,0,0
+I. Strinić,337,0,1,29,1,0
+L. Tonelli,0,0,0,26,0,0
+I. Łasicki,0,0,0,21,0,0
+A. Diawara,501,0,0,19,0,0
+O. El Kaddouri,39,0,0,26,0,0
+Jorginho,884,0,0,24,2,0
+E. Giaccherini,125,0,0,31,0,0
+M. Hamšík,1362,5,6,29,1,0
+Allan,817,0,1,25,2,0
+M. Rog,34,0,0,21,0,0
+P. Zieliński,876,2,2,22,2,0
+José Callejón,1437,7,7,29,0,0
+M. Gabbiadini,491,1,0,25,0,1
+L. Insigne,1129,4,5,25,1,0
+R. Insigne,0,0,0,22,0,0
+D. Mertens,915,10,0,29,5,0
+A. Milik,421,4,0,22,1,0
+D. Bassi,0,0,0,31,0,0
+E. Berisha,900,0,0,27,0,0
+S. Mazzini,0,0,0,17,0,0
+M. Sportiello,360,0,0,24,0,0
+A. Bastoni,0,0,0,17,0,0
+M. Caldara,676,3,0,22,1,0
+A. Conti,833,1,2,22,5,0
+B. Dramé,595,0,0,31,1,0
+A. Konko,568,0,0,32,2,0
+A. Masiello,1010,3,1,30,2,0
+G. Stendardo,44,0,0,35,0,0
+E. Suagher,0,0,0,24,0,0
+Rafael Tolói,765,0,0,26,5,0
+E. Zukanović,853,0,0,29,0,0
+B. Cabezas,0,0,0,19,0,0
+C. Capone,0,0,0,17,0,0
+C. Carmona,101,0,0,29,2,0
+M. D'Alessandro,458,0,0,25,0,0
+R. Freuler,694,0,1,24,0,0
+R. Gagliardini,505,0,2,22,5,0
+A. Gómez,1170,3,2,28,1,0
+A. Grassi,112,0,0,21,0,0
+F. Kessié,1045,5,1,19,3,1
+J. Kurtič,1039,4,1,27,1,0
+G. Migliaccio,0,0,0,35,0,0
+C. Raimondi,234,0,0,35,2,0
+L. Spinazzola,587,0,0,23,0,0
+E. Latte Lath,0,0,0,17,0,0
+A. Paloschi,369,0,0,26,0,0
+A. Pešić,17,0,0,24,0,0
+A. Petagna,692,3,2,21,0,0
+M. Pinilla,157,1,0,32,2,0
+L. Borrelli,0,0,0,18,0,0
+F. Marchetti,810,0,0,33,0,0
+T. Strakosha,360,0,0,21,0,0
+I. Vargić,0,0,0,29,0,0
+D. Basta,685,0,1,32,1,0
+Vinícius Freitas,0,0,0,23,0,0
+S. de Vrij,681,1,0,24,1,0
+Wallace,581,1,0,22,2,0
+Patric,416,0,0,23,2,0
+W. Hoedt,540,1,0,22,0,0
+J. Lukaku,267,0,0,22,1,0
+F. Prce,1,0,0,20,0,0
+Bastos,316,0,0,25,2,0
+Ş. Radu,879,1,1,30,6,0
+Felipe Anderson,1010,2,4,23,4,0
+L. Biglia,483,1,1,30,0,0
+D. Cataldi,489,1,1,22,3,0
+M. Leitner,13,0,0,23,0,0
+S. Lulić,1000,2,3,30,1,0
+S. Milinković-Savić,811,1,2,21,1,0
+J. Minala,0,0,0,20,0,0
+R. Morrison,0,0,0,23,0,0
+A. Murgia,58,1,0,20,0,0
+M. Parolo,1144,0,1,31,3,0
+Luis Alberto,27,0,0,24,0,0
+B. Keita,724,4,2,21,1,0
+C. Immobile,1133,9,0,26,2,0
+R. Kishna,117,0,0,21,0,0
+C. Lombardi,109,1,0,21,0,0
+M. Tounkara,0,0,0,20,0,0
+F. Đorđević,216,0,0,29,0,0
+G. Donnarumma,1530,0,0,17,2,0
+A. Guarnone,0,0,0,17,0,0
+A. Plizzari,0,0,0,16,0,0
+Gabriel,0,0,0,24,0,0
+I. Abate,1250,0,2,30,1,0
+L. Antonelli,225,0,0,29,1,0
+D. Calabria,280,0,0,20,2,0
+M. De Sciglio,1226,0,1,24,2,0
+R. Ely,0,0,0,23,0,0
+G. Gómez,494,0,0,23,1,0
+G. Paletta,1226,1,1,30,3,1
+A. Romagnoli,1350,0,0,21,2,0
+L. Vangioni,0,0,0,29,0,0
+C. Zapata,0,0,0,30,0,0
+A. Bertolacci,161,0,0,25,1,0
+G. Bonaventura,1309,2,2,27,3,0
+M. Fernández,80,0,0,30,0,0
+K. Honda,96,0,0,30,0,0
+J. Kucka,1060,1,1,29,5,0
+M. Locatelli,909,2,0,18,4,0
+R. Montolivo,600,0,0,31,2,0
+M. Pašalić,435,1,0,21,2,0
+A. Poli,249,0,0,27,1,0
+J. Sosa,307,0,0,31,1,0
+C. Bacca,933,6,1,30,1,0
+P. Cutrone,0,0,0,18,0,0
+Luiz Adriano,121,0,0,29,0,0
+Suso,1425,5,6,23,1,0
+G. Lapadula,490,4,0,26,2,0
+M. Niang,1022,3,2,22,1,0
+T. Berni,0,0,0,33,0,0
+J. Carrizo,0,0,0,32,0,0
+S. Handanovič,1170,0,0,32,1,0
+I. Radu,0,0,0,19,0,0
+M. Andreolli,0,0,0,30,0,0
+C. Ansaldi,416,0,0,30,3,0
+D. D'Ambrosio,630,0,0,28,1,0
+S. Miangue,123,0,0,19,0,0
+João Miranda,1170,0,0,32,2,0
+J. Murillo,933,0,0,24,2,0
+Y. Nagatomo,294,0,0,30,0,0
+A. Ranocchia,200,0,0,28,1,0
+D. Santon,867,0,0,25,1,0
+E. Yao,0,0,0,20,0,0
+É. Banega,799,1,2,28,1,0
+M. Brozović,427,0,1,24,1,0
+A. Gnoukouri,138,0,0,20,0,0
+G. Kondogbia,400,0,1,23,2,0
+G. Medel,812,0,0,29,3,0
+Felipe Melo,20,0,0,33,0,0
+João Mário,870,1,1,23,4,0
+L. Zonta,0,0,0,19,0,0
+Gabriel,16,0,0,20,0,0
+J. Biabiany,0,0,0,28,0,0
+A. Candreva,893,1,3,29,0,0
+E. Martins,557,1,1,30,1,0
+M. Icardi,1170,10,3,23,0,0
+S. Jovetić,67,0,0,27,1,0
+R. Palacio,60,0,1,34,0,0
+I. Perišić,838,4,1,27,1,0
+B. Drągowski,0,0,0,19,0,0
+L. Lezzerini,50,0,0,21,0,0
+G. Satalino,0,0,0,17,0,0
+C. Tătărușanu,1480,0,0,30,0,0
+D. Astori,1350,1,0,29,4,0
+S. De Maio,180,0,0,29,1,0
+K. Diks,2,0,0,20,0,0
+M. Olivera,399,0,0,24,1,0
+G. Rodríguez,1094,0,0,32,2,1
+C. Salcedo,892,0,0,23,5,0
+N. Tomović,908,0,1,29,7,0
+M. Badelj,1190,1,2,27,5,0
+F. Chiesa,225,0,1,19,0,0
+S. Cristóforo,93,0,0,23,0,0
+I. Hagi,14,0,0,18,0,0
+J. Iličić,1092,3,4,28,0,0
+F. Maistro,0,0,0,18,0,0
+H. Milić,875,0,2,27,3,0
+C. Sánchez,748,1,0,30,3,0
+Borja Valero,1036,0,2,31,2,0
+M. Vecino,747,0,0,25,2,0
+F. Bernardeschi,1286,7,1,22,2,0
+K. Babacar,391,3,0,23,0,0
+N. Kalinić,1364,8,1,28,3,0
+J. Perez,15,0,0,18,0,0
+Cristian Tello,975,0,2,25,1,0
+H. Toledo,0,0,0,20,0,0
+M. Zárate,189,1,1,29,0,0
+D. Coppola,0,0,0,17,0,0
+T. Cucchietti,0,0,0,18,0,0
+J. Hart,1350,0,0,29,2,0
+D. Padelli,180,0,0,31,0,0
+Arlind Ajeti,0,0,0,23,0,0
+S. Auriletto,0,0,0,17,0,0
+Danilo Avelar,0,0,0,27,0,0
+A. Barreca,1138,0,1,21,2,0
+C. Bovo,360,0,0,33,2,0
+Leandro Castán,1080,0,0,30,3,0
+L. De Silvestri,559,0,4,28,0,0
+C. Molinaro,302,0,2,33,1,0
+E. Moretti,540,0,0,35,2,0
+L. Rossettini,1170,1,0,31,3,0
+D. Zappacosta,1052,0,2,24,0,0
+A. Acquah,431,0,0,24,2,0
+M. Aramu,46,0,0,21,0,0
+D. Baselli,999,4,3,24,3,0
+M. Benassi,1149,4,2,22,2,0
+J. Obi,405,0,1,25,1,0
+Samuel Gustafson,0,0,0,21,0,0
+S. Lukić,93,0,0,20,1,0
+M. Valdifiori,1135,0,0,30,3,0
+G. Vives,226,0,0,36,0,1
+A. Belotti,1271,12,3,22,2,0
+L. Boyé,574,0,2,20,3,0
+M. De Luca,0,0,0,18,0,0
+Iago Falqué,1021,8,3,26,0,0
+A. Ljajić,930,5,3,25,2,0
+M. López,249,0,0,32,1,0
+J. Martínez,513,1,0,23,3,0
+T. Krapikas,0,0,0,17,0,0
+C. Puggioni,810,0,0,35,2,0
+A. Tozzo,0,0,0,24,0,0
+E. Viviano,720,0,0,31,3,0
+Pedro Pereira,515,0,0,18,3,0
+S. Amuzie,0,0,0,20,0,0
+L. Krajnc,0,0,0,22,0,0
+D. Pavlovic,226,0,0,28,2,0
+Dodô,34,0,0,24,0,0
+V. Regini,1530,0,3,26,2,0
+J. Sala,1000,0,0,25,3,0
+M. Silvestre,1440,0,1,32,2,0
+M. Škriniar,1270,0,0,21,2,0
+R. Álvarez,669,0,2,28,2,1
+É. Barreto,1319,2,0,32,3,1
+Bruno Fernandes,616,3,0,22,1,0
+C. Carbonero,0,0,0,26,0,0
+L. Cigarini,216,0,0,30,2,0
+M. Eramo,4,0,0,27,0,0
+K. Linetty,1162,0,3,21,3,0
+A. Palombo,104,0,0,35,0,0
+D. Praet,698,0,1,22,1,0
+L. Torreira,1300,0,0,20,1,0
+F. Đuričić,46,0,0,24,0,0
+A. Budimir,244,0,0,25,0,0
+A. Cassano,0,0,0,34,0,0
+L. Muriel,1291,6,1,25,2,0
+F. Quagliarella,1318,4,2,33,0,0
+P. Schick,277,4,0,20,1,0
+G. Vrioni,0,0,0,18,0,0
+R. Colombo,0,0,0,41,0,0
+L. Crosta,0,0,0,18,0,0
+Rafael,272,0,0,34,0,0
+M. Storari,1257,0,0,39,1,1
+Vasco Oliveira,0,0,0,16,0,0
+L. Bittante,309,0,0,23,3,0
+I. Briukhov,0,0,0,18,0,0
+M. Capuano,147,1,0,25,0,0
+L. Ceppitelli,1260,0,0,27,3,0
+A. Mastino,0,0,0,17,0,0
+N. Murru,855,0,1,22,2,0
+F. Pisacane,979,0,1,30,2,0
+Bruno Alves,1530,1,0,35,2,0
+B. Salamon,363,0,0,25,1,0
+M. Volteggi,0,0,0,18,0,0
+M. Antonini,0,0,0,18,0,0
+N. Barella,808,0,0,19,4,0
+R. Biancu,0,0,0,16,0,0
+D. Dessena,421,2,0,29,4,1
+D. Di Gennaro,877,2,4,28,3,0
+João Pedro,213,1,1,24,0,0
+A. Ioniţă,270,0,0,26,2,0
+M. Isla,1255,0,3,28,5,0
+G. Munari,341,0,0,33,5,0
+S. Padoin,1343,1,1,32,4,0
+N. Pennington,0,0,0,18,0,0
+F. Serra,0,0,0,19,0,0
+P. Tachtsidis,813,0,1,25,3,0
+D. Arras,0,0,0,18,0,0
+M. Borriello,1181,6,0,34,2,0
+Diego Farias,400,1,0,26,2,0
+N. Giannetti,221,0,0,25,0,0
+F. Melchiorri,461,3,0,29,1,0
+M. Sau,1111,3,3,29,3,0
+A. Consigli,1530,0,0,29,1,0
+G. Pegolo,0,0,0,35,0,0
+A. Pomini,0,0,0,35,0,0
+F. Acerbi,1530,2,0,28,2,0
+C. Adjapong,170,0,0,18,1,0
+L. Antei,770,1,0,24,3,0
+P. Cannavaro,586,1,0,35,0,0
+C. Dell'Orco,146,0,0,22,0,0
+M. Erlić,0,0,0,18,0,0
+M. Gazzola,764,0,1,31,2,0
+T. Letschert,180,0,0,23,0,0
+Pol Lirola,707,0,1,19,1,0
+F. Peluso,1350,0,1,32,5,0
+E. Terranova,171,0,0,29,0,0
+D. Biondini,681,0,0,33,5,0
+A. Duncan,348,0,1,23,0,0
+S. Franchini,0,0,0,18,0,0
+F. Magnanelli,1013,0,0,32,2,0
+M. Marin,0,0,0,18,0,0
+L. Mazzitelli,588,0,0,21,4,0
+S. Missiroli,271,0,0,30,2,0
+L. Pellegrini,978,2,3,20,3,0
+S. Sensi,420,1,0,21,0,0
+D. Berardi,174,2,0,22,0,0
+S. Caputo,0,0,0,18,0,0
+G. Defrel,1278,6,1,25,0,0
+P. Iemmello,288,1,0,24,1,0
+A. Matri,453,1,0,32,0,0
+N. Pierini,0,0,0,18,0,0
+M. Politano,983,2,2,23,1,0
+A. Ragusa,666,2,1,26,2,0
+F. Ricci,770,2,0,22,3,0
+O. Karnezis,1530,0,0,31,3,0
+S. Perisan,0,0,0,19,0,0
+S. Scuffet,0,0,0,20,0,0
+Ali Adnan,524,0,0,23,0,0
+G. Angella,219,0,0,27,0,0
+P. Armero,180,0,0,30,1,0
+Samir,575,0,0,22,1,0
+Felipe,1350,1,0,32,6,0
+T. Heurtaux,348,0,1,28,3,0
+Danilo,1440,2,0,32,5,0
+M. Wagué,540,0,0,25,2,0
+E. Agyemang-Badu,907,0,2,26,1,0
+A. Balić,0,0,0,19,0,0
+R. de Paul,918,0,1,22,2,0
+Lucas Evangelista,94,0,0,21,0,0
+D. Faraoni,28,0,0,25,1,0
+S. Fofana,1069,4,1,21,0,0
+E. Hallfreðsson,663,0,2,32,2,0
+J. Jankto,479,1,1,20,0,0
+P. Kone,300,0,0,29,1,0
+S. Kums,1259,0,1,28,0,0
+F. Lodi,11,0,0,32,0,0
+S. Widmer,1052,0,4,23,1,0
+P. Armenakas,0,0,0,18,0,0
+Ewandro,15,0,0,20,0,0
+Ryder Matos,222,0,0,23,0,0
+A. Peñaranda,156,0,0,19,0,0
+S. Perica,473,3,0,21,4,0
+C. Théréau,1111,8,2,33,1,0
+D. Zapata,1367,5,1,25,2,0
+W. Bressan,0,0,0,35,0,0
+A. Confente,0,0,0,18,0,0
+A. Seculin,0,0,0,26,0,0
+S. Sorrentino,1530,0,0,37,1,0
+F. Cacciatore,1232,1,1,30,4,1
+B. Cesar,370,0,0,34,4,0
+F. Costa,0,0,0,21,0,0
+D. Dainelli,1260,0,0,37,6,0
+N. Frey,450,0,0,32,1,0
+A. Gamberini,846,1,0,35,0,0
+M. Gobbi,1350,1,0,36,3,0
+G. Sardo,0,0,0,37,0,0
+N. Spolli,584,0,0,33,4,0
+S. Bastien,0,0,0,20,0,0
+V. Birsa,1266,4,4,30,1,0
+J. de Guzmán,566,0,0,29,2,0
+F. Depaoli,0,0,0,19,0,0
+P. Hetemaj,1007,0,0,30,4,0
+M. Izco,413,0,0,33,0,0
+S. Kiyine,0,0,0,19,0,0
+L. Castro,1338,2,4,27,2,0
+V. Parigini,22,0,0,20,0,0
+I. Radovanović,1315,0,0,28,4,0
+N. Rigoni,336,1,0,26,1,0
+Emanuel Vignato,0,0,0,16,0,0
+A. Floro Flores,509,0,0,33,0,0
+R. Inglese,792,2,0,25,0,0
+L. Jallow,14,0,0,22,0,0
+R. Meggiorini,976,2,0,31,4,0
+S. Pellissier,643,3,1,37,0,0
+Angelo Da Costa,990,0,0,33,1,0
+A. Gomis,0,0,0,23,0,0
+M. Sarr,0,0,0,19,0,0
+A. Mirante,540,0,0,33,0,0
+F. Ravaglia,0,0,0,17,0,0
+A. Ferrari,90,0,0,22,0,0
+D. Gastaldello,1036,0,1,33,6,2
+F. Helander,372,1,0,23,1,0
+E. Krafth,703,0,0,22,1,1
+I. M'baye,218,0,1,22,1,0
+D. Maietta,973,0,0,34,1,0
+A. Masina,1285,1,0,22,3,0
+A. Morleo,24,0,0,33,0,0
+M. Oikonomou,472,0,0,24,0,0
+V. Torosidis,887,0,0,31,1,0
+G. Donsah,115,0,0,20,0,0
+B. Džemaili,1307,2,1,30,4,1
+Á. Nagy,1040,0,1,21,2,0
+E. Pulgar,537,1,0,22,4,0
+L. Rizzo,345,0,0,24,0,0
+S. Taïder,1147,1,0,24,1,0
+F. Viviani,420,1,2,24,1,0
+R. Acquafresca,0,0,0,29,0,0
+M. Destro,1004,4,0,25,0,0
+F. Di Francesco,311,1,0,22,1,1
+S. Floccari,241,0,0,35,0,0
+L. Krejčí,1270,1,3,24,0,0
+A. Mounier,291,0,0,29,0,0
+O. Okwonkwo,33,0,0,18,0,0
+A. Tabacchi,0,0,0,18,0,0
+S. Umar,172,0,1,19,2,0
+S. Verdi,866,4,1,24,2,0
+D. Faccioli,0,0,0,18,0,0
+E. Lamanna,180,0,0,27,0,0
+M. Perin,1350,0,0,24,1,1
+L. Zima,0,0,0,22,0,0
+D. Biraschi,1,0,0,22,1,0
+D. Brivio,0,0,0,28,0,0
+N. Burdisso,1530,0,0,35,1,0
+I. Cissokho,0,0,0,31,0,0
+R. Fiamozzi,104,0,0,23,0,0
+S. Gentiletti,345,0,1,31,1,0
+A. Izzo,1440,0,2,24,3,0
+E. Muñoz,774,0,0,26,2,0
+L. Orbán,521,0,0,27,3,1
+Edenilson,550,0,2,27,3,0
+I. Cofie,314,0,0,25,1,0
+D. Laxalt,1398,1,2,23,3,0
+D. Lazović,1024,1,2,26,3,0
+N. Ninković,422,2,1,22,2,0
+O. Ntcham,371,1,1,20,2,0
+Miguel Veloso,1123,0,3,30,7,1
+L. Rigoni,1265,2,1,32,5,0
+T. Rincón,1306,0,2,28,4,0
+L. Zanimacchia,0,0,0,18,0,0
+Asencio,0,0,0,18,0,0
+S. Gakpé,267,1,0,29,1,0
+L. Ocampos,565,2,0,22,1,0
+G. Pandev,295,0,0,33,0,1
+L. Pavoletti,581,3,0,28,2,0
+G. Simeone,1004,6,1,21,2,0
+V. Cojocaru,0,0,0,21,0,0
+A. Cordaz,1436,0,0,33,0,1
+M. Festa,93,0,0,24,0,0
+A. Viscovo,0,0,0,17,0,0
+F. Ceccherini,1350,0,0,24,2,0
+G. Cuomo,0,0,0,18,0,0
+N. Dussenne,249,0,0,24,2,0
+G. Ferrari,1530,1,0,24,4,0
+Claiton,547,0,1,32,1,0
+D. Mesbah,443,0,0,32,1,0
+A. Rosi,991,1,1,29,5,0
+M. Sampirisi,419,1,1,24,0,0
+A. Barberis,640,0,0,23,1,0
+G. Borello,0,0,0,17,0,0
+L. Capezzi,975,0,0,21,4,0
+L. Crisetig,868,0,0,23,6,0
+N. Fazzi,6,0,0,21,0,0
+E. Gnahoré,0,0,0,23,0,0
+B. Martella,972,0,0,24,0,0
+M. Nicoletti,0,0,0,18,0,0
+M. Rohdén,1222,0,2,25,3,0
+A. Salzano,500,0,0,25,0,0
+C. Suljic,0,0,0,20,0,0
+P. De Giorgio,9,0,0,33,0,0
+D. Falcinelli,1339,5,2,25,1,0
+A. Nalini,145,0,0,26,1,0
+R. Palladino,1229,2,0,32,4,0
+A. Stoian,423,1,1,25,2,0
+S. Nwankwo,317,1,0,24,0,0
+A. Tonev,336,0,0,26,1,0
+M. Trotta,761,2,0,24,2,0
+A. Pelagotti,180,0,0,27,1,0
+M. Pugliesi,0,0,0,39,0,0
+Ł. Skorupski,1080,0,0,25,0,0
+F. Barba,259,0,0,23,1,0
+G. Bellusci,1080,1,0,27,7,0
+U. Ćosić,342,0,0,24,0,0
+A. Costa,854,1,0,30,0,0
+F. Dimarco,249,0,0,19,0,0
+V. Laurini,367,0,0,27,0,1
+M. Pasqual,990,0,2,34,3,0
+F. Veseli,563,0,1,24,1,0
+M. Zambelli,334,0,0,31,1,0
+M. Büchel,339,0,0,25,1,0
+D. Croce,982,0,0,34,1,0
+A. El Hadji,667,0,0,19,3,0
+R. Krunić,654,0,0,23,3,0
+R. Maiello,60,0,0,25,0,0
+J. Mauri,509,0,0,20,2,0
+Matheus Pereira,5,0,0,18,0,0
+R. Saponara,1108,2,1,24,3,0
+A. Tello,558,0,0,20,4,0
+A. Gilardino,500,0,0,34,1,0
+M. Maccarone,699,2,1,37,1,1
+G. Marilungo,275,0,0,27,0,0
+L. Mchedlidze,103,0,0,26,0,0
+M. Pucciarelli,1080,1,1,25,2,0
+R. Tchanturia,0,0,0,20,0,0
+A. Fulignati,0,0,0,22,0,0
+S. Guddo,0,0,0,17,0,0
+L. Marson,0,0,0,18,0,0
+J. Posavec,1530,0,0,20,1,0
+H. Aleesami,1530,0,2,25,4,0
+S. Anđelković,989,0,1,30,3,0
+S. Giuliano,0,0,0,19,0,0
+E. Goldaniga,930,1,1,23,6,0
+G. González,446,0,0,28,3,1
+M. Morganella,223,0,0,27,1,0
+G. Pezzella,149,0,0,19,1,0
+A. Punzi,0,0,0,19,0,0
+S. Rajković,299,0,0,27,1,0
+T. Cionek,1089,0,0,30,4,0
+A. Rispoli,1217,2,1,28,2,0
+R. Vitiello,247,0,0,33,1,0
+O. Bouy,36,0,0,23,1,0
+I. Chochev,817,1,0,23,3,0
+Bruno Henrique,808,0,1,27,0,0
+A. Diamanti,871,0,3,33,5,0
+A. Gazzi,994,0,0,33,2,0
+O. Hiljemark,1053,0,0,24,1,0
+M. Jajalo,624,1,1,28,1,0
+R. Quaison,648,2,0,23,2,0
+Carlos Embalo,309,0,0,22,0,0
+N. Balogh,136,0,0,20,0,0
+A. Bentivegna,90,0,0,20,0,0
+S. Lo Faso,67,0,0,18,0,0
+I. Nestorovski,1354,7,2,26,2,0
+R. Sallai,352,0,0,19,2,0
+A. Trajkovski,10,1,0,24,0,0
+G. Aldegani,0,0,0,40,0,0
+A. Bizzarri,1530,0,0,39,1,0
+V. Fiorillo,0,0,0,26,0,0
+M. Pigliacelli,0,0,0,23,0,0
+C. Biraghi,1307,0,1,24,4,0
+H. Campagnaro,1126,2,0,36,5,0
+A. Coda,190,0,0,31,1,0
+A. Crescenzi,910,0,1,25,1,0
+F. Delli Carri,0,0,0,17,0,0
+M. Fornasier,767,0,0,23,2,0
+F. Forte,0,0,0,18,0,0
+N. Gyömbér,589,0,0,24,3,0
+L. Maloku,0,0,0,18,0,0
+D. Vitturini,144,0,0,19,0,0
+F. Zampano,1262,0,4,23,2,0
+D. Župarić,235,0,0,24,1,0
+A. Aquilani,551,1,1,32,2,0
+Ahmed Benali,1089,1,0,24,1,0
+G. Brugman,1255,0,0,24,5,0
+A. Bruno,14,0,0,33,1,0
+B. Cristante,784,0,0,21,0,0
+P. D'Angelo,0,0,0,17,0,0
+F. Mele,0,0,0,18,0,0
+L. Memushaj,1263,1,0,30,1,0
+S. Pepe,338,0,0,33,0,0
+V. Verre,816,0,1,22,1,1
+M. Acatullo,0,0,0,18,0,0
+J. Bahebeck,130,1,0,23,0,0
+N. Battista,0,0,0,18,0,0
+G. Caprari,1516,3,1,23,3,0
+F. Del Sole,0,0,0,18,0,0
+R. Manaj,469,2,0,19,2,0
+A. Mitriță,238,0,1,21,1,0
+R. Murić,6,0,0,20,0,0
+S. Pettinari,165,0,0,24,0,0
+Kiko Casilla,540,0,0,30,1,0
+K. Navas,720,0,0,29,0,0
+Rubén Yáñez,0,0,0,23,0,0
+Daniel Carvajal,945,0,1,24,6,0
+Danilo,450,1,0,25,1,0
+Fábio Coentrão,0,0,0,28,0,0
+Nacho,560,0,1,26,2,0
+Pepe,564,1,1,33,0,0
+Sergio Ramos,702,3,0,30,4,0
+Álvaro Tejero,0,0,0,20,0,0
+R. Varane,946,1,1,23,0,0
+Marcelo,873,1,2,28,0,0
+Isco,594,2,2,24,2,0
+Marco Asensio,376,2,0,20,0,0
+Casemiro,223,0,0,24,1,0
+M. Kovačić,924,0,0,22,0,0
+T. Kroos,954,1,6,26,4,0
+L. Modrić,610,1,1,31,0,0
+J. Rodríguez,287,1,2,25,0,0
+E. Fernández,0,0,0,21,0,0
+M. Ødegaard,0,0,0,17,0,0
+G. Bale,942,5,2,27,2,0
+K. Benzema,640,4,1,28,0,0
+M. Díaz,17,0,0,23,0,0
+Cristiano Ronaldo,941,10,2,31,3,0
+Álvaro Morata,534,4,2,24,3,0
+Lucas Vázquez,518,0,2,25,1,0
+J. Cillessen,90,0,0,27,0,0
+Jordi Masip,0,0,0,27,0,0
+M. ter Stegen,1170,0,0,24,1,0
+Jordi Alba,725,0,3,27,2,0
+L. Digne,616,0,0,23,2,0
+Borja López,0,0,0,22,0,0
+J. Mascherano,919,0,0,32,4,0
+J. Mathieu,360,1,0,33,0,0
+Piqué,990,2,0,29,1,0
+Marlon,0,0,0,21,0,0
+S. Umtiti,611,0,0,23,1,0
+Rafinha,485,5,0,23,0,0
+Carles Aleñà,0,0,0,18,0,0
+Busquets,1061,0,1,28,4,0
+Álex Carbonell,0,0,0,19,0,0
+Iniesta,359,0,2,32,0,0
+W. Kaptoum,0,0,0,20,0,0
+Nili,0,0,0,22,0,0
+I. Rakitić,865,2,1,28,1,0
+Sergi Roberto,1080,0,4,24,2,0
+Denis Suárez,599,0,2,22,1,0
+André Gomes,611,0,0,23,0,0
+A. Turan,739,2,3,29,0,0
+Aleix Vidal,90,0,0,27,0,0
+Paco Alcácer,268,0,0,23,0,0
+Marc Cardona,0,0,0,21,0,0
+Neymar,1077,4,6,24,5,0
+L. Messi,934,11,3,29,3,0
+L. Suárez,1091,10,3,29,6,0
+Bernabé Barragán,0,0,0,23,0,0
+André Moreira,0,0,0,21,0,0
+Moyà,0,0,0,32,0,0
+J. Oblak,1260,0,0,23,1,0
+J. Giménez,216,0,0,21,1,0
+D. Godín,1170,1,0,30,3,0
+L. Hernández,263,0,0,20,1,0
+Filipe Luis,1170,0,1,31,2,0
+Alberto Rodríguez,0,0,0,20,0,0
+S. Savić,960,0,1,25,1,0
+Juanfran,1170,0,2,31,1,0
+Š. Vrsaljko,90,0,0,24,0,0
+Tiago,304,1,0,35,2,0
+A. Cerci,0,0,0,29,0,0
+A. Fernández,142,0,0,30,0,0
+Gabi,1039,0,0,33,3,0
+Y. Carrasco,887,6,2,23,0,0
+N. Gaitán,348,2,0,28,0,0
+Juan Moreno,0,0,0,19,0,0
+Saúl,745,0,1,22,2,0
+Roberto Olabe,0,0,0,20,0,0
+Caio Henrique,0,0,0,19,0,0
+T. Partey,40,0,0,23,2,0
+Koke,1134,1,3,24,4,0
+Á. Correa,591,3,4,21,4,0
+K. Gameiro,858,6,3,29,0,0
+A. Griezmann,1081,6,4,25,2,0
+Roberto Nuñez,0,0,0,20,0,0
+Fernando Torres,349,2,1,32,1,0
+Churripi,0,0,0,22,0,0
+Sergio Rico,990,0,0,23,0,0
+S. Sirigu,178,0,0,29,0,1
+David Soria,0,0,0,23,0,0
+Sergio Escudero,752,0,1,27,0,0
+Mariano,990,0,1,30,4,0
+Diego González,7,0,0,21,0,0
+T.  Kolodziejczak,270,0,0,25,1,0
+G. Mercado,842,2,0,29,5,0
+N. Pareja,865,1,0,32,3,0
+A. Rami,554,0,0,30,2,0
+B. Trémoulinas,0,0,0,30,0,0
+Ganso,266,0,1,27,0,0
+J. Correa,250,0,0,22,1,0
+Antonio Cotán,0,0,0,21,0,0
+Iborra,366,0,0,28,1,0
+H. Kiyotake,285,1,2,27,0,0
+M. Kranevitter,355,0,0,23,0,0
+M. Krohn-Dehli,0,0,0,33,0,0
+Vitolo,973,2,1,27,2,0
+Daniel Carriço,274,0,0,28,2,0
+S. N'Zonzi,990,2,0,27,2,0
+S. Nasri,632,2,1,29,3,0
+Pablo Sarabia,630,3,3,24,2,0
+W. Ben Yedder,495,3,1,25,0,0
+Carlos Fernández,88,1,0,20,0,0
+F. Vázquez,875,2,1,27,3,0
+L. Vietto,941,4,2,22,3,0
+Sergio Asenjo,1260,0,0,27,0,0
+M. Barbosa,0,0,0,32,0,0
+Andrés Fernández,0,0,0,29,0,0
+D. Bonera,0,0,0,35,0,0
+Jaume Costa,1080,1,1,28,4,0
+Álvaro González,270,0,0,26,1,0
+B. Jokić,0,0,0,30,0,0
+M. Musacchio,990,0,0,26,1,0
+Mario Gaspar,1260,0,0,26,2,0
+Víctor Ruíz,1260,0,0,27,2,0
+A. Rukavina,90,0,0,32,0,0
+José Ángel,90,0,0,27,1,0
+Ramón Bueno,0,0,0,21,0,0
+Samu Castillejo,1116,1,3,21,1,0
+D. Cheryshev,197,0,0,25,0,0
+J. dos Santos,454,0,0,26,0,0
+Rodri Hernández,199,0,0,20,0,0
+Pablo Larrea,0,0,0,22,0,0
+A. N'Diaye,105,0,0,26,1,0
+R. Soriano,1018,3,2,25,3,0
+Bruno,1072,3,1,32,2,0
+Trigueros,1241,2,1,25,1,0
+C. Bakambu,389,2,0,25,1,0
+R. Borré,179,0,1,21,0,0
+Aitor Cantalapiedra,3,0,0,20,0,0
+Mario González,0,0,0,20,0,0
+Alexandre Pato,464,1,0,27,0,0
+N. Sansone,1123,5,1,25,3,0
+Soldado,0,0,0,31,0,0
+L. Suárez,0,0,0,20,0,0
+Ander Bardaji,0,0,0,21,0,0
+Toño,0,0,0,30,0,0
+G. Rulli,1080,0,0,24,2,0
+Yuri,840,1,1,26,2,0
+Aritz Elustondo,57,0,0,22,0,1
+Mikel González,439,0,0,31,2,0
+Litri,237,0,0,25,0,0
+Íñigo Martínez,990,2,0,25,5,0
+Carlos Martínez,540,0,2,30,1,0
+Raúl Navas,720,0,1,28,0,0
+Joseba Zaldúa,461,0,1,24,2,0
+Bergara,190,0,0,30,0,0
+Canales,121,0,0,25,1,0
+Jon Gaztañaga,0,0,0,25,0,0
+Granero,0,0,0,29,0,0
+Illarramendi,1080,0,1,26,3,0
+Rubén Pardo,159,0,0,24,0,0
+Xabi Prieto,737,3,2,33,0,0
+K. Rodrigues,0,0,0,22,0,0
+Zurutuza,1003,3,0,30,3,0
+Agirretxe,0,0,0,29,0,0
+Jon Bautista,12,0,0,21,0,0
+David Concha,86,0,0,20,0,0
+Willian José,879,6,1,25,2,0
+Juanmi,418,1,0,23,0,0
+Mikel Oyarzabal,984,0,4,19,0,0
+C. Vela,781,4,0,27,2,0
+Kepa,540,0,0,22,0,0
+Iago Herrerín,0,0,0,28,0,0
+Iraizoz,540,0,0,35,0,0
+Yeray Álvarez,470,0,0,21,0,0
+Balenziaga,846,1,0,28,1,1
+Bóveda,520,0,0,27,1,0
+Elustondo,0,0,0,29,0,0
+Etxeita,337,0,0,29,1,0
+A. Laporte,990,1,0,22,3,0
+Lekue,363,0,0,23,0,0
+Saborit,125,0,0,24,0,0
+San José,761,1,0,27,2,0
+Ager Aketxe,0,0,0,22,0,0
+De Marcos,703,0,1,27,1,0
+Eraso,246,0,1,26,2,0
+Beñat,696,0,2,29,3,0
+Raúl García,897,4,1,30,4,0
+Iturraspe,281,0,0,27,1,0
+Mikel Rico,327,0,0,32,2,0
+Susaeta,417,0,0,28,2,0
+Mikel Vesga,195,0,0,23,0,0
+Aduriz,867,5,1,35,3,0
+Sabin,312,1,1,24,1,0
+Muniain,416,1,1,23,2,0
+Iñaki Williams,951,1,2,22,1,0
+Roberto Jiménez,307,0,0,31,0,0
+Diego López,3023,0,0,35,3,0
+Andrés Prieto,0,0,0,23,0,0
+Víctor Álvarez,196,0,0,24,1,0
+Ó. Duarte,1123,0,0,27,4,0
+Rubén Duarte,101,0,0,21,1,0
+Aarón Martín,2496,0,0,20,5,0
+Marc Navarro,699,2,1,21,0,0
+D. Reyes,2799,1,0,24,2,0
+P. Diop,899,0,0,31,6,0
+Javi Fuego,2566,1,0,33,9,0
+José Jurado,2369,3,3,30,1,0
+Javi López,1525,0,1,31,3,0
+David López,3150,3,2,27,3,0
+Óscar Melendo,299,0,0,19,0,0
+José Antonio Reyes,866,3,4,33,1,0
+Marc Roca,1229,0,1,20,3,0
+Víctor Sánchez,2191,1,1,29,8,0
+Salva Sevilla,268,0,0,33,1,0
+F. Caicedo,1287,2,1,28,4,0
+Léo Baptistão,1343,5,4,23,1,0
+Álvaro Vázquez,313,0,1,26,0,0
+Gerard Moreno,3190,13,4,25,6,0
+H. Pérez,1787,3,1,28,8,0
+P. Piatti,2267,10,10,28,7,0
+Ortolá,0,0,0,23,0,0
+Fernando Pacheco,1350,0,0,24,0,0
+Z. Feddal,732,0,0,27,3,0
+Einar Galilea,0,0,0,22,0,0
+Raúl García,747,0,0,27,3,0
+T. Hernández,1150,0,2,19,4,1
+Laguardia,874,1,0,27,2,0
+Carlos Vigaray,310,0,0,22,0,0
+A. Pantić,154,0,0,24,1,0
+Alexis,1080,1,1,31,6,0
+Víctor Camarasa,948,2,1,22,3,0
+C. Espinoza,159,0,0,21,1,0
+Kiko Femenía,1010,0,1,25,4,0
+Manuel Garcia,0,0,0,18,0,0
+Manu García,512,1,0,30,3,0
+N. Krstičić,294,0,0,26,1,0
+Sergio Llamas,0,0,0,23,0,0
+Marcos Llorente,1170,0,1,21,1,0
+Edgar Méndez,871,1,1,25,3,0
+D. Torres,887,0,0,27,3,0
+Manu Barreiro,0,0,0,30,0,0
+Deyverson,1050,4,0,25,6,0
+Ibai Gómez,579,2,0,27,1,0
+Dani Iglesias,0,0,0,21,0,0
+A. Katai,288,0,1,25,1,0
+C. Santos,298,1,0,28,1,0
+Rubén Sobrino,11,0,0,24,0,0
+Toquero,376,1,0,32,2,0
+Markel Areitio,45,0,0,20,0,0
+Asier Riesgo,1022,0,0,33,0,1
+Yoel,101,0,0,28,0,1
+Arbilla,368,0,0,29,1,0
+Ander Capa,802,0,1,24,2,0
+M. Dos Santos,242,0,0,27,1,0
+Alejandro Gálvez,457,0,0,27,1,0
+Juncà,180,0,0,23,1,0
+F. Lejeune,1034,0,1,25,3,0
+Luna,990,0,2,25,2,0
+Ramis,607,2,0,32,1,0
+G. Escalante,477,1,0,23,3,0
+Dani García,1076,0,1,26,4,1
+Adrián,386,0,0,28,0,0
+T. Inui,562,0,1,28,1,0
+Jota Peleteiro,200,0,0,25,0,0
+Rubén Peña,307,0,0,25,2,0
+Fran Rico,901,2,0,29,4,0
+Christian Rivera,90,0,0,19,0,0
+Pedro León,964,5,0,30,2,0
+Bebé,361,1,2,26,0,0
+Sergi Enrich,838,4,2,26,2,0
+Kike,618,2,1,27,5,0
+Nano,135,1,0,21,0,0
+D. Boyko,0,0,0,28,0,0
+Aarón Escandell,0,0,0,21,0,0
+C. Kameni,1170,0,0,32,1,0
+Bakary Koné,603,0,0,28,2,0
+Diego Llorente,674,1,0,23,1,1
+Luis,21,0,0,19,0,0
+Weligton,90,0,0,37,1,0
+Juan Carlos,495,0,2,26,0,1
+F. Ricca,709,0,0,21,4,0
+R. Rosales,1170,1,0,28,2,0
+Miguel Torres,642,0,0,30,0,0
+M. Villanueva,526,0,0,23,2,0
+J. Añor,922,1,0,22,4,0
+Duda,125,1,2,36,2,0
+Ignacio Camacho,1080,2,2,26,6,0
+G. Castro,705,1,3,32,4,0
+Pablo Fornals,571,1,1,20,1,0
+Recio,360,0,0,25,3,0
+Keko,195,0,0,24,1,0
+Z. Kuzmanović,216,0,0,29,1,0
+Javi Ontiveros,119,1,1,19,2,0
+Jony,587,1,1,25,1,0
+Charles,442,1,0,32,1,0
+Y. En Nesyri,271,1,0,19,2,0
+Sandro Ramírez,1014,6,1,21,3,0
+Michael Santos,139,3,0,23,1,0
+Diego Alves,990,0,0,31,3,0
+Jaume Doménech,0,0,0,26,0,0
+M. Ryan,180,0,0,24,0,0
+A. Abdennour,350,0,0,27,1,0
+João Cancelo,972,0,1,22,2,0
+Aderllan Santos,540,0,0,27,0,0
+E. Garay,630,1,0,30,2,0
+José Gayá,813,0,0,21,1,0
+Toni Lato,0,0,0,19,0,0
+E. Mangala,900,0,0,25,4,0
+Martín Montoya,834,0,0,25,2,0
+Guilherme Siqueira,80,0,0,30,1,0
+Nani,954,2,3,30,4,0
+F. Cartabia,96,0,0,23,0,0
+Álvaro Medrán,406,1,0,22,1,0
+Dani Parejo,1170,2,4,27,1,0
+E. Pérez,924,0,0,30,5,1
+Carlos Soler,0,0,0,19,0,0
+Mario Suárez,899,3,0,29,2,0
+Z. Bakkali,108,0,0,20,1,0
+Munir,403,2,0,21,1,0
+Santi Mina,458,2,0,20,1,0
+Rafa Mir,5,0,0,19,0,0
+Rodrigo,938,3,1,25,0,0
+Sergio Álvarez,900,0,1,30,0,1
+Rubén Blanco,270,0,0,21,2,0
+Iván Villar,0,0,0,19,0,0
+G. Cabral,900,0,1,31,0,0
+Jonny Castro,838,0,2,22,2,0
+David Costas,90,0,1,21,1,0
+Fontàs,270,0,0,27,1,0
+Sergi Gómez,684,0,0,24,2,0
+Hugo Mallo,908,2,0,25,6,1
+Planas,74,0,0,25,0,0
+F. Roncaglia,990,1,0,29,4,0
+M. Díaz,377,0,1,29,1,0
+Pape Diop,64,1,0,19,1,0
+P. Hernández,796,1,0,30,5,0
+Álvaro Lemos,0,0,0,23,0,0
+F. Orellana,394,2,2,30,2,0
+N. Radoja,969,0,0,23,2,0
+Josep Señé,255,0,1,24,1,0
+P. Sisto,589,2,2,21,0,0
+D. Wass,1015,1,0,27,2,0
+Iago Aspas,967,7,2,29,5,0
+C. Beauvue,0,0,0,28,0,0
+T. Bongonda,937,1,0,21,1,0
+José Naranjo,0,0,0,22,0,0
+J. Guidetti,282,1,1,24,2,0
+G. Rossi,273,1,0,29,0,0
+Raúl Lizoáin,450,0,0,25,0,0
+David Ramírez,0,0,0,21,0,0
+Javi Varas,630,0,0,34,0,0
+Aythami Artiles,280,0,0,30,2,0
+Bigas,794,1,0,26,1,0
+Dani Castellano,918,0,0,29,1,0
+David García,871,1,0,34,4,0
+M. Lemos,285,0,0,20,1,0
+Hélder Lopes,101,0,0,27,0,0
+Míchel,964,0,2,26,2,0
+David Simón,103,0,0,27,1,0
+K. Boateng,662,4,0,29,4,1
+Javi Castellano,0,0,0,29,0,0
+Momo,352,2,0,34,1,0
+M. García,139,0,0,20,0,0
+Vicente Gómez,834,1,0,28,2,0
+Roque Mesa,1080,0,1,27,4,0
+Montoro,129,0,0,28,0,0
+Hernán,0,0,0,26,0,0
+Jonathan Viera,708,3,3,27,0,0
+S. Araújo,531,2,1,24,2,0
+Tyronne,42,0,0,25,1,0
+Tana,841,3,1,26,3,0
+N. El Zhar,465,2,2,30,1,0
+M. Livaja,626,2,2,23,5,0
+Asdrúbal,4,0,0,25,0,0
+Adán,1350,0,0,29,1,0
+Dani Giménez,0,0,0,33,1,0
+Manu Herrera,0,0,0,35,0,0
+R. Donk,416,0,0,30,1,0
+R. Durmisi,699,0,1,22,1,0
+Bruno González,611,1,0,26,4,0
+A. Mandi,946,1,0,25,0,0
+Álex Martínez,540,0,0,26,0,0
+Rafa Navarro,214,0,0,22,1,0
+G. Pezzella,1257,1,0,25,4,0
+C. Piccini,974,0,3,24,3,1
+José Carlos,180,0,0,20,0,0
+D. Brašanac,366,0,0,24,3,0
+Dani Ceballos,555,0,0,20,1,0
+Cejudo,553,1,0,32,6,0
+Petros,1209,0,1,27,5,0
+F. Gutiérrez,709,1,0,26,3,0
+Matías Nahuel,80,0,0,20,0,0
+J. Martin,340,0,0,26,2,0
+C. Musonda,278,0,1,20,2,0
+Fabián Ruiz,154,0,0,20,0,0
+Joaquín,990,3,4,35,1,0
+Álex Alegría,538,2,0,24,0,0
+Rubén Castro,1125,7,2,35,2,0
+A. Sanabria,626,1,1,20,1,0
+R. Zozulya,67,0,0,27,1,0
+G. Lux,810,0,0,34,1,0
+Rubén,0,0,0,32,0,0
+P. Tytoń,360,0,0,29,1,0
+Albentosa,1080,1,0,28,5,0
+Alejandro Arribas,467,0,0,27,2,0
+Luisinho,712,0,1,31,2,0
+Sidnei,804,0,0,27,1,0
+Fernando Navarro,530,0,0,34,1,0
+Laure,155,0,0,31,0,1
+Álex Bergantiños,0,0,0,31,0,0
+C. Borges,859,4,0,28,2,0
+E. Çolak,643,1,1,25,1,0
+Guilherme,596,0,0,25,1,0
+F. Fajr,575,0,1,28,1,0
+Carles Gil,164,0,1,24,0,0
+Juanfran,974,0,2,28,1,0
+Pedro Mosquera,1012,1,0,28,3,0
+Borja Valle,187,0,0,24,0,0
+Bruno Gama,898,0,0,29,2,0
+F. Andone,1068,3,0,23,2,0
+R. Babel,298,2,1,29,2,0
+M. Moreno,494,0,0,20,0,0
+Joselu,24,0,0,26,0,0
+A. Brignoli,60,0,0,25,0,0
+Serantes,1110,0,0,27,2,0
+Bustinza,573,0,0,24,2,0
+Víctor Díaz,977,1,1,28,4,0
+Pablo Ínsua,617,0,0,23,1,0
+M. Mantovani,944,0,0,32,4,0
+Adrián Marín,236,0,0,19,1,0
+C. Medjani,586,0,0,31,2,0
+Diego Rico,978,1,0,23,3,0
+Gabriel,1028,2,1,23,1,0
+Robert Ibañez,168,2,1,23,0,0
+Unai López,640,0,0,21,1,0
+Rubén Pérez,661,0,1,27,3,0
+Omar Ramos,664,0,2,28,2,0
+Toni,0,0,0,26,0,0
+Alberto,624,0,0,27,2,0
+Lluis Sastre,90,0,0,30,0,0
+A. Szymanowski,751,3,1,28,0,0
+Timor,903,1,1,27,3,1
+Luciano,511,1,0,23,2,0
+Guerrero,419,0,0,26,2,0
+M. Koné,169,0,0,24,0,0
+D. Machís,251,0,1,23,1,0
+Pichu Cuéllar,1080,0,0,32,2,0
+Diego Mariño,90,0,0,26,0,0
+Óscar Whalley,0,0,0,22,0,0
+F. Amorebieta,952,0,0,31,8,0
+J. Babin,308,0,0,30,0,0
+Canella,270,0,1,28,0,0
+Lillo Castellano,1046,0,0,27,2,0
+Lora,286,0,0,29,1,0
+Jorge Meré,990,0,0,19,2,0
+Douglas Pereira,283,0,0,26,1,0
+Juan Rodríguez,90,0,0,21,0,0
+R. Aït-Atmane,300,0,0,23,2,0
+Sergio Álvarez,1073,1,0,24,3,0
+Nacho Cases,720,1,0,28,2,0
+Pedro Díaz,0,0,0,18,0,0
+Moi Gómez,867,1,3,22,3,0
+Isma López,761,0,2,26,4,0
+Víctor Rodríguez,751,1,0,27,0,0
+Xavi Torres,179,0,0,30,1,0
+Akram Afif,113,0,0,20,0,0
+Carlos Carmona,88,1,0,29,1,0
+Carlos Castro,268,1,0,21,0,0
+D. Čop,1075,5,2,26,2,0
+Pablo Fernández,0,0,0,20,0,0
+Burgui,655,0,1,23,1,0
+D. N'Di,99,0,0,21,0,0
+Viguera,491,1,0,29,2,0
+Mario,226,0,0,28,1,0
+Álvaro Fernández,44,0,0,18,0,0
+Nauzet Pérez,900,0,0,31,1,0
+Javi Álamo,11,0,0,28,0,0
+C. Bonnín,424,0,0,26,2,0
+Aitor Buñuel,214,0,0,18,1,0
+Carlos Clerc,316,0,0,24,0,0
+Javi Flaño,97,0,0,32,0,0
+Miguel Flaño,900,0,0,32,3,0
+Fuentes,470,0,0,26,0,0
+Unai García,1080,0,0,24,4,0
+David García,1080,1,0,22,4,0
+Oier,1170,0,1,30,4,0
+Álex Berenguer,642,0,1,21,0,0
+G. Čaušić,123,0,0,24,1,0
+De las Cuevas,854,0,1,30,1,0
+D. Digard,194,0,0,30,1,0
+Imanol García,180,0,0,20,1,0
+Fran Mérida,224,1,0,26,1,0
+Olavide,98,0,0,20,2,0
+Antonio Otegui,44,0,0,18,0,0
+Jaime Romero,356,0,2,26,0,0
+Fausto Tienza,452,0,0,26,3,0
+Roberto Torres,832,4,1,27,2,0
+Kenan,317,0,0,23,0,0
+Sergio León,708,4,0,27,2,0
+Oriol Riera,590,2,1,30,0,0
+E. Rivière,310,0,0,26,1,1
+Rui Silva,0,0,0,23,0,0
+G. Ochoa,3330,0,0,31,2,0
+U. Agbo,2308,0,0,21,13,1
+P. Estupiñán,180,0,0,19,1,0
+D. Foulquier,1873,0,2,24,5,0
+Litri,823,0,2,25,2,0
+M. Hongla,781,0,0,19,2,0
+S. Ingason,1383,1,0,23,7,0
+Rúben Vezo,1398,0,0,23,3,0
+Lombán,1750,2,0,29,6,0
+M. Saunier,1309,0,1,27,4,0
+G. Silva,1747,0,0,23,6,0
+F. Tabanou,370,0,0,28,3,0
+V. Angban,685,0,0,20,4,0
+J. Boga,1447,2,1,20,0,0
+M. Carcela,1752,5,1,27,6,0
+Isaac Cuenca,1650,2,0,26,4,0
+Juanan Entrena,18,0,0,20,0,0
+Andreas Pereira,2769,4,3,21,10,1
+P. Kone,42,0,0,29,0,0
+R. Krhin,848,0,0,26,0,0
+A. Malle,506,0,0,19,2,0
+Sergi Samper,1268,0,1,22,6,0
+M. Wakaso,869,1,1,26,7,0
+O. Atzili,315,0,0,23,0,0
+A. Kravets,1378,5,2,27,2,0
+E. Ponce,1126,2,0,20,5,0
+A. Ramos,1041,4,0,31,4,0
+Jean Carlos,0,0,0,21,0,0
+M. Neuer,990,0,0,30,0,0
+T. Starke,0,0,0,35,0,0
+S. Ulreich,0,0,0,28,0,0
+H. Badstuber,28,0,0,27,0,0
+J. Boateng,433,0,0,28,0,0
+Rafinha,405,1,1,31,0,0
+M. Hummels,769,0,1,27,2,0
+P. Lahm,592,1,0,33,1,0
+D. Alaba,735,0,3,24,0,0
+Thiago Alcântara,839,1,1,25,2,0
+Xabi Alonso,785,2,0,34,1,0
+F. Benko,0,0,0,18,0,0
+Juan Bernat,282,0,1,23,0,0
+Douglas Costa,351,1,0,26,0,0
+N. Dorsch,0,0,0,18,0,0
+J. Kimmich,484,4,0,21,1,0
+Renato Sanches,333,0,0,19,3,0
+Javi Martínez,659,0,1,28,2,0
+E. Öztürk,0,0,0,20,0,0
+F. Ribéry,437,2,5,33,2,0
+A. Robben,381,3,2,32,0,0
+A. Vidal,597,1,0,29,2,0
+K. Coman,269,0,0,20,0,0
+F. Götze,0,0,0,17,0,0
+J. Green,0,0,0,21,0,0
+R. Lewandowski,924,7,2,28,0,0
+T. Müller,597,0,3,27,0,0
+F. Coltorti,0,0,0,35,0,0
+P. Gulácsi,990,0,0,26,1,0
+M. Müller,0,0,0,23,0,0
+M. Compper,876,0,1,31,3,0
+D. Franke,0,0,0,18,0,0
+K. Gipson,0,0,0,20,0,0
+M. Halstenberg,990,0,0,25,1,0
+L. Klostermann,90,0,0,20,1,0
+W. Orban,990,1,1,24,3,0
+K. Papadopoulos,27,0,0,24,0,0
+B. Schmitz,196,0,1,22,0,0
+O. Burke,193,1,2,19,0,0
+D. Demme,899,0,2,25,2,0
+Bernardo,564,0,0,21,1,0
+S. Ilsanker,817,0,0,27,2,0
+D. Kaiser,561,1,0,28,1,0
+Z. Kalmár,0,0,0,21,0,0
+N. Keïta,595,3,1,21,2,0
+R. Khedira,0,0,0,22,0,0
+M. Sabitzer,687,3,2,22,0,0
+T. Boyd,0,0,0,25,0,0
+E. Forsberg,693,5,5,25,1,0
+D. Selke,114,2,1,21,0,0
+T. Werner,803,5,2,20,1,0
+Y. Poulsen,801,1,1,22,1,0
+H. Bonmann,0,0,0,22,0,0
+R. Bürki,900,0,0,26,0,0
+R. Weidenfeller,360,0,0,36,0,0
+Bartra,615,0,3,25,2,0
+D. Burnic,0,0,0,18,0,0
+E. Durm,112,0,0,24,0,0
+M. Ginter,1068,0,0,22,1,0
+Raphaël Guerreiro,394,2,2,22,0,0
+S. Papastathopoulos,1056,0,0,28,4,0
+Joo-Ho Park,65,0,0,29,0,0
+Ł. Piszczek,940,3,0,31,1,0
+M. Schmelzer,904,0,0,28,2,0
+N. Subotić,0,0,0,28,0,0
+S. Bender,0,0,0,27,0,0
+Jacob Bruun Larsen,0,0,0,18,0,0
+G. Castro,795,2,4,29,2,0
+O. Dembélé,873,3,5,19,4,0
+M. Götze,559,0,1,24,1,0
+S. Kagawa,318,0,0,27,1,0
+Mikel Merino,90,0,0,20,0,0
+E. Mor,287,1,1,19,0,1
+F. Passlack,354,0,0,18,0,0
+C. Pulisic,514,2,4,18,0,0
+S. Rode,519,1,0,26,0,0
+N. Şahin,36,0,0,28,0,0
+A. Schürrle,339,0,1,26,0,0
+J. Weigl,1043,0,0,21,1,0
+P. Aubameyang,1165,15,1,27,1,0
+A. Ramos,348,2,1,30,2,0
+M. Reus,200,1,3,27,0,0
+O. Baumann,1260,0,0,26,0,0
+G. Kobel,0,0,0,19,0,0
+A. Stolz,0,0,0,33,0,0
+E. Bičakčić,429,0,0,26,3,0
+B. Hübner,758,0,0,27,1,0
+P. Kadeřábek,1197,0,2,24,1,0
+Jin-Su Kim,0,0,0,24,0,0
+F. Schär,223,0,0,24,1,0
+N. Süle,1117,1,0,21,0,0
+J. Toljan,585,1,1,22,1,0
+N. Amiri,704,1,2,20,0,0
+K. Demirbay,649,3,3,23,0,0
+D. Geiger,0,0,0,18,0,0
+J. Hamad,0,0,0,26,0,0
+P. Ochs,99,0,0,19,0,0
+E. Polanski,517,0,0,30,1,0
+S. Rudy,1138,0,3,26,4,0
+L. Rupp,727,2,1,25,2,0
+P. Schwegler,140,0,1,29,0,0
+K. Vogt,931,0,0,25,2,0
+S. Zuber,407,2,0,25,0,0
+B. Atik,30,0,0,21,0,0
+A. Kramarić,1073,3,5,25,0,0
+Á. Szalai,135,1,0,29,0,0
+M. Terrazzino,11,0,0,25,0,0
+M. Uth,494,4,1,25,3,0
+E. Vargas,96,0,0,27,1,0
+S. Wagner,1140,7,1,29,3,0
+M. Hamrol,0,0,0,22,0,0
+T. Horn,810,0,0,23,0,0
+T. Kessler,90,0,0,30,0,0
+S. Müller,90,0,0,20,0,0
+J. Hector,990,0,0,26,1,0
+D. Heintz,877,0,0,23,2,0
+F. Sørensen,990,0,1,24,3,0
+L. Klünter,0,0,0,20,0,0
+D. Maroh,102,0,0,29,1,0
+M. Mavraj,990,0,0,30,1,0
+F. Mladenović,9,0,0,25,0,0
+P. Olkowski,25,0,0,26,0,0
+K. Rausch,455,0,2,26,1,0
+L. Bittencourt,276,1,1,22,2,0
+M. Hartel,0,0,0,20,0,0
+M. Höger,847,0,0,27,3,0
+M. Jojić,98,0,0,24,1,0
+M. Lehmann,923,0,0,33,3,0
+S. Özcan,58,0,2,18,0,0
+M. Risse,990,2,4,26,1,0
+S. Guirassy,25,0,0,20,0,0
+A. Modeste,960,12,1,28,1,0
+Y. Ōsako,768,2,2,26,2,0
+A. Rudņevs,215,0,1,28,2,0
+S. Zoller,302,1,1,25,2,0
+R. Jarstein,990,0,0,32,0,0
+Nils-Jonathan Körber,0,0,0,20,0,0
+T. Kraft,0,0,0,28,0,0
+F. Baak,0,0,0,17,0,0
+J. Brooks,630,0,0,23,2,0
+S. Langkamp,810,0,0,28,2,0
+F. Lustenberger,686,0,0,28,0,0
+M. Mittelstädt,90,0,0,19,1,0
+P. Pekarík,676,0,1,30,2,0
+M. Plattenhardt,810,0,0,24,1,0
+N. Stark,891,1,0,21,3,0
+M. Weiser,853,1,4,22,1,0
+A. Baumjohann,0,0,0,29,0,0
+V. Darida,235,1,0,26,0,0
+O. Duda,0,0,0,21,0,0
+A. Esswein,511,1,1,26,2,0
+G. Haraguchi,909,0,2,25,1,0
+J. Hegeler,26,0,0,28,0,0
+J. Kade,0,0,0,17,0,0
+F. Kohls,0,0,0,21,0,0
+S. Kurt,4,0,0,20,0,0
+Allan,250,0,0,19,1,0
+P. Skjelbred,767,0,0,29,0,0
+V. Stocker,405,2,0,27,0,1
+S. Allagui,25,0,0,30,1,0
+V. Ibišević,907,6,3,32,1,0
+S. Kalou,249,3,0,31,0,0
+J. Schieber,166,2,1,27,2,0
+R. Gikiewicz,0,0,0,29,0,0
+P. Klandt,0,0,0,33,0,0
+A. Schwolow,990,0,0,24,0,0
+J. Föhrenbach,81,0,0,20,0,0
+M. Gulde,402,0,0,25,1,0
+C. Günter,895,0,1,23,2,1
+A. Ignjovski,202,0,0,25,0,0
+M. Kempf,0,0,0,21,0,0
+L. Kübler,0,0,0,24,0,0
+G. Niedermeier,89,0,0,30,0,0
+C. Söyüncü,856,0,1,20,4,0
+P. Stenzel,720,0,0,20,0,0
+Torrejón,433,0,0,30,1,0
+A. Abrashi,616,1,0,26,2,0
+O. Bulut,624,0,1,22,2,0
+M. Frantz,734,0,0,30,2,0
+V. Grifo,989,3,3,23,1,0
+J. Haberer,183,0,1,22,2,0
+N. Höfler,989,1,0,26,4,0
+L. Hufnagel,0,0,0,22,0,0
+C. Laprevotte,0,0,0,24,0,0
+J. Meffert,58,0,0,22,0,0
+M. Dæhli,10,0,0,21,0,0
+M. Philipp,875,5,1,22,3,0
+J. Schuster,0,0,0,31,0,0
+A. Falahen,0,0,0,23,0,0
+K. Guédé,59,0,0,31,0,0
+H. Nielsen,0,0,0,23,0,0
+F. Niederlechner,702,1,1,26,3,0
+N. Petersen,378,4,1,27,0,0
+J. Drobný,360,0,0,37,0,0
+E. Oelschlägel,0,0,0,21,0,0
+F. Wiedwald,630,0,0,26,0,0
+R. Wolf,0,0,0,28,0,0
+M. Zetterer,0,0,0,21,0,0
+R. Bauer,492,0,0,21,0,0
+L. Caldirola,180,0,0,25,0,0
+F. Diagne,136,0,0,27,0,0
+S. García,450,1,0,28,2,0
+U. Garcia,132,0,0,20,0,0
+T. Gebre Selassie,990,1,1,29,2,0
+N. Moisander,764,0,1,31,1,0
+L. Sané,672,1,0,29,1,0
+J. Sternberg,70,0,0,24,1,0
+P. Bargfrede,18,0,0,27,0,0
+F. Bartels,422,0,1,29,0,0
+M. Eggestein,16,0,0,19,0,0
+J. Eilers,0,0,0,28,0,0
+C. Fritz,864,0,0,35,3,0
+L. Fröde,11,0,0,21,0,0
+S. Gnabry,842,4,1,21,1,0
+F. Grillitsch,892,1,0,21,3,0
+I. Hajrović,476,1,0,25,1,0
+Z. Junuzović,889,1,1,29,1,0
+F. Kainz,4,0,0,24,0,0
+T. Petsos,98,0,0,25,1,0
+N. Schmidt,14,0,1,18,0,0
+M. Veljkovic,330,0,0,21,1,0
+S. Yatabaré,176,0,0,27,0,0
+J. Eggestein,0,0,0,18,0,0
+A. Jóhannsson,187,1,1,26,0,1
+M. Kruse,90,0,0,28,0,0
+M. Lorenzen,0,0,0,21,0,0
+O. Manneh,488,1,1,19,2,0
+C. Pizarro,103,0,0,38,0,0
+L. Thy,84,1,0,24,0,0
+C. Heimeroth,0,0,0,35,0,0
+M. Nicolas,0,0,0,19,0,0
+T. Sippel,0,0,0,28,0,0
+Y. Sommer,990,0,0,27,1,0
+A. Christensen,720,0,0,20,0,0
+Álvaro Domínguez,0,0,0,27,0,0
+M. Doucouré,0,0,0,18,0,0
+N. Elvedi,863,0,0,20,1,0
+T. Jantschke,631,0,0,26,0,0
+N. Rütten,0,0,0,21,0,0
+N. Schulz,40,0,0,23,0,0
+T. Strobl,430,0,0,26,3,0
+J. Vestergaard,659,0,1,24,1,0
+O. Wendt,784,1,0,31,1,0
+L. Bénes,0,0,0,19,0,0
+M. Dahoud,431,0,1,20,0,0
+A. Hahn,616,1,0,26,1,0
+T. Hazard,457,3,1,23,0,0
+P. Herrmann,129,0,0,25,0,0
+J. Hofmann,180,0,0,24,0,0
+F. Johnson,711,1,1,28,1,0
+J. Korb,517,0,0,24,0,0
+C. Kramer,849,0,0,25,4,0
+W. Ndenge,0,0,0,19,0,0
+M. Schulz,0,0,0,21,0,0
+D. Sow,0,0,0,19,0,0
+L. Stindl,912,3,1,28,3,0
+I. Traoré,534,0,2,28,0,0
+Raffael,386,2,0,31,1,0
+J. Drmic,0,0,0,24,0,0
+R. Fährmann,990,0,0,28,1,0
+F. Giefer,0,0,0,26,0,0
+A. Nübel,0,0,0,20,0,0
+T. Wellenreuther,0,0,0,20,0,0
+Coke,0,0,0,29,0,0
+D. Aogo,74,0,0,29,0,0
+Naldo,900,0,0,34,0,0
+A. Baba,495,0,0,22,1,0
+J. Bitter,0,0,0,19,0,0
+Júnior Caiçara,90,0,0,27,1,0
+B. Höwedes,990,0,0,28,4,0
+T. Kehrer,0,0,0,20,0,0
+S. Kolašinac,505,0,4,23,3,0
+M. Nastasić,810,0,0,23,1,0
+P. Neumann,0,0,0,19,0,0
+S. Riether,180,0,0,33,0,0
+A. Uchida,0,0,0,28,0,0
+N. Bentaleb,902,4,2,22,3,0
+J. Geis,683,0,0,23,3,0
+L. Goretzka,772,2,0,21,1,0
+Y. Konoplyanka,166,0,0,27,1,0
+M. Meyer,606,1,0,21,0,0
+S. Sam,0,0,0,28,0,0
+A. Schöpf,610,2,0,22,0,0
+B. Stambouli,271,0,0,26,1,0
+D. Avdijaj,0,0,0,20,0,0
+E. Choupo-Moting,806,2,1,27,0,0
+F. Di Santo,222,0,2,27,1,0
+B. Embolo,341,2,1,19,0,0
+K. Huntelaar,477,1,0,33,0,0
+F. Reese,0,0,0,18,0,0
+B. Tekpetey,0,0,0,19,0,0
+L. Bätge,0,0,0,19,0,0
+L. Hradecky,990,0,0,27,1,0
+H. Lindner,0,0,0,26,0,0
+D. Abraham,931,1,0,30,2,0
+T. Chandler,935,0,1,26,3,0
+M. Hector,222,1,0,24,1,1
+B. Oczipka,972,1,1,27,2,0
+Y. Regäsel,0,0,0,20,0,0
+M. Russ,0,0,0,31,0,0
+Anderson Bamba,0,0,0,28,0,0
+T. Tawatha,18,0,0,24,0,0
+Jesús Vallejo,902,0,0,19,2,0
+G. Varela,97,0,0,23,1,0
+F. Zorba,0,0,0,18,0,0
+A. Barkok,15,1,0,18,0,0
+M. Fabián,810,3,4,27,4,0
+J. Flum,0,0,0,28,0,0
+M. Gaćinović,642,1,0,21,2,0
+J. Gerezgiher,0,0,0,21,0,0
+M. Hasebe,743,0,0,32,0,0
+S. Huszti,759,1,1,33,3,0
+Omar Mascarell,922,0,0,23,5,0
+S. Medojević,0,0,0,26,0,0
+M. Stendera,0,0,0,20,0,0
+D. Blum,132,0,1,25,0,0
+E. Bunjaki,0,0,0,19,0,0
+B. Hrgota,426,0,0,23,0,0
+A. Meier,735,4,0,33,1,0
+A. Rebić,144,0,2,23,1,0
+H. Seferović,338,1,0,24,1,0
+S. Tarashaj,121,1,0,21,1,0
+B. Leno,990,0,0,24,0,0
+N. Lomb,0,0,0,23,0,0
+R. Özcan,0,0,0,32,0,0
+L. Boeder,0,0,0,19,0,0
+A. Dragović,232,0,1,25,1,0
+R. Hilbert,0,0,0,32,0,0
+T. Jedvaj,267,1,0,20,0,0
+Wendell,811,0,0,23,3,0
+J. Tah,854,0,1,20,1,0
+Ö. Toprak,770,0,0,27,3,0
+D. da Costa,0,0,0,23,0,0
+C. Aránguiz,801,1,1,27,3,0
+J. Baumgartlinger,422,0,1,28,0,0
+K. Bellarabi,93,0,1,26,1,0
+L. Bender,335,0,0,27,1,0
+K. Havertz,125,0,0,17,0,0
+B. Henrichs,900,0,2,19,0,0
+K. Kampl,900,1,1,26,2,0
+V. Yurchenko,0,0,0,22,0,0
+J. Brandt,816,2,3,20,0,0
+H. Çalhanoğlu,587,2,3,22,1,0
+J. Hernández,745,5,1,28,1,0
+S. Kießling,105,0,1,32,0,0
+R. Kruse,0,0,0,28,0,0
+A. Mehmedi,621,2,0,25,1,0
+J. Pohjanpalo,104,4,0,22,0,0
+K. Volland,328,0,1,24,0,1
+I. Gelios,0,0,0,24,0,0
+M. Hitz,990,0,0,29,0,0
+A. Luthe,0,0,0,29,0,0
+J. Callsen-Bracker,0,0,0,32,0,0
+R. Framberger,90,0,0,21,0,0
+M. Friedrich,0,0,0,20,0,0
+J. Gouweleeuw,540,1,1,25,3,0
+M. Hinteregger,883,0,0,24,1,0
+C. Janker,545,0,0,31,0,0
+P. Max,335,0,0,23,1,0
+D. Opare,0,0,0,26,0,0
+T. Rieder,0,0,0,23,0,0
+K. Stafylidis,985,2,0,22,2,0
+P. Verhaegh,990,0,0,33,2,0
+Halil Altıntop,372,2,0,33,1,0
+D. Baier,990,1,3,32,1,0
+Caiuby,180,0,0,28,1,0
+M. Feulner,0,0,0,34,0,0
+G. Kačar,534,0,1,29,1,0
+D. Kohr,460,0,0,22,2,0
+Ja-Cheol Koo,774,1,1,27,2,0
+J. Morávek,98,0,0,27,0,0
+J. Schmid,488,0,0,26,0,0
+M. Schuster,0,0,0,21,0,0
+G. Teigl,57,0,0,25,1,0
+T. Usami,8,0,0,24,0,0
+R. Bobadilla,271,1,0,29,0,0
+A. Finnbogason,513,1,0,27,0,0
+J. Schmidt,5,0,0,22,0,0
+Dong-Won Ji,872,1,1,25,2,0
+R. Adler,900,0,1,31,1,0
+A. Hirzel,0,0,0,23,0,0
+C. Mathenia,90,0,0,24,0,0
+T. Mickel,0,0,0,27,0,0
+D. Diekmeier,330,0,0,27,2,0
+J. Djourou,630,0,0,29,2,0
+Douglas Santos,810,0,0,22,3,0
+A. Götz,66,0,0,23,1,0
+Cleber Reis,326,0,0,25,1,1
+G. Jung,706,0,0,22,0,0
+M. Ostrzolek,360,0,0,26,0,0
+G. Sakai,855,0,0,25,4,0
+Young-Jae Seo,0,0,0,21,0,0
+E. Spahić,685,0,0,36,2,0
+N. Bahoui,67,0,0,25,0,0
+A. Ekdal,514,0,1,27,1,0
+D. Feka,0,0,0,19,0,0
+M. Gregoritsch,411,0,1,22,1,0
+A. Halilović,138,0,0,20,0,0
+L. Holtby,696,0,2,26,1,0
+A. Hunt,441,0,0,30,1,0
+F. Kostić,683,1,0,24,1,0
+N. Müller,877,3,0,29,2,0
+F. Porath,0,0,0,19,0,0
+F. Ronstadt,0,0,0,19,0,0
+B. Jatta,0,0,0,18,0,0
+M. Köhlert,0,0,0,18,0,0
+P. Lasogga,436,0,0,24,2,0
+L. Waldschmidt,148,0,1,20,0,0
+B. Wood,591,2,0,24,1,1
+G. Curci,0,0,0,31,0,0
+J. Huth,0,0,0,22,0,0
+J. Lössl,990,0,0,27,0,0
+F. Müller,0,0,0,19,0,0
+L. Balogun,549,0,0,28,1,0
+S. Bell,854,3,1,25,5,0
+D. Brosinski,781,0,1,28,5,0
+N. Bungert,165,1,0,30,0,0
+G. Bussmann,597,0,1,25,0,1
+G. Donati,990,0,0,26,0,0
+A. Hack,441,0,1,23,0,0
+C. Clemens,188,0,0,25,0,0
+F. Frei,606,0,0,27,2,0
+J. Gbamin,766,0,0,21,0,0
+B. Halimi,0,0,0,21,0,0
+G. Holtmann,23,0,1,21,0,0
+P. Klement,0,0,0,24,0,0
+D. Latza,0,0,0,26,0,0
+Y. Mallı,940,6,4,24,0,0
+L. Öztunali,540,2,2,20,0,0
+André Ramalho,37,0,0,24,1,0
+José Rodríguez,5,0,0,21,0,1
+Jairo Samperio,188,0,1,23,1,0
+S. Serdar,305,0,0,19,1,0
+E. Berggreen,0,0,0,23,0,0
+J. Córdoba,866,2,2,23,4,0
+P. De Blasis,482,4,2,28,2,0
+Y. Muto,47,2,0,24,0,0
+K. Onisiwo,497,1,0,24,3,0
+D. Benaglio,270,0,0,33,0,0
+K. Casteels,720,0,0,24,1,0
+M. Grün,0,0,0,29,0,0
+P. Menzel,0,0,0,18,0,0
+C. Ascues,0,0,0,24,0,0
+J. Bruma,833,0,0,25,3,1
+H. Hansen,83,0,0,22,0,0
+J. Horn,81,0,0,19,1,0
+S. Jung,0,0,0,26,0,0
+R. Knoche,431,0,0,24,0,0
+R. Rodríguez,918,2,2,24,0,0
+M. Schäfer,71,0,0,32,1,0
+C. Träsch,469,0,1,29,0,0
+P. Wollscheid,270,0,0,27,0,0
+R. Ziegele,0,0,0,19,0,0
+M. Arnold,811,1,0,22,4,0
+I. Azzaoui,0,0,0,18,0,0
+J. Błaszczykowski,695,0,0,30,2,0
+D. Caligiuri,637,0,1,28,1,0
+A. Conde,0,0,0,19,0,0
+Luiz Gustavo,617,0,0,29,0,0
+D. Didavi,234,2,0,26,0,0
+A. Donkor,0,0,0,19,0,0
+J. Draxler,788,0,0,23,0,0
+Y. Gerhardt,765,0,0,22,2,0
+J. Guilavogui,9,0,0,26,0,0
+J. Möbius,0,0,0,19,0,0
+Bruno Henrique,178,0,0,25,0,0
+P. Seguin,523,0,1,21,2,0
+Vieirinha,341,0,0,30,0,0
+J. Brekalo,76,0,0,18,1,0
+M. Gómez,892,3,0,31,1,0
+Borja Mayoral,30,0,0,19,0,0
+F. Buntic,0,0,0,19,0,0
+M. Hansen,180,0,0,26,0,0
+Ø. Nyland,810,0,0,26,0,0
+C. Ortag,0,0,0,21,0,0
+R. Brégerie,180,0,0,30,1,0
+F. Hadergjonaj,270,0,1,22,1,0
+A. Jung,180,0,0,25,0,0
+T. Levels,718,0,0,30,3,1
+M. Matip,990,0,0,31,1,0
+M. Suttner,855,0,2,29,4,0
+M. Tisserand,810,0,0,23,2,0
+H. Wahl,0,0,0,22,0,0
+M. Christiansen,60,0,0,20,1,0
+A. Cohen,532,1,0,28,0,0
+Roger,881,0,0,31,1,0
+P. Groß,990,0,0,25,0,0
+S. Kittel,24,0,0,23,0,0
+A. Morales,307,0,0,26,2,0
+M. Multhaup,0,0,0,19,0,0
+N. Rinderknecht,0,0,0,19,0,0
+M. Hartmann,757,1,0,30,0,0
+L. Hinterseer,655,3,1,25,2,0
+M. Leckie,744,0,1,25,1,0
+R. Leipertz,14,0,0,23,0,0
+S. Lex,231,0,0,26,2,0
+D. Lezcano,696,3,0,26,0,0
+I. Berezovskiy,0,0,0,26,0,0
+M. Esser,955,0,0,29,0,0
+Daniel Heuer,35,0,0,24,0,0
+C. Aydogan,0,0,0,17,0,0
+A. Fedetskiy,170,0,0,31,2,0
+B. Gorka,0,0,0,32,0,0
+L. Guwara,605,0,0,20,2,0
+I. Höhn,889,0,0,24,3,0
+F. Holland,494,0,0,26,1,0
+A. Milosevic,990,0,0,24,2,0
+S. Sirigu,320,2,0,28,0,0
+A. Sulu,540,0,0,30,1,0
+D. Thur,0,0,0,18,0,0
+J. Wolff,0,0,0,18,0,0
+L. Fisch,0,0,0,18,0,0
+J. Gondorf,868,1,2,28,2,0
+M. Heller,791,0,1,30,0,0
+F. Jungwirth,921,0,0,27,2,0
+L. Kleinheisler,690,1,1,22,0,0
+P. Niemeyer,223,0,0,33,2,0
+J. Rosenthal,10,0,0,30,0,0
+M. Vrančić,212,1,0,27,1,0
+Ä. Ben-Hatira,512,1,0,28,3,0
+R. Bezjak,532,0,0,27,0,0
+A. Colak,555,3,0,23,0,0
+V. Obinna,0,0,0,29,0,0
+D. Oliynyk,20,1,0,29,0,0
+F. Platte,0,0,0,20,0,0
+S. Schipplock,480,0,0,28,1,0
+D. Stroh-Engel,0,0,0,30,0,0

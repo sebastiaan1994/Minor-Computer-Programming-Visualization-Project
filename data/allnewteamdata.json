@@ -27206,7 +27206,7 @@
         "venue_capacity": "24726", 
         "venue_city": "Bergamo", 
         "venue_id": "88319", 
-        "venue_name": "Stadio Atleti Azzurri d'Italia", 
+        "venue_name": "Stadio Atleti Azzurri D'Italia", 
         "venue_surface": "grass"
     }, 
     {
@@ -36716,7 +36716,7 @@
                 "type": "Unknown"
             }
         ], 
-        "venue_address": "Piazza Azzuri d&apos;Italia, 1", 
+        "venue_address": "Piazza Azzuri D&apos;Italia, 1", 
         "venue_capacity": "21584", 
         "venue_city": "Reggio nell&apos;Emilia", 
         "venue_id": "89411", 
@@ -48610,7 +48610,7 @@
                 "type": "1.5M &euro;"
             }
         ], 
-        "venue_address": "Carrer d&apos;Arístides Maillol", 
+        "venue_address": "Carrer D&apos;Arístides Maillol", 
         "venue_capacity": "99787", 
         "venue_city": "Barcelona", 
         "venue_id": "88711", 

@@ -16,10 +16,11 @@ for i in range(len(data)):
 		position = data[i]['squad'][j]['position']
 		yellow = data[i]['squad'][j]['yellowcards']
 		red = data[i]['squad'][j]['redcards']
-		lists.append([team, country, player, minutes, goals, age, position, yellow, red])
+		assists = data[i]['squad'][j]['assists']
+		lists.append([team, country, player, minutes, goals, assists, age, position, yellow, red])
 
 lists = [[s.encode('utf8') for s in t] for t in lists]
 
-with io.open('playerdata.csv', 'wb') as f:
+with io.open('playerdata2.csv', 'wb') as f:
 	writer = csv.writer(f)
 	writer.writerows(lists)

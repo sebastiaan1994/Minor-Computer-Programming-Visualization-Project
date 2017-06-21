@@ -53,31 +53,43 @@ window.onload = function() {
 	var players = {}
 
 	queue()
-		.defer(d3.csv, "data/playerdata.csv")
+		.defer(d3.csv, "data/playerdata2.csv")
 		.await(drawChart);
 
-	tableColumns = [
-	            { title: "Position" },
-	            { title: "League" },
-	            { title: "Team" },
-	            { title: "Played" },
-	            { title: "Wins" },
-	            { title: "Draws" },
-	            { title: "Losses" },
-	            { title: "Goals Scored" },
-	            { title: "Goals Conceded" },
-	            { title: "Difference" },
-	            { title: "Points" }
-	        ]
-	 
-	var table = $(document).ready(function() {
-	    $('#table').DataTable( {
-	        data: leagueTables,
-	        lengthChange: false,
-	        destroy: true,
-	        columns: tableColumns
-	    });
-	});
+	firstTableView()
+
+	parCor()
+
+	function firstTableView() {
+
+		tableColumns = [
+		            { title: "Position" },
+		            { title: "League" },
+		            { title: "Team" },
+		            { title: "Played" },
+		            { title: "Wins" },
+		            { title: "Draws" },
+		            { title: "Losses" },
+		            { title: "Goals Scored" },
+		            { title: "Goals Conceded" },
+		            { title: "Difference" },
+		            { title: "Points" }
+		        ]
+		 
+		var table = $(document).ready(function() {
+		    $('#table').DataTable( {
+		        data: leagueTables,
+		        lengthChange: false,
+		        dom: '<"toolbar">frtip',
+		        destroy: true,
+		        columns: tableColumns
+		    });
+		});
+
+		$(".toolbar").html('<b> European Leagues Club Table </b>')
+		$(".toolbar").before(document.getElementsByTagName("label"))
+
+	}
 
 	function drawChart(error, playerData) {
 
@@ -97,10 +109,10 @@ window.onload = function() {
 		    chartWidth = outerWidth - margin.left - margin.right,
 		    chartHeight = outerHeight - margin.top - margin.bottom;
 
-		var x = d3.scale.linear()
+		var xChart = d3.scale.linear()
 		    .range([0, chartWidth]).nice();
 
-		var y = d3.scale.linear()
+		var yChart = d3.scale.linear()
 		    .range([chartHeight, 0]).nice();
 
 		var wCat = "name"
@@ -116,16 +128,16 @@ window.onload = function() {
 		      yMin = d3.min(playerData, function(d) { return d[yCat]; }),
 		      yMin = yMin > 0 ? 0 : yMin;
 
-		  x.domain([xMin, xMax]);
-		  y.domain([yMin, yMax]);
+		  xChart.domain([xMin, xMax]);
+		  yChart.domain([yMin, yMax]);
 
 		  var xAxis = d3.svg.axis()
-		      .scale(x)
+		      .scale(xChart)
 		      .orient("bottom")
 		      .tickSize(-chartHeight);
 
 		  var yAxis = d3.svg.axis()
-		      .scale(y)
+		      .scale(yChart)
 		      .orient("left")
 		      .tickSize(-chartWidth);
 
@@ -139,8 +151,8 @@ window.onload = function() {
 		      });
 
 		  var zoomBeh = d3.behavior.zoom()
-		      .x(x)
-		      .y(y)
+		      .x(xChart)
+		      .y(yChart)
 		      .scaleExtent([0, 500])
 		      .on("zoom", zoom);
 
@@ -238,20 +250,27 @@ window.onload = function() {
 			  }
 
 			  function transform(d) {
-			    return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";
+			    return "translate(" + xChart(d[xCat]) + "," + yChart(d[yCat]) + ")";
 			  }
 	}
 
 	function drawTable(league) {
+			
 
-		table = $('#table').DataTable().clear().draw();
-		    $('#table').DataTable( {
-		        data: league,
-		        lengthChange: false,
-		        destroy: true,
-		        columns: tableColumns
-		    });
 
+			table = $('#table').DataTable().clear().destroy();
+			table = $('#table').DataTable( {
+					columns: tableColumns,
+			        data: league,
+			        dom: '<"toolbar">frtip',
+			        lengthChange: false,
+			        destroy: true,
+			        aaSorting: [[0, 'asc']]
+			    });
+
+			$(".toolbar").html('<b>'+ league[0][1] +'</b>')
+			$(".toolbar").before(document.getElementsByTagName("label"))
+		
 	}
 
 	function drawMap(error, map, teams, allnewteamdata) {
@@ -269,6 +288,26 @@ window.onload = function() {
 	  	teamdata = teams 
 
 	  	allteamdata = allnewteamdata
+	  	
+	  	for (i = 0; i < allteamdata.length; i++) {
+	  		for (j = 0; j < allteamdata[i]['squad'].length; j++) {
+	  			if (allteamdata[i]['squad'][j]['position'] == 'G') {
+	  				allteamdata[i]['squad'][j]['position'] = 'Goalkeeper'
+	  			}
+	  			if (allteamdata[i]['squad'][j]['position'] == 'D') {
+	  				allteamdata[i]['squad'][j]['position'] = 'Defender'
+	  			}
+	  			if (allteamdata[i]['squad'][j]['position'] == 'M') {
+	  				allteamdata[i]['squad'][j]['position'] = 'Midfielder'
+	  			}
+	  			if (allteamdata[i]['squad'][j]['position'] == 'A'){
+	  				allteamdata[i]['squad'][j]['position'] = 'Attacker'
+	  			}
+	  			if (allteamdata[i]['squad'][j]['number'] == '0') {
+	  				allteamdata[i]['squad'][j]['number'] = 'Not Available'
+	  			}	
+	  		}
+	  	}
 
 		g.selectAll("#mark")//adding mark in the group
 		 .data(teams)
@@ -375,11 +414,13 @@ window.onload = function() {
 					tooltip.style("visibility", "hidden")
 				})
 
+			firstTableView()
+
 			return reset();
 		}
 		active.classed("active", false);
 		active = d3.select(this).classed("active", true);
-
+		
 		d3.selectAll("#mark")
 				.on("mouseover", function(d){
 		            tooltip.text(d.name);
@@ -477,36 +518,59 @@ window.onload = function() {
 
 	function showClubData (club) {
 		
-
-		tableColumns = [
+		
+		tableColumnsPlayers = [
 	            { title: "Number" },
 	            { title: "Name" },
 	            { title: "Position" },
 	            { title: "Minutes" },
 	            { title: "Assists" },
-	            { title: "Goals" }
+	            { title: "Goals" },
+	            { title: "Yellow Cards"},
+	            { title: "Red Cards"},
+	            { title: "Appearances"},
+	            { title: "Injured"},
+	            { title: "Substituted out"}
 	        ]
 		
-		for (i=0; i < allteamdata.length; i++)  {
+		for (i = 0; i < allteamdata.length; i++)  {
 			if (allteamdata[i]['name'] == club) {
 				clubData = allteamdata[i]
 
+
 				$('#table').DataTable().clear().destroy();
-				
+				$('#table').DataTable( {
+			        columns: tableColumnsPlayers
+			    })
+
+
+				console.log(clubData)
+
 			    table = $('#table').DataTable( {
 			        aaData: clubData['squad'],
 			        lengthChange: false,
 			        destroy: true,
-			        columns: tableColumns,	        
+			        search: false,
+			        dom: '<"toolbar">frtip',
+			        aaSorting: [[3, 'dsc']],	        
 			        aoColumns: [
 			            { "mDataProp": "number" },
 			            { "mDataProp": "name" },
 			            { "mDataProp": "position" },
 			            { "mDataProp": "minutes" },
 			            { "mDataProp": "assists" },
-			            { "mDataProp": "goals" }
+			            { "mDataProp": "goals" },
+			            { "mDataProp": "yellowcards" },
+			            { "mDataProp": "redcards" },
+			            { "mDataProp": "appearences" },
+			            { "mDataProp": "injured" },
+			            { "mDataProp": "substitute_out" }
+
 			        ]
 			    });
+			    $(".toolbar").html('<b>' + clubData['name'] + '</b><br>' + '<b>Coach: </b>' + clubData['coach_name'] + '<br>' + '<b>Stadium: </b>' + clubData['venue_name'] + ', ' + clubData['venue_capacity'] + ' seats<br>' + '<b>City: </b>' + clubData['venue_city'] )
+			    $(".toolbar").before(document.getElementsByTagName("label"))
+			    break
 			    
 			}
 		}
@@ -532,3 +596,131 @@ window.onload = function() {
 
 	}
 }
+	function parCor() {
+
+		var marginParCor = {top: 30, right: 10, bottom: 10, left: 10},
+	    widthParCor = 1500 - marginParCor.left - marginParCor.right,
+	    heightParCor = 500 - marginParCor.top - marginParCor.bottom;
+
+		var x = d3.scale.ordinal().rangePoints([0, widthParCor], 1),
+		    y = {},
+		    dragging = {};
+
+		var line = d3.svg.line(),
+		    axis = d3.svg.axis().orient("left"),
+		    background,
+		    foreground;
+
+		var svgParCor = d3.select(".w3-row-padding").append("svg")
+			.attr('class', 'parcor')
+		    .attr("width", widthParCor + marginParCor.left + marginParCor.right)
+		    .attr("height", heightParCor + marginParCor.top + marginParCor.bottom)
+		  .append("g")
+		    .attr("transform", "translate(" + marginParCor.left + "," + marginParCor.top + ")");
+
+		d3.csv("/data/playerdata.csv", function(error, data) {
+
+		  // Extract the list of dimensions and create a scale for each.
+		  x.domain(dimensions = d3.keys(data[0]).filter(function(d) {
+		    return d != "name" && (y[d] = d3.scale.linear()
+		        .domain(d3.extent(data, function(p) { return +p[d]; }))
+		        .range([heightParCor, 0]));
+		  }));
+
+		  // Add grey background lines for context.
+		  background = svgParCor.append("g")
+		      .attr("class", "background")
+		    .selectAll("path")
+		      .data(data)
+		    .enter().append("path")
+		      .attr("d", path);
+
+		  // Add blue foreground lines for focus.
+		  foreground = svgParCor.append("g")
+		      .attr("class", "foreground")
+		    .selectAll("path")
+		      .data(data)
+		    .enter().append("path")
+		      .attr("d", path);
+
+		  // Add a group element for each dimension.
+		  var g = svgParCor.selectAll(".dimension")
+		      .data(dimensions)
+		    .enter().append("g")
+		      .attr("class", "dimension")
+		      .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
+		      .call(d3.behavior.drag()
+		        .origin(function(d) { return {x: x(d)}; })
+		        .on("dragstart", function(d) {
+		          dragging[d] = x(d);
+		          background.attr("visibility", "hidden");
+		        })
+		        .on("drag", function(d) {
+		          dragging[d] = Math.min(widthParCor, Math.max(0, d3.event.x));
+		          foreground.attr("d", path);
+		          dimensions.sort(function(a, b) { return position(a) - position(b); });
+		          x.domain(dimensions);
+		          g.attr("transform", function(d) { return "translate(" + position(d) + ")"; })
+		        })
+		        .on("dragend", function(d) {
+		          delete dragging[d];
+		          transition(d3.select(this)).attr("transform", "translate(" + x(d) + ")");
+		          transition(foreground).attr("d", path);
+		          background
+		              .attr("d", path)
+		            .transition()
+		              .delay(500)
+		              .duration(0)
+		              .attr("visibility", null);
+		        }));
+
+		  // Add an axis and title.
+		  g.append("g")
+		      .attr("class", "axis")
+		      .each(function(d) { d3.select(this).call(axis.scale(y[d])); })
+		    .append("text")
+		      .style("text-anchor", "middle")
+		      .attr("y", -9)
+		      .text(function(d) { return d; });
+
+		  // Add and store a brush for each axis.
+		  g.append("g")
+		      .attr("class", "brush")
+		      .each(function(d) {
+		        d3.select(this).call(y[d].brush = d3.svg.brush().y(y[d]).on("brushstart", brushstart).on("brush", brush));
+		      })
+		    .selectAll("rect")
+		      .attr("x", -8)
+		      .attr("width", 16);
+		});
+
+		function position(d) {
+		  var v = dragging[d];
+		  return v == null ? x(d) : v;
+		}
+
+		function transition(g) {
+		  return g.transition().duration(500);
+		}
+
+		// Returns the path for a given data point.
+		function path(d) {
+		  return line(dimensions.map(function(p) { return [position(p), y[p](d[p])]; }));
+		}
+
+		function brushstart() {
+		  d3.event.sourceEvent.stopPropagation();
+		}
+
+		// Handles a brush event, toggling the display of foreground lines.
+		function brush() {
+		  var actives = dimensions.filter(function(p) { return !y[p].brush.empty(); }),
+		      extents = actives.map(function(p) { return y[p].brush.extent(); });
+		  foreground.style("display", function(d) {
+		    return actives.every(function(p, i) {
+		      return extents[i][0] <= d[p] && d[p] <= extents[i][1];
+		    }) ? null : "none";
+		  });
+		}
+	}
+	
