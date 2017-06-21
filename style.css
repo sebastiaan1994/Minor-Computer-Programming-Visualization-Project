@@ -109,3 +109,8 @@ rect {
 #axis {
   font-size: 14px;
 }
+
+path:hover {
+  stroke: black;
+  pointer-events: all;
+}

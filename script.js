@@ -24,26 +24,39 @@ window.onload = function() {
 				.attr("width", width)
 				.attr("height", height);
 
+	var tooltip = d3.select("body")
+		.append("div")
+		.style("position", "absolute")
+		.style("z-index", "10")
+	    .style("width","250px")                  
+	    .style("height","40px")                 
+	    .style("padding","5px")             
+	    .style("font-family","20px Andada serif")
+	    .style("box-shadow", "5px 5px 5px #888888")      
+	    .style("border-radius","4px") 
+	    .style("border-style", "outset")
+	    .style("border-width", "1px")
+	    .style("background-color", "white") 
+		.style("visibility", "hidden");
+
 	var g = svg.append("g")
     		   .style("stroke-width", "1.5px");
 
     queue()
 		.defer(d3.json, "data/map.json")
 		.defer(d3.json, "data/teams.json")
+		.defer(d3.json, "data/allnewteamdata.json")
 		.await(drawMap);
 
 	var teamdata = {}
+	var allteamdata = {}
+	var players = {}
 
 	queue()
 		.defer(d3.csv, "data/playerdata.csv")
 		.await(drawChart);
-	 
-	var table = $(document).ready(function() {
-	    $('#table').DataTable( {
-	        data: leagueTables,
-	        lengthChange: false,
-	        destroy: true,
-	        columns: [
+
+	tableColumns = [
 	            { title: "Position" },
 	            { title: "League" },
 	            { title: "Team" },
@@ -56,6 +69,13 @@ window.onload = function() {
 	            { title: "Difference" },
 	            { title: "Points" }
 	        ]
+	 
+	var table = $(document).ready(function() {
+	    $('#table').DataTable( {
+	        data: leagueTables,
+	        lengthChange: false,
+	        destroy: true,
+	        columns: tableColumns
 	    });
 	});
 
@@ -68,6 +88,8 @@ window.onload = function() {
 			d.red = +d.red
 			d.yellow = +d.yellow
 			})
+
+		players = playerData
 
 		var margin = { top: 50, right: 300, bottom: 50, left: 50 },
 		    outerWidth = 1000,
@@ -226,12 +248,13 @@ window.onload = function() {
 		    $('#table').DataTable( {
 		        data: league,
 		        lengthChange: false,
-		        destroy: true
+		        destroy: true,
+		        columns: tableColumns
 		    });
 
 	}
 
-	function drawMap(error, map, teams) {
+	function drawMap(error, map, teams, allnewteamdata) {
 		//Bind data and create one path per GeoJSON feature
 		g.selectAll("path")
 	     .data(map.features)
@@ -243,7 +266,9 @@ window.onload = function() {
 	     .attr("fill", "rgba(8, 81, 156, 0.6)")
 	     .on("click", clicked);
 
-	  	teamdata = teams
+	  	teamdata = teams 
+
+	  	allteamdata = allnewteamdata
 
 		g.selectAll("#mark")//adding mark in the group
 		 .data(teams)
@@ -259,6 +284,8 @@ window.onload = function() {
 		 .attr("transform", function(d) {
 		   return "translate(" + projection([d.longitude, d.latitude]) + ")";
 		 })
+
+		 
 
 	};
 	function logoTransit(teamdata, league) {
@@ -311,7 +338,7 @@ window.onload = function() {
 			.attr("x", "415");
 		}
 
-		d3.selectAll("#mark").on("click", function() {
+		d3.selectAll("#mark").on("click", function(d) {
 		  d3.select(this)
 		  	.transition()
 			.duration(750)
@@ -320,10 +347,14 @@ window.onload = function() {
 			.attr("width", logoWidth)
 			.attr("height", logoHeight)
 			.attr("transform", function(d) {
-	      return "translate(" + projection([d.longitude, d.latitude]) + ")"});
-	  		})
+	      		return "translate(" + projection([d.longitude, d.latitude]) + ")"
+	      	});
+	      	showClubData(d.name)
+
+		})
+
+		  
 		};
-		
 			
 	
 	function clicked(d) {
@@ -336,12 +367,27 @@ window.onload = function() {
 				.attr("width", logoWidth)
 				.attr("height", logoHeight)
 				.attr("transform", function(d) {
-		      return "translate(" + projection([d.longitude, d.latitude]) + ")";
+		      return "translate(" + projection([d.longitude, d.latitude]) + ")"; 
 		    })
+
+			d3.selectAll("#mark")
+				.on("mouseover", function() {
+					tooltip.style("visibility", "hidden")
+				})
+
 			return reset();
 		}
 		active.classed("active", false);
 		active = d3.select(this).classed("active", true);
+
+		d3.selectAll("#mark")
+				.on("mouseover", function(d){
+		            tooltip.text(d.name);
+		           	tooltip.style("visibility", "visible")
+		           	return tooltip.style("top", (event.pageY-15)+"px").style("left",(event.pageX+30)+"px");})
+		        .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+		        
+
 
 		if (d.properties.admin == 'United Kingdom') {
 			svg.append('image')
@@ -376,6 +422,7 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Bundesliga')
 			drawTable(bundesliga);
+
 		}
 
 		if (d.properties.admin == 'Spain') {
@@ -425,6 +472,45 @@ window.onload = function() {
 	     .duration(750)
 	     .style("stroke-width", 1.5 / scale + "px")
 	     .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+
+	}
+
+	function showClubData (club) {
+		
+
+		tableColumns = [
+	            { title: "Number" },
+	            { title: "Name" },
+	            { title: "Position" },
+	            { title: "Minutes" },
+	            { title: "Assists" },
+	            { title: "Goals" }
+	        ]
+		
+		for (i=0; i < allteamdata.length; i++)  {
+			if (allteamdata[i]['name'] == club) {
+				clubData = allteamdata[i]
+
+				$('#table').DataTable().clear().destroy();
+				
+			    table = $('#table').DataTable( {
+			        aaData: clubData['squad'],
+			        lengthChange: false,
+			        destroy: true,
+			        columns: tableColumns,	        
+			        aoColumns: [
+			            { "mDataProp": "number" },
+			            { "mDataProp": "name" },
+			            { "mDataProp": "position" },
+			            { "mDataProp": "minutes" },
+			            { "mDataProp": "assists" },
+			            { "mDataProp": "goals" }
+			        ]
+			    });
+			    
+			}
+		}
+
 
 	}
 
