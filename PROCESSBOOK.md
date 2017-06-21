@@ -1,5 +1,23 @@
 # Process Book
 
+## Date: 20 June
+Unable to work on the project because I was attending the symposium in Rotterdam
+
+- [x] Getting inspired :)
+
+## Date: 19 June
+Merged table data with the geo map to create a linked view when you click on a specific club to see the player data in the table.
+Tweaking the table on clickcing on a club because headers need to change for other details about the players
+
+- [x] Created a python merge tool
+- [x] Made linked view with map and table
+- [x] Tweaked the table to convert column headers
+
+## Date: 16 June
+Cleaned up the website to show a smooth version of the visualization for the presentation.
+
+- [x] Prepared presentation
+
 ## Date: 15 June
 Switched to an alternative visualization from the bar chart to a scatter graph with zoomable function, because there are a lot of data points to represent all the players in the 4 competitions. Furthermore created another function for the interactive map to line up the club logo's when entering a zoom per country. Furthermore rewrote data to use for the scatter graph element to compare more variables.
 
