@@ -86,8 +86,19 @@ rect {
   border-radius: 2px;
 }
 
+.d3-tippie {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  top: 100px !important;
+  left: 100px !important;
+}
+
 /* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
+.d3-tip:after, .d3-tippie:after {
   box-sizing: border-box;
   display: inline;
   font-size: 10px;
@@ -104,6 +115,13 @@ rect {
   margin: -1px 0 0 0;
   top: 100%;
   left: 0;
+}
+
+.d3-tippie.e:after {
+  content: "\25C0";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -52.5%;
 }
 
 #axis {
@@ -150,5 +168,10 @@ label {
 .axis text {
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
   cursor: move;
+}
+
+.tool {
+  font-family: 'Andada', serif;
+  color: white;
 }
 

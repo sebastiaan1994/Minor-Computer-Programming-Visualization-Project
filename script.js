@@ -26,17 +26,16 @@ window.onload = function() {
 
 	var tooltip = d3.select("body")
 		.append("div")
+		.attr("class", "tool")
 		.style("position", "absolute")
-		.style("z-index", "10")
-	    .style("width","250px")                  
+		.style("z-index", "10")                 
 	    .style("height","40px")                 
-	    .style("padding","5px")             
-	    .style("font-family","20px Andada serif")
-	    .style("box-shadow", "5px 5px 5px #888888")      
-	    .style("border-radius","4px") 
+	    .style("padding","5px")                  
+	    .style("border-radius","0px") 
 	    .style("border-style", "outset")
 	    .style("border-width", "1px")
-	    .style("background-color", "white") 
+	    .style("background-color", "black")
+	    .style("display", "inline-block") 
 		.style("visibility", "hidden");
 
 	var g = svg.append("g")
@@ -56,9 +55,11 @@ window.onload = function() {
 		.defer(d3.csv, "data/playerdata2.csv")
 		.await(drawChart);
 
+	var clickedCountry = false
+
 	firstTableView()
 
-	parCor()
+	parCor('None', clickedCountry)
 
 	function firstTableView() {
 
@@ -141,7 +142,8 @@ window.onload = function() {
 		      .orient("left")
 		      .tickSize(-chartWidth);
 
-		  var color = d3.scale.category10();
+		  color = d3.scale.category10();
+			      
 
 		  var tip = d3.tip()
 		      .attr("class", "d3-tip")
@@ -314,6 +316,8 @@ window.onload = function() {
 		 .enter()
 		 .append("image")
 		 .attr('id', 'mark')
+		 .attr('position', 'relative')
+		 .style('z-index', "10")
 		 .attr('class', function(d) { return d.league})
 		 .attr('x', -logoAdjust)
 		 .attr('y', -logoAdjust)
@@ -415,17 +419,30 @@ window.onload = function() {
 				})
 
 			firstTableView()
-
+			clickedCountry = false
+			d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
+			parCor('None', clickedCountry)
 			return reset();
 		}
 		active.classed("active", false);
 		active = d3.select(this).classed("active", true);
+
+		clickedCountry = true
+		d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
 		
+		var tip = d3.tip()
+		      .attr("class", "d3-tip")
+		      .offset([-10, 0])
+		      .html(function(d) {
+		        return wCat + ": " + d[wCat] + "<br>" + rCat + ": " + d[rCat] + "<br>" + colorCat + ": " + d[colorCat] + "<br>" + xCat + ": " + d[xCat] + "<br>" + yCat + ": " + d[yCat];
+		      });
+
 		d3.selectAll("#mark")
 				.on("mouseover", function(d){
+					tooltip.transition().duration(500)
 		            tooltip.text(d.name);
 		           	tooltip.style("visibility", "visible")
-		           	return tooltip.style("top", (event.pageY-15)+"px").style("left",(event.pageX+30)+"px");})
+		           	return tooltip.style("top", (event.pageY-20)+"px").style("left",(event.pageX+30)+"px");})
 		        .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
 		        
 
@@ -433,18 +450,20 @@ window.onload = function() {
 		if (d.properties.admin == 'United Kingdom') {
 			svg.append('image')
 		 	   .attr('class', 'logoLeague')
+		 	   .attr('position', 'absolute')
 			   .attr('y', -200)
 			   .attr('opacity', 0)
 			   .transition()
 			   .duration(1000)
-			   .attr('y', -75)
+			   .attr('y', -0)
 			   .attr('opacity', 100)
 			   .attr('width', 200)
-			   .attr('height', 240)
+			   .attr('height', 100)
 			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg");
 
 			logoTransit(teamdata, 'Premier.League')
 			drawTable(premierLeague);
+			parCor('England', clickedCountry)
 			
 		}
 
@@ -458,11 +477,12 @@ window.onload = function() {
 			   .attr('y', 0)
 			   .attr('opacity', 100)
 			   .attr('width', 180)
-			   .attr('height', 220)
+			   .attr('height', 180)
 			   .attr("xlink:href","https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg");
 
 			logoTransit(teamdata, 'Bundesliga')
 			drawTable(bundesliga);
+			parCor('Germany', clickedCountry)
 
 		}
 
@@ -476,11 +496,12 @@ window.onload = function() {
 			   .attr('y', 0)
 			   .attr('opacity', 100)
 			   .attr('width', 180)
-			   .attr('height', 220)
+			   .attr('height', 180)
 			   .attr("xlink:href","https://files.laliga.es/seccion_logos/laliga-v-600x600.png");
 
 			logoTransit(teamdata, 'Primera.Division')
 			drawTable(primeraDivision);
+			parCor('Spain', clickedCountry)
 		}
 
 		if (d.properties.admin == 'Italy') {
@@ -499,6 +520,7 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Serie.A')
 			drawTable(serieA);
+			parCor('Italy', clickedCountry)
 		}
 
 		var bounds = path.bounds(d),
@@ -542,9 +564,6 @@ window.onload = function() {
 				$('#table').DataTable( {
 			        columns: tableColumnsPlayers
 			    })
-
-
-				console.log(clubData)
 
 			    table = $('#table').DataTable( {
 			        aaData: clubData['squad'],
@@ -596,8 +615,8 @@ window.onload = function() {
 
 	}
 }
-	function parCor() {
-
+	function parCor(section, clickedCountry) {
+	
 		var marginParCor = {top: 30, right: 10, bottom: 10, left: 10},
 	    widthParCor = 1500 - marginParCor.left - marginParCor.right,
 	    heightParCor = 500 - marginParCor.top - marginParCor.bottom;
@@ -618,13 +637,51 @@ window.onload = function() {
 		  .append("g")
 		    .attr("transform", "translate(" + marginParCor.left + "," + marginParCor.top + ")");
 
-		d3.csv("/data/playerdata.csv", function(error, data) {
+		d3.csv("/data/playerdata2.csv", function(error, data) {
+		
+			if (clickedCountry == true) {
+				var sections = []
+				data.forEach(function(d, i) {
+					if (data[i]['country'] == section) {
+						sections.push(data[i])
+					}
+				})
+				data = sections
+			}	
+			
 
 		  // Extract the list of dimensions and create a scale for each.
 		  x.domain(dimensions = d3.keys(data[0]).filter(function(d) {
-		    return d != "name" && (y[d] = d3.scale.linear()
+
+		    
+		    
+		    if (d == "name") return false;
+
+		    if (d == "team") {
+		    	y[d] = d3.scale.ordinal()
+		    		.domain(data.map(function(p) { return p[d]}))
+		    		.rangePoints([heightParCor, 0]);
+		    }
+
+		    else if (d == "country") {
+		    	y[d] = d3.scale.ordinal()
+		    		.domain(data.map(function(p) { return p[d]}))
+		    		.rangePoints([heightParCor, 0]);
+		    }
+
+		    else if (d == "position") {
+		    	y[d] = d3.scale.ordinal()
+		    		.domain(data.map(function(p) { return p[d]}))
+		    		.rangePoints([heightParCor, 0]);
+		    }
+
+		    else {
+		     (y[d] = d3.scale.linear()
 		        .domain(d3.extent(data, function(p) { return +p[d]; }))
 		        .range([heightParCor, 0]));
+		 	}
+
+		 	return true;
 		  }));
 
 		  // Add grey background lines for context.
@@ -635,12 +692,16 @@ window.onload = function() {
 		    .enter().append("path")
 		      .attr("d", path);
 
+		  var color = d3.scale.category10();
 		  // Add blue foreground lines for focus.
 		  foreground = svgParCor.append("g")
 		      .attr("class", "foreground")
 		    .selectAll("path")
 		      .data(data)
 		    .enter().append("path")
+		    // .attr({'style': function(d) {
+	     //      return "stroke-width: " + d.age / 20
+	     //    }})
 		      .attr("d", path);
 
 		  // Add a group element for each dimension.
