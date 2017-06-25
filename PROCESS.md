@@ -1,5 +1,29 @@
 # Process Book
 
+## Date: 23 June
+Created a better update function for the parallel coordinates and did the presentation of my web application in the lecture.
+Also made the table more interactive with a hover element and select element on clubs to instantly get the data for parallel coordinates.
+
+- [x] Update function parallel coordinates
+- [x] Table interactivity 
+- [x] linked view table team click parallel coordinates
+
+## Date: 22 June
+Tweaked the table a bit so that all the data is on one page with scroll instead of multiple clickable pages. Created tooltips
+for the parallel coordinates. Made the logo's in the map change the parallel coordinates data.
+
+- [x] Table element scrolling possibility
+- [x] Tooltips on the paths of parallel coordinates
+- [x] Logo's clickable in respect to parallel coordinates
+
+## Date: 21 June
+Created the parallel coordinates element to get a better overview of the stats of the football players. Furthermore, the data of the club logo's needed to be reformatted to create a linked view with the parallel coordinates. Also I rewrote a couple of functions to make the web application smoother.
+
+- [x] Parallel Coordindates element created
+- [x] Club logo data reformatted
+- [x] Rewrote functions
+
+
 ## Date: 20 June
 Unable to work on the project because I was attending the symposium in Rotterdam
 
