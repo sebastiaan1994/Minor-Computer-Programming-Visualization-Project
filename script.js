@@ -16,6 +16,8 @@ window.onload = function() {
 	var path = d3.geo.path()
 					 .projection(projection);
 
+	var tooltips;
+
 
 	//Create SVG
 	var svg = d3.select("#svg")
@@ -41,32 +43,42 @@ window.onload = function() {
 	var g = svg.append("g")
     		   .style("stroke-width", "1.5px");
 
+    var pathFunction;
+
     queue()
 		.defer(d3.json, "data/map.json")
-		.defer(d3.json, "data/teams.json")
-		.defer(d3.json, "data/allnewteamdata.json")
+		.defer(d3.json, "data/teams2.json")
+		.defer(d3.json, "data/allteamdata.json")
 		.await(drawMap);
 
 	var teamdata = {}
 	var allteamdata = {}
 	var players = {}
 
-	queue()
-		.defer(d3.csv, "data/playerdata2.csv")
-		.await(drawChart);
+	// queue()
+	// 	.defer(d3.csv, "data/playerdata2.csv")
+	// 	.await(drawChart);
 
 	var clickedCountry = false
+	var clickedClub;
 
 	firstTableView()
 
-	parCor('None', clickedCountry)
+	d3.csv("data/playerdata2.csv", function(error, playerdata) {
+	  if (error) throw error;
+	  
+	  players = playerdata
+	  parCor('None', clickedCountry, clickedClub, playerdata)
+
+	});
+	
 
 	function firstTableView() {
 
 		tableColumns = [
 		            { title: "Position" },
 		            { title: "League" },
-		            { title: "Team" },
+		            { title: "Team", className: 'Team' },
 		            { title: "Played" },
 		            { title: "Wins" },
 		            { title: "Draws" },
@@ -83,9 +95,17 @@ window.onload = function() {
 		        lengthChange: false,
 		        dom: '<"toolbar">frtip',
 		        destroy: true,
-		        columns: tableColumns
+		        columns: tableColumns,
+		        scrollY: "500px",
+		        scrollCollapse: false,
+		        paging: false
 		    });
+		    
+		    tableClubClick()
+
+
 		});
+
 
 		$(".toolbar").html('<b> European Leagues Club Table </b>')
 		$(".toolbar").before(document.getElementsByTagName("label"))
@@ -267,12 +287,34 @@ window.onload = function() {
 			        dom: '<"toolbar">frtip',
 			        lengthChange: false,
 			        destroy: true,
+			        scrollY: "500px",
+			        scrollCollapse: false,
+			        paging: false,
 			        aaSorting: [[0, 'asc']]
 			    });
+			
+			tableClubClick()
 
 			$(".toolbar").html('<b>'+ league[0][1] +'</b>')
 			$(".toolbar").before(document.getElementsByTagName("label"))
 		
+	}
+
+	function tableClubClick() {
+
+		$('#table tbody tr').on( 'click', function (event) {
+		    	if ($(this).hasClass('selected')) {
+		    		$(this).removeClass('selected')
+		    	}
+		    	else {
+			    	$('tr').removeClass('selected')
+			        $(this).toggleClass('selected')
+			        clickedClub = $('tr.selected td.Team').text()
+
+			        parCorUpdate(clickedClub)
+			        parCorUpdate(clickedClub)
+			    }
+		    });
 	}
 
 	function drawMap(error, map, teams, allnewteamdata) {
@@ -420,15 +462,15 @@ window.onload = function() {
 
 			firstTableView()
 			clickedCountry = false
-			d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
-			parCor('None', clickedCountry)
+			// d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
+			parCorUpdate('None', clickedCountry)
 			return reset();
 		}
 		active.classed("active", false);
 		active = d3.select(this).classed("active", true);
 
 		clickedCountry = true
-		d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
+		// d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
 		
 		var tip = d3.tip()
 		      .attr("class", "d3-tip")
@@ -463,7 +505,8 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Premier.League')
 			drawTable(premierLeague);
-			parCor('England', clickedCountry)
+			parCorUpdate('None', clickedCountry, 'England')
+			parCorUpdate('None', clickedCountry, 'England')
 			
 		}
 
@@ -482,7 +525,8 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Bundesliga')
 			drawTable(bundesliga);
-			parCor('Germany', clickedCountry)
+			parCorUpdate('None', clickedCountry, 'Germany')
+			parCorUpdate('None', clickedCountry, 'Germany')
 
 		}
 
@@ -501,7 +545,8 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Primera.Division')
 			drawTable(primeraDivision);
-			parCor('Spain', clickedCountry)
+			parCorUpdate('None', clickedCountry, 'Spain')
+			parCorUpdate('None', clickedCountry, 'Spain')
 		}
 
 		if (d.properties.admin == 'Italy') {
@@ -520,7 +565,8 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Serie.A')
 			drawTable(serieA);
-			parCor('Italy', clickedCountry)
+			parCorUpdate('None', clickedCountry, 'Italy')
+			parCorUpdate('None', clickedCountry, 'Italy')
 		}
 
 		var bounds = path.bounds(d),
@@ -540,10 +586,11 @@ window.onload = function() {
 
 	function showClubData (club) {
 		
-		
+		parCorUpdate(club)
+		parCorUpdate(club)
 		tableColumnsPlayers = [
 	            { title: "Number" },
-	            { title: "Name" },
+	            { title: "Name", className: 'Name' },
 	            { title: "Position" },
 	            { title: "Minutes" },
 	            { title: "Assists" },
@@ -571,6 +618,9 @@ window.onload = function() {
 			        destroy: true,
 			        search: false,
 			        dom: '<"toolbar">frtip',
+			        scrollY: "500px",
+			        scrollCollapse: false,
+			        paging: false,
 			        aaSorting: [[3, 'dsc']],	        
 			        aoColumns: [
 			            { "mDataProp": "number" },
@@ -592,10 +642,22 @@ window.onload = function() {
 			    break
 			    
 			}
-		}
+		}	
+			console.log('TEST')
+			$('#table tbody tr').on( 'click', function (event) {
+		    	if ($(this).hasClass('selectedPlayer')) {
+		    		$(this).removeClass('selectedPlayer')
+		    	}
+		    	else {
+			    	$('tr').removeClass('selectedPlayer')
+			        $(this).toggleClass('selectedPlayer')
+			    }    
+			});
 
 
+		
 	}
+
 
 	function reset() {
 		active.classed("active", false);
@@ -614,8 +676,85 @@ window.onload = function() {
 
 
 	}
-}
-	function parCor(section, clickedCountry) {
+	function parCorUpdate(clickedClub, clickedCountry, country) {
+
+		data = players
+
+
+		if (clickedCountry == true) {
+			var sections = []
+			players.forEach(function(d, i) {
+				if (players[i]['country'] == country) {
+					sections.push(players[i])
+					console.log('hoi')
+				}
+			})
+			data = sections
+		}
+
+
+		if (clickedClub != 'None') {
+			var clubdata = []
+			players.forEach(function(d, i) {
+				if (players[i]['team'] == clickedClub) {
+					clubdata.push(players[i])
+				}
+			})
+			data = clubdata
+			console.log(data)
+		}
+		// console.log(data['name'])
+		// console.log(clickedClub)
+
+		tooltips = d3.select("body")
+		    .append("div")
+			.attr("class", "tooltips")
+			.style("position", "absolute")
+			.style("z-index", "10")                 
+		    .style("height","40px")                 
+		    .style("padding","5px")                  
+		    .style("border-radius","0px") 
+		    .style("border-style", "outset")
+		    .style("border-width", "1px")
+		    .style("background-color", "black")
+		    .style("display", "inline-block") 
+			.style("visibility", "hidden");;
+
+		var updateBackground = d3.select('g.background').selectAll("path").remove().data(data).enter().append('path')
+		var updateForeground = d3.select('g.foreground').selectAll("path").remove().data(data).enter().append('path')
+
+		updateBackground.attr("d", pathFunction).attr("id", 'hallo')
+		updateForeground.attr("d", pathFunction).attr("id", 'hallo')
+
+		console.log($('tr.selectedPlayer td.Name').text())
+		data.forEach(function(d, i) {
+			if (data[i]['name'] == $('tr.selectedPlayer td.Name').text()) {
+				console.log(data[i]['name'])
+			}
+		})
+
+		updateForeground
+			.on("mouseover", function(d) {
+		      	d3.select(this)
+		      		.style({'stroke' : '#F00'})
+		      		.style({'stroke-width': '4'});
+		      	tooltips.text(d.name);
+		      	console.log(d)
+				return tooltips.style("visibility", "visible");
+			    })
+			    .on("mousemove", function(){return tooltips.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+			    .on("mouseout", function(d){
+				d3.select(this)
+				.style({'stroke': 'steelblue' })
+				.style({'stroke-width': '1'})
+				return tooltips.style("visibility", "hidden");
+			    });
+
+
+		
+
+	}
+	function parCor(section, clickedCountry, clickedClub, data) {
 	
 		var marginParCor = {top: 30, right: 10, bottom: 10, left: 10},
 	    widthParCor = 1500 - marginParCor.left - marginParCor.right,
@@ -630,44 +769,34 @@ window.onload = function() {
 		    background,
 		    foreground;
 
-		var svgParCor = d3.select(".w3-row-padding").append("svg")
+		var svgParCor = d3.select(".w3-row-padding").append("div").append("svg")
 			.attr('class', 'parcor')
 		    .attr("width", widthParCor + marginParCor.left + marginParCor.right)
 		    .attr("height", heightParCor + marginParCor.top + marginParCor.bottom)
 		  .append("g")
 		    .attr("transform", "translate(" + marginParCor.left + "," + marginParCor.top + ")");
 
-		d3.csv("/data/playerdata2.csv", function(error, data) {
+	
 		
-			if (clickedCountry == true) {
-				var sections = []
-				data.forEach(function(d, i) {
-					if (data[i]['country'] == section) {
-						sections.push(data[i])
-					}
-				})
-				data = sections
-			}	
-			
+		// if (clickedCountry == true) {
+		// 	var sections = []
+		// 	data.forEach(function(d, i) {
+		// 		if (data[i]['country'] == section) {
+		// 			sections.push(data[i])
+		// 		}
+		// 	})
+		// 	data = sections
+		// }	
+		
 
 		  // Extract the list of dimensions and create a scale for each.
 		  x.domain(dimensions = d3.keys(data[0]).filter(function(d) {
 
-		    
-		    
 		    if (d == "name") return false;
 
-		    if (d == "team") {
-		    	y[d] = d3.scale.ordinal()
-		    		.domain(data.map(function(p) { return p[d]}))
-		    		.rangePoints([heightParCor, 0]);
-		    }
+		    if (d == "team") return false;
 
-		    else if (d == "country") {
-		    	y[d] = d3.scale.ordinal()
-		    		.domain(data.map(function(p) { return p[d]}))
-		    		.rangePoints([heightParCor, 0]);
-		    }
+		    else if (d == "country") return false;
 
 		    else if (d == "position") {
 		    	y[d] = d3.scale.ordinal()
@@ -683,6 +812,20 @@ window.onload = function() {
 
 		 	return true;
 		  }));
+
+		  var tooltips = d3.select("body")
+		    .append("div")
+			.attr("class", "tooltips")
+			.style("position", "absolute")
+			.style("z-index", "10")                 
+		    .style("height","40px")                 
+		    .style("padding","5px")                  
+		    .style("border-radius","0px") 
+		    .style("border-style", "outset")
+		    .style("border-width", "1px")
+		    .style("background-color", "black")
+		    .style("display", "inline-block") 
+			.style("visibility", "hidden");;
 
 		  // Add grey background lines for context.
 		  background = svgParCor.append("g")
@@ -702,7 +845,27 @@ window.onload = function() {
 		    // .attr({'style': function(d) {
 	     //      return "stroke-width: " + d.age / 20
 	     //    }})
-		      .attr("d", path);
+		      .attr("d", path)
+		      .attr('class', 'lineParCor')
+		      .on("mouseover", function(d) {
+		      	d3.select(this)
+		      		.style({'stroke' : '#F00'})
+		      		.style({'stroke-width': '4'});
+		      	tooltips.text(d.name);
+				return tooltips.style("visibility", "visible");
+			    })
+			    .on("mousemove", function(){return tooltips.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+			    .on("mouseout", function(d){
+				d3.select(this)
+				.style({'stroke': 'steelblue' })
+				.style({'stroke-width': '1'})
+				return tooltips.style("visibility", "hidden");})
+				.on('click', function(d, i) {
+					d3.select(this)
+					.attr('class', 'lineClicked')
+				})
+			    
+		      
 
 		  // Add a group element for each dimension.
 		  var g = svgParCor.selectAll(".dimension")
@@ -753,8 +916,8 @@ window.onload = function() {
 		    .selectAll("rect")
 		      .attr("x", -8)
 		      .attr("width", 16);
-		});
-
+		
+		  
 		function position(d) {
 		  var v = dragging[d];
 		  return v == null ? x(d) : v;
@@ -783,5 +946,9 @@ window.onload = function() {
 		    }) ? null : "none";
 		  });
 		}
+
+		pathFunction = path;
 	}
+	
+}
 	
