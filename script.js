@@ -97,6 +97,7 @@ window.onload = function() {
 		        destroy: true,
 		        columns: tableColumns,
 		        scrollY: "500px",
+		        scrollX: false,
 		        scrollCollapse: false,
 		        paging: false
 		    });
@@ -288,6 +289,7 @@ window.onload = function() {
 			        lengthChange: false,
 			        destroy: true,
 			        scrollY: "500px",
+			        scrollX: false,
 			        scrollCollapse: false,
 			        paging: false,
 			        aaSorting: [[0, 'asc']]
@@ -590,7 +592,7 @@ window.onload = function() {
 		parCorUpdate(club)
 		tableColumnsPlayers = [
 	            { title: "Number" },
-	            { title: "Name", className: 'Name' },
+	            { title: "Name" },
 	            { title: "Position" },
 	            { title: "Minutes" },
 	            { title: "Assists" },
@@ -619,12 +621,13 @@ window.onload = function() {
 			        search: false,
 			        dom: '<"toolbar">frtip',
 			        scrollY: "500px",
+			        scrollX: false,
 			        scrollCollapse: false,
 			        paging: false,
 			        aaSorting: [[3, 'dsc']],	        
 			        aoColumns: [
 			            { "mDataProp": "number" },
-			            { "mDataProp": "name" },
+			            { "mDataProp": "name", "className" : "playerName" },
 			            { "mDataProp": "position" },
 			            { "mDataProp": "minutes" },
 			            { "mDataProp": "assists" },
@@ -643,14 +646,22 @@ window.onload = function() {
 			    
 			}
 		}	
-			console.log('TEST')
+			
 			$('#table tbody tr').on( 'click', function (event) {
+
+				d3.selectAll('.playerLine').style('stroke', 'grey').style('stroke-width', '1').style('opacity', 0.3)
 		    	if ($(this).hasClass('selectedPlayer')) {
+		    		// playerName = $('tr.selectedPlayer td.playerName').text()
+			     //    $("[id='" + playerName + "']").css('stroke', 'steelblue').css('stroke-width', '1')
 		    		$(this).removeClass('selectedPlayer')
+		    		d3.selectAll('.playerLine').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
+		    		
 		    	}
 		    	else {
 			    	$('tr').removeClass('selectedPlayer')
 			        $(this).toggleClass('selectedPlayer')
+			        playerName = $('tr.selectedPlayer td.playerName').text()
+			        $("[id='" + playerName + "']").css('stroke', '#008000').css('stroke-width', '4').css('opacity', 1)
 			    }    
 			});
 
@@ -686,7 +697,7 @@ window.onload = function() {
 			players.forEach(function(d, i) {
 				if (players[i]['country'] == country) {
 					sections.push(players[i])
-					console.log('hoi')
+					
 				}
 			})
 			data = sections
@@ -701,7 +712,7 @@ window.onload = function() {
 				}
 			})
 			data = clubdata
-			console.log(data)
+			
 		}
 		// console.log(data['name'])
 		// console.log(clickedClub)
@@ -723,23 +734,18 @@ window.onload = function() {
 		var updateBackground = d3.select('g.background').selectAll("path").remove().data(data).enter().append('path')
 		var updateForeground = d3.select('g.foreground').selectAll("path").remove().data(data).enter().append('path')
 
-		updateBackground.attr("d", pathFunction).attr("id", 'hallo')
-		updateForeground.attr("d", pathFunction).attr("id", 'hallo')
+		updateBackground.attr("d", pathFunction).attr("id", function(d) { return d.name}).attr('class', 'playerLine')
+		updateForeground.attr("d", pathFunction).attr("id", function(d) { return d.name}).attr('class', 'playerLine')
 
-		console.log($('tr.selectedPlayer td.Name').text())
-		data.forEach(function(d, i) {
-			if (data[i]['name'] == $('tr.selectedPlayer td.Name').text()) {
-				console.log(data[i]['name'])
-			}
-		})
+		
 
 		updateForeground
 			.on("mouseover", function(d) {
 		      	d3.select(this)
 		      		.style({'stroke' : '#F00'})
 		      		.style({'stroke-width': '4'});
-		      	tooltips.text(d.name);
-		      	console.log(d)
+		      	tooltips.text('Player: ' + d.name
+		      	 + 'Club: ' + d.team);
 				return tooltips.style("visibility", "visible");
 			    })
 			    .on("mousemove", function(){return tooltips.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
@@ -756,9 +762,9 @@ window.onload = function() {
 	}
 	function parCor(section, clickedCountry, clickedClub, data) {
 	
-		var marginParCor = {top: 30, right: 10, bottom: 10, left: 10},
-	    widthParCor = 1500 - marginParCor.left - marginParCor.right,
-	    heightParCor = 500 - marginParCor.top - marginParCor.bottom;
+		var marginParCor = {top: 150, right: 100, bottom: 100, left: 0},
+	    widthParCor = 1100 - marginParCor.left - marginParCor.right,
+	    heightParCor = 600 - marginParCor.top - marginParCor.bottom;
 
 		var x = d3.scale.ordinal().rangePoints([0, widthParCor], 1),
 		    y = {},
@@ -769,7 +775,7 @@ window.onload = function() {
 		    background,
 		    foreground;
 
-		var svgParCor = d3.select(".w3-row-padding").append("div").append("svg")
+		var svgParCor = d3.select("#tablediv").append("div").append("svg")
 			.attr('class', 'parcor')
 		    .attr("width", widthParCor + marginParCor.left + marginParCor.right)
 		    .attr("height", heightParCor + marginParCor.top + marginParCor.bottom)
@@ -777,16 +783,6 @@ window.onload = function() {
 		    .attr("transform", "translate(" + marginParCor.left + "," + marginParCor.top + ")");
 
 	
-		
-		// if (clickedCountry == true) {
-		// 	var sections = []
-		// 	data.forEach(function(d, i) {
-		// 		if (data[i]['country'] == section) {
-		// 			sections.push(data[i])
-		// 		}
-		// 	})
-		// 	data = sections
-		// }	
 		
 
 		  // Extract the list of dimensions and create a scale for each.

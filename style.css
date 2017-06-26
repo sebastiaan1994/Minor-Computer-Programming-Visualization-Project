@@ -6,10 +6,14 @@
  
 }
 #tablediv {
-	height: 100%;
+	height: 800px !important;
 	width: 55%;
-    float: center;
-    overflow: hidden;
+  border-left: solid #ccc;
+  border-width: 1px;
+  border
+  float: center;
+  overflow-y: scroll !important;
+  font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
 }
 #table {
 	height: 20%;
@@ -175,11 +179,8 @@ label {
   color: white;
 }
 
-.parcordiv {
-  float:center;
-}
 .parcor {
-  float: center;
+  float: left;
   width: 100%;
 }
 
@@ -214,3 +215,29 @@ tr.selectedPlayer td {
   stroke-width: 2 !important;
 }
 
+.w3-display-middle {
+  top: 60% !important;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*#visuals {
+
+  border-width: 1px !important;
+  border-bottom: solid #ccc !important;
+  padding-bottom: 3px !important;
+}*/

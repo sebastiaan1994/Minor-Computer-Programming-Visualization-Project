@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Football</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Volkhov:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
+  <link rel="shortcut icon" href="data/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.foundation.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Andada" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link rel="stylesheet" href="https://syntagmatic.github.io/parallel-coordinates/d3.parcoords.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.foundation.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="data/leagueTables.js"></script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://syntagmatic.github.io/parallel-coordinates/d3.parcoords.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="script.js"></script>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="max-width:100%">
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:12px">
+  <h1 class="title">European Football Statistics</h1>
+  <h1 class="w3-xlarge">by Sebastiaan de Vries</h1>
+  
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="#" class="w3-bar-item w3-button">Home</a>
+      <a href="#" class="w3-bar-item w3-button w3-light-grey">Data Source</a>
+      <a href="#" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</header>
+
+<!-- Content Elements -->
+<div class="w3-row-padding" id="content" style="margin-bottom:128px">
+  <div class="w3-half" id="svg">
+  </div>
+
+  <div class="w3-half" id="tablediv">
+    <table id="table" class="display" class="hover"></table>
+  </div>
+  <div id="example" class="parcoords"></div>
+</div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+  <p>Universiteit van Amsterdam <img id="uva" src="http://www.uva.nl/webfiles/1493911559237/_favicon/apple-touch-icon.png"></p>
+</footer>
+
+</body>
+</html>
