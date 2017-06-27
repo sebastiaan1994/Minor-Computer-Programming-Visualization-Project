@@ -1,5 +1,14 @@
 # Process Book
 
+## Date: 26 June
+Completely renewed the HTML framework of the site and created a wallpaper for the top side of the web page. Made a scrollable div for the data table and parallel coordinates to switch easily between those two while watching the map. Created the footer of the website.
+Filtered some bad data points.
+
+- [x] Redesigned HTML framework with W3
+- [x] Created a scrollable div
+- [x] Filtered bad data points
+
+
 ## Date: 23 June
 Created a better update function for the parallel coordinates and did the presentation of my web application in the lecture.
 Also made the table more interactive with a hover element and select element on clubs to instantly get the data for parallel coordinates.
