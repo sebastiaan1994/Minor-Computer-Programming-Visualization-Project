@@ -1,5 +1,6 @@
 window.onload = function() {
 
+
 	//Width and height
 	var width = 800, height = 800;
 	var logoWidth = 20, logoHeight = 20, logoAdjust = logoWidth / 2;
@@ -71,6 +72,13 @@ window.onload = function() {
 	  parCor('None', clickedCountry, clickedClub, playerdata)
 
 	});
+
+	
+    $('.scroll-down, w3-bar-item.w3-button').click(function () {
+                $('body,html').animate({ scrollTop: $('body').height() - 170 }, 1000);
+                return false;
+            });
+	
 	
 
 	function firstTableView() {
@@ -91,6 +99,10 @@ window.onload = function() {
 		 
 		var table = $(document).ready(function() {
 		    $('#table').DataTable( {
+		    	language: {
+			        search: "_INPUT_",
+			        searchPlaceholder: "Search..."
+			    },
 		        data: leagueTables,
 		        lengthChange: false,
 		        dom: '<"toolbar">frtip',
@@ -101,17 +113,19 @@ window.onload = function() {
 		        scrollCollapse: false,
 		        paging: false
 		    });
-		    
+	
+			$('#table_wrapper > label:nth-child(2)').remove()
 		    tableClubClick()
 
 
 		});
 
 
-		$(".toolbar").html('<b> European Leagues Club Table </b>')
+		$(".toolbar").html('<h2 id="clubName"> European Leagues Club Table </h2>')
 		$(".toolbar").before(document.getElementsByTagName("label"))
 
 	}
+
 
 	function drawChart(error, playerData) {
 
@@ -284,6 +298,10 @@ window.onload = function() {
 			table = $('#table').DataTable().clear().destroy();
 			table = $('#table').DataTable( {
 					columns: tableColumns,
+					language: {
+				        search: "_INPUT_",
+				        searchPlaceholder: "Search..."
+				    },
 			        data: league,
 			        dom: '<"toolbar">frtip',
 			        lengthChange: false,
@@ -297,24 +315,27 @@ window.onload = function() {
 			
 			tableClubClick()
 
-			$(".toolbar").html('<b>'+ league[0][1] +'</b>')
+			$(".toolbar").html('<h2 id="clubName">'+ league[0][1] +'</h2>')
 			$(".toolbar").before(document.getElementsByTagName("label"))
 		
 	}
 
 	function tableClubClick() {
-
+		
 		$('#table tbody tr').on( 'click', function (event) {
 		    	if ($(this).hasClass('selected')) {
 		    		$(this).removeClass('selected')
+		    		$('.parCorTitle').html('European League Players')
+		    		parCorUpdate('None')
 		    	}
 		    	else {
 			    	$('tr').removeClass('selected')
 			        $(this).toggleClass('selected')
 			        clickedClub = $('tr.selected td.Team').text()
-
+			        $('.parCorTitle').html(clickedClub + ' Players')
+			        console.log(clickedClub)
 			        parCorUpdate(clickedClub)
-			        parCorUpdate(clickedClub)
+			        showClubData(clickedClub)
 			    }
 		    });
 	}
@@ -362,7 +383,7 @@ window.onload = function() {
 		 .attr('id', 'mark')
 		 .attr('position', 'relative')
 		 .style('z-index', "10")
-		 .attr('class', function(d) { return d.league})
+		 .attr('class', function(d) { return d.league + ' ' + d.name})
 		 .attr('x', -logoAdjust)
 		 .attr('y', -logoAdjust)
 		 .attr('width', logoWidth)
@@ -437,6 +458,7 @@ window.onload = function() {
 	      		return "translate(" + projection([d.longitude, d.latitude]) + ")"
 	      	});
 	      	showClubData(d.name)
+	      	d3.selectAll('.foreground').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
 
 		})
 
@@ -461,16 +483,18 @@ window.onload = function() {
 				.on("mouseover", function() {
 					tooltip.style("visibility", "hidden")
 				})
-
+			d3.selectAll('.foreground').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
 			firstTableView()
 			clickedCountry = false
 			// d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
-			parCorUpdate('None', clickedCountry)
+			parCorUpdate('None')
+			$('.parCorTitle').html('European League Players')
 			return reset();
 		}
 		active.classed("active", false);
 		active = d3.select(this).classed("active", true);
 
+		d3.selectAll('.foreground').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
 		clickedCountry = true
 		// d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
 		
@@ -507,8 +531,8 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Premier.League')
 			drawTable(premierLeague);
-			parCorUpdate('None', clickedCountry, 'England')
-			parCorUpdate('None', clickedCountry, 'England')
+			parCorUpdate('England')
+			$('.parCorTitle').html('Premier League Players')
 			
 		}
 
@@ -527,8 +551,8 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Bundesliga')
 			drawTable(bundesliga);
-			parCorUpdate('None', clickedCountry, 'Germany')
-			parCorUpdate('None', clickedCountry, 'Germany')
+			parCorUpdate('Germany')
+			$('.parCorTitle').html('Bundesliga Players')
 
 		}
 
@@ -547,8 +571,8 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Primera.Division')
 			drawTable(primeraDivision);
-			parCorUpdate('None', clickedCountry, 'Spain')
-			parCorUpdate('None', clickedCountry, 'Spain')
+			parCorUpdate('Spain')
+			$('.parCorTitle').html('La Liga Players')
 		}
 
 		if (d.properties.admin == 'Italy') {
@@ -567,8 +591,8 @@ window.onload = function() {
 
 			logoTransit(teamdata, 'Serie.A')
 			drawTable(serieA);
-			parCorUpdate('None', clickedCountry, 'Italy')
-			parCorUpdate('None', clickedCountry, 'Italy')
+			parCorUpdate('Italy')
+			$('.parCorTitle').html('Serie A Players')
 		}
 
 		var bounds = path.bounds(d),
@@ -589,7 +613,7 @@ window.onload = function() {
 	function showClubData (club) {
 		
 		parCorUpdate(club)
-		parCorUpdate(club)
+		$('.parCorTitle').html(club + ' Players')
 		tableColumnsPlayers = [
 	            { title: "Number" },
 	            { title: "Name" },
@@ -615,6 +639,10 @@ window.onload = function() {
 			    })
 
 			    table = $('#table').DataTable( {
+			    	language: {
+				        search: "_INPUT_",
+				        searchPlaceholder: "Search..."
+				    },
 			        aaData: clubData['squad'],
 			        lengthChange: false,
 			        destroy: true,
@@ -640,7 +668,7 @@ window.onload = function() {
 
 			        ]
 			    });
-			    $(".toolbar").html('<b>' + clubData['name'] + '</b><br>' + '<b>Coach: </b>' + clubData['coach_name'] + '<br>' + '<b>Stadium: </b>' + clubData['venue_name'] + ', ' + clubData['venue_capacity'] + ' seats<br>' + '<b>City: </b>' + clubData['venue_city'] )
+			    $(".toolbar").html('<h2 id="clubName">' + clubData['name'] + '</h2><br>' + '<b>Coach: </b>' + clubData['coach_name'] + '<br>' + '<b>Stadium: </b>' + clubData['venue_name'] + ', ' + clubData['venue_capacity'] + ' seats<br>' + '<b>City: </b>' + clubData['venue_city'] )
 			    $(".toolbar").before(document.getElementsByTagName("label"))
 			    break
 			    
@@ -649,12 +677,12 @@ window.onload = function() {
 			
 			$('#table tbody tr').on( 'click', function (event) {
 
-				d3.selectAll('.playerLine').style('stroke', 'grey').style('stroke-width', '1').style('opacity', 0.3)
+				d3.selectAll('.lines').style('stroke', 'grey').style('stroke-width', '1').style('opacity', 0.3)
 		    	if ($(this).hasClass('selectedPlayer')) {
-		    		// playerName = $('tr.selectedPlayer td.playerName').text()
-			     //    $("[id='" + playerName + "']").css('stroke', 'steelblue').css('stroke-width', '1')
+		    		playerName = $('tr.selectedPlayer td.playerName').text()
+			        $("[id='" + playerName + "']").css('stroke', 'steelblue').css('stroke-width', '1')
 		    		$(this).removeClass('selectedPlayer')
-		    		d3.selectAll('.playerLine').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
+		    		d3.selectAll('.lines').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
 		    		
 		    	}
 		    	else {
@@ -687,74 +715,89 @@ window.onload = function() {
 
 
 	}
-	function parCorUpdate(clickedClub, clickedCountry, country) {
-
-		data = players
-
-
-		if (clickedCountry == true) {
-			var sections = []
-			players.forEach(function(d, i) {
-				if (players[i]['country'] == country) {
-					sections.push(players[i])
-					
-				}
-			})
-			data = sections
-		}
-
-
-		if (clickedClub != 'None') {
-			var clubdata = []
-			players.forEach(function(d, i) {
-				if (players[i]['team'] == clickedClub) {
-					clubdata.push(players[i])
-				}
-			})
-			data = clubdata
-			
-		}
-		// console.log(data['name'])
-		// console.log(clickedClub)
-
-		tooltips = d3.select("body")
-		    .append("div")
-			.attr("class", "tooltips")
-			.style("position", "absolute")
-			.style("z-index", "10")                 
-		    .style("height","40px")                 
-		    .style("padding","5px")                  
-		    .style("border-radius","0px") 
-		    .style("border-style", "outset")
-		    .style("border-width", "1px")
-		    .style("background-color", "black")
-		    .style("display", "inline-block") 
-			.style("visibility", "hidden");;
-
-		var updateBackground = d3.select('g.background').selectAll("path").remove().data(data).enter().append('path')
-		var updateForeground = d3.select('g.foreground').selectAll("path").remove().data(data).enter().append('path')
-
-		updateBackground.attr("d", pathFunction).attr("id", function(d) { return d.name}).attr('class', 'playerLine')
-		updateForeground.attr("d", pathFunction).attr("id", function(d) { return d.name}).attr('class', 'playerLine')
+	function parCorUpdate(selection) {
 
 		
 
-		updateForeground
-			.on("mouseover", function(d) {
-		      	d3.select(this)
-		      		.style({'stroke' : '#F00'})
-		      		.style({'stroke-width': '4'});
-		      	tooltips.text('Player: ' + d.name
-		      	 + 'Club: ' + d.team);
-				return tooltips.style("visibility", "visible");
-			    })
-			    .on("mousemove", function(){return tooltips.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-			    .on("mouseout", function(d){
-				d3.select(this)
-				.style({'stroke': 'steelblue' })
-				.style({'stroke-width': '1'})
-				return tooltips.style("visibility", "hidden");
-			    });
+		selection = selection.replace(/\s/g, '.');
+		
+		if (selection == 'None') {
+			d3.selectAll('.lines').style('visibility', 'visible')
+			
+		}
+
+		else {
+			d3.selectAll('.lines').style('visibility', 'hidden')
+			d3.selectAll('.' + selection).style('visibility', 'visible')
+		}
+
+		
+		// data = players
+
+
+		// if (clickedCountry == true) {
+		// 	var sections = []
+		// 	players.forEach(function(d, i) {
+		// 		if (players[i]['country'] == country) {
+		// 			sections.push(players[i])
+					
+		// 		}
+		// 	})
+		// 	data = sections
+		// }
+
+
+		// if (clickedClub != 'None') {
+		// 	var clubdata = []
+		// 	players.forEach(function(d, i) {
+		// 		if (players[i]['team'] == clickedClub) {
+		// 			clubdata.push(players[i])
+		// 		}
+		// 	})
+		// 	data = clubdata
+			
+		// }
+		// // console.log(data['name'])
+		// // console.log(clickedClub)
+
+		// tooltips = d3.select("body")
+		//     .append("div")
+		// 	.attr("class", "tooltips")
+		// 	.style("position", "absolute")
+		// 	.style("z-index", "10")                 
+		//     .style("height","40px")                 
+		//     .style("padding","5px")                  
+		//     .style("border-radius","0px") 
+		//     .style("border-style", "outset")
+		//     .style("border-width", "1px")
+		//     .style("background-color", "black")
+		//     .style("display", "inline-block") 
+		// 	.style("visibility", "hidden");;
+
+		// var updateBackground = d3.select('g.background').selectAll("path").remove().data(data).enter().append('path')
+		// var updateForeground = d3.select('g.foreground').selectAll("path").remove().data(data).enter().append('path')
+
+		// updateBackground.attr("d", pathFunction).attr("id", function(d) { return d.name}).attr('class', 'playerLine')
+		// updateForeground.attr("d", pathFunction).attr("id", function(d) { return d.name}).attr('class', 'playerLine')
+
+		
+
+		// updateForeground
+		// 	.on("mouseover", function(d) {
+		//       	d3.select(this)
+		//       		.style({'stroke' : '#F00'})
+		//       		.style({'stroke-width': '4'});
+		//       	tooltips.text('Player: ' + d.name
+		//       	 + 'Club: ' + d.team);
+		// 		return tooltips.style("visibility", "visible");
+		// 	    })
+		// 	    .on("mousemove", function(){return tooltips.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+		// 	    .on("mouseout", function(d){
+		// 		d3.select(this)
+		// 		.style({'stroke': 'steelblue' })
+		// 		.style({'stroke-width': '1'})
+		// 		return tooltips.style("visibility", "hidden");
+		// 	    });
 
 
 		
@@ -777,10 +820,18 @@ window.onload = function() {
 
 		var svgParCor = d3.select("#tablediv").append("div").append("svg")
 			.attr('class', 'parcor')
+			.attr('id', 'parcor')
 		    .attr("width", widthParCor + marginParCor.left + marginParCor.right)
 		    .attr("height", heightParCor + marginParCor.top + marginParCor.bottom)
 		  .append("g")
 		    .attr("transform", "translate(" + marginParCor.left + "," + marginParCor.top + ")");
+
+		var parCorTitle = svgParCor.append('text')
+				.attr('class', 'parCorTitle')
+				.text('European League Players')
+				.attr('position', 'relative')
+				.attr('y', -60)
+				.attr()
 
 	
 		
@@ -829,6 +880,8 @@ window.onload = function() {
 		    .selectAll("path")
 		      .data(data)
 		    .enter().append("path")
+		      .attr('id', function(d) { return d.name})
+		      .attr('class', function(d) { return (d.country + ' ' + d.team + ' lines')})
 		      .attr("d", path);
 
 		  var color = d3.scale.category10();
@@ -838,11 +891,12 @@ window.onload = function() {
 		    .selectAll("path")
 		      .data(data)
 		    .enter().append("path")
+		    .attr('id', function(d) { return d.name})
 		    // .attr({'style': function(d) {
 	     //      return "stroke-width: " + d.age / 20
 	     //    }})
 		      .attr("d", path)
-		      .attr('class', 'lineParCor')
+		      .attr('class', function(d) { return (d.country + ' ' + d.team + ' lines')})
 		      .on("mouseover", function(d) {
 		      	d3.select(this)
 		      		.style({'stroke' : '#F00'})
@@ -856,10 +910,10 @@ window.onload = function() {
 				.style({'stroke': 'steelblue' })
 				.style({'stroke-width': '1'})
 				return tooltips.style("visibility", "hidden");})
-				.on('click', function(d, i) {
-					d3.select(this)
-					.attr('class', 'lineClicked')
-				})
+				// .on('click', function(d, i) {
+				// 	d3.select(this)
+				// 	.attr('class', 'lineClicked')
+				// })
 			    
 		      
 

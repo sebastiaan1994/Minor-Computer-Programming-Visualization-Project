@@ -15,7 +15,7 @@
         "latitude": 49.984167, 
         "league": "Bundesliga", 
         "longitude": 8.224167, 
-        "name": "Mainz 05", 
+        "name": "Mainz", 
         "shortName": "Mainz", 
         "stadium": "Opel Arena"
     }, 
@@ -35,7 +35,7 @@
         "latitude": 51.17458333, 
         "league": "Bundesliga", 
         "longitude": 6.385463888, 
-        "name": "Borussia M'gladbach", 
+        "name": "Borussia Mönchengladbach", 
         "shortName": "Gladbach", 
         "stadium": "Borussia-Park"
     }, 
@@ -95,7 +95,7 @@
         "latitude": 51.55450278, 
         "league": "Bundesliga", 
         "longitude": 7.067588888, 
-        "name": "Schalke 04", 
+        "name": "Schalke", 
         "shortName": "Schalke", 
         "stadium": "Veltins Arena"
     }, 
@@ -145,7 +145,7 @@
         "latitude": 49.857778, 
         "league": "Bundesliga", 
         "longitude": 8.672222, 
-        "name": "Darmstadt 98", 
+        "name": "Darmstadt", 
         "shortName": "Darmstadt", 
         "stadium": "Stadion am B�llenfalltor"
     }, 

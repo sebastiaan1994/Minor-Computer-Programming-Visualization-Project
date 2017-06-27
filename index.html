@@ -36,7 +36,14 @@
     <a href="#home" class="w3-bar-item w3-button"><b>Football</b> Statistics</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#visuals" class="w3-bar-item w3-button">Visualizations</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button w3-white">Visualizations</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="#svg" class="w3-bar-item w3-button">Map</a>
+          <a href="#table" class="w3-bar-item w3-button">Data Table</a>
+          <a href="#parcor" class="w3-bar-item w3-button">Parallel Coordinates</a>
+        </div>
+      </div>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
       <a href="#about" class="w3-bar-item w3-button">About Me</a>
     </div>
@@ -46,17 +53,22 @@
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
   <img class="w3-image" src="data/wallpaper3.jpg" alt="Architecture" width="100%">
-  <div class="w3-display-middle w3-margin-top w3-center">
+  <div class="w3-display-middle w3-margin-top w3-center" class="divimage">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>European Football Statistics</b></span></h1>
+    <!-- <a href="#visuals"><img class="arrow" src="data/arrow.png" alt="Down arrow"/></a> -->
+    <section>
+    <a href="#table" class="scroll-down" address="true"></a>
+    </section>
   </div>
 </header>
 
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:100%">
-
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="visuals">
-    <h1 class="w3-xxlarge w3-text-white" class="w3-border-bottom w3-border-light-grey w3-padding-16"><span class="w3-padding w3-black w3-opacity-min"><b>Visualizations</b></span></h1>
+    <h1 class="w3-xxlarge w3-text-white" style="display: inline-block !important;" class="w3-border-bottom w3-border-light-grey w3-padding-16"><span class="w3-padding w3-black w3-opacity-min"><b>Map</b></span></h1>
+    <a href="#clubName"><h1 class="w3-xxlarge w3-text-white" style="display: inline-block !important; position: absolute !important; left: 45% !important" class="w3-border-bottom w3-border-light-grey w3-padding-16"><span class="w3-padding w3-black w3-opacity-min inverse"><b>Data Table</b></span></h1></a>
+    <a href="#parcor"><h1 class="w3-xxlarge w3-text-white" style="display: inline-block !important; position: absolute !important; left: 57% !important" class="w3-border-bottom w3-border-light-grey w3-padding-16"><span class="w3-padding w3-black w3-opacity-min inverse"><b>Parallel Coordinates</b></span></h1></a>
   </div>
 
   <!-- Content Elements -->

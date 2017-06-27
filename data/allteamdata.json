@@ -1043,7 +1043,7 @@
                 "id": "250040", 
                 "name": "A. Baba", 
                 "team_id": "10576", 
-                "to_team": "Schalke 04", 
+                "to_team": "Schalke", 
                 "type": "Loan"
             }, 
             {
@@ -2096,7 +2096,7 @@
                 "id": "232390", 
                 "name": "N. Bentaleb", 
                 "team_id": "10576", 
-                "to_team": "Schalke 04", 
+                "to_team": "Schalke", 
                 "type": "Loan"
             }, 
             {
@@ -2916,7 +2916,7 @@
             }, 
             {
                 "date": "02.08.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "278537", 
                 "name": "L. Sané", 
                 "team_id": "10576", 
@@ -4141,7 +4141,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Mainz 05", 
+                "from_team": "Mainz", 
                 "id": "205201", 
                 "name": "L. Karius", 
                 "team_id": "10388", 
@@ -4157,7 +4157,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "101189", 
                 "name": "J. Matip", 
                 "team_id": "10576", 
@@ -29072,7 +29072,7 @@
             }, 
             {
                 "date": "04.01.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "1870", 
                 "name": "K. Boateng", 
                 "team_id": "10576", 
@@ -44677,7 +44677,7 @@
             }, 
             {
                 "date": "01.08.16", 
-                "from_team": "Darmstadt 98", 
+                "from_team": "Darmstadt", 
                 "id": "17305", 
                 "name": "S. Rajković", 
                 "team_id": "10329", 
@@ -50707,7 +50707,7 @@
                 "id": "65127", 
                 "name": "Y. Konoplyanka", 
                 "team_id": "10576", 
-                "to_team": "Schalke 04", 
+                "to_team": "Schalke", 
                 "type": "Loan"
             }, 
             {
@@ -50755,7 +50755,7 @@
                 "id": "58666", 
                 "name": "Coke", 
                 "team_id": "10576", 
-                "to_team": "Schalke 04", 
+                "to_team": "Schalke", 
                 "type": "5M &euro;"
             }, 
             {
@@ -66743,7 +66743,7 @@
             }, 
             {
                 "date": "01.06.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "182609", 
                 "name": "P. Højbjerg", 
                 "team_id": "10576", 
@@ -69500,7 +69500,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Darmstadt 98", 
+                "from_team": "Darmstadt", 
                 "id": "55796", 
                 "name": "S. Wagner", 
                 "team_id": "10329", 
@@ -69569,7 +69569,7 @@
                 "id": "211030", 
                 "name": "A. Colak", 
                 "team_id": "10329", 
-                "to_team": "Darmstadt 98", 
+                "to_team": "Darmstadt", 
                 "type": "Loan"
             }, 
             {
@@ -69633,7 +69633,7 @@
                 "id": "285179", 
                 "name": "B. Trümner", 
                 "team_id": "10388", 
-                "to_team": "Mainz 05", 
+                "to_team": "Mainz", 
                 "type": "Free"
             }, 
             {
@@ -69689,7 +69689,7 @@
                 "id": "235055", 
                 "name": "F. Lohkemper", 
                 "team_id": "10388", 
-                "to_team": "Mainz 05", 
+                "to_team": "Mainz", 
                 "type": "Free"
             }, 
             {
@@ -70355,7 +70355,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "121130", 
                 "name": "M. Höger", 
                 "team_id": "10576", 
@@ -70363,7 +70363,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Darmstadt 98", 
+                "from_team": "Darmstadt", 
                 "id": "39468", 
                 "name": "K. Rausch", 
                 "team_id": "10329", 
@@ -71219,7 +71219,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "318027", 
                 "name": "L. Brüggemeier", 
                 "team_id": "10576", 
@@ -71312,7 +71312,7 @@
                 "id": "359309", 
                 "name": "M. Brömer", 
                 "team_id": "10576", 
-                "to_team": "Schalke 04", 
+                "to_team": "Schalke", 
                 "type": "Free"
             }, 
             {
@@ -72105,7 +72105,7 @@
             }, 
             {
                 "date": "31.01.16", 
-                "from_team": "Mainz 05", 
+                "from_team": "Mainz", 
                 "id": "196096", 
                 "name": "F. Niederlechner", 
                 "team_id": "10388", 
@@ -72262,7 +72262,7 @@
                 "id": "120263", 
                 "name": "I. Höhn", 
                 "team_id": "10329", 
-                "to_team": "Darmstadt 98", 
+                "to_team": "Darmstadt", 
                 "type": "750K &euro;"
             }, 
             {
@@ -73193,7 +73193,7 @@
             }, 
             {
                 "date": "01.06.16", 
-                "from_team": "Darmstadt 98", 
+                "from_team": "Darmstadt", 
                 "id": "95861", 
                 "name": "L. Caldirola", 
                 "team_id": "10329", 
@@ -73262,7 +73262,7 @@
                 "id": "260550", 
                 "name": "L. Guwara", 
                 "team_id": "10329", 
-                "to_team": "Darmstadt 98", 
+                "to_team": "Darmstadt", 
                 "type": "Loan"
             }, 
             {
@@ -73270,7 +73270,7 @@
                 "id": "154604", 
                 "name": "L. Kleinheisler", 
                 "team_id": "10329", 
-                "to_team": "Darmstadt 98", 
+                "to_team": "Darmstadt", 
                 "type": "Loan"
             }, 
             {
@@ -73456,7 +73456,7 @@
         "founded": "1900", 
         "is_national": "False", 
         "leagues": "1229,1226,1036,1005", 
-        "name": "Borussia M'gladbach", 
+        "name": "Borussia Mönchengladbach", 
         "sidelined": [], 
         "squad": [
             {
@@ -74342,7 +74342,7 @@
         "founded": "1904", 
         "is_national": "False", 
         "leagues": "1229,1226,1036,1007", 
-        "name": "Schalke 04", 
+        "name": "Schalke", 
         "sidelined": [], 
         "squad": [
             {
@@ -75288,7 +75288,7 @@
                 "id": "307685", 
                 "name": "M. Neubauer", 
                 "team_id": "10388", 
-                "to_team": "Mainz 05", 
+                "to_team": "Mainz", 
                 "type": "Free"
             }, 
             {
@@ -75344,7 +75344,7 @@
                 "id": "87892", 
                 "name": "C. Clemens", 
                 "team_id": "10388", 
-                "to_team": "Mainz 05", 
+                "to_team": "Mainz", 
                 "type": "2M &euro;"
             }, 
             {
@@ -75368,7 +75368,7 @@
                 "id": "307667", 
                 "name": "F. Platte", 
                 "team_id": "10329", 
-                "to_team": "Darmstadt 98", 
+                "to_team": "Darmstadt", 
                 "type": "Loan"
             }, 
             {
@@ -76188,7 +76188,7 @@
             }, 
             {
                 "date": "03.01.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "159868", 
                 "name": "K. Ayhan", 
                 "team_id": "10576", 
@@ -76225,7 +76225,7 @@
                 "id": "7466", 
                 "name": "Ä. Ben-Hatira", 
                 "team_id": "10329", 
-                "to_team": "Darmstadt 98", 
+                "to_team": "Darmstadt", 
                 "type": "Free"
             }, 
             {
@@ -76297,7 +76297,7 @@
                 "id": "159868", 
                 "name": "K. Ayhan", 
                 "team_id": "10576", 
-                "to_team": "Schalke 04", 
+                "to_team": "Schalke", 
                 "type": "Unknown"
             }, 
             {
@@ -76953,7 +76953,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Mainz 05", 
+                "from_team": "Mainz", 
                 "id": "260914", 
                 "name": "M. Wagener", 
                 "team_id": "10388", 
@@ -77009,7 +77009,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Mainz 05", 
+                "from_team": "Mainz", 
                 "id": "29434", 
                 "name": "J. Baumgartlinger", 
                 "team_id": "10388", 
@@ -77086,7 +77086,7 @@
                 "id": "178288", 
                 "name": "André Ramalho", 
                 "team_id": "10388", 
-                "to_team": "Mainz 05", 
+                "to_team": "Mainz", 
                 "type": "Loan"
             }, 
             {
@@ -77278,7 +77278,7 @@
                 "id": "110657", 
                 "name": "G. Donati", 
                 "team_id": "10388", 
-                "to_team": "Mainz 05", 
+                "to_team": "Mainz", 
                 "type": "Unknown"
             }
         ], 
@@ -77983,7 +77983,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "260502", 
                 "name": "M. Friedrich", 
                 "team_id": "10576", 
@@ -78941,7 +78941,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Darmstadt 98", 
+                "from_team": "Darmstadt", 
                 "id": "199839", 
                 "name": "C. Mathenia", 
                 "team_id": "10329", 
@@ -79002,7 +79002,7 @@
                 "id": "38439", 
                 "name": "S. Schipplock", 
                 "team_id": "10329", 
-                "to_team": "Darmstadt 98", 
+                "to_team": "Darmstadt", 
                 "type": "Loan"
             }, 
             {
@@ -79098,7 +79098,7 @@
                 "id": "254390", 
                 "name": "M. Steinmann", 
                 "team_id": "10388", 
-                "to_team": "Mainz 05", 
+                "to_team": "Mainz", 
                 "type": "Unknown"
             }, 
             {
@@ -79172,7 +79172,7 @@
         "founded": "1905", 
         "is_national": "False", 
         "leagues": "1229,1226,1036,1007", 
-        "name": "Mainz 05", 
+        "name": "Mainz", 
         "sidelined": [
             {
                 "description": "", 
@@ -79808,7 +79808,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "307685", 
                 "name": "M. Neubauer", 
                 "team_id": "10576", 
@@ -79904,7 +79904,7 @@
             }, 
             {
                 "date": "01.07.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "87892", 
                 "name": "C. Clemens", 
                 "team_id": "10576", 
@@ -81172,7 +81172,7 @@
                 "id": "193529", 
                 "name": "N. Korczowski", 
                 "team_id": "10388", 
-                "to_team": "Mainz 05", 
+                "to_team": "Mainz", 
                 "type": "Free"
             }, 
             {
@@ -81204,7 +81204,7 @@
                 "id": "2039", 
                 "name": "Naldo", 
                 "team_id": "10576", 
-                "to_team": "Schalke 04", 
+                "to_team": "Schalke", 
                 "type": "Free"
             }, 
             {
@@ -81849,7 +81849,7 @@
             }, 
             {
                 "date": "03.07.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "251511", 
                 "name": "R. Leipertz", 
                 "team_id": "10576", 
@@ -82160,7 +82160,7 @@
         "founded": "1898", 
         "is_national": "False", 
         "leagues": "1229,1226,1036", 
-        "name": "Darmstadt 98", 
+        "name": "Darmstadt", 
         "sidelined": [], 
         "squad": [
             {
@@ -82895,7 +82895,7 @@
             }, 
             {
                 "date": "01.02.16", 
-                "from_team": "Schalke 04", 
+                "from_team": "Schalke", 
                 "id": "307667", 
                 "name": "F. Platte", 
                 "team_id": "10576", 
