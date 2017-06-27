@@ -148,7 +148,7 @@ label {
 
 .background path {
   fill: none;
-  stroke: #ddd;
+  stroke: #ddd !important;
   shape-rendering: crispEdges;
 }
 

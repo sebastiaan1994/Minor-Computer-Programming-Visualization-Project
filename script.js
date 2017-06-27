@@ -64,6 +64,7 @@ window.onload = function() {
 	var clickedClub;
 
 	firstTableView()
+	elementScrolling()
 
 	d3.csv("data/playerdata2.csv", function(error, playerdata) {
 	  if (error) throw error;
@@ -73,11 +74,25 @@ window.onload = function() {
 
 	});
 
-	
-    $('.scroll-down, w3-bar-item.w3-button').click(function () {
-                $('body,html').animate({ scrollTop: $('body').height() - 170 }, 1000);
-                return false;
-            });
+	function elementScrolling () {
+
+	    $('.linkPC').click(function () {
+	    			$('body,html').animate({ scrollTop: $('#visuals').position().top - 30 }, 1000);
+	                $('#tablediv').animate({ scrollTop: $('#tablediv').position().top + 300 }, 1000);
+	                return false;
+	            });
+
+	    $('.linkMap, .linkDT, .scroll-down').click(function () {
+	                $('body,html').animate({ scrollTop: $('#visuals').position().top - 30 }, 1000);
+	                $('#tablediv').animate({ scrollTop: 0 }, 1000);
+	                return false;
+	            });
+
+	    $('.home').click(function () {
+	    			$('body,html').animate({ scrollTop: $('body').position().top }, 1000);
+	                return false;
+	            });
+	}
 	
 	
 
@@ -322,6 +337,7 @@ window.onload = function() {
 
 	function tableClubClick() {
 		
+		d3.selectAll('.foreground path').style('stroke', 'steelblue').style('stroke-width', '1')
 		$('#table tbody tr').on( 'click', function (event) {
 		    	if ($(this).hasClass('selected')) {
 		    		$(this).removeClass('selected')
@@ -458,8 +474,8 @@ window.onload = function() {
 	      		return "translate(" + projection([d.longitude, d.latitude]) + ")"
 	      	});
 	      	showClubData(d.name)
-	      	d3.selectAll('.foreground').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
-
+	      	// d3.selectAll('.foreground').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
+	      	d3.selectAll('.foreground path').style('stroke', 'steelblue').style('stroke-width', '1')
 		})
 
 		  
@@ -489,10 +505,12 @@ window.onload = function() {
 			// d3.select(".parcor").transition().duration(500).style("opacity", 0.1).remove()
 			parCorUpdate('None')
 			$('.parCorTitle').html('European League Players')
+			d3.selectAll('.foreground path').style('stroke', 'steelblue').style('stroke-width', '1')
 			return reset();
 		}
 		active.classed("active", false);
 		active = d3.select(this).classed("active", true);
+
 
 		d3.selectAll('.foreground').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
 		clickedCountry = true
@@ -677,20 +695,25 @@ window.onload = function() {
 			
 			$('#table tbody tr').on( 'click', function (event) {
 
-				d3.selectAll('.lines').style('stroke', 'grey').style('stroke-width', '1').style('opacity', 0.3)
+				d3.selectAll('.foreground path').style('stroke', '#ddd').style('stroke-width', '1')
 		    	if ($(this).hasClass('selectedPlayer')) {
 		    		playerName = $('tr.selectedPlayer td.playerName').text()
 			        $("[id='" + playerName + "']").css('stroke', 'steelblue').css('stroke-width', '1')
 		    		$(this).removeClass('selectedPlayer')
-		    		d3.selectAll('.lines').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
+		    		d3.selectAll('.foreground path').style('stroke', 'steelblue').style('stroke-width', '1')
+		    		d3.selectAll('.background path').style('stroke', '#ddd !important').style('stroke-width', '1').style('shape-rendering', 'crispEdges')
 		    		
 		    	}
 		    	else {
+		    		d3.selectAll('.foreground path').style('stroke', '#ddd !important').style('stroke-width', '1')
 			    	$('tr').removeClass('selectedPlayer')
 			        $(this).toggleClass('selectedPlayer')
 			        playerName = $('tr.selectedPlayer td.playerName').text()
-			        $("[id='" + playerName + "']").css('stroke', '#008000').css('stroke-width', '4').css('opacity', 1)
-			    }    
+			        $("[id='" + playerName + "']").css('stroke', '#008000').css('stroke-width', '4')
+			        d3.selectAll('.background path').style('stroke', '#ddd !important').style('stroke-width', '1').style('shape-rendering', 'crispEdges')
+			    }
+
+			    $('.parCorTitle').html('Selected Player: ' + playerName)
 			});
 
 
