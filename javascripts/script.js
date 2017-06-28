@@ -66,6 +66,10 @@ window.onload = function() {
 	  parCor('None', clickedCountry, clickedClub, playerdata)
 	});
 
+	$('#contact').click(function () {
+		window.open('mailto:sebastiaan-1994@hotmail.com?subject=Football Statistics')
+	})
+
 	function elementScrolling () {
 
 	    $('.linkPC').click(function () {
@@ -82,6 +86,11 @@ window.onload = function() {
 	    			$('body,html').animate({ scrollTop: $('body').position().top }, 1000);
 	                return false;
 	            });
+	    $('.info').click(function () {
+	    			$('body,html').animate({ scrollTop: $('#uva').position().top }, 1000);
+	                return false;
+	            });
+
 	}
 	
 	function firstTableView() {

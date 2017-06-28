@@ -371,3 +371,9 @@ tr.selectedPlayer td {
   width: 200px !important;
 }
 
+#linkedin {
+  width: 25px;
+  height: 25px;
+  float: left;
+  display: inline-block;
+}
