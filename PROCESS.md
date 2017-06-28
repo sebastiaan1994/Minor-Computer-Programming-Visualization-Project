@@ -1,5 +1,22 @@
 # Process Book
 
+## Date: 28 June
+Cleaned up some code and made it more efficient. Created a story telling element and some personal details with animated scrolling.
+Created directories to store all the appropriate data, images, scripts, python scripts et cetera.
+
+- [x] Cleaned up code
+- [x] Story tellling and personal info
+- [x] Sorted data
+
+
+## Date: 27 June
+Fixed the final problems with the parallel coordinates while selecting lines and filtering them when clicking on a team.
+Made it possible to click on teams in the table to get redirected to the players of the team. Logo's appear in the table
+when clicking on a club or the map.
+
+- [x] Parallel Coordinates fix
+- [x] Placed logo's in the table
+
 ## Date: 26 June
 Completely renewed the HTML framework of the site and created a wallpaper for the top side of the web page. Made a scrollable div for the data table and parallel coordinates to switch easily between those two while watching the map. Created the footer of the website.
 Filtered some bad data points.
