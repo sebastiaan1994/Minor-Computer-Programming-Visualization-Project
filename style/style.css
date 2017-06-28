@@ -367,3 +367,7 @@ tr.selectedPlayer td {
   display: inline-block;
 }
 
+.w3-button.w3-light-grey.w3-block {
+  width: 200px !important;
+}
+
