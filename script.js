@@ -44,6 +44,7 @@ window.onload = function() {
 	var g = svg.append("g")
     		   .style("stroke-width", "1.5px");
 
+
     var pathFunction;
 
     queue()
@@ -56,6 +57,7 @@ window.onload = function() {
 	var allteamdata = {}
 	var players = {}
 
+
 	// queue()
 	// 	.defer(d3.csv, "data/playerdata2.csv")
 	// 	.await(drawChart);
@@ -65,6 +67,7 @@ window.onload = function() {
 
 	firstTableView()
 	elementScrolling()
+
 
 	d3.csv("data/playerdata2.csv", function(error, playerdata) {
 	  if (error) throw error;
@@ -77,13 +80,13 @@ window.onload = function() {
 	function elementScrolling () {
 
 	    $('.linkPC').click(function () {
-	    			$('body,html').animate({ scrollTop: $('#visuals').position().top - 30 }, 1000);
+	    			$('body,html').animate({ scrollTop: $('#visuals').position().top - 50 }, 1000);
 	                $('#tablediv').animate({ scrollTop: $('#tablediv').position().top + 300 }, 1000);
 	                return false;
 	            });
 
 	    $('.linkMap, .linkDT, .scroll-down').click(function () {
-	                $('body,html').animate({ scrollTop: $('#visuals').position().top - 30 }, 1000);
+	                $('body,html').animate({ scrollTop: $('#visuals').position().top - 50 }, 1000);
 	                $('#tablediv').animate({ scrollTop: 0 }, 1000);
 	                return false;
 	            });
@@ -134,7 +137,6 @@ window.onload = function() {
 
 
 		});
-
 
 		$(".toolbar").html('<h2 id="clubName"> European Leagues Club Table </h2>')
 		$(".toolbar").before(document.getElementsByTagName("label"))
@@ -351,7 +353,7 @@ window.onload = function() {
 			        $('.parCorTitle').html(clickedClub + ' Players')
 			        console.log(clickedClub)
 			        parCorUpdate(clickedClub)
-			        showClubData(clickedClub)
+			        showClubData(clickedClub, teamdata)
 			    }
 		    });
 	}
@@ -473,7 +475,7 @@ window.onload = function() {
 			.attr("transform", function(d) {
 	      		return "translate(" + projection([d.longitude, d.latitude]) + ")"
 	      	});
-	      	showClubData(d.name)
+	      	showClubData(d.name, teamdata)
 	      	// d3.selectAll('.foreground').style('stroke', 'steelblue').style('stroke-width', '1').style('opacity', 1)
 	      	d3.selectAll('.foreground path').style('stroke', 'steelblue').style('stroke-width', '1')
 		})
@@ -628,8 +630,8 @@ window.onload = function() {
 
 	}
 
-	function showClubData (club) {
-		
+	function showClubData (club, logo) {
+		console.log(logo)
 		parCorUpdate(club)
 		$('.parCorTitle').html(club + ' Players')
 		tableColumnsPlayers = [
@@ -645,7 +647,14 @@ window.onload = function() {
 	            { title: "Injured"},
 	            { title: "Substituted out"}
 	        ]
-		
+		for (j = 0; j < logo.length; j++) {
+			if (logo[j]['name'] == club) {
+				link = logo[j]['crestUrl']
+			}
+		}
+
+		console.log(link)
+
 		for (i = 0; i < allteamdata.length; i++)  {
 			if (allteamdata[i]['name'] == club) {
 				clubData = allteamdata[i]
@@ -686,7 +695,7 @@ window.onload = function() {
 
 			        ]
 			    });
-			    $(".toolbar").html('<h2 id="clubName">' + clubData['name'] + '</h2><br>' + '<b>Coach: </b>' + clubData['coach_name'] + '<br>' + '<b>Stadium: </b>' + clubData['venue_name'] + ', ' + clubData['venue_capacity'] + ' seats<br>' + '<b>City: </b>' + clubData['venue_city'] )
+			    $(".toolbar").html('<h2 id="clubName">' + clubData['name'] + '</h2><img class="linkLogo" src="' + link + '"><br>' + '<b>Coach: </b>' + clubData['coach_name'] + '<br>' + '<b>Stadium: </b>' + clubData['venue_name'] + ', ' + clubData['venue_capacity'] + ' seats<br>' + '<b>City: </b>' + clubData['venue_city'] )
 			    $(".toolbar").before(document.getElementsByTagName("label"))
 			    break
 			    
@@ -702,7 +711,7 @@ window.onload = function() {
 		    		$(this).removeClass('selectedPlayer')
 		    		d3.selectAll('.foreground path').style('stroke', 'steelblue').style('stroke-width', '1')
 		    		d3.selectAll('.background path').style('stroke', '#ddd !important').style('stroke-width', '1').style('shape-rendering', 'crispEdges')
-		    		
+		    		$('.parCorTitle').html(club + ' Players')
 		    	}
 		    	else {
 		    		d3.selectAll('.foreground path').style('stroke', '#ddd !important').style('stroke-width', '1')
@@ -711,9 +720,9 @@ window.onload = function() {
 			        playerName = $('tr.selectedPlayer td.playerName').text()
 			        $("[id='" + playerName + "']").css('stroke', '#008000').css('stroke-width', '4')
 			        d3.selectAll('.background path').style('stroke', '#ddd !important').style('stroke-width', '1').style('shape-rendering', 'crispEdges')
+			        $('.parCorTitle').html('Selected Player: ' + playerName)
 			    }
-
-			    $('.parCorTitle').html('Selected Player: ' + playerName)
+			    
 			});
 
 
