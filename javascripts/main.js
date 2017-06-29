@@ -79,124 +79,6 @@ window.onload = function() {
 	  parCor('None', clickedCountry, clickedClub, playerdata)
 	});
 
-	// Open mail client when clicking on contact button
-	function sendMail() {
-
-		$('#contact').click(function () {
-			window.open('mailto:sebastiaan-1994@hotmail.com?subject=Football Statistics')
-		})
-	}
-
-	// Create animated scrolling when clicking on headers
-	function elementScrolling () {
-
-	    $('.linkPC').click(function () {
-	    			$('body,html').animate({ scrollTop: $('#visuals').position().top - 50 }, 1000);
-	                $('#tablediv').animate({ scrollTop: $('#tablediv').position().top + 300 }, 1000);
-	                return false;
-	            });
-	    $('.linkMap, .linkDT, .scroll-down').click(function () {
-	                $('body,html').animate({ scrollTop: $('#visuals').position().top - 50 }, 1000);
-	                $('#tablediv').animate({ scrollTop: 0 }, 1000);
-	                return false;
-	            });
-	    $('.home').click(function () {
-	    			$('body,html').animate({ scrollTop: $('body').position().top }, 1000);
-	                return false;
-	            });
-	    $('.info').click(function () {
-	    			$('body,html').animate({ scrollTop: $('#uva').position().top }, 1000);
-	                return false;
-	            });
-	}
-	
-	function firstTableView() {
-
-		// Set column headers
-		tableColumns = [
-		            { title: "Position" },
-		            { title: "League" },
-		            { title: "Team", className: 'Team' },
-		            { title: "Played" },
-		            { title: "Wins" },
-		            { title: "Draws" },
-		            { title: "Losses" },
-		            { title: "Goals Scored" },
-		            { title: "Goals Conceded" },
-		            { title: "Difference" },
-		            { title: "Points" }
-		        ]
-
-		// Initialize DataTable with certain properties
-		var table = $(document).ready(function() {
-		    $('#table').DataTable( {
-		    	language: {
-			        search: "_INPUT_",
-			        searchPlaceholder: "Search..."
-			    },
-		        data: leagueTables,
-		        lengthChange: false,
-		        dom: '<"toolbar">frtip',
-		        destroy: true,
-		        columns: tableColumns,
-		        scrollY: "500px",
-		        scrollX: false,
-		        scrollCollapse: false,
-		        paging: false
-		    });
-
-		    // Remove text next to search bar
-			$('#table_wrapper > label:nth-child(2)').remove()
-		    tableClubClick()
-		});
-
-		// Set DataTable title
-		$(".toolbar").html('<h2 id="clubName"> European Leagues Club Table </h2>')
-		$(".toolbar").before(document.getElementsByTagName("label"))
-	}
-
-	// Draw table when map is clicked on country
-	function drawTable(league) {
-		
-		// Destroy table and plug in new data
-		table = $('#table').DataTable().clear().destroy();
-		table = $('#table').DataTable( {
-				columns: tableColumns,
-				language: {
-			        search: "_INPUT_",
-			        searchPlaceholder: "Search..."
-			    },
-		        data: league,
-		        dom: '<"toolbar">frtip',
-		        lengthChange: false,
-		        destroy: true,
-		        scrollY: "500px",
-		        scrollX: false,
-		        scrollCollapse: false,
-		        paging: false,
-		        aaSorting: [[0, 'asc']]
-		    });
-		tableClubClick()
-
-		// Set new league title for DataTable
-		$(".toolbar").html('<h2 id="clubName">'+ league[0][1] +'</h2>')
-		$(".toolbar").before(document.getElementsByTagName("label"))
-	}
-
-	function tableClubClick() {
-		
-		// Convert table and parallel coordinates containing players of clicked club
-		d3.selectAll('.foreground path').style('stroke', 'steelblue').style('stroke-width', '1')
-		$('#table tbody tr').on( 'click', function (event) {
-	    	$('tr').removeClass('selected')
-	        $(this).toggleClass('selected')
-	        clickedClub = $('tr.selected td.Team').text()
-	        $('.parCorTitle').html(clickedClub + ' Players')
-	        parCorUpdate(clickedClub)
-	        showClubData(clickedClub, teamdata)
-	    });
-	}
-
 	function drawMap(error, map, teams, allnewteamdata) {
 
 		// Select the four countries' paths and draw them in the svg
@@ -464,6 +346,110 @@ window.onload = function() {
 	    }
 	}
 
+	// Reset all competition logo's and zoom out in map
+	function reset() {
+		active.classed("active", false);
+		active = d3.select(null);
+
+		g.transition()
+	     .duration(750)
+	     .style("stroke-width", "1.5px")
+	     .attr("transform", "");
+
+	    d3.select('.logoLeague')
+	      .transition()
+	      .duration(1000)
+	      .attr('y', -200)
+	      .remove();
+	}
+
+	function firstTableView() {
+
+		// Set column headers
+		tableColumns = [
+		            { title: "Position" },
+		            { title: "League" },
+		            { title: "Team", className: 'Team' },
+		            { title: "Played" },
+		            { title: "Wins" },
+		            { title: "Draws" },
+		            { title: "Losses" },
+		            { title: "Goals Scored" },
+		            { title: "Goals Conceded" },
+		            { title: "Difference" },
+		            { title: "Points" }
+		        ]
+
+		// Initialize DataTable with certain properties
+		var table = $(document).ready(function() {
+		    $('#table').DataTable( {
+		    	language: {
+			        search: "_INPUT_",
+			        searchPlaceholder: "Search..."
+			    },
+		        data: leagueTables,
+		        lengthChange: false,
+		        dom: '<"toolbar">frtip',
+		        destroy: true,
+		        columns: tableColumns,
+		        scrollY: "500px",
+		        scrollX: false,
+		        scrollCollapse: false,
+		        paging: false
+		    });
+
+		    // Remove text next to search bar
+			$('#table_wrapper > label:nth-child(2)').remove()
+		    tableClubClick()
+		});
+
+		// Set DataTable title
+		$(".toolbar").html('<h2 id="clubName"> European Leagues Club Table </h2>')
+		$(".toolbar").before(document.getElementsByTagName("label"))
+	}
+
+	// Draw table when map is clicked on country
+	function drawTable(league) {
+		
+		// Destroy table and plug in new data
+		table = $('#table').DataTable().clear().destroy();
+		table = $('#table').DataTable( {
+				columns: tableColumns,
+				language: {
+			        search: "_INPUT_",
+			        searchPlaceholder: "Search..."
+			    },
+		        data: league,
+		        dom: '<"toolbar">frtip',
+		        lengthChange: false,
+		        destroy: true,
+		        scrollY: "500px",
+		        scrollX: false,
+		        scrollCollapse: false,
+		        paging: false,
+		        aaSorting: [[0, 'asc']]
+		    });
+		tableClubClick()
+
+		// Set new league title for DataTable
+		$(".toolbar").html('<h2 id="clubName">'+ league[0][1] +'</h2>')
+		$(".toolbar").before(document.getElementsByTagName("label"))
+	}
+
+	function tableClubClick() {
+		
+		// Convert table and parallel coordinates containing players of clicked club
+		d3.selectAll('.foreground path').style('stroke', 'steelblue').style('stroke-width', '1')
+		$('#table tbody tr').on( 'click', function (event) {
+	    	$('tr').removeClass('selected')
+	        $(this).toggleClass('selected')
+	        clickedClub = $('tr.selected td.Team').text()
+	        $('.parCorTitle').html(clickedClub + ' Players')
+	        parCorUpdate(clickedClub)
+	        showClubData(clickedClub, teamdata)
+	    });
+	}
+
 	// Modify table to player statistics with certain club
 	function showClubData (club, logo) {
 
@@ -542,10 +528,10 @@ window.onload = function() {
 		}
 
 		// When player is selected in the table highlight row and path
-		selectPlayerTable()
+		selectPlayerTable(club)
 	}
 
-	function selectPlayerTable() {
+	function selectPlayerTable(club) {
 
 		$('#table tbody tr').on( 'click', function (event) {
 
@@ -569,42 +555,6 @@ window.onload = function() {
 		        $('.parCorTitle').html('Selected Player: ' + playerName)
 		    }
 		});	
-	}
-
-	// Reset all competition logo's and zoom out in map
-	function reset() {
-		active.classed("active", false);
-		active = d3.select(null);
-
-		g.transition()
-	     .duration(750)
-	     .style("stroke-width", "1.5px")
-	     .attr("transform", "");
-
-	    d3.select('.logoLeague')
-	      .transition()
-	      .duration(1000)
-	      .attr('y', -200)
-	      .remove();
-	}
-
-	// Filter parallel coordinates paths on chosen selection
-	function parCorUpdate(selection) {
-
-		selection = selection.replace(/\s/g, '.');
-		
-		// Display all paths of all players available
-		if (selection == 'None') {
-			d3.selectAll('.lines').style('visibility', 'visible')
-			
-		}
-
-		// Only show a selection of the lines depending on chosen club or compeition
-		else {
-			d3.selectAll('.lines').style('visibility', 'hidden')
-			d3.selectAll('.' + selection).style('visibility', 'visible')
-		}
-
 	}
 
 	/* 
@@ -801,5 +751,54 @@ window.onload = function() {
 		    	}) ? null : "none";
 		  	});
 		}
+	}
+
+	// Filter parallel coordinates paths on chosen selection
+	function parCorUpdate(selection) {
+
+		selection = selection.replace(/\s/g, '.');
+		
+		// Display all paths of all players available
+		if (selection == 'None') {
+			d3.selectAll('.lines').style('visibility', 'visible')
+			
+		}
+
+		// Only show a selection of the lines depending on chosen club or compeition
+		else {
+			d3.selectAll('.lines').style('visibility', 'hidden')
+			d3.selectAll('.' + selection).style('visibility', 'visible')
+		}
+	}
+
+	// Open mail client when clicking on contact button
+	function sendMail() {
+
+		$('#contact').click(function () {
+			window.open('mailto:sebastiaan-1994@hotmail.com?subject=Football Statistics')
+		})
+	}
+
+	// Create animated scrolling when clicking on headers
+	function elementScrolling () {
+
+	    $('.linkPC').click(function () {
+	    			$('body,html').animate({ scrollTop: $('#visuals').position().top - 50 }, 1000);
+	                $('#tablediv').animate({ scrollTop: $('#tablediv').position().top + 300 }, 1000);
+	                return false;
+	            });
+	    $('.linkMap, .linkDT, .scroll-down').click(function () {
+	                $('body,html').animate({ scrollTop: $('#visuals').position().top - 50 }, 1000);
+	                $('#tablediv').animate({ scrollTop: 0 }, 1000);
+	                return false;
+	            });
+	    $('.home').click(function () {
+	    			$('body,html').animate({ scrollTop: $('body').position().top }, 1000);
+	                return false;
+	            });
+	    $('.info').click(function () {
+	    			$('body,html').animate({ scrollTop: $('#uva').position().top }, 1000);
+	                return false;
+	            });
 	}
 }
