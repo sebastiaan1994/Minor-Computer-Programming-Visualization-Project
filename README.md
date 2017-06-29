@@ -9,6 +9,8 @@
 <b>Course:</b> Programmeerproject<br>
 <b>Date:</b> 29 June 2017<br>
 
+© 2017 Sebastiaan de Vries. All Rights Reserved.
+
 ## Problem
 People love football, but it is hard to memorize every single detail of the teams and players. Therefore, a visualization
 of the 4 best European leagues (Premier League, Bundesliga, Serie A and Primera Division) containing all kinds of info about
@@ -36,18 +38,18 @@ Last but not least, to create a comparison tool a parrallel coordinates element 
 
 ## Data
 To create this data visualization there are plenty of API's available but for the main purpose this http://api.football-data.org/index
-database will be used in particular. Depending on the progression of the project, more functions could be added later on, which probably will need other data sources. A lot of these other data sources can be found here: https://www.jokecamp.com/blog/guide-to-football-and-soccer-data-and-apis/#openfooty
+database is used in particular for the league information. Furthermore I paid 15 euro for player statistics on https://football-api.com/ to use for the table and parallel coordinates. For the club's coordinates on the maps I used https://query.wikidata.org/ to retrieve the data.
+
+## External Code and Content
+A big part of the parallel coordinates element is made thanks to Jason Davies' https://bl.ocks.org/jasondavies/1341281.
+Secondly, the HTML template is retrieved from https://www.w3schools.com/w3css/w3css_templates.asp.
+The header image on top of the webpage is copied from EA Sports FIFA 17.
+I do not claim any of these content's rights.
 
 ## Limitations
-Probable technical problems in respect to this visualization could be the interactivity between different page divisions. The geo map should be interacting with all the other elements at the right moments.
+The main limitation of this project was retrieving appropriate data. Good data was very costly so I had to retrieve my data from various sources resulting in a lot of work merging those datasets into one piece.
 
-## Similar Applications
-As far as I know these interactive info graphics are not available yet. There are some maps showing the location of different clubs and
-this could be done by using TopoJSON for example or by using the Google Maps API. Another element is of the visualisation is some kind of hierarchic menu to browse through Leagues > Teams > Players. These kind of menu's exists on many websites. The last element will cover the info stats about the current selected player/team.
-
-## Mimimum Viable Product
-The main concerns of this visualization will be the info shown of the teams and players with great emphasis on the player's details.
-A lot of data could be added later on but to make the product work all 3 elements should work with standard details.
+## Design Sketch (4 weeks ago)
 
 ![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Design%20Data%20Visualization.JPG "Design")
 
