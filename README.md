@@ -29,7 +29,10 @@ to the domain where the map is zooming too. The table is clickable too, this wil
 
 ![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/table.png "Table")
 
-__**Parallel Coordinates**__
+__**Parallel Coordinates**__<br>
+Last but not least, to create a comparison tool a parrallel coordinates element is introduced. All the lines in this element represent players in the database playing in the 4 countries. The lines get filtered when selecting a certain country or club. When selecting a player in the table the line in the parallel coordinates gets highlighted. Furthermore you can swap axis to see other correlations in the graph and hover on the line to check the player names.
+
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/pc.png "Parallel Coordinates")
 
 ## Data
 To create this data visualization there are plenty of API's available but for the main purpose this http://api.football-data.org/index
