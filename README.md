@@ -1,11 +1,11 @@
 # Football Statistics Web Application
 
 ## Personal Information
-<h1>Name:</h1> Sebastiaan de Vries<br>
-<h1>Student Number:</h1> 10666168<br>
-<h1>University:</h1> University of Amsterdam<br>
-<h1>Course:</h1> Programmeerproject<br>
-<h1>Date:</h1> 29 June 2017<br>
+<b>Name:</b> Sebastiaan de Vries<br>
+<b>Student Number:</b> 10666168<br>
+<b>University:</b> University of Amsterdam<br>
+<b>Course:</b> Programmeerproject<br>
+<b>Date:</b> 29 June 2017<br>
 
 ## Problem
 People love football, but it is hard to memorize every single detail of the teams and players. Therefore, a visualization
