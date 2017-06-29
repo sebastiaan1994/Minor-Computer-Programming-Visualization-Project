@@ -20,7 +20,7 @@ __Geographic Map__
 First of all a geographical overview is available to locate the clubs on a map. The map is clickable to get a zoomed map centering
 a country on the user his preference. Logo's will be aligned to the left, as well as a competition logo, to create a better overview of all the clubs in that country. Afterwards, pick a club to see it's location and create a linked view with the data table and parallel coordinates.
 
-![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Map.PNG "Map")
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Map.png "Map")
 
 __Data Table__
 Secondly an interactive table is created to quickly view team statistics all over the 4 most competitive leagues 
