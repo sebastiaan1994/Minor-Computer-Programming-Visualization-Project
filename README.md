@@ -15,11 +15,15 @@ of the 4 best European leagues (Premier League, Bundesliga, Serie A and Primera 
 team and player statistics will be a very useful tool to quickly get an overview about the information the user is searching for. 
 
 ## Features
-First of all a geographical overview will be available to locate the clubs on a map. The map is clickable to get a zoomed map
-and create a linked view with a bar chart with variables containing club budgets, amount of league titles, or an info window
-with the league information. Clubs on the map are clickable as well to check information about the stadium, logo, palmares.
-Furthermore, the current squad is listed to check their market value, position, prior clubs and nationality and appearances info.
 
+__Geographic Map__
+First of all a geographical overview is available to locate the clubs on a map. The map is clickable to get a zoomed map centering
+a country on the user his preference. Logo's will be aligned to the left, as well as a competition logo, to create a better overview of all the clubs in that country. Afterwards, pick a club to see it's location and create a linked view with the data table and parallel coordinates.
+
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Map.png "Map")
+
+__Data Table__
+Secondly an interactive table is created to quickly view team statistics all over the 4 most competitive leagues 
 
 ## Data
 To create this data visualization there are plenty of API's available but for the main purpose this http://api.football-data.org/index
