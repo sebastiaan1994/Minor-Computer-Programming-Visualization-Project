@@ -43,7 +43,7 @@ statistics it's literally very static visualized in tables and the browsing is v
 
 ![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/overview2.PNG "Overview")
 
-![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/overview2.PNG "Overview")
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/overview3.PNG "Overview")
 
 
 
