@@ -14,8 +14,7 @@
 ## Description
 This application is made for football fans who want to get insight in data statistics of the 4 best compitions in the world.
 All different kinds of variables of the football clubs and players are presented in three views containing a map, a table and
-a parallel coordinates. The website will be mainly used as a informative encyclopedia and view sports statistics as you have never
-done before. 
+a parallel coordinates. The website will be mainly used as an interactive, informative encyclopedia to view football statistics as you have never done before. 
 
 ## Technical Design - Overview
 On first hand, when entering the website, the user sees a header image with a topbar menu where you can scroll down to all the different
@@ -31,6 +30,13 @@ One of the powers of this webpage is that it's very interactive with all the ele
 
 ## Development Challenges
 The first challenge I had to cover was a major data problem. There are several resources available to retrieve the data but they were not comprehensive enough. This resulted in having to write multiple python scripts (see directory) to merge all the data together to use it for my web application. As you can see in my DESIGN.md I skipped the 'Hierarchical Menu' and the 'Interactive Stats Menu' and combined them together in the data table. Along the way I noticed that I wanted to compare players in just one view resulting in making the parallel coordinates element. In the end to get all elements linked up with one another was quite hard because I had to take keep track of a lot variables and passing it through to other functions.
+
+## Design Decisions
+At the start of the project I wanted to create an attractive web application which is very easy in it's use and multi interactive.
+This is one of the reason why I put the visual elements next to each other (and a scrollable section). If you look at most football
+statistics it's literally very static visualized in tables and the browsing is very hard. The comparison tool, speaking of the paralell coordinates, is what I think the best change I've made designwise. This makes the data relevant compared to other players instead of staring at just a random number. The trade-off have been that I only created statistics for 4 countries and when I would have had more time I would definitely add more competitions and seasons. Because subscriptions costs on large databases are quite high, I would have made some scrapers to collect my data.
+
+
 
 
 
