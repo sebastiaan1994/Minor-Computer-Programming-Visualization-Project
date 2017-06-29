@@ -145,7 +145,7 @@ window.onload = function() {
 		 	.duration(750)
 		 	.attr("transform", function(d) {
 				 return "translate(" + 0 + "," + 0 + ")"})
-		 	.attr("y", function(d, i) { return -3 + (i * 17) })
+		 	.attr("y", function(d, i) { return -7 + (i * 17) })
 		 	.attr('width', logoWidth - 4)
 			.attr('height', logoHeight - 4)
 			.attr("x", "50");
