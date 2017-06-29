@@ -43,7 +43,7 @@ database is used in particular for the league information. Furthermore I paid 15
 ## External Code and Content
 A big part of the parallel coordinates element is made thanks to Jason Davies' https://bl.ocks.org/jasondavies/1341281.
 Secondly, the HTML template is retrieved from https://www.w3schools.com/w3css/w3css_templates.asp.
-The header image on top of the webpage is copied from EA Sports FIFA 17.
+The header image on top of the webpage is copied from EA Sports FIFA 17.<br>
 I do not claim any of these content's rights.
 
 ## Limitations
