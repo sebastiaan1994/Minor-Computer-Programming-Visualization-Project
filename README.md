@@ -16,14 +16,20 @@ team and player statistics will be a very useful tool to quickly get an overview
 
 ## Features
 
-__Geographic Map__
+__**Geographic Map**__<br>
 First of all a geographical overview is available to locate the clubs on a map. The map is clickable to get a zoomed map centering
 a country on the user his preference. Logo's will be aligned to the left, as well as a competition logo, to create a better overview of all the clubs in that country. Afterwards, pick a club to see it's location and create a linked view with the data table and parallel coordinates.
 
 ![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Map.png "Map")
 
-__Data Table__
-Secondly an interactive table is created to quickly view team statistics all over the 4 most competitive leagues 
+__**Data Table**__<br>
+Secondly an interactive table is created to quickly view team statistics all over the 4 most competitive leagues. In the table you
+can sort on every variable and search for any data point given in the table. When a country is clicked in the map, the table changes
+to the domain where the map is zooming too. The table is clickable too, this will lead to creating a table containing player information of the selected club.
+
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/table.png "Table")
+
+__**Parallel Coordinates**__
 
 ## Data
 To create this data visualization there are plenty of API's available but for the main purpose this http://api.football-data.org/index
