@@ -15,9 +15,7 @@ mergecount = 0
 for i in range(len(leagueTables)):
 	for j in range(len(data)):
 		if (fuzz.ratio(leagueTables[i][2], data[j][0]) > 68):
-			# print('Swapped old: {}').format(leagueTables[i][2])
 			leagueTables[i][2] = data[j][0]
-			# print('Swapped new: {}').format(leagueTables[i][2])
 			mergecount = mergecount + 1
 			break
 		elif (j == len(data) - 1):

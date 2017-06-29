@@ -1,3 +1,11 @@
+/*
+Sebastiaan de Vries
+10666168
+
+Universiteit van Amsterdam
+Minor Programmeren
+Programmeerproject
+*/
 window.onload = function() {
 
 	// Set dimensions for the geo map
@@ -35,6 +43,8 @@ window.onload = function() {
 	    .style("border-radius","0px") 
 	    .style("border-style", "outset")
 	    .style("border-width", "1px")
+	    .style("color", "white")
+	    .style("font-family", "Andada, serif")
 	    .style("background-color", "black")
 	    .style("display", "inline-block") 
 		.style("visibility", "hidden");

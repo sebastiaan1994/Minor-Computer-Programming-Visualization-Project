@@ -1,10 +1,27 @@
+/*
+Sebastiaan de Vries
+10666168
+
+Universiteit van Amsterdam
+Minor Programmeren
+Programmeerproject
+*/
+
+/* Content div font*/
+#content {
+  height: 100%;
+  font-family: 'Andada', serif;
+}
+
+/* Map svg settings*/
 #svg {
     width: 45%;
     height: 50%;
     float: left;
     overflow: hidden;
- 
 }
+
+/* Table properties */
 #tablediv {
 	height: 800px !important;
 	width: 55%;
@@ -16,123 +33,14 @@
   overflow-y: scroll !important;
   font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
 }
+
 #table {
 	height: 20%;
 	width: 99%;
 	overflow: hidden;
 }
-#chart {
-	height: 50%;
-	width: 1000px;
-	float: center;
-	overflow: hidden;
-}
-.scatter {
-  font-family: 'Arial', serif;
-}
-}
-#info {
-	width: 100%;
-	height: 20%;
-}
-#content {
-	height: 100%;
-	font-family: 'Andada', serif;
-}
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-.dot {
-  stroke: #000;
-}
-.w3-xlarge {
-	font-family: 'Gentium Book Basic', serif;
-}
-.title, .w3-container.w3-padding-64.w3-light-grey.w3-center.w3-large {
-	font-family: "Volkhov", serif;
-	letter-spacing: 2px;
-}
-#uva {
-	width: 25px;
-	height: 25px;
-}
-rect {
-  fill: transparent;
-  shape-rendering: crispEdges;
-}
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: rgba(0, 0, 0, 0.1);
-  shape-rendering: crispEdges;
-}
-
-.axisLine {
-  fill: none;
-  shape-rendering: crispEdges;
-  stroke: rgba(0, 0, 0, 0.5);
-  stroke-width: 2px;
-}
-
-.dot {
-  fill-opacity: .5;
-}
-
-.d3-tip {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
-}
-
-.d3-tippie {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
-  top: 100px !important;
-  left: 100px !important;
-}
-
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after, .d3-tippie:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-}
-
-/* Style northward tooltips differently */
-.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}
-
-.d3-tippie.e:after {
-  content: "\25C0";
-  margin: -4px 0 0 0;
-  top: 50%;
-  left: -52.5%;
-}
-
-#axis {
-  font-size: 14px;
-}
-
+/* Parallel Coordinates properties*/
 path:hover {
   stroke: black;
   pointer-events: all;
@@ -140,10 +48,6 @@ path:hover {
 
 label {
   float: right;
-}
-
-.parcor {
-  font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
 }
 
 .background path {
@@ -175,55 +79,37 @@ label {
   cursor: move;
 }
 
-.tool {
-  font-family: 'Andada', serif;
-  color: white;
-}
-
 .parcor {
   float: left;
   width: 100%;
 }
 
-tr.selected td {
-  background-color: rgba(8, 81, 156, 0.6) !important;
-
-}
-
+/* Set background color of selected player*/
 tr.selectedPlayer td {
   background-color: rgba(8, 81, 156, 0.6) !important;
-
 }
 
-
+/* Set table hover color */
 #table tbody tr:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-.tooltips {   
-
+/* Set tooltip style*/
+.tooltips {
   font-family: 'Andada', serif;
   color: white;
 }
 
-.logoSelected {
-  border-style: solid;
-  border-width: 15px;
-}
-
-.lineClicked {
-  stroke: green !important;
-  stroke-width: 2 !important;
-}
-
+/* Set page title on position*/
 .w3-display-middle {
   top: 60% !important;
 }
 
+/* Modified Scrollbars on the whole page */
 ::-webkit-scrollbar
 {
-  width: 12px;  /* for vertical scrollbars */
-  height: 12px; /* for horizontal scrollbars */
+  width: 12px;
+  height: 12px; 
 }
 
 ::-webkit-scrollbar-track
@@ -235,33 +121,18 @@ tr.selectedPlayer td {
 {
   background: rgba(0, 0, 0, 0.5);
 }
-@keyframes arrow {
-  from {opacity: 0.8;}
-  to {opacity: 0.2;}
-}
-.arrow {
-  position: center;
-  padding-top: 100px;
-  width: 100px;
-  height: 200px;
-/*  opacity: 0.8;*/
-  animation-name: arrow;
-  animation-direction: alternate;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
+
+/* Delete x-scrollbar in DataTable */
 .dataTables_scrollBody {
   overflow-x: hidden !important;
 }
 
+/* Delete footer text in DataTable */
 .dataTables_info {
   display: none !important;
 }
 
-.divimage {
-  padding-bottom: -100px !important;
-}
-
+/* Dropdown in page header */
 .w3-button.w3-white {
   letter-spacing: 4px;
   margin: 0px !important;
@@ -270,30 +141,34 @@ tr.selectedPlayer td {
   height: 40px !important;
 }
 
+/* Set hover color for headers elements of the page */
 .w3-padding.w3-black.w3-opacity-min.inverse:hover {
   background-color: steelblue !important;
   opacity: 1 !important;
 }
 
+/* Header for data elements */
 #visuals {
   border-bottom: solid #ccc !important;
   border-width: 0.5px !important;
 }
 
+/* Parallel Coordinates selected player green*/
 #selectedPlayer {
   stroke: #008000;
   stroke-width: 4;
   opacity: 1;
-
 }
 
+/* Removed text next to search bar*/
 #table_wrapper > label:nth-child(2) {
   visibility: hidden !important;
 }
 #table_wrapper > label:nth-child(3) {
   visibility: hidden !important;
 }
-
+  
+/* Bouncing element on the wallpaper properties */
 .scroll-down {
   opacity: 1;
   -webkit-transition: all .5s ease-in 3s;
@@ -353,12 +228,13 @@ tr.selectedPlayer td {
   }
 }
 
+/* Parallel Coordinates title */
 .parCorTitle {
-  /*font-weight: bold;*/
   font-size: 2.3125rem;
   font-family: font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
 }
 
+/* Logo above DataTable */
 .linkLogo {
   width: 100px;
   height: 100px;
@@ -367,13 +243,21 @@ tr.selectedPlayer td {
   display: inline-block;
 }
 
+/* Adjusted size contact button */
 .w3-button.w3-light-grey.w3-block {
   width: 200px !important;
 }
 
+/* Linkedin icon */
 #linkedin {
   width: 25px;
   height: 25px;
   float: left;
   display: inline-block;
+}
+
+/* Uva logo dimenions */
+#uva {
+  width: 25px;
+  height: 25px;
 }

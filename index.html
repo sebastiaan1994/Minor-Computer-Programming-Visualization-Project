@@ -1,3 +1,10 @@
+<!-- Sebastiaan de Vries
+     10666168
+
+     Universiteit van Amsterdam
+     Minor Programmeren
+     Programmeerproject
+     HTML template source: https://www.w3schools.com/w3css/w3css_templates.asp -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Volkhov:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
-  <link rel="shortcut icon" href="data/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.foundation.min.css">
@@ -28,7 +35,7 @@
     <script src="https://d3js.org/queue.v1.min.js"></script>
     <script src="https://syntagmatic.github.io/parallel-coordinates/d3.parcoords.js"></script>
     <script src="javascripts/lib/d3-tip.js"></script>
-    <script src="javascripts/script.js"></script>
+    <script src="javascripts/main.js"></script>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -52,7 +59,7 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
-  <img class="w3-image" src="data/wallpaper3.jpg" alt="Architecture" width="100%">
+  <img class="w3-image" src="img/wallpaper3.jpg" alt="Architecture" width="100%">
   <div class="w3-display-middle w3-margin-top w3-center" class="divimage">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>European Football Statistics</b></span></h1>
     <!-- <a href="#visuals"><img class="arrow" src="data/arrow.png" alt="Down arrow"/></a> -->
@@ -123,8 +130,8 @@
 
 <!-- Add Google Maps -->
 <script>
-function myMap()
-{
+function myMap() {
+
   myCenter=new google.maps.LatLng(52.354797 , 4.95558);
   var mapOptions= {
     center:myCenter,
@@ -148,7 +155,7 @@ function myMap()
   var marker = new google.maps.Marker({
     position: myCenter,
     title: 'Sebastiaan de Vries',
-    icon: 'data/icon.png'
+    icon: 'img/icon.png'
   });
   marker.setMap(map);
 
@@ -159,10 +166,5 @@ function myMap()
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKvFJSazGLchwmZTcB6inS-E2ml8DYa1Q
 &callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
 </body>
 </html>
