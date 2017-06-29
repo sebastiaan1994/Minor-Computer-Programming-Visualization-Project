@@ -1,6 +1,6 @@
 # Football Statistics Web Application
 
-![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Design%20Data%20Visualization.JPG "Design")
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Header%20image.PNG "Header")
 
 ## Personal Information
 <b>Name:</b> Sebastiaan de Vries<br>
