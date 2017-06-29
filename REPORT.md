@@ -37,6 +37,14 @@ At the start of the project I wanted to create an attractive web application whi
 This is one of the reasons why I put the visual elements next to each other (and a scrollable section). If you look at most football
 statistics it's literally very static visualized in tables and the browsing is very hard. The comparison tool, speaking of the paralell coordinates, is what I think the best change I've made designwise. This makes the data relevant compared to other players instead of looking at just a random number. The trade-off have been that I only created statistics for 4 countries and when I would have had more time I would definitely add more competitions and seasons. Because subscriptions costs on large databases are quite high, I would have made some scrapers to collect my data.
 
+## Design Overview
+
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/overview1.PNG "Overview")
+
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/overview2.PNG "Overview")
+
+![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/overview2.PNG "Overview")
+
 
 
 
