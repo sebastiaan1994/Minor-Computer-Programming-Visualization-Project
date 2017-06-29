@@ -49,6 +49,8 @@ I do not claim any of these content's rights.
 ## Limitations
 The main limitation of this project was retrieving appropriate data. Good data was very costly so I had to retrieve my data from various sources resulting in a lot of work merging those datasets into one piece.
 
+## General Overview Website
+
 ## Design Sketch (4 weeks ago)
 
 ![picture alt](https://github.com/sebastiaan1994/Project/blob/master/doc/Design%20Data%20Visualization.JPG "Design")
