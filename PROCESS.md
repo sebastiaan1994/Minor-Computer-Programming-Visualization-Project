@@ -1,5 +1,14 @@
 # Process Book
 
+## Date: 29 June
+Cleanud up some more code and commented HTML and CSS. Furthermore prepared my screencast presentation. License file added for my repo. Changed my README.md, and added REPORT.md.
+
+- [x] Cleaned JS, HTML, CSS
+- [x] Screencast presentation preparation
+- [x] License file added
+- [x] README.md changed
+- [x] Created REPORT.md
+
 ## Date: 28 June
 Cleaned up some code and made it more efficient. Created a story telling element and some personal details with animated scrolling.
 Created directories to store all the appropriate data, images, scripts, python scripts et cetera.
