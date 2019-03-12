@@ -8,7 +8,7 @@
 <b>University:</b> University of Amsterdam<br>
 <b>Course:</b> Programmeerproject<br>
 <b>Date:</b> 29 June 2017<br>
-<b>Link:</b> https://sebastiaan1994.github.io/Project/index.html
+<b>Link:</b> https://sebastiaan1994.github.io/Minor-Computer-Programming-Visualization-Project/index.html
 
 © 2017 Sebastiaan de Vries. All Rights Reserved.
 
